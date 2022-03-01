@@ -1,0 +1,208 @@
+.fa-crown,
+.fa-info,
+.fa-play{font-size: 2.5rem}
+
+#home a{
+   margin-bottom: 17px;
+}
+
+#time{
+   margin-bottom: 30px;
+}
+
+.info{
+   font-size: 30px;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.user__sciences{
+   flex: 1 1 auto;
+}
+
+.tointro{
+   margin-top: 25px;
+}
+
+.sm{
+   font-size: 28px;
+}
+
+
+/* End Page Css */
+.form-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 35px;
+}
+#end-text{
+   font-size: 40px;
+   color: #fff;
+}
+.fa-home{
+   margin-left: 1rem;
+   font-size: 2rem;
+   color: #fff;
+}
+#finalScore{
+   margin-bottom: 30px;
+}
+
+/* Scores part  */
+
+.scores-block{
+   padding: 20px 15px;
+}
+
+.allscores{
+   flex: 1 1 auto;
+   width: 60%;
+}
+
+#scoresList{
+   margin-bottom: 35px;
+}
+
+#scoresList .scores{
+   margin-bottom: 50px;
+}
+.science-name{
+   color: rgb(28, 177, 8);
+   font-weight: 900;
+   font-size: 45px;
+   margin: 0 0 20px 0;
+}
+
+#hightScoresList{
+   margin-bottom: 2.5rem;
+   list-style: none;
+}
+#hightScoresList .fa-home{
+   color: #fff;
+}
+.hight-score{
+   font-size: 25px;
+   color: #fff;
+   margin: 0 0 10px 0;
+}
+
+.scorebtn i{
+   color: #fff;
+}
+
+/* <Rules Css part> ================================================================================================================================ */
+
+.rules {
+   color: #fff;
+   padding: 30px 0;
+}
+.rules-block {
+   display: flex;
+   align-items: center;
+   margin-bottom: 60px;
+   padding: 10px 12px;
+}
+.rules-block:last-child{
+   margin: 0;
+}
+.rules-block:nth-child(even){
+   box-shadow: 0 0 4px red,0 0 4px red;
+}
+.rules-block:nth-child(odd){
+   box-shadow: 0 0 4px green,0 0 4px green;
+}
+.rules-icon {
+   padding: 0 12px 0 0;
+}
+.rules-icon i{
+   font-size: 1.5rem;
+   color: rgb(0, 255, 255);
+}
+.rules-text {
+   font-size: 1.2rem;
+}
+
+/* </author> ============================================================================================================================================ */
+
+/* <Science part> ========================================================================================================================================== */
+
+
+/* </Science part> ========================================================================================================================================== */
+
+
+@media(max-width: 992px) {
+   .container {
+       max-width: 800px;
+   }
+   .fa-crown,
+   .fa-info,
+   .fa-play {
+       font-size: 1.7rem
+   }
+   .science-name{
+      font-size: 30px;
+   }
+   
+}
+
+@media(max-width: 768px){
+   .allscores{
+      width: 90%;
+   }
+   .rules-text {
+      font-size: 1.1rem;
+   }
+}
+
+@media(max-width: 576px) {
+   .hight-score {
+       font-size: 16px;
+   }
+
+   .rules-block {
+       flex-direction: column;
+   }
+
+   .rules-block .rules-icon {
+      padding: 0 0 10px 0;
+   }
+
+   #finalScore {
+       font-size: 2.2rem;
+   }
+
+   .science-name {
+       font-size: 20px;
+   }
+
+   #end-text{
+      font-size: 28px;
+   }
+}
+
+@media(max-width: 352px) {
+   .end-part a,
+   .end-part button {
+       display: block;
+       width: 100%;
+   }
+}
+
+/* <Main> */
+
+
+.main-title{
+   font-size: 70px;
+   margin-bottom: 50px;
+}
+
+.text-red{
+   color: rgb(255, 47, 47);
+}
+
+
+
+
+/* </Main> */

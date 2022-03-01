@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+   <title>O'yin</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/game.css">
+   <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+
+   <div class="container">
+      <div id="game" class="flex-column">
+         <div id="hud">
+            <div class="hud-item hud_prog">
+               <!-- Question counter -->
+               <div id="progressText" class="hud-prefix mb"></div>
+               <!-- ProgressBar -->
+               <div class="proggres">
+                  <div id="progressBar">
+                     <div id="proggressBarFull"></div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="hud-item hud_score">
+               <p class="hud-prefix">Natija</p>
+               <!-- Score here -->
+               <h1 class="text-center" id="score">0</h1>
+            </div>
+
+            <div class="hud-item text-center hud_time">
+               <p class="hud-prefix text-center">Vaqt(s) </p>
+               <!-- Sekundamer !!! -->
+               <h1><span id="stopwatch">0</span></h1>
+            </div>
+         </div>
+
+         <!-- Main question block -->
+         <h2 id="question" class="mb">Demo question:</h2>
+         <div id="variants">
+         </div>
+      </div>
+   </div>
+
+
+   <script src="script/classes/Question.js"></script>
+   <script src="script/global.js"></script>
+   <script src="script/Game/variables.js"></script>
+   <script src="script/Game/game.js"></script>
+</body>
+
+</html>
