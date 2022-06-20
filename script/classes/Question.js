@@ -8,8 +8,7 @@ class Questions {
 
    constructor(scienceName, options) {
       this.localScience = scienceName
-
-      if (scienceName.includes(realSciences)) {
+      if (realSciences.includes(scienceName)) {
          const { eachAddingScore, variants, count = 0 } = options
          // Set test resources
          this.questions = []
@@ -100,17 +99,26 @@ class Questions {
 
       this.acceptingAnswers = false
       const selectedAnswerIndex = +choice.dataset['number']
-      let classToApply = (selectedAnswerIndex === this.currentCorrectAnswer ? 'correct' : 'incorrect')
 
-      if (classToApply === 'correct') {
+      if (selectedAnswerIndex === this.currentCorrectAnswer) {
+         // correct
          this.incrementScore()
+         choicesParent.classList.add('correct');
+      } else {
+         // incorrect
+         choicesParent.classList.add('incorrect');
+         const correctChoice = document.querySelector(`[data-number='${this.currentCorrectAnswer}']`)
+         correctChoice.parentElement.classList.add('correct')
+         setTimeout(() => {
+            correctChoice.parentElement.classList.remove('correct');
+            choicesParent.classList.remove('incorrect')
+         }, 1600)
       }
-      choicesParent.classList.add(classToApply);
 
       setTimeout(() => {
-         choicesParent.classList.remove(classToApply);
+         choicesParent.classList.remove('correct');
          this.getNewQuestion()
-      }, 1200)
+      }, 1600)
    }
 
    incrementScore() {

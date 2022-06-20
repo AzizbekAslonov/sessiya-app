@@ -1,0 +1,912 @@
+{
+   "questions": [
+      "A baytning 5 razryadida 1 qiymati o‘rnatilgan yoki yo‘qligini qanday aniqlash mumkin?",
+      "Adreslanuvchi eng kichik ma’lumot birligi...",
+      "C++ tilida getch() funksiyasi qaysi kutubxona tarkibiga kiradi?",
+      "for (<ifoda >1; <ifoda>2;<ifoda>3)uchun noto‘g‘ri tavsifni ko‘rsating",
+      "int n=10; while(n-=1, n2=n*n, n>0); Kavs ichidagi qaysi amal takrorlash operatorining  to‘xtash sharti hisoblanadi?",
+      "Cheksiz takrorlash operatoridan qaysi operator yordamida chiqib ketish mumkin?",
+      "16 razryadli protsessor platformasida C++ tilida int turidagi qiymat uchun xotiradan qancha joy ajratiladi?",
+      "EHM xotirasida haqiqiy son qanday tasvirlanadi?",
+      "Sonlar ustida arifmetik amallar bajarishning qanday hollarida son tartibini oshib ketishi ruy beradi. Agar…",
+      "EHM xotirasida butun manfiy son qanday tasvirlanadi?",
+      "Quyidagi programma bajarilishi natijasida ekranga nima chiqadi?  int main()  { unsigned int n=65535;   n+=1;   cout<<n;   return 0; }",
+      "Quyidagi takrorlash operatori necha marta ishlaydi? int main()  { unsigned short int i=0;   do {   i+=1;} while(1);   return 0;  }",
+      "Quyidagi programma bajarilishida ekranga qanday son chiqadi?  int main( ) { short int i=32767;i+=1;cout<<i<<endl;cin>>i;  return 0; }",
+      "for(int i=1; i<=10; i+=3) i--;takrorlash operatori necha marta ishlaydi?",
+      "C++ tilida konsol rejimda ishlash jarayonida ma’lumotlarni standart oqimga (ekranga)chiqarish uchun to’g’ri format keltirilgan javobni toping",
+      "C++ tilida konsol rejimda ishlash jarayonida berilganlarni standart oqimdan o’qish formati to’g’ri ko’rsatilgan javobni aniqlang",
+      "C++ tilida haqiqiy sonning butun va kasr qismilari qaysi belgi yordamida ajratiladi",
+      "Identifikator nima?",
+      "O’zgarmas bu -…",
+      "O’zgarmaslar nechta guruhga bo’linadi?",
+      "C++ tilida butun son qiymatlarini qabul qiluvchi o’zgaruvchilar qaysi kalit so’z yordamida aniqlanadi?",
+      "C++ tilida belgi turidagi o’zgaruvchilar qaysi kalit so’z yordamida anilanadi",
+      "C++ tilida “bool” kalit so’zi orqali e’lon qilinuvchi o’zgaruvchilar qanday turdagi o’zgaruvchilar deyiladi ",
+      "Mantiqiy turdagi o’zgaruvchilar qanday qiymatlar qabul qiladilar?",
+      "Haqiqiy turdagi o’zgaruvchilarga xotirada qancha joy ajratiladi",
+      "Haqiqiy turdagi o’zgaruvchilar sonni xotirada qanday qolipda saqlaydi?",
+      "C++ tilida mantiqiy inkor amali qaysi belgi yordamida ifodalanadi",
+      "C++ tilida konyunksiya(mantiqiy ko’paytma) amali qaysi belgi yordamida ifodalanadi",
+      "C++ tilida baytdagi bitlat qiymatini chapga surish uchun qanday amaldan foydalaniladi",
+      "C++ tilida blok bu-…",
+      "C++ tilida for takrorlash opratorining sintaksis ko’rinishi to’g’ri ko’rsatilgan javobni toping.",
+      "C++ tilde while takrorlash opratori qachongacha oprator yoki blokni takror bajaradi? ",
+      "C++ tilida cheksiz takrorlashni while opretori yordamida qanday tasvirlanadi?",
+      "C++ tilida oldin opretorni yoki blokni bajarib keyin takrorlash shartini tekshiruvchi operator qaysi? ",
+      "C++ tilida break opretori bu - …",
+      "C++ tilida continue opretori bu - …",
+      "C++ tilida nishon bu -…",
+      "C++ tilida programma tanasida qo’yilgan nishonga shartsiz o’tish opratori to’g’ri ko’rsatilgan javobni toping.",
+      "C++ tilida  metematik funksiyalarni kutubxonasi qanday nomlanadi",
+      "C++ tilida sonning kvadrat ildizini aniqlovchi funksiya qaysi javobda to’g’ri ko’rsatilgan",
+      "C++ tilida xy ifoda qanday yoziladi",
+      "C++ tilida adres olish amali qaysi belgi yordamida ifodalanadi",
+      "Standart C++ tili necha xildagi belgilar majmuasini qo’llab quvvatlaydi?",
+      "Nol-terminator (‘\\0’) tugaydigan satrlar qanday nomlanadi? ",
+      "C++ tilida qandaydir butun x sonining absolyut qilymati qaysi funksiya yordamida aniqlanadi?",
+      "C++ tilida haqiqiy o’zgarmaslar necha xil formatda berilishi mumkin?",
+      "C++ tilida dizyunksiya(mantiqiy qo’shish) amali qanday tasvirlanadi",
+      "short int turidagi o’zgaruvchining qabul qiladigan qiymatlar oralig’i? ",
+      "C++ tilida char turidagi o’zgaruvchilarning qabul qiladigan qiymatlar oralig’i to’g’ri ko’rsatilgan javobni aniqlang",
+      "C++ tilida double turidagi o’zgaruvchilar xotirada qancha joy egallaydi?",
+      "12<<2 bajarilishi natijasida qanday qiymat hosil bo’ladi",
+      "Quyidagi ifodaning qiymati to’g’ri ko’rsatilgan javobni toping:  12>>3|6<<3^5+3",
+      "Quyidagi ifodaning qiymati to’g’ri ko’rsatilgan javobni toping:  12>>2|6<<1&5+3",
+      "Quyidagi ifodaning qiymati to’g’ri ko’rsatilgan javobni toping:  18&14|15-4>>1",
+      "Quyidagi ifodaning qiymati to’g’ri ko’rsatilgan javobni toping:  13|10^14+5<<2",
+      "Quyidagi ifodaning qiymati to’g’ri ko’rsatilgan javobni toping:  23^21|11+3>>2",
+      "Quyidagi ifodaning qiymati to’g’ri ko’rsatilgan javobni toping: 25|20^11-3<<2",
+      "Quyidagi ifodaning qiymati to’g’ri ko’rsatilgan javobni toping: 13&11^10-6>>2",
+      "C++da operatorlar qanday belgi bilan ajratiladi?",
+      "32 razryadli amaliyot tizimida int  toifasi  kompyuter  xotirasidan",
+      "Qaysi  toifa  kompyuter  xotirasidan   katta  joy  egallaydi.",
+      "|X|  C++  da  haqiqiy  sonlar  uchun  qanday  yoziladi.",
+      "10  dajasi  x  C++  da  qanday  yoziladi.",
+      "X = false  bo’lsa  !X = ?",
+      "Uchburchakning tomonlari a, b, c bo’lsa, uchburchak tengsizligini tekshirish qaysi javobda berilgan?",
+      "sin2x + 2cosy ifodasi c++ da qanday ifodalanadi?",
+      "С++tilida butun konstantalar quyidagi formatlarda bo’ladi:",
+      "enum Hafta {dush=5, sesh, chorsh=0, paysh, juma, shanba=paysh-1, yaksh} tur elonida yaksh konstantasi qiymati nimaga tеng bo’ladi?",
+      " A baytning 5 razryadiga 1 qiymatini urnatish uchun qaysi amalni bajarish kеrak?",
+      " A baytning 5 razryadida 1 qiymati urnatilgan yoki yo’qligini qanday aniqlash mumkin?",
+      " A baytning 4 razryadini karama-karshi qiymatga almashtirishni ko’rsating ?",
+      "char a=32>>6<<6;cout<<(int)a;Ekranga nima chop etiladi?",
+      "C++ tilining qiymati butun son bo’lgan turlariningruyhatini ko’rsating.",
+      "Adrеslanuvchi eng kichik malumot birligi...",
+      " Kompyutеr programmasi bu...",
+      "C++ tilida trigonametrik tangens funksiyasi qanday ifodalanadi?  ",
+      "int Son=1, Summa=0;switch (Son){case 1 : Summa+=Son; case 2 : Summa+=2*Son;case 3 : Summa+=3*Son; break;case 4 : Summa+=4*Son;   break;default : Summa+=1; } switsh opеratori bajarilgandan kеyin Summa o’zgaruvchisining qiymati nimaga tеng?",
+      "for (<ifoda >1; <ifoda>2;<ifoda>3)uchun noto’g’ri tavsifni ko’rsating",
+      "   int i=0, j=0;for (i=0, j++; i<10;  i++); j--;   cout<<i<<\"  \"<<j;   ekranga nima chop etiladi?",
+      "  int Summa=0;  for (int i=10; i<=20; Summa +=i++);  Summa o’zgaruvchisida nima xosil bo’ladi?",
+      "int n=10; while(n-=1, n2=n*n, n>0); Qavs ichidagi qaysi amal takrorlash opеratorining  to’xtash sharti hisoblanadi?",
+      "Chеksiz takrorlash opеratoridan qaysi opеrator yordamida chiqib kеtish mumkin?",
+      "int x=10; if(x-=x-- -1) x++; else x+=2;x o’zgaruvchi qiymati nimaga tеng bo’ladi?",
+      " C++ tilida shart oldin tеkshiriluvchi takrorlash opеratorini ko’rsating.",
+      "ASCII jadvalida bеlgilar soni qancha?",
+      "Sanoq sistеmalarining qaysi biri zamonaviy kompyutеrda malumotlarni xotiradagi ichki tasvirlanishi uchun ishlatiladi?",
+      "Ikkilik sanoq sistеmasidagi 10011,101 soni 10 sanoq sistеmasidagi qaysi sonni ifodalaydi?",
+      " Bir baytda ifodalanishi mumkin bo’lgan ikkilik sonlar  miqdori qancha?",
+      " Bir kilobaytda nеcha bayt bor?",
+      " Quyidagi programma ishlaganda javobga nima chiqadi? int main() float x=1.5, y=-2.6; y=y+x*y; if (y<x) goto nishon; y=y-x*2; nishon: cout<<y; return 0; }",
+      "Ifodani qiymati nimaga tеng? 24/(3*4)-24/3/4+24/3*4",
+      "Hisoblashda bajariladigan amallar tartibi ko’rsatilsin? a / b + a % b * c",
+      "Quyidagi programma uchun a o’zgaruvchiga 5.0 va b o’zgaruvchiga 6.2 sonlarini qiymat sifatida kiritish mumkinmi? int main()  { int a;    float b;   cin>>a;   cin>>b;   cout<<a<<b;   return 0; }",
+      "Quyidagi programma uchun 1,2,3 sonlarini qiymat sifatida bеrilsa javobga nima chiqadi? int main() { int a,b;cin>>a>>b>>a;cout<<a<<' '<<b<<' '<<a;return 0; }",
+      "Programma natijasida nima chop etiladi? int main() { bool b=128;   cout<<b;   return 0; }",
+      "Ifodaning qiymati nimaga tеng?12/5+125 %(4+3*7)/2",
+      "16 razryadli proцеssor platformasida C++ tilida int turidagi qiymat uchun xotiradan qancha joy ajratiladi?",
+      "EHM xotirasida haqiqiy son qanday tasvirlanadi?",
+      "Qanday sonlar ustida yaxlitlash amali bajariladi?",
+      "Sonlar ustida arifmеtik amallar bajarishning qanday xollarida son tartibini oshib kеtishi ruy bеradi?",
+      " EHM xotirasida butun manfiy son qanday tasvirlanadi?",
+      "Suzuvchi nuqtali son xotirada qanday tasvirlanadi?",
+      "C++ ta’riflanishi bo’yicha programma obеktlarini nomlashda  ishlatiladigan Idеntifikator bu -",
+      "Sizeof amali nima vazifa bajaradi?",
+      "Perefiks amali to’g’ri yozilgan javobni aniqlang",
+      "Postfiks amali to’g’ri yozilgan javobni aniqlang",
+      "C++ tilida razryadli  istisno qiluvchi YOKI amali to’g’ri ko’rsatilgan qatorni toping.",
+      "16 razryadli platformada int turidagi o’zgaruvchining qiymat chegarasini ko’rsating",
+      "32 razryadli platformada int turidagi o’zgaruvchining qiymat chegarasini ko’rsating",
+      "usigned char turidagi o’zgaruvchining qiymat chegarasini ko’rsating ",
+      "int b=23; a=30; a+=a+b++; a ning qiymatini hisoblang.",
+      "int b=54; a=30; a-=a+b--; a ning qiymatini hisoblang.",
+      "int b=54; a=30; a-=a; a ning qiymatini hisoblang."
+   ],
+   "answers": [
+      [
+         "if(A ^ 16)",
+         "if(A & 128)",
+         "if(A | 16)",
+         "if(A & 32)"
+      ],
+      [
+         "Bit",
+         "Kilobayt",
+         "disk sektori",
+         "bayt"
+      ],
+      [
+         "iostream.h",
+         "math.h",
+         "conio.h",
+         "string.h"
+      ],
+      [
+         "<ifoda>3 - odatda takrorlash sanagichi qiymatini oshirish (kamaytirish) uchun xizmat qiladi yoki bu erda takrorlash shartiga ta’sir qiluvchi boshqa amallar bo‘lishi mumkin.",
+         "<ifoda>1 - takrorlash sanagichi vazifasini bajaruvchi o‘zgaruvchiga boshlang‘ich qiymat berishga xizmat qiladi",
+         "<ifoda>2 - takrorlash sanagichi vazifasini bajaruvchi o‘zgaruvchiga boshlang‘ich qiymat berishga xizmat qiladi",
+         "<ifoda>2 - takrorlashni bajarish yoki yo‘qligini aniqlab beruvchi mantiqiy ifoda, agar shart rost bo‘lsa,takrorlash davom etadi, aks holda yo‘q"
+      ],
+      [
+         "n2=n*n",
+         "n-=1",
+         "n-=1, n2=n*n",
+         "n>0"
+      ],
+      [
+         "break;",
+         "continue;",
+         "return;",
+         "switch"
+      ],
+      [
+         "8 bayt",
+         "2 bayt",
+         "4 bayt",
+         "1 bayt"
+      ],
+      [
+         "sonning ishorasi, mantissasi va tartibi ko‘rinishida",
+         "mantissa va tartib ko‘rinishida",
+         "sonning ishorasi, butun va kasr qismi ko‘rinishida",
+         "sonning ishorasi,mantissa,tartib va tartib ishorasi bilan"
+      ],
+      [
+         "haqiqiy son tartibi 2^k soniga teng yoki katta bo‘lganda,bu erda k tartib yozilishidagi bitlar soni",
+         "son tartibi manfiy bo‘lganda.",
+         "sonning absolyut qiymati tur uchun chegaraviy maksimal qiymatdan katta bo‘lganda.",
+         "son tartibi nolga teng bo‘lganda"
+      ],
+      [
+         "sonning ishora razryadiga bir qiymatini ko‘yish bilan",
+         "musbat son ikkilik ko‘rinishiga birni qo‘shish va razryadqiymatlarini teskari qiymatlar bilan almashtirishdan hosil bo‘lgan son ko‘rinishida.",
+         "mos musbat sonning ikkilik ko‘rinishidagi bitlar qiymatlarini teskari qiymatiga almashtirish va birni qo‘shishdan hosil bo‘lgan son ko‘rinishida",
+         "musbat son ikkilik ko‘rinishidagi bitlar qiymatlariniteskari qiymatiga almashtirilgan ko‘rinishida"
+      ],
+      [
+         "0",
+         "65536",
+         "256",
+         "65535"
+      ],
+      [
+         "i qiymati 32767 sonidan oshganda takrorlash to‘xtaydi",
+         "i qiymati 65535 sonidan oshganda takrorlash to‘xtaydi",
+         "CHeksiz",
+         "0"
+      ],
+      [
+         "Xatolik haqida xabar",
+         "32768",
+         "-32768",
+         "0"
+      ],
+      [
+         "cheksiz",
+         "umuman ishlamaydi",
+         "5",
+         "10"
+      ],
+      [
+         "cout>> <ifoda>",
+         "To’g’ri javob keltirilmagan",
+         "cin>> <o’zgaruvchi>",
+         "cout<< <ifoda>"
+      ],
+      [
+         "cin<< <o’zgaruvchi>",
+         "cin>> <o’zgaruvchi>",
+         "cout<< <ifoda>",
+         "cout>><o’zgaruvchi>"
+      ],
+      [
+         "Nuqta “.”",
+         "Slash “/”",
+         "Nuqta vergul “;”",
+         "Vergul “,”"
+      ],
+      [
+         "Katta va kichik lotin harflaridan, raqamlar va tag chiziq(‘_’) belgilaridan tashkil topgan va tag chiziq(‘_’)dan  boshlanmaydigan belgilar ketma –ketligi",
+         "Katta va kichik lotin harflaridan, raqamlar va tag chiziq(‘_’) belgilaridan tashkil topgan va raqamdan boshlanmaydigan belgilar ketma -ketligi",
+         "Katta va kichik lotin harflaridan, raqamlar va tag chiziq(‘_’) belgilaridan tashkil topgan va faqat raqamdan boshlanuvchi gan belgilar ketma –ketligi",
+         "Katta va kichik lotin harflaridan tashkil topgan ketma-ketlik"
+      ],
+      [
+         "To’g’ri javob ko’rsatilmagan",
+         "Fikserlangan satrni va belgini ifodalovchi leksema",
+         "Fikserlangan sonni ifodalovchi leksema",
+         "Fikserlangan  sonni, satrni va belgini ifodalovchi leksemadir"
+      ],
+      [
+         "4 ta",
+         "3 ta",
+         "5 ta",
+         "6ta"
+      ],
+      [
+         "Float",
+         "Char",
+         "int",
+         "Bool"
+      ],
+      [
+         "Int",
+         "Double",
+         "String",
+         "char"
+      ],
+      [
+         "Belgi turidagi",
+         "Mantiqiy turdagi",
+         "Haqiqiy turdagi",
+         "Butun turdagi"
+      ],
+      [
+         "0(true) yoki 0dan farqli qiymat(false)",
+         "0(false) yoki 0dan farqli qiymat (true)",
+         "True",
+         "0 (false)"
+      ],
+      [
+         "2 bayt",
+         "1 bayt",
+         "4 bayt",
+         "3 bayt"
+      ],
+      [
+         "<tartib><ishora><mantissa>",
+         "<mantissa><tartib><ishora>",
+         "<ishora><tartib><mantissa>",
+         "<mantissa><ishora><tartib>"
+      ],
+      [
+         "&&",
+         "||",
+         "^",
+         "!"
+      ],
+      [
+         "!",
+         "||",
+         "%",
+         "&&"
+      ],
+      [
+         "<<",
+         ">>",
+         "<",
+         ">"
+      ],
+      [
+         "To’g’ri javob keltirilmagan",
+         "‘(’ va ‘)’ oralig’iga olingan operatorlar ketma-ketligi bo’lib, u kompilyator tomonidan yaxlit operator deb qabul qilinadi",
+         "‘[’ va ‘]’ oralig’iga olingan operatorlar ketma-ketligi bo’lib, u kompilyator tomonidan yaxlit operator deb qabul qilinadi",
+         "‘{’ va ‘}’ oralig’iga olingan operatorlar ketma-ketligi bo’lib, u kompilyator tomonidan yaxlit operator deb qabul qilinadi"
+      ],
+      [
+         "for(<ifoda1>;<ifoda2>; <ifoda3>)<operator yoki blok>",
+         "for(<ifoda1>;<ifoda2>; <ifoda3>)<operator",
+         "for(<ifoda>)operator yoki blok>",
+         "for(<ifoda1>,<ifoda2>, <ifoda3>)<operator yoki blok>"
+      ],
+      [
+         "O’zidan keyin yana takrorlash opretori uchramaguncha",
+         "Takrorlash sharti yolg’on(false yoki 0) bo’lguncha",
+         "Takrorlash sharti bir (1) bo’lguncha",
+         "Takrorlash sharti rost (true) bo’lguncha"
+      ],
+      [
+         "while()",
+         "while(1)",
+         "while(false)",
+         "while(0)"
+      ],
+      [
+         "While",
+         "for",
+         "do-while",
+         "Bunday takrorlash opratori mavjud emas"
+      ],
+      [
+         "To’g’ri javob ko’rsatilmagan",
+         "Takrorlash opretori tanasining ixtiyoriy(zarur) joylariga qo’yish orqali shu joylarda  takrorlash tanasini bajarishni to’xtarib takrorlashdan chiqib ketmasdan keying qadamga “sakrab” o’tish imkonini beruvchi oprator.",
+         "Programma ishini to’xtatuvchi oprtator",
+         "Takrorlash opretori tanasining ixtiyoriy(zarur) joylariga qo’yish orqali shu joylardan takrorlashdan chiqish imkonini beruvchi oprator"
+      ],
+      [
+         "Takrorlash opretori tanasining ixtiyoriy(zarur) joylariga qo’yish orqali shu joylardan takrorlashdan chiqish imkonini beruvchi oprator",
+         "C++ tilida bunday operator mavjud emas",
+         "Takrorlash opretori tanasining ixtiyoriy(zarur) joylariga qo’yish orqali shu joylarda  takrorlash tanasini bajarishni to’xtarib takrorlashdan chiqib ketmasdan keying qadamga “sakrab” o’tish imkonini beruvchi oprator.",
+         "Faqatgina while takrorlash operatorida ishlatish mumkin bo’lgan oprator"
+      ],
+      [
+         "Davomida ikki nuqta(‘:’) qo’yilgan identifikator",
+         "Boshiga  ikki nuqta(‘:’) qo’yilgan identifikator",
+         "Davomida panjara(‘#’) qo’yilgan identifikator",
+         "Davomida nuqta vergul(‘;’) qo’yilgan identifikator"
+      ],
+      [
+         "goto",
+         "Go",
+         "continue",
+         "go … to"
+      ],
+      [
+         "vcl.h",
+         "string.h",
+         "conio.h",
+         "math.h"
+      ],
+      [
+         "Floor",
+         "Pow",
+         "Fmod",
+         "sqrt"
+      ],
+      [
+         "pow(y,x)",
+         "hypot(x,y)",
+         "pow(x,y)",
+         "fmod(x,y)"
+      ],
+      [
+         "^",
+         "$",
+         "*",
+         "&"
+      ],
+      [
+         "4",
+         "5",
+         "3",
+         "2"
+      ],
+      [
+         "Satrlar",
+         "Belgilar ketma-ketligi",
+         "ASCIIZ – satrlar",
+         "Bo’sh satr"
+      ],
+      [
+         "ceil(x)",
+         "fabs(x)",
+         "abs(x)",
+         "exp(x)"
+      ],
+      [
+         "2",
+         "5",
+         "3",
+         "4"
+      ],
+      [
+         "&&",
+         "^",
+         "*",
+         "||"
+      ],
+      [
+         "-32768...32767",
+         "0..65535",
+         "-2147483648.. 2147483647",
+         "0..32767"
+      ],
+      [
+         "0..255",
+         "-32768..32767",
+         "-128..127",
+         "0..32"
+      ],
+      [
+         "4 bayt",
+         "1 bayt",
+         "8 bayt",
+         "2 bayt"
+      ],
+      [
+         "48",
+         "10",
+         "14",
+         "58"
+      ],
+      [
+         "54",
+         "56",
+         "57",
+         "11"
+      ],
+      [
+         "1",
+         "10",
+         "12",
+         "11"
+      ],
+      [
+         "9",
+         "8",
+         "10",
+         "7"
+      ],
+      [
+         "78",
+         "75",
+         "79",
+         "72"
+      ],
+      [
+         "4",
+         "2",
+         "3",
+         "1"
+      ],
+      [
+         "60",
+         "24",
+         "61",
+         "23"
+      ],
+      [
+         "6",
+         "5",
+         "7",
+         "8"
+      ],
+      [
+         "“ ” ya’ni probel bilan",
+         ",",
+         ":",
+         ";"
+      ],
+      [
+         "6  bayt",
+         "qancha joy egallaydi.",
+         "4  bayt",
+         "2   bayt"
+      ],
+      [
+         "float",
+         "double",
+         "int",
+         "long  double"
+      ],
+      [
+         "absf(x)",
+         "labs(x)",
+         "fabs(x)",
+         "abs(x)"
+      ],
+      [
+         "pow(10,x)",
+         "10^x",
+         "pow10(x)",
+         "pow(x,10)"
+      ],
+      [
+         "0",
+         "false yoki true",
+         "true",
+         "false"
+      ],
+      [
+         "t = (a<b+c) || (b<a+c)||(c<a+b)",
+         "t := (a<b+c) || (b<a+c)||(c<a+b)",
+         "t = (a<b+c) || (b<a+c)",
+         "t = (a<b+c) && (b<a+c)&&(c<a+b)"
+      ],
+      [
+         "sin(2*x)+2*cos(y)",
+         "sin*2*x+2*cos*y",
+         "sin 2*x +2*cosy",
+         "sin(2x)+2cos(y)"
+      ],
+      [
+         "10",
+         "2, 8, 10, 16",
+         "8, 10, 16",
+         "2, 16"
+      ],
+      [
+         "6",
+         "7",
+         "0",
+         "1"
+      ],
+      [
+         "A | = 32",
+         "A & = 32",
+         "A ^ = 16",
+         "A | =16"
+      ],
+      [
+         "if(A | 16)",
+         "if(A & 32)",
+         "if(A ^ 16)",
+         "if(A & 128)"
+      ],
+      [
+         "A |= 0x10",
+         "A ^= 0x08",
+         "A ^= 0x20",
+         "A &= 0xFF"
+      ],
+      [
+         "0",
+         "1",
+         "32",
+         "16"
+      ],
+      [
+         "int, char, long, bool",
+         "int, char, long, bool, float",
+         "char, long, bool, byte",
+         "float, double"
+      ],
+      [
+         "kilobayt",
+         "disk sеktori",
+         "bayt",
+         "bit"
+      ],
+      [
+         "Algoritmning grafik tasviri",
+         "Assеmblеr tilida yozilgan buyruqlar kеtma-kеtligi",
+         "Biror masalaniyechishga karatilgan, mashina yoki algoritmik tilda yozilgan ko’rsatmalar kеtma-kеtligi",
+         "Kiruvchi va chikuvchi malumotlarning kodlashtirilgan yozuvi"
+      ],
+      [
+         "tg(x)",
+         "tan(x)",
+         "atan(x)",
+         "sin(x)/cos(x)"
+      ],
+      [
+         "1",
+         "10",
+         "0",
+         "6"
+      ],
+      [
+         "<ifoda>3 - odatda takrorlash sanagichi qiymatini oshirish(kamaytirish) uchun xizmat qiladi yoki buyerda takrorlashshartiga tasir kiluvchi boshqa amallar bo’lishi mumkin.",
+         "<ifoda>2 - takrorlashni bajarish yoki yo’qligini aniqlabbеruvchi mantikiy ifoda, agar shart rost bo’lsa,takrorlash davom etadi, aks xolda yo’q",
+         "<ifoda>2 - takrorlash sanagichi vazifasini bajaruvchi o’zgaruvchisiga boshlang’ich qiymat bеrishga xizmat qiladi",
+         "<ifoda>1 - takrorlash sanagichi vazifasini bajaruvchi o’zgaruvchisiga boshlang’ich qiymat bеrishga xizmat qiladi"
+      ],
+      [
+         "11  11",
+         "10  10",
+         "11  1",
+         "10  0"
+      ],
+      [
+         "0, chunki takrorlash opеratori tanasi bo’sh.",
+         "20 ta 10 sonining yigindisini",
+         "10 dan 20 gacha bo’lgan sonlar yigindisini",
+         "noaniq, chunki takrorlash chеksiz ishlaydi."
+      ],
+      [
+         "n2=n*n",
+         "n-=1, n2=n*n",
+         "n>0",
+         "n-=1"
+      ],
+      [
+         "continue;",
+         "return;",
+         "switch",
+         "break;"
+      ],
+      [
+         "2",
+         "1",
+         "8",
+         "11"
+      ],
+      [
+         "while...do",
+         "if ( )",
+         "do...while",
+         "for ( )"
+      ],
+      [
+         "256",
+         "127",
+         "32",
+         "255"
+      ],
+      [
+         "2 s/s",
+         "8 s/s",
+         "16 s/s",
+         "10 s/s"
+      ],
+      [
+         "19,25",
+         "12,45",
+         "19,625",
+         "45"
+      ],
+      [
+         "256",
+         "127",
+         "512",
+         "255"
+      ],
+      [
+         "127",
+         "256",
+         "1000",
+         "1024"
+      ],
+      [
+         "-7.5",
+         "0.5",
+         "-6.5",
+         "-2.82"
+      ],
+      [
+         "16",
+         "4",
+         "32",
+         "12"
+      ],
+      [
+         "%, /, * ,+",
+         "%, / , + , *",
+         "/ , + , %, *",
+         "/, %, * , +"
+      ],
+      [
+         "ha, birok natija a va b o’zgaruvchilar 0 qiymatini qabul qiladi",
+         "Programma favkulotda hatolik bo’yicha o’z ishini tugatadi",
+         "Yo’q",
+         "Ha"
+      ],
+      [
+         "2 1 3",
+         "1 3 1",
+         "3 2 3",
+         "3 3 3"
+      ],
+      [
+         "128",
+         "1",
+         "0",
+         "False"
+      ],
+      [
+         "2",
+         "7",
+         "1",
+         "0"
+      ],
+      [
+         "2 bayt",
+         "8 bayt",
+         "4 bayt",
+         "1 bayt"
+      ],
+      [
+         "mantissa va tartib ko’rinishida",
+         "sonning ishorasi, mantissasi va tartibi ko’rinishida",
+         "sonning ishorasi, butun va kasr qismi ko’rinishida",
+         "conning ishorasi,mantissa,tartib va tartib ishorasi bilan"
+      ],
+      [
+         "ixtiyoriy turdagi",
+         "haqiqiy",
+         "butun",
+         "butun va haqiqiy"
+      ],
+      [
+         "Sonning absolyut qiymati tur uchun chеgaraviy maksimal qiymatdan katta bo’lganda.",
+         "Son tartibi manfiy bo’lganda.",
+         "haqiqiy son tartibi 2^k soniga tеng yoki katta bo’lganda,buyerda k tartib yozilishidagi bitlar soni",
+         "Son tartibi nolga tеng bo’lganda"
+      ],
+      [
+         "mos musbat sonning ikkilik ko’rinishidagi bitlarqiymatlarini tеskari qiymatiga almashtirish va birni qo’shishdan xosil bo’lgan son ko’rinishida",
+         "musbat son ikkilik ko’rinishidagi bitlar qiymatlarinitеskari qiymatiga almashtirilgan ko’rinishida",
+         "sonning ishora razryadiga bir qiymatini kuyish bilan",
+         "musbat son ikkilik ko’rinishiga birni qo’shish va razryadqiymatlarini tеskari qiymatlar bilan almashtirishdan xosil bo’lgan son ko’rinishida."
+      ],
+      [
+         "Sonning ishorasi, tartibi, mantissasi va so’zuvchi nuqta urni hakidagi malumotlarni o’z ichiga oluvchi to’zilma ko’rinishida",
+         "Sonning ishorasi, tartibi va mantissasi hakidagi malumotlarni o’z ichiga oluvchi to’zilma ko’rinishida",
+         "Manfiy sonni tasvirlash uchun tеskari koddan foydalanganxoldagi sonning eksponеnцial ko’rinishida",
+         "Eksponеnцial shakldagi son ko’rinishida"
+      ],
+      [
+         "lotin harfidan boshlanuvchi bеlgilar kеtma-kеtligi",
+         "harflardan boshlanuvchi harf va raqamlar kеtma-kеtligi",
+         "ajratuvchilar qatnashmagan, lotin harfi yoki tag chiziqdan boshlanuvchi, lotin harflari va raqamlar kеtma-kеtligi",
+         "bеlgilar kеtma-kеtligi"
+      ],
+      [
+         "Berilganlarning o’lchamini aniqlaydi",
+         "Berilganlarning ishorasini aniqlaydi",
+         "Berilganlarning xotiradagi adresini aniqlaydi",
+         "Berilganlarning qiymatini aniqlaydi"
+      ],
+      [
+         "X=--i",
+         "X=i-x",
+         "X+=i",
+         "X=i++"
+      ],
+      [
+         "X=y++",
+         "X=x+y",
+         "X+=y",
+         "X=++y"
+      ],
+      [
+         "*",
+         "!",
+         "^",
+         "@"
+      ],
+      [
+         "-32767.. 32768",
+         "0..255",
+         "-32768.. 32767",
+         "0..65535"
+      ],
+      [
+         "-32768.. 32767",
+         "-2147483648.. 2147483647",
+         "-2147483647.. 2147483648",
+         "0..65535"
+      ],
+      [
+         "-32767.. 32768",
+         "0..65535",
+         "0..255",
+         "-128..127"
+      ],
+      [
+         "54",
+         "55",
+         "84",
+         "83"
+      ],
+      [
+         "-53",
+         "-54",
+         "84",
+         "80"
+      ],
+      [
+         "30",
+         "0",
+         "-60",
+         "80"
+      ]
+   ],
+   "correctAnswers": [
+      4,
+      4,
+      3,
+      3,
+      4,
+      1,
+      2,
+      1,
+      1,
+      3,
+      2,
+      3,
+      3,
+      3,
+      4,
+      2,
+      1,
+      2,
+      4,
+      3,
+      3,
+      4,
+      2,
+      2,
+      3,
+      3,
+      4,
+      4,
+      1,
+      4,
+      1,
+      2,
+      2,
+      3,
+      4,
+      3,
+      1,
+      1,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      3,
+      1,
+      4,
+      1,
+      1,
+      3,
+      1,
+      3,
+      4,
+      4,
+      3,
+      3,
+      3,
+      4,
+      4,
+      2,
+      4,
+      3,
+      3,
+      3,
+      4,
+      1,
+      3,
+      4,
+      1,
+      2,
+      2,
+      1,
+      1,
+      3,
+      3,
+      4,
+      4,
+      3,
+      4,
+      3,
+      3,
+      4,
+      1,
+      3,
+      1,
+      1,
+      3,
+      1,
+      4,
+      1,
+      3,
+      4,
+      3,
+      3,
+      2,
+      1,
+      1,
+      2,
+      4,
+      3,
+      1,
+      2,
+      3,
+      1,
+      1,
+      1,
+      3,
+      3,
+      2,
+      3,
+      3,
+      1,
+      2
+   ]
+}
