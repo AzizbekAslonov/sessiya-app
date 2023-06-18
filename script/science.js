@@ -2,9 +2,7 @@ let buttons = document.querySelector('.buttons');
 
 const btnCollection = [
    // { data: 'Dasturlash', classes: 'btn scale btn-primary' },
-   // { data: 'Geometriya', classes: 'btn scale btn-secondary' },
-   // { data: 'Tarix', classes: 'btn scale btn-primary' },
-   { data: 'English', classes: 'btn scale btn-secondary' },
+   { data: 'Falsafa', classes: 'btn scale btn-secondary' },
 ]
 btnCollection.forEach(btn => {
    const buttonEl = DOMElement({

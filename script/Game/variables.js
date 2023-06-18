@@ -1,3112 +1,3957 @@
 const realSciences = [
-   // 'Dasturlash',
-   // 'Geometriya',
-   // 'Tarix',
-   'English',
+   'Falsafa',
 ]
 
 const ALL_QUESTIONS = {
-   English: {
+   Falsafa: {
       "questions": [
-         "Matching of  the sentences and their endings. If  a new method of curing cancer had been worked out , ",
-         "Matching of  the sentences and their endings. If the scientist hadn’t  invented the equipment which helps to measure the distance from the Earth to the Sun,",
-         "Matching of  the sentences and their endings. If there hadn’t been a telescope,",
-         "Matching of  the sentences and their endings. If  I had had enough money, ",
-         "Although the sun was shining, it was still cold, because it ______hard for two hours.",
-         "She______at the parcel long enough, before she______that it was for her brother.",
-         "We were good friends, we______each other for years.",
-         "Complete the quote  with the correct word. A ship in a harbor is  ………  but  that’s not why  ships were built.",
-         "What does the highlighted word refer to?  When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see “the one” that has been opened for us.",
-         "Choose the missing verb:  It’s all part of life’s journey which _____  you the knowledge you need for your next adventure.",
-         "Arrange the words below to make a well-known quote about taking risks:",
-         "Fill in the gap with an appropriate answer. If you know ________ you’re going you’ll navigate your way through the harshest hurricane.",
-         "Fill in the gap with an appropriate answer.  He warned me two weeks ago that’s _____  I have been looking for a room to stay but still have no results.",
-         "Fill in the gap with an appropriate answer.  It’s all part of life’s journey which gives you the  knowledge you __________ for your next adventure.",
-         "Fill in the gap with an appropriate answer.  I’ve never seen a fire ______ this.",
-         "Fill in the gap with an appropriate answer.  Now I don’t know ________  to do.",
-         "Choose the best definition to the word: “ damage”",
-         "Choose the best definition to the word: “ reduce”",
-         "Choose the best definition to the word: “ misunderstanding”",
-         "Choose the best definition to the word: “secure”",
-         "Find the synonym of the word: ” ignorance”",
-         "Find the synonym of the word: ”reduce”",
-         "Find the synonym of the word: “major”",
-         "Find the synonym of the word: “comprehensive”",
-         "Find the synonym of the word: “responsible”",
-         "Find the synonym of the word “reply”",
-         "Find the synonym of the word: “irrational”",
-         "Find the synonym of the word: “avoid”",
-         "Find the antonym of the word: “flexible”",
-         "An hour in the morning _____.",
-         "\"While there is _____ there is hope.\"",
-         "Find the synonym of the word:”employ”",
-         "Find the synonym of the word:”run”",
-         "Find the synonym of the word:”entry”",
-         "Find the synonym of the word:’”view”",
-         "Find the synonym of the word: ”goal”",
-         "Find the synonym of the word:”employee”",
-         "Find the synonym of the word:”staff”",
-         "Find the synonym of the word:”management”",
-         "Find the antonym of the word:”strength”",
-         "Find the antonym of the word:”simple”",
-         "Fill in the gaps with the appropriate preposition. HR planning is a key activity … business.",
-         "Fill in the gaps with the appropriate preposition. What training is necessary … improve skills?",
-         "Fill in the gaps with the appropriate preposition.HR planning is a critical element … your business plan.",
-         "Fill in the gaps with the appropriate preposition. How long does it take… retrain professionals?",
-         "Fill in the gaps with the appropriate preposition. Which strategies help …establish good planning?",
-         "Fill in the gaps with the appropriate preposition. You need … recognize the preliminary goals ….your plan.",
-         "Fill in the gaps with the appropriate article. I’m responsible for … effective planning.",
-         "Fill in the gaps with the appropriate article. HR planning is… key activity for business.",
-         "Fill in the gaps with the appropriate article. HR planning is … critical element of your business plan.",
-         "Fill in the gaps with the appropriate article. Can those skills be used in other areas of … business?",
-         "Fill in the gaps with the appropriate article. HRM is … important staff function for business.",
-         "Fill in the gaps with the appropriate article. You should listen to each member of …group.",
-         "Choose the appropriate reporting verb. ”Please, please don’t tell anyone!” The worker_______ not to tell anyone.",
-         "Choose the appropriate reporting verb. ”Don’t forget to phone the director of the oil company.” The secretary _____ me to phone the director of the oil company.",
-         "Choose the appropriate reporting verb.   ”I’m sorry I didn’t come to the meeting.” He ____ for not going to the meeting.",
-         "Choose the synonym to the underlined words: Want, desire, demand",
-         "Choose the synonym to the underlined word.Tool, instrument, utensil",
-         "Choose the synonym to the underlined words: Vast, huge, enormous",
-         "Choose the synonym to the underlined words: Outbreak, achievement",
-         "Choose the synonym to the underlined word.Eventually, finally",
-         "Complete the sentence.  The thing we would like ____ do is speculation, but not philosophical issue _____  the topic.",
-         "Choose the best preposition to fill in the gap.First computers were huge ____ size.",
-         "Matching of  the sentences and their endings. If doctors had invented another type of injection,",
-         "Find the antonym of the word: “main”",
-         "Find the antonym of the word: “movement”",
-         "Find the antonym of the word: “leader”",
-         "Find the antonym of the word: “organize”",
-         "Find the antonym of the word: “find”",
-         "Find the antonym of the word “include”",
-         "Find the antonym of the word: “connect”",
-         "Choose the correct answer. I think we ________ trust our people",
-         "Choose the correct answer.  You have caught a cold. I think you _____ go back to bed",
-         "Choose the correct answer. I think you  _______ listen to him.",
-         "Choose the correct answer. It is very kind of you. I think we ________ come.",
-         "Choose the correct answer. I think you ________   wait for her.",
-         "Put the preposition. Work  ____  groups 4 or 5.",
-         "Put the preposition. There are many risk types, major ones  ____  consider are: Physical, Reputation, Emotional, Financial, Facilities.",
-         "What is the responsibility the career of the doctor?",
-         "The Olympic flag  has …   .",
-         "If a woman had  received  newly invented type of injection, she …",
-         "If  this mobile phone hadn’t had all  modern functions ……   . ",
-         " If Karim hadn’t  forgotten to pay the bill, ",
-         "What is the meaning of   this “HR”?",
-         "Give the definition  the  word  of   the  “review materials”.",
-         "Give the definition  the  word  of   the  “ scan for ”.",
-         "Complete the sentences. If  I were   a carpenter,__________________.",
-         "Speak louder,  please. It’s too noisy in  the street, I can’t hear………….",
-         "Find the definition of the word “ premium”",
-         "Find the definition of the word “instructor”",
-         "How is your mother? I ... her for a week or two.",
-         " The woman.....  to my sister is our  neighbor, who ....across  the street.",
-         " The woman is  too old . She .... walk well.",
-         " I am not as clever as you, so  __________________________________.",
-         "Match this word  “Enable”!",
-         "Matching the word of the “catch on”",
-         "Match the word “ look  up to”",
-         " Match  the word  “ give in ”.",
-         " Complete  the sentences.  I ___________ twenty emails  so far today.",
-         "Paraphrase the following sentence: She agreed to make a report.",
-         "Paraphrase the following sentence: He apologized for hurting my leg.",
-         "Paraphrase the following sentence: He congratulated me on passing  the exam.",
-         "Paraphrase the following sentence: They announced that they were getting married.",
-         "Paraphrase the following sentence: He refused to admit that the argument was true.",
-         "Paraphrase the following sentence: She persuaded him to do it.",
-         "Paraphrase the following sentence: They accused him of going bankrupt.",
-         "Paraphrase the following sentence: He offered to have dinner with them. ",
-         "Paraphrase the following sentence: He denied rewriting his CV.",
-         "Paraphrase the following sentence: He reminded me not to forget to phone.",
-         "Paraphrase the following sentence: He insisted on going to the café. ",
-         "Paraphrase the following sentence: He promised to be polite with the staff. ",
-         "Change the direct speech into indirect speech. “Please, please don’t tell anyone”",
-         "Find the synonym to the following word or phrase: “remuneration”",
-         "Find the synonym to the following word or phrase: “personnel”",
-         "Find the synonym to the following word or phrase: “inspect”",
-         "What is a cover letter?",
-         "Change the direct speech into indirect speech: “Well, if I were you I’d start saving for my retirement” ",
-         "Change the direct speech into indirect speech: “I’m afraid I’ve got some bad news. The company is closing.”",
-         "Change the direct speech into indirect speech: “We lost much money because of the irresponsible manager!”",
-         "What is the responsibility?",
-         "Choose the best definition to the word - responsibility?",
-         "Choose the synonym to the underlined word –Accomplish ",
-         "His father _____ , but Bill’s father _____ smoke.",
-         "Find the word which belongs to work place?",
-         " Choose the synonym to the underlined word “dedication” ",
-         "Fill in the blanks with personality adjectives. The teacher felt very……when all her students passed exams. ",
-         "Fill in the blanks with personality adjectives. Farida is very…… I`m sure you will love her.",
-         "Fill in the blanks with personality adjectives. She is usually ………and understanding.",
-         "Fill in the blanks with personality adjectives. Karima rarely gets …….with people.",
-         "Fill in the blanks with personality adjectives. Zamira was……. than Laylo, and more……too. She was…….of Laylo. ",
-         "Fill in the blanks with personality adjectives. Anvar never helps his coworkers with their job. He is so…………",
-         "……………refers to the object.",
-         "……………refers to the people.",
-         "……………refers to the place.",
-         "……………refers to the time.",
-         "Find the synonym of the word “message”.",
-         "Choose the word out of grammatical meaning.",
-         "Choose the word or word combination out of logical meaning.",
-         "Choose the word or word combination out of grammatical meaning.",
-         "Choose the word or word combination out of grammatical meaning.",
-         "Complete the sentence with appropriate pronoun. I told you about the woman ………… lives next door.",
-         "Complete the sentence with appropriate pronoun. Do you see the cat ………… is lying on the roof?",
-         "Complete the sentence with appropriate pronoun. Do you know the boy ……………. mother is a nurse?",
-         "Complete the sentence with  appropriate pronoun. I was invited by the professor ……………. I met at the conference.",
-         "Find the synonym of the word “service”.",
-         "Find the synonym of the word “management”.",
-         "Find the synonym of the word “competition”.",
-         "Find the synonym of the word “client”.",
-         "Complete the sentence with appropriate pronoun. The driver ……… ran the stop was careless",
-         "Complete the sentence with appropriate pronoun. The children, ………… we love dearly, need better educations",
-         "Complete the sentence with appropriate pronoun. Never go to a doctor ………… office plants have died.",
-         "Complete the sentence with appropriate pronoun. The book, ………..is now out of print, has all the information you need.",
-         "Complete the sentence with appropriate pronoun. The term networking, ……….. has appeared in popular speech, refers to using or even developing social networks.",
-         "Complete the sentence with appropriate pronoun. The individuals ………. first used the new technology accumulated great wealth.",
-         "Complete the sentence with appropriate pronoun. Rachel liked the new chair …………was very beautiful.",
-         "Complete the sentence with appropriate pronoun. I don’t like the clown………has a bright red nose.",
-         "Complete the sentence with appropriate pronoun. It is made up of a fabric ………is very soft.",
-         "His hobby of playing computer games has turned into _________ and he spent hours in front off a computer.",
-         "Choose the appropriate phrasal verb to complete the sentence .Don't waste time _________things that have caused you distress.",
-         "Choose the best synonym to the underlined phrasal verb in the sentence. His teacher was a model for him, he was someone to “look up to”.",
-         "The kids were ________________the arrival of their mother after a ten months study abroad. They were counting days and waiting impatiently to be together.",
-         "Choose the appropriate preposition. Do not read other people’s mail ________ their permission. Going ______ other people’s things could cost' you your job or you could even go _____ jail.",
-         "Choose the appropriate preposition. I used to chatting ________ my on-line friends ______ nonsense.",
-         "Choose the synonym to the  word. Additional readings and alternative sources “undoubtedly” create a richer understanding",
-         "Choose the best definition to the  word. When working with a single source you may “stumble upon” unclear information.",
-         "Which of the following cannot be included into online behavior?",
-         "Choose the best antonym to the word in the sentence. All of them are “essential” and somehow connected to each other. ",
-         "Choose the best definition to the word. “Subsequently”, picking up information here is much more challenging then in short and well- structured texts. ",
-         "Choose the synonym to the  word. I was so delighted when my father “gifted” me a laptop full of modern software and you know, moreover it was connected to Internet via Wi-Fi. ",
-         "What is a strategy?",
-         "Choose the definition to the underlined word in the sentence.  Our deeds, actions, achievements even falls are controlled or just “formulated” by our life strategies as well! ",
-         "Choose the appropriate phrasal verb to complete the sentence. We _________________all the books, and this was still the one we liked best.",
-         "Choose the appropriate synonym to the word. David Grey will submit this letter to you, along with other supporting documents to assure you that he will return “prior to” the expiration of his stay in Uzbekistan. ",
-         "Which of the following phrases can be used in closing part of an e-mail?",
-         "Choose the appropriate antonym to the word.  Furthermore, multiple sources can greatly “improve” and dress experience of learners if they know how to use them properly. ",
-         "Choose the synonym to the word in the sentence. Stahl, et all found that using multiple text-sourcescan only be effective if we are taught to use them “properly”. ",
-         "Choose the appropriate synonym to the  word. The information was used “confidentially”. ",
-         "Choose the best word to fill in the gap. What is an _____________ ____________? Simply, we can say that it is someone else’s intellectual working results such as musical, literary, and artistic works; discoveries and inventions; and words, phrases, symbols (trademarks), and designs. ",
-         "Choose the appropriate for of the verb to fill in the blank. “The only thing _______ between you and your dreams is reluctance.” (Carroll Bryant) ",
-         "Choose the synonym to the  word. Over 600,000 learners a year come to Britain to help achieve their “ambition”, to experience modern UK life. ",
-         "Choose the appropriate word to fill in the gap. Use your working time __________so that you are able to do more in short period of time.",
-         "Choose the synonym to the underlined word. Make sure your abilities are “compatible”  with your long term goals.",
-         "Choose the appropriate definition to the underlined word. Information from different sources arouses students’ “curiosity” and increases their comprehension ",
-         "Choose the synonym to the underlined word. I have been trying to avoid “confrontation” with my colleagues keeping my temper. ",
-         "Choose the best synonym to the underlined word in the sentence “The only thing standing between you and your dreams is “ reluctance”.” ",
-         "Which of the following is not considered appropriate in Netiquette?",
-         "Choose the best synonym to the underlined phrase. This preparation helps them to “cope with” any task. ",
-         "Choose the best definition of the word “to identify”.",
-         "Choose the antonym to the underlined word. The speaker's intentions were not made “explicit”.",
-         "Choose the best antonym to the underlined word in the sentence. This is the road map that will take you from choosing a career to “succeeding” in it.",
-         "Choose the best paraphrase of the given sentence.  It’s fairly simple to state a goal but actually achieving it isn’t quite as easy.",
-         "Choose  the appropriate definition to the underlined word. Attack to information is penetrating into one’s PC and monitoring, “snooping”, spying, stealing information and so on.",
-         "Choose the best paraphrase of the given sentence. File swapping with your friend is also against law.",
-         "Choose the best antonym to the underlined word. According to the experience of developed countries the client service is the “crucial”  factor which provides economic and social stability in all areas of social advancement. ",
-         "Choose the verb that is the most appropriate to fill the gap. You will start ___________a large car producing company soon, so I would like to give you some essential ideas in management that I have experienced. ",
-         "Choose the best synonym to the underlined word. This way your company will stand a strong “rivalry” in the car market.",
-         "  I have to do so much reading, and home ………….., which include essays.  ",
-         " - So what was your overall score?  - Oh, I can`t tell you. I am too ………………..",
-         " You`d better ………………..in a practice course soon.",
-         " How did you ……….. proficiency  level test in English?",
-         " We …………… possible topics like that in the practice course. You only need to make 2 or 3 main points about a topic, you know, because the Proficiency test essay task is only 250 words long.",
-         " You really ought to be in contact with English-speaking people every day, if you want to ……………….your English fast.",
-         " You pretend that you`re in a situation, and then you have to ask questions to find out some………………….",
-         " Study the material and put it into practice. Be always inspired and…………………...",
-         " Never ……….. with the first alternative or solution. ",
-         " ………………………….  are great for inspiration.",
-         " Fellow learners study skills and creativity can push your boundaries and ………………….your learning horizon.",
-         " Read the texts and check your ………………………. or listen to the tape and revise your listening skills. ",
-         " Give antonym to the word “confidence”. ",
-         " Give antonym to the word “ skilled”.",
-         "You can ……………a video and put it on YouTube to share with your attendees.",
-         " Practice lessons and workshops are the fastest way to learn which tools you need to ………………..a better language user.",
-         " Workshops and master classes can give you fresh ………….and other perspectives to take it to another level.",
-         " Read the texts and check your comprehension or listen to the tape again and ………………… your listening skills. ",
-         " Choose the appropriate form of adjectives.  They promised us to send the ... information on this matter in a week.",
-         " Yesterday they ..... to help their friends.",
-         "Find the right definition to the word “motivation”",
-         "Types of motivation are…..",
-         "Find the right definition to the following word: “competency”",
-         "Match the verb and the word it collocates  with  “to stay”",
-         "Match the verb and the word it collocates with  “To gather”",
-         "Match the verb and the word it collocates  with “to improve”",
-         "Choose the right word to the following definition: “the state of having no food for a lot something”",
-         "Choose the right word to the following definition : “an encouragement or a feeling of stimulation which pushes people to have better results in life”.",
-         "Choose the suitable definition to the “to consume”  ",
-         "“The undesired but common and expected consequence is the “heating” of the ocean water near the plant.” Antonym for the word in bold is:",
-         "Choose the synonym to the underlined word: “She “persuaded” him to do it”",
-         "“The other technology which has stirred the public “imagination” in this century is the cloning of animals.” Which of the following is a synonym to the word in bold?",
-         "Find a synonym to the word “pollution”",
-         "“One of the innovations - the Internet has already had an impact on a human life “significantly”.” The word in bold can be replaced by:",
-         "     Change the sentence into an indirect speech: “Sayyora, please be careful while interviewing new workers.” He told Sayyora__________________________ while interviewing new workers ",
-         "We use linking phrases as “for example, such as, for instance” for ………..",
-         "We use linking phrases as “although, on the other hand, however” for….",
-         "Water pollution, air pollution, the depleting of Ozone layer, deforestation  belong to the……….",
-         "Give the definition the following word “aid”",
-         "Complete the sentences with the word. She………… the red umbrella above her head.",
-         "Give the definition the following word “advice”",
-         "Give the definition the following word “recover”",
-         "Give the definition the word “belief”",
-         "Give the definition the following word “debt”",
-         "Give the definition the following word: “affect”",
-         "Choose the appropriate antonym. Tom is very “lazy”.",
-         "Choose the appropriate antonym.  “Lend “",
-         "Choose the appropriate answer.  The police … Dan when he … a shop.",
-         "Choose the appropriate synonym “extend”",
-         "Choose the appropriate synonym “goal setting”",
-         "Fill the gap: If somewhere there is an ideological gap, it is ……. ruled over by an alien ideology.",
-         "Fill in the sentences with the appropriate forms of the verb. English…………..a single international communication tool",
-         "Fill the gap: Additional readings and alternative sources………… create a richer understanding.",
-         "Choose  the synonym: “development”",
-         "Choose the synonym : “to belong ”",
-         "We learn from failure, not from ………..",
-         "Choose  the synonym : “to improve”",
-         "Choose the synonym : “to make up one’s mind”",
-         "Choose the antonym : “to succeed” ",
-         "Choose the correct form of the verb. Students …… so much time on learning new words by heart.",
-         "Choose the synonym: “point of view”",
-         "Choose the correct form of the verb. The number of English speakers……….. recently.",
-         "Choose the correct form of the verb. Umar……….on the beach with his family next week at this time. ",
-         "Choose the correct form of the verb. Experts……….. surely …….their work by the end of the next month.",
-         "Fill the gap: Additional readings and alternative sources…………create a richer understanding.",
-         "Choose the appropriate definition of the following word:  “memorize”",
-         "Change the direct speech into indirect speech using appropriate reporting verb. “Don’t forget to phone the director of the oil company. ” The ecretary………….me to phone the director of the oil company. ",
-         "Change the direct speech into indirect speech using the appropriate reporting verb. “I am sorry I didn’t come to the meeting .” He ………. for not going to the meeting.",
-         "Change the direct speech into indirect speech using the appropriate reporting verb. “If you are late again we will start without you. ” They………….to start without him.",
-         "Change the direct speech into indirect speech using the appropriate reporting verb. “I am afraid I’ve got some bad news. The company is closing.” The manager………. that the company was closing .",
-         "Change the direct speech into indirect speech using the appropriate reporting verb. “We lost so much money because of the irresponsible manager!” The  executive director ………the manager for losing  much money. ",
-         "Read the following sentence and match with its ending. If they offer me the job …….",
-         "Read the following sentence and match with its ending. If you are professional  in your field ……..",
-         "Match the words and definitions:  An incident",
-         "Match the words and definitions:  “a reason”",
-         "Match the words and definitions:   “a likelihood”",
-         "Fill in the gaps with suitable words  «Professional development keeps changes,…….our skills and be more effective in our ……..  .»",
-         "Choose the appropriate definition.”To identify”",
-         "Choose the appropriate definition.”to acquire”",
-         "Choose the appropriate definition. “a goal”",
-         "Choose the appropriate definition. “to comprehend”",
-         "Choose the appropriate definition. “Teamwork”",
-         "Choose the appropriate definition.  “Cooperative thinking”",
-         "Find  synonym to  the  word  “manage”  ",
-         "Choose the appropriate definition  “ A tool”",
-         "Find the synonym to the verb“ To help”",
-         "Fill in the gaps with suitable words  ” To use  ……. knowledge is one the basic data of task-based strategy.  ”",
-         "Fill in the gaps with suitable words  ”All specific features of learning …..can help for setting ….in future language learning process.",
-         "Find  the synonym to the verb  “To learn” ",
-         " Find the synonyms  to the word “ leadership”",
-         "Fill in the gaps with suitable words  ” Personalizing strategy assists students to bring information …..to his or her personel feelings,ideas. ",
-         "Fill in the gaps with suitable words  ” Organizing strategies is responsible for …. or arranging some educational issues”.",
-         "Find  the  synonyms to the  word  ”essential ”",
-         "Find  the  synonym to the verb “ To invent  ”",
-         "Fill in the gaps with suitable words  ”Effective and important …..to learning can help a person to professionally.",
-         "Use the appropriate modal verbs: “Students …..learn to set proper goals in their studying.”  ",
-         "Use the appropriate modal verbs:  “ These young learners …. know  a lot of  things about learning strategies.”",
-         "Use the appropriate modal verbs: “ How did Rustam ….. change the whole strategies of the group on his own?!”",
-         "Choose the appropriate definition”We are getting married”",
-         "Use the appropriate modal verbs: ” Everyone … analyze his/her errors with the help of monitoring strategies”",
-         "Write the synonyms to the word “career paths”",
-         " Write the synonyms to the word “goal setting”",
-         "Write the synonyms to the word”peer observation”",
-         " Write the synonyms to the word “co-planning”",
-         "Write the synonyms to the word “mentoring”",
-         "Professional development keeps changes-----our skills and be more affective in our work.",
-         "Professional development can be part of meeting targets set by workface performance management----- or an opportunity for individuals to change their career paths.",
-         "21 century is the era of technology . Legislative, -----and economic developments directly affect the environment.",
-         "The fifth phase is----- and sharing expertise.",
-         "Read the texts and check your comprehension or listen to the tape again and………….your listening skills.",
-         "His hobby of playing computer games has turned into _________ and he spent hours in front off a computer.",
-         "Choose the appropriate phrasal verb to complete the sentence.Don't waste time _________things that have caused you distress.",
-         "Choose the best synonym to the underlined phrasal verb in the sentence.His teacher was a model for him, he was someone to “look up to”.",
-         "Choose the synonym to the underlined word. Additional readings and alternative sources “undoubtedly” create a richer understanding",
-         "Choose the best definition to the underlined word. When working with a single source you may “stumble upon“ unclear information.",
-         "Choose  the appropriate definition to the underlined word. She has always been “available” for problems during the lessons and outside the lessons. ",
-         "Choose the synonym to the underlined word. Over 600,000 learners a year come to Britain to help achieve their “ambition”, to experience modern UK life. ",
-         "Choose the appropriate word to fill in the gap. Use your working time __________so that you are able to do more in short period of time.",
-         "Choose the best synonym to the underlined word in the sentence “The only thing standing between you and your dreams is  “reluctance”.” ",
-         "Which of the following is not considered appropriate in Netiquette?",
-         "Choose the best synonym to the underlined phrase. This preparation helps them to “cope with” any task. ",
-         "Choose the best definition of the word “to identify”.",
-         "Choose the antonym to the underlined word. The speaker's intentions were not made “explicit”.",
-         "Choose the best antonym to the underlined word in the sentence. This is the road map that will take you from choosing a career to “succeeding” in it.",
-         "Choose the best paraphrase of the given sentence.  It’s fairly simple to state a goal but actually achieving it isn’t quite as easy.",
-         "Choose the best antonym to the underlined word. According to the experience of developed countries the client service is the “crucial”  factor which provides economic and social stability in all areas of social advancement. ",
-         "Choose the verb that is the most appropriate to fill the gap. You will start ___________a large car producing company soon, so I would like to give you some essential ideas in management that I have experienced. ",
-         "Choose the best synonym to the underlined word. This way your company will stand a strong “rivalry” in the car market.",
-         " How did you take ……………….. level test in English?",
-         " I thought the proficiency test writing tasks were ………….hard to understand.",
-         "- So what was your overall score?  - Oh, I can`t tell you. I am too ………………..",
-         " You`d better ………………..in a practice course soon.",
-         " Go somewhere to a quiet place, a bank of the river and ……………the sunrise or sunset.",
-         " This can give you an ………………. productivity boost to work on your own study or to work harder on your chops.",
-         " Study the material and put it into ………………….. Be always inspired and motivated.",
-         " There is one advantage that could …………………. those not raised in the digital age from ever conducting a meeting online- the fact that you can always see your attendees.",
-         "  There is one …………………… that could encourage those not raised in the digital age from ever conducting a meeting online- the fact that you can always see your attendees.",
-         " There is one advantage that could encourage those not raised in the digital age from ever conducting a ……………… online- the fact that you can always see your attendees.",
-         " How did you ………..proficiency  level test in English?",
-         " You really ought to be in contact with English-speaking people every day, if you want to ……………….your English fast.",
-         " You pretend that you`re in a situation, and then you have to ask questions to find out some………………….",
-         " You`d better enroll in a practice course ……………….",
-         " Go somewhere to a …………….. place, a bank of the river and behold the sunrise or sunset.",
-         " This ………… give you an enormous productivity boost to work on your own study or to work harder on your chops.",
-         " Study the material and put it into practice. Be always inspired and…………………...",
-         " My granny is ill and I … visit her. ….I leave school earlier today?",
-         "I'll give you my phone number______you want to speak to me.",
-         " Being able to …………….. a big problem is a valued trait for anyone, especially sales people.",
-         " Fellow learners study skills and creativity can push your boundaries and ………………….your learning horizon.",
-         " Workshops and master classes ………… give you fresh ideas and other perspectives to take it to another level.",
-         " Read the texts and check your ………………………. or listen to the tape and revise your listening skills. ",
-         " Give antonym to the word “confidence”. ",
-         " Give antonym to the word “ skilled”.",
-         "You can ……………a video and put it on YouTube to share with your attendees.",
-         " Fellow learners study skills and creativity ………… push your boundaries and expand your learning horizon.",
-         " Practice lessons and workshops are the fastest way to learn which tools you need to ………………..a better language user.",
-         " Workshops and master classes can give you fresh ………….and other perspectives to take it to another level.",
-         " Read the texts and check your comprehension or listen to the tape again and ………………… your listening skills. ",
-         "  The woman .....to my  sister is  our neighbor, who ....across the street.                                                 ",
-         " When we....to  the  stadium  two teams....football.                                                                                                    ",
-         "Choose the synonym to the underlined word: “She “persuaded” him to do it”",
-         "“The undesired but common and expected consequence is the “heating” of the ocean water near the plant.” Antonym for the word in bold is:",
-         "Complete the sentences with the word. She………… the red umbrella above her head.",
-         "Give the definition the following word “advice”",
-         "Give the definition the following word “recover”",
-         "Put the words in the correct order to make sentences. air / blows / into / the / the / The / ticket / wind .",
-         "Give the definition the word “belief”",
-         "People seem…. in different ways.",
-         "Choose the appropriate answer.  The police … Dan when he … a shop.",
-         "Choose the appropriate synonym “extend”",
-         "Choose the appropriate synonym “goal setting”",
-         "Give the definition to the following words “To extend”",
-         "Give the definition to the word “opportunity”",
-         "Give the definition to the word “Target”",
-         "Match the words  with the appropriate definitions: To alter",
-         "Find the right definition to the following word “aid”",
-         "Fill the gap: If somewhere there is an ideological gap, it is ……. ruled over by an alien ideology.",
-         "Fill in the sentences with the appropriate forms of the verb. English…………..a single international communication tool",
-         "Fill the gap: Additional readings and alternative sources………… create a richer understanding.",
-         "Choose the correct form of the verb. Students ………. so much time on learning new words by heart .",
-         "Choose  the synonym: “development”",
-         "Find the synonym to the following definition” Try to find something”",
-         "Math the word with its definition  “to identify”",
-         "Math the word with its definition  “A bug”",
-         "Choose the synonym : “to belong ”",
-         "We learn from failure, not from ………..",
-         "Find the right definition to the following word “advice”",
-         " Find the right definition to the following word: “browse internet”",
-         "Choose the synonym to the word “up to date”",
-         "Choose the correct form of the verb. In my article I……………. to run through some of the main points of the matter. ",
-         "Choose the correct form of the verb. Experts………..surely …….their work by the end of the next month."
+         "Fuqarolarning dinga etiqod qilish yoki etiqod qilmaslikni mustaqil hal qilishlari qanday ataladi?",
+         "Dinning qanday ildizlari mavjud?",
+         "Jahon dinlari qaysilar?",
+         "Milliy  dinlarga qaysilar kiradi?",
+         "Xristianlikdagi asosiy yo‘nalishlar.",
+         "Barcha musulmonlar uchun amal qilish lozim bo‘lgan axloqiy va huquqiy amallar tizimi.",
+         "O‘zbekistonda masjid va madrasalar faoliyatini kim boshqaradi?",
+         "“Vijdon erkinligi va diniy tashkilotlar to‘g‘risida”gi (Yangi tahrirda) Qonuni qachon qabul qilingan?",
+         "O‘zbekiston fuqarolarining vijdon erkinligi huquqi Konstitutsiyaning qaysi moddasida aks ettirilgan.",
+         "Muhammad payg‘ambarning hayoti, faoliyati, diniy va axloqiy ko‘rsatmalarini o‘zida mujassam etgan manba.",
+         "Hozirda shialikning markazlashgan joyi qaysi mamlakatda?.",
+         "Islomning asosiy ruknlari qaysilar?",
+         "Xristian dinining payg‘ambari kim?",
+         "Zardushtiylikning muqaddas kitobi.",
+         "Qur’oni Karimda nechta sura va oyat bor?",
+         "Politeistik dinlarning asosiy xususiyati nima?",
+         "“Imom – al – Buxoriy” xalqaro jamg‘armasi qachon ta’sis etildi.",
+         "Yaxve qaysi dinning xudosi?",
+         "Qur’oni karim necha yil mobaynida nozil etilgan?",
+         "Fetish so‘zi nima ma’noni bildiradi?",
+         "Yahudiy dinining payg‘ambari.",
+         "Indulgensiya so‘zining ma’nosi?",
+         "Braxmanizm dinining vatani.",
+         "Tasavvufda inson ruhiy kamolotining asosiy yo‘llari.",
+         "Shariat qonun-qoidalarini o‘rganuvchi fan.",
+         "Hayvonlar, qushlar va o‘simliklarni ilohiylashtiruvchi qadimiy urug‘ qabila dini.",
+         "Buddizm ta’limoti asosi qanday qismlaran iborat?",
+         "«Al adab al mufrad» kimning asari?",
+         "Buddizm dini manbasi qanday nomlanadi?",
+         "Ilohiyot haqidagi ta’limotning nomi.",
+         "Zardushtiylik dinida yovuzlik xudosi.",
+         "Qur’oni Karim qaysi xalifa davrida va qaysi yili ilk bor to‘plam shakliga keltirilgan?",
+         "Muhammad payg‘ambarning birinchi va eng sadoqatli xotini.",
+         "Shia musulmonlari e’zozlaydigan va e’tirof etadigan xalifa.",
+         "Zardushtiylik dinidagi ezgulik va yaxshilik xudosi.",
+         "Qur’oni Karim sura va oyatlarining Muhammad payg‘ambarga nozil bo‘lishi.",
+         "Islomni zamonaga moslashtirish lozimligini e’tirof etuvchi oqim.",
+         "“Avesto”ni ilk tarjima qilgan Yevropalik olim kim?",
+         "«Panislomizm» oqimining asoschisi.",
+         "Missionerlikka qarshi kurashda qaysi uslublar qo‘llanadi",
+         " “Injil” so‘zi qanday ma’noni anglatadi?",
+         "Islomda ro‘za munosabati bilan beriladigan sadaqa.",
+         "Dinni davlatdan ajratilganligi qaysi hujjatlarda qayd etilgan?",
+         "Missionerlik faoliyati  uchun qanday javobgarlik mavjud",
+         "Xristianlikda insonni cherkovga qabul qilish paytida bajariladigan marosim.",
+         "Urug‘ qabila dinlaridan biri.",
+         "Diniy tashkilotlar faoliyat yuritish uchun qayerdan ro‘yxatdan o‘tadilar?",
+         "Mutakallim al Samarqandiy kim bo‘lgan?",
+         "Ko‘pxudolik dinlari fanda qanday nomlanadi.",
+         "«Monoteizm» ning manosi nima?",
+         "Muhammad payg‘ambarlik faoliyatini necha yoshda boshlagan?",
+         "Yahudiylar masjidi qanday nomlanadi?",
+         "Buxoro shahridagi eng ko‘hna zardushtiylik ibodatxonasi.",
+         "Xo‘ja Orif Ar-Revgariy maqbarasi Buxoro viloyatining qaysi tumanida joylashgan?",
+         "Islom diniga tayanadigan qaysi talimotga  «Inson ruhiy komilligi falsafasi» deb tarif beriladi?",
+         "Muqaddas «Ka’ba» ibodatxonasining bunyod etilishi qaysi payg‘ambar nomi bilan bog‘liq?",
+         "Islom dinini birinchilar qatori qabul qilgan Muhammad payg‘ambar yaqinlari.",
+         "Imom al Buxoriy ziyoratgohi qaysi joyda?",
+         "Yahudiylar dini iudaizm qaysi mintaqada va qachon  vujudga kelgan?",
+         " Musulmonlar e’tiqodicha, xudo tomonidan Dovud  payg‘ambarga yuborilgan muqaddas kitob.",
+         "Ateizm nima?",
+         "Butparastlarning sanam, ikona va fetishlari quyiladigan joyning nomi.",
+         "Musulmonlar diniy boshqarmasi, maschit va madrasalar tasarrufidagi barcha mol mulkning nomi?",
+         "Islom dinida g‘ayri dinlarga qarshi \"Muqaddas\" urush (gazovot) ning nomi.",
+         "Islomda qiyomat kunining nomlanishi.",
+         "Islom dinida Muhammad payg‘ambarning osmonga Olloh huzuriga chiqqan kunining nomlanishi.",
+         "Musulmonlarning oliy diniy o‘quv yurtlarida muallimlik qiluvchi kishi.",
+         "Sharqda ya’ni islom dunyosida fanatizmning nomlanishi.",
+         "Qur’oni Karim suralarining tashkil etuvchi qism. “Jumlalar”.",
+         "XII-XIII asrlarda yashab ijod etgan Naqshbandiya tariqatining Shofirkonlik namoyondasi.",
+         "XIII-XIV asrlarda yashab ijod etgan Romitanlik  buyuk mutasavvuf.",
+         "Odamning paydo bo‘lishini o‘rganadigan fanning nomi.",
+         "Hozirgi milodiy kalendar yil hisobi qaysi  payg‘ambar tavalludi bilan aloqador?",
+         "VI asr davomida Hijoz vohasida paydo bo‘lgan din.",
+         "Qaysi bir dinning muqaddas kitobi  \"uch savat\" manosini anglatadi?",
+         "Bilimdonlar qishlog‘i Qasri Orifonda qaysi buyuk mutasavvuf tavallud topgan?",
+         "Dahriy ya’ni xudoga ishonmaydigan kishi jahon  miqyosida qanday nom bilan ataladi?",
+         "“Tolerant” atamasining lug‘aviy ma’nosi nima?",
+         "Milodiy 810-870 yillarda yashab ijod etgan buyuk muhaddis?",
+         "Shariatda hamma musulmonlar bajarishi shart bo‘lgan qat’iy talablar.",
+         "Qaysi qadimiy diniy tushunchada “O‘ta hayajonlangan, jazavali  kishi” ma’nosini bildiradi?",
+         "Kastachilikka asoslangan din?",
+         "Buddizmning dunyoda tez tarqalishidagi eng asosiy omil nima edi?",
+         "Quyidagilardan qaysi biri milliy dinlar toifasiga kirmaydi?",
+         "Ruhlar olami bilan aloqa qiluvchi kishi nima deb ataladi?",
+         "Islom qanday dinlar sirasiga kiradi?",
+         "Nozil bo‘lish tartibiga ko‘ra ilohiy kitoblar qaysi bandda to‘g‘ri ko‘rsatilgan?",
+         "Qaysi bandda mashhur to‘rt farishta to‘g‘ri ko‘rsatilgan?",
+         "Islom asoslari tartib bilan keltirilgan bandni ko‘rsating?",
+         "Arab tilida “xabarchi, xabar yetkazuvchi” ma’nosini bildiruvchi payg‘ambarlar nima deb ataladi?",
+         "Qur’on suralari nozil bo‘lish shakliga ko‘ra nechaga bo‘linadi?",
+         "Sunnat va hadis orasida qanday farq bor?",
+         "Ikona nima?",
+         "Hozirgi kunda Buddizm qaysi mamlakatning davlat dini hisoblanadi?",
+         "Tangrichilik dinidagi bosh Xudo kim?",
+         "Zardushtiylikdagi “Atarxurra” qanday ma’noni bildiradi?",
+         "Markaziy Osiyoda Yahudiylarning birinchi sinagogasi qachon va qayerda qurilgan?",
+         "“Sura” so‘zi qanday ma’noni bildiradi?",
+         "Qaysi tashkilot ISHID ning tashkil topishida muhim o`rin tutgan?",
+         "Paygambarimiz davrlarida kimlar Muhojirlar deb atalgan?",
+         "Abu Bakr davrida jamlangan Qur’oni Karim qanday nomlangan?",
+         "“Navro‘z” Zardushtiylikda nimaga bag‘ishlab nishonlangan?",
+         "“Konfessiya” so‘zining ma’nosi nima?",
+         "2017-2021 yillarda O‘zbekiston Respublikasini rivojlantirishning beshta ustuvor yo‘nalishlari bo‘yicha harakatlar strategiyasining nechanchi yo‘nalishida “Diniy bag‘rikenglik va millatlararo totuvlik” asoslab berilgan?",
+         "\"Etika\" atamasini birinchi bo‘lib muomalaga kiritgan faylasuf.",
+         "Axloq haqidagi ta’limotni fan darajasiga ko‘targanlar...",
+         "\"Axloq\" so‘zining lug‘aviy ma’nosi.",
+         "Inson haqida yoqimli taassurot uyg‘otadigan, lekin jamoa, jamiyat va insoniyat hayotida u qadar muhim ahamiyatga ega bo‘lmaydigan, milliy urf odatlarga asoslangan chiroyli hatti harakatlar qanday ataladi.",
+         "Oila, jamoa, mahalla kuy miqyosida ahamiyatli bo‘lgan, ammo, jamiyat va insoniyat hayotiga sezilarli ta’sir ko‘rsatmaydigan yoqimli hatti harakatlar majmui nima?",
+         "Jamiyat, zamon insoniyat tarixi uchun namuna bo‘la oladigan ijobiy hatti-harakatlar yig‘indisi qanday ataladi.",
+         "Monogamiya nima?",
+         "Tarbiya funksiyasi qanday vazifani bajaradi?",
+         "Fuqarolik jamiyati, davlatning eng muhim hujayrasi nima?",
+         "Nikoh, oilaviy mulk, bolalar tarbiyasini o‘z ichiga oluvchi uyushma bu ...",
+         "Oilalar yig‘indisi nimani tashkil etadi?",
+         "O‘rtoqlik deganda nimani tushunasiz?",
+         "Axloqiy tamoyillar qaysi javobda to‘g‘ri ko‘rsatilgan?",
+         "Axloqiy me’yorlar qaysi qatorda ko‘rsatilgan?",
+         "Axloqshunoslikning asosiy tushunchalari qaysi javobda to‘g‘ri ko‘rsatilgan?",
+         "Vatanparvarlik nima?",
+         "O‘zbekiston Respublikasi Konstitutsiyasining 12-moddasida nima haqida fikr yuritiladi?",
+         "Qadimgi Yunon axloqshunosligida to‘rt buyuk faylasuf qaysi qatorda to‘g‘ri ko‘rsatilgan?",
+         "Axloqiy ishonch nima?",
+         "Xulq nima?",
+         "Hatti harakat nima?",
+         "Odob madaniyati deganda nimani tushunasiz?",
+         "Vijdon qanday funksiyalarni bajaradi?",
+         "Odat tusiga aylantirilgan, qat’iylashtirilgan, takallufning mayda-chuyda jihatlarigacha ishlab chiqilgan odob qoidalari sifatida qoidalashtirilgan muomala hodisasi bu ....",
+         "Axloq qanday funksiyalarni bajaradi?",
+         "Vijdon erkinligi nima?",
+         "Muallimlik axloqining asosiy professional xususiyatlari nimalardan iborat?",
+         "Rahbar xodimning professional axloqi qanday bo‘lmog‘i lozim?",
+         "Etosfera qanday ma’noni bildiradi.",
+         "Bobilliklarning badiiy yuksak va mukammal axloqiy asari?",
+         "Axloq tuzilmasini ko‘rsating.",
+         "Axloqiy madaniyat bu …",
+         "Nima uchun biz axloqshunoslikni «ezgulik falsafasi» deb ataymiz?",
+         "Aflotunning ta’limoti buyicha odamning joni nimalardan iborat?",
+         "Xulq nima?",
+         "Insoniyat hayotida yoqimli taasurot uyg‘otadigan, lekinjamiyat va insoniyat hayotida u qadar muhim ahamiyatga ega bo‘lmaydigan, milliy urf-odatlarga asoslangan chiroyli hatti-harakatlarni o`z ichiga olgan tushuncha nima?",
+         "Buyuk yunon faylasufi Arastu fanlarni necha tizimga bo‘lgan va ular qaysilar, aniqlang:",
+         "Gumanizm so‘zining mohiyati nimadan iborat?",
+         "Axloqiy ong nima?",
+         "Pandnomalarning yuksak badiiyati va tarbiyaviy ahamiyati nimada?",
+         "Axloqshunoslik huquqshunoslikdan farq qiladimi?",
+         "Lafz deganda nimani tushunasiz?",
+         "Assalomu alaykum so‘zining ma’nosini bilasizmi?",
+         "Qur’onda axloq–odobqoidalarining talablari?",
+         "Qaysi xislat odamga baxt saodat keltiradi?",
+         "Estetika atamasini birinchi marta kim kiritgan. ",
+         "San’at nima. ",
+         "San’atni paydo bo‘lishi va taraqqiyoti uchun inson hayotining qaysi sohasi hammadan ko‘proq muhim rol o‘ynaydi. ",
+         "Go‘zallik nima. ",
+         " “Estetika” atamasi qanday ma’noni anglatadi?",
+         "Go‘zallik didi deb nimaga aytiladi. ",
+         " “Ommaviy madaniyat” nima. ",
+         "\"Katarsis\" tushunchasi qanday ma’noni anglatadi. ",
+         "Estetik ong turlarini aniqlang. ",
+         "Estetik did deganda nimani tushunasiz?",
+         "Estetika fanida aynan qanday go‘zallik haqida gap ketadi? ",
+         "Estetik mushohada bu...? ",
+         "Fojiaviylik hayotda qanday hodisalarni ifodalaydi?",
+         "Qaysi turlar sa’natning makon turlariga kiradi?",
+         "Elitar san`at – bu…",
+         "Drama so‘zining ma`nosi nima?",
+         "“Landshaft” deganda nima tushuniladi?",
+         "Qaysi xalqlar sportga inson tanasi go‘zalligining namoyishi sifatida qaraganlar?",
+         "Estetik tarbiya bu … ",
+         "“Globallashuv” atamasini dastlab kim ishlatgan?",
+         "Hozirgi kunda axloqiy tarbiyaning eng kuchli zamonaviy vositasi bu …",
+         "Birinchi bo‘lib yozuvni qaysi xalqlar kashf etganlar?",
+         "Estetika faniga oid yuzlab, ehtimol minglab atamalarni o‘z ichiga olgan eng yirik istiloh bu…",
+         "Estetik ehtiyoning dastlabki bosqichi bu …",
+         "Estetikaning asosiy kategoriyalari to‘g`ri berilgan qatorni toping",
+         "“Dizayn” so‘zi qaysi tildan olingan?",
+         "Tushunchaning mazmuni nima?",
+         "Tushunchaning hajmi nima?",
+         "Tushunchani chegaralash amali qanday bajariladi?",
+         "Tushunchani chegaralash usulining mohiyati nimadan iborat?",
+         "Tushunchani umumlashtirish usulining mohiyati nimadan iborat?",
+         "Tushunchani bo’lish qanday mantiqiy amal?",
+         "Tushunchani tasniflash qanday amal?",
+         "Bir va undan ortiq chin mulohazalardan ma’lum qoidalar yordamida yangi bilimlarni keltirib chiqarishdan iborat bo’lgan tafakkur shakli nima?",
+         "Xulosa chiqarish qanday yo’nalishlar bo’yicha turlarga bo’linadi?",
+         "Xulosa chiqarish chinlik darajasiga ko’ra qanday turlarga bo‘linadi?",
+         "Asoslarning soniga ko’ra xulosa chiqarish qanday turlarga bo’linadi?",
+         "Fikrlarning harakat yo’nalishiga ko’ra xulosa chiqarish qanday turlarga bo’linadi?",
+         "Quyida ko’rsatilgan xulosa chiqarishning qaysi turi mukammal bo’lib, boshqalari haqida ham ma’lumot beradi?",
+         "Deduktiv xulosa chiqarish bu:",
+         "Bevosita xulosa chiqarish bu:",
+         "Mulohazalarning shaklini o’zgartirish orqali yangi bilim hosil qilishga qanday xulosa chiqarish deb ataladi?",
+         "Bevosita xulosa chiqarishning qanday turlari bor?",
+         "Berilgan mulohazaning miqdorini saqlagan holda sifatini o’zgartirish orqali yangi mulohaza hosil qilish usuli qanday ataladi.?",
+         "Qanday xulosa chiqarish sillogizm shaklida bo’ladi?",
+         "Buyum va hodisalarning sinfi to’g’risida tasdiqlab yoki inkor etib bayon qilingan fikr shu sinf ichiga kiruvchi barcha buyum va hodisalarga taalluqli bo’lgan tasdiq yoki inkor fikr qanday ataladi?",
+         "Mantiq fani qaysi mamlakatlar mantiqiy ta’limoti asosida rivojlandi.",
+         "Hind mantig’ini asosida qaysi mamlakatlarda mantiq fani rivojlangan.",
+         "Mantiq nima?",
+         "Mantiq fanining asoschisi kim?",
+         "Mantiq ilmida tushuncha narsa va hodisalarning qanday tomonlarini ifodalaydi?",
+         "Bilishda tafakkur qanday tushunchalar bilan ish tutadi?",
+         "Narsalarning mohiyatini bilish nima? ",
+         "Dialektik mantiqda tushunchaning qanday xususiyati aks etadi?",
+         "Formal mantiq o’z vazifasini bajarishda umumlashtirishni qanday yo’l bilan amalga oshiradi?",
+         "Tushuncha hosil qilishda qanday ish tutiladi?",
+         "Formal mantiq voqealarni o’rganishda nimalarni e’tibordan soqit qilmaydi?",
+         "Tushuncha qachon xatolar manbaiga aylanib qolishi mumkin?",
+         "Tushunchaning mazmuni va hajmi orasidagi teskari munosabat qonuni nimani ifodalaydi?",
+         " “Sillogizm” qanday ma’noni anglatadi?",
+         "Isbotsiz chin deb qabul qilingan nazariy mulohazalar nima?",
+         "Isbotlashda chin asoslardan chin xulosa chiqadi; xulosa xato bo’lganda, asoslar chin bo’lishi....",
+         "Analogiyada fikr qanday harakatlanadi?",
+         "Mantiqning nazariy ahamiyati qanday?",
+         "Tafakkur qonunlari nima?",
+         "Tushuncha mazmuniga ko’ra qanday turlarga bo’linadi?",
+         "Hajm jihatidan chegaralangan umumiy tushunchalarni ko’rsating.",
+         "Quyidagi qaysi tushunchalar qisman mos kelishi munosabatida bo’la oladi?",
+         " Hukmning predikati nima?",
+         "Hukmlarning sifat va miqdoriga qarab 4 turini aniqlang?",
+         "Mavjudlik hukmlari nima?",
+         "Murakkab hukmlar deb nimaga aytiladi?",
+         "Bevosita xulosa chiqarish nima?",
+         "Analogiya nima?",
+         "Isbotlash nima?",
+         "Javobi bevosita mavjud bilimda bo’lmagan va yechish usuli noma’lum bo’lgan savol? ",
+         "“Nazariya” termini tor ma’noda nimani anglatadi?",
+         "Dialektik logika nimani o’rganadi?",
+         "“Har bir buyum va hodisaning real asosi bo’lgani kabi ularning in’ikosi bo’lgan fikr – mulohazalar ham asoslangan bo’ladi” bu qaysi formal mantiq qonunining ta’rifi hisoblanadi?",
+         "Umumiy tasdiq hukmning formulasi qanday?",
+         "Almashtirish orqali xulosa chiqarish deb nimaga aytiladi?",
+         "Logika so’zining lug’aviy ma’nosi qanday?",
+         "Baland va past tushunchalari qaysi munosabatlarga misol bo’la oladi?",
+         "Bo’linuvchi tushunchani o’zaro zid bo’lgan ikkita tur tushunchaga ajratish bo’lishning qaysi turi hisoblanadi?",
+         "Ayiruvchi hukmlarning 2 turini aniqlang",
+         "Umumiy tasdiq va umumiy inkor hukmlar o’rtasidagi munosabatni toping.",
+         "Hukmlarni boshqa shaklga kirishi qay tarzda amalga oshadi?",
+         "Predikat mazmuniga ko’ra oddiy hukm turlari.",
+         "Oddiy qat’iy hukmlar deb nimaga aytiladi?",
+         "Almashtirish nima?",
+         "Tezis nima?",
+         "Argument nima? ",
+         "Idrok nima?",
+         "Umumiy inkor hukm qanday harf  bilan belgilanadi? ",
+         "Mantiq so’zi qaysi ma’nolarda qo’llaniladi?",
+         "Hissiy bilish ilk bosqichi?",
+         "Tushunchaning mantiqiy tarkibi qanday bo’ladi?",
+         "Tushunchani hajmiga ko’ra qanday turlari bor?",
+         "Tushuncha shakllanishining qaysi usulida predmet fikran uni tashkil qiluvchi qismlar, tomonlarga ajratilib, har qaysi alohida o’rganiladi?",
+         "Quyidagilarni qaysi biri yakka tushuncha hisoblanadi?",
+         "Hukmning sub’ekti nima?",
+         "Sifat jihatidan oddiy qat’iy hukmning 2 turini toping?",
+         "Hukmlar voqelikga mos kelish darajasiga ko’ra qanday turlarga bo’linadi.",
+         "Xulosa chiqarish nima?",
+         "Gipoteza deb nimaga aytiladi?",
+         "Mantiq fanining o’rganish ob’ekti nima?",
+         "Ziddiyat qonuni nima? ",
+         "Tushunchalarni ta’riflash nima?",
+         "Tushunchalar orasidagi sig‘ishmaydigan munosabat turlarini ko‘rsating? ",
+         "Quyidagi tushunchalardan qaysi biri abstrakt tushuncha hisoblanadi? ",
+         "Jamlovchi tushunchani ko‘rsating? ",
+         "Tushunchaning mazmuni deganda nimani tushunasiz? ",
+         "Tushunchaning hajmi deganda nimani tushunasiz? ",
+         "Formal mantiq asosiy qonunlarini ko‘rsating? ",
+         "Mantiq fani nimani o‘rganadi? ",
+         "Umumiy tasdiq hukmlarida hukm terminlari qanday hajmda bo‘linadi? ",
+         "Hukmlarni son va sifat jixatdan birlashgan klassifikatsiya bo‘yicha qanday turlarga bo‘linadi? ",
+         "Tushunchalar orasidagi sig`ishmaydigan munosabat turlarini ko‘rsating? ",
+         "Juz’iy inkor hukmlari quyidagi qaysi formulada to‘g`ri ko‘rsatilgan",
+         "Abstrakt tushunchani ko‘rsating? ",
+         "Predikat mazmuniga ko‘ra hukm turlarini ko‘rsating? ",
+         " Murakkab hukmni ko‘rsating? ",
+         "Quyidagi tushunchalardan qaysi biri umumiy tushuncha hisoblanadi? ",
+         "Xulosa chiqarish nima? ",
+         "... qonuni tafakkurga, uning barcha elementlari, shakllariga xos bo‘lgan umumiy mantiqiy qonundir. Bu qonunning talablari tafakkurning har bir shakliga xos bo‘lgan konkret qoidalarda aniq ifodalanadi. Tafakkurning tushuncha, mulohaza, xulosa chiqarish shakllari, ular o‘rtasidagi munosabatlar shu qonunga asoslangan holda amalga oshadi. Fikr qaysi tafakkur qonuni haqida?",
+         "Dunyoqаrаshning tuzilishi qаndаy?",
+         "Tаriхаn dunyoqаrаshning shаkllаri bu?",
+         "Mif аtаmаsi qаndаy mа’nоlаrni аnglаtаdi?",
+         "Quyidаgilаrning qаysi biri dinning funksiyasi emаs?",
+         "Fetishizm bu?",
+         "Mаgiya bu?",
+         "Mоnоteizm bu?",
+         "Dunyoqаrаshning qаysi shаkllаri e’tiqоd vа tuyg‘ulаrgа tаyangаn?",
+         "Fаlsаfiy dunyoqаrаsh dunyoni nimаlаrgа tаyangаn hоldа tushuntirаdi?",
+         "Kоsmоsentrizmniing аsоsiy хususiyati nimаdаn ibоrаt?",
+         "Quyidаgilаrdаn qаysi biri diаlektik bilimlаr sоhаsigа tegishli?",
+         "Mаteriаlistlаr deb qаysi tоifаdаgi kishilаrni аytish mu mkin?",
+         "Аntik fаlsаfаning аsоsiy sаvоli?",
+         "Аgnоstisizm nаmоyondаlаrining аsоsiy g‘оyasi qаysi jаvоbdа to‘g‘ri ko‘rsаtilgаn?",
+         "Fаlsаfаning qаysi funksiyasidа “Hаqiqаt nimа? Uning me’zоnlаri qаndаy?” degаn sаvоllаr berilаdi?.",
+         "Fаlsаfаning qаysi funksiyasi etаkchi o‘rinni egаllаydi?",
+         "Хаlqаrо Bоstоn kоngressidа frаnsuz mutаfаkkiri Per Оbenk qаndаy sаvоlni o‘rtаgа tаshlаgаn edi?",
+         "“Umumiy nisbiylik nаzаriyasi” tа’limоtining аsоschisi kim?",
+         "Sientizm quyidаgi fikrlаrdаn qаysi birini ilgаri surgаn?",
+         "Dinning аsоsiy funksiyalаri qаysi jаvоbdа to‘g‘ri vа to‘liq ko‘rsаtilgаn?",
+         " Fаn yutuqlаrini tаn оlаdigаn vа ijоbiy bаhоlаydigаn tа’limоtning nоmi qаysi qаtоrdа to‘g‘ri ko‘rsаtilgаn?",
+         "Fаlsаfiy tаfаkkur Qаdimgi Shаrq vа G‘аrbdа ijtimоiy оngning dаstlаbki shаkli sifаtidа qаndаy ko‘rinishdа vujudgа kelgаn? ",
+         "Mifоlоgiyadа dаstlаb qаndаy mаsаlаlаr qo‘yilgаn? ",
+         "Mаrkаziy Оsiyodа mа’nаviy-fаlsаfiy merоsning eng qаdimgisi qаysi jаvоbdа to‘g‘ri ko‘rsаtilgаn? ",
+         "“Ezgu fikr, ezgu so‘z, ezgu аmаl” g‘оyasi kim tоmоnidаn ilgаri surilgаn?",
+         "Zаrdushtiylikdа bоrliqning substаnsiоnаl аsоsi nimа? ",
+         "O‘rtа аsrlаr fаlsаfаsigа хоs хususiyatni belgilаng?",
+         "Dunyo bo‘linmаs bo‘lаkchаlаr (аtоmlаr)dаn tаshkil tоpgаn, degаn tа’limоtni ilgаri surgаn Yunon,fаylаsufi kim?",
+         "Qаysi аllоmа “Shаrq Аrаstusi” – “Muаllim us-sоniy” degаn yuksаk nоmgа sаzоvоr bo‘lgаn? ",
+         "Nоklаssik dаvrdа G‘аrb fаlsаfаsidа qаndаy yangi оqim vа yo‘nаlishlаr vujudgа keldi?",
+         "«Оntоlоgiya» аtаmаsi qаysi so‘zdаn оlingаn?",
+         "«Substаnsiya» - bu nimа?",
+         "Bоrliqning аsоsiy kаtegоriyasi nimа?",
+         "Fаlsаfаdа bоrliq vа yo‘qlik o‘rtаsidаgi o‘zаrо аlоqа qаndаy?",
+         "«... – fаlsаfiy kаtegоriya sifаtidа dunyoni, uning butun rаng – bаrаngligi vа turli – tumаn nаmоyon bo‘lish shаkllаri bilаn yaхlit аks ettirish imkоnini berаdi», bu nimа?",
+         "Bоrliqning shаkllаri nechtаgа bo‘linаdi?",
+         "«... – insоn vа uning fаоliyatidаn qаt’i nаzаr mаvjud bo‘lgаn nаrsаlаr vа jаrаyonlаr bоrlig‘i», bu nimа?",
+         "Individuаllаshgаn mа’nаviy bоrliq - bu nimа?",
+         "«... – insоn yarаtgаn nаrsаlаr bоrlig‘i ko‘p jihаtdаn insоnning o‘z bоrlig‘i bilаn bоg‘lаnаdi, zerо, u bunyod etgаn «...», аvvаlо, uning turli – tumаn ehtiyojlаrini qоndirishgа хizmаt qilаdi», bu nimа? ",
+         "Fаlsаfаning qаysi sоhаsidа bоrliq vа yo‘qlik, mаvjudlik vа nоmаvjudlik muаmmоlаrigа dоir mаsаlаlаr o‘rgаnilаdi?",
+         "Qаdimgi Shаrqdа ilk mаrоtаbа qаysi mаnbаdа bоrliq mаsаlаlаri tаhlil qilingаn? ",
+         "Qаdimgi Hindistоn mutаfаkkirlаri bоrliq sirining tаgigа etishgа hаrаkаt qilаr ekаnlаr, quyosh tundа qаergа ketаdi, yulduzlаr kunduzi qаyoqqа yo‘qоlаdi kаbi sаvоllаrgа jаvоb tоpishgа uringаnlаr vа bu tаsаvvurlаrni insоniyatgа mа’lum bo‘lgаn eng qаdimgi qаysi kitоbdа аks ettirgаnlаr? ",
+         "Mаrkаziy Оsiyoning eng qаdimiy qаysi kitоbidа, bоrliq hаrаkаtdаgi dunyo, butun jоnli vа jоnsiz nаrsаlаrning uyg‘unligidаgi mаvjudlik deb ifоdаlаnаdi?",
+         "Birinchi аsоs sifаtidа ikkitа substаnsiya оlingаn fаlsаfiy yondаshuv nimа deb аtаlаdi?",
+         "Mаteriyaning tаrkibiy dаrаjаlаri to‘g‘ri ko‘rsаtilgаn qаtоrni tоping?",
+         "Relyativistik mоdel аsоschisi kim?",
+         "Substаnsiya nimа?",
+         "Substаnsiyaning ikki turgа fаrqlаnishi qаndаy tа’limоtning kelib chiqishigа аsоs bo‘ldi? ",
+         "“Аvestо”dа birlаmchi substаnsiya nimа deb аtаlgаn?",
+         "Duаlizmning lug‘аviy mа’nоsi qаysi qаtоrdа to‘g‘ri ko‘rsаtilgаn? ",
+         "Lоtinchаdа “nisbiy” degаn mа’nоni bildiruvchi yo‘nаlish nоmini ko‘rsаting?",
+         "Mаkоn vа vаqt kоnsepsiyalаrining tаriхdа shаkllаngаn ikki muhim vа bir –biridаn fаrq qilаdigаn yo‘nаlishlаri qаysilаr?",
+         "Fаlsаfаdа turli jismlаrning mаkоndа meхаnik siljishi, tаbiiy jаrаyonlаr vа hоdisаlаr hоlаtlаrining hаr qаndаy o‘zgаrishi nimа deyilаdi?",
+         "Hаrаkаtning аsоsiy tiplаri qаndаy?",
+         "Оrqаgа qаytmаslik vа muаyyan yo‘nаlishgа egаlik хоs bo‘lgаn hаrаkаt tipi nimа deb аtаlаdi?",
+         "Bаrkаmоlrоq vа rivоjlаngаnrоq shаkllаrdаn unchа rivоjlаnmаgаn shаkllаrgа, murаkkаbdаn оddiygа qаrаb yuz berаyotgаn bo‘lsа, bu nimа?",
+         "«Хаоs» nimа?",
+         "Quyidаgi qаysi qаtоrdа hаrаkаt shаkllаri to‘g‘ri ko‘rsаtilgаn?",
+         "Аntrоpоsоsiоgenez nimа?",
+         "Ibtidоiy оdаmning mehnаt shаkllаri qаysi jаvоbdа to‘g‘ri ko‘rsаtilgаn? ",
+         "«Ekоlоgiya» аtаmаsi etimоlоgik jihаtdаn Yunonchа oikos vа logos so‘zlаridаn kelib chiqqаn bo‘lib, oikos-bu.... ",
+         "Jаmiyat vа tаbiаtning o‘zаrо аlоqаsidа insоnning оqilоnа fаоliyati eng muhim оmilgа аylаnаdigаn hоlаtgа erishishi qаndаy аtаlаdi?",
+         "Ibtidоiy оdаmlаr mehnаt qurоllаrini yasаsh uchun nimаdаn fоydаlаngаnlаr? ",
+         "“Tаbiаtgа sаlbiy аntrоpоgen tа’sir dаrаjаsi оrtidа tаbiiy muhit tаnаzzuli оrqаgа qаytаrib bo‘lmаydigаn хususiyat kаsb etаdigаn hоlаt... deyilаdi.” ",
+         "«Nооsferа» bu—?",
+         "Tаbiаt vа jаmiyat kоevоlyusiyasi deb nimаgа deyilаdi? ",
+         "Mikrоdunyo bu –?",
+         "Yer tаbiаtining insоn fаоliyati dоirаsigа jаlb qilingаn vа jаmiyat mаvjudligi vа rivоjlаnishining zаruriy оmili hisоblаnаdigаn qismi qаndаy muhit hisоblаnаdi?",
+         "Gerаklit qаndаy birinchi аsоslаrni оqil vа оliyjаnоb vа tub аsоs deb hisоblаgаn?",
+         "Insоn uni qurshаgаn bоshqа оdаmlаr tоmоnidаn qаndаy idrоk etilishi, tаvsiflаnishi vа bаhоlаnishini аks ettiruvchi ijtimоiy hоdisа bu- …?",
+         "Оngsizlik bu-…",
+         "Оng vа оng оsti hоdisаlаrni ilk bоr mufаssаl o‘rgаngаn fаylаsuf kim?",
+         "In’ikоs-…",
+         "Irrаsiоnаlizm so‘zining mа’nоsini tоpin- ",
+         "«O‘zingni bilsаng, оlаmni bilаsаn» degаn ibоrа qаysi muаllif qаlаmigа mаnsub?",
+         "«Аtribut» degаndа nimаni tushunаsiz?",
+         "“Diаlektikа” so‘zining mа’nоsini tоpin-",
+         "Sub’ektiv diаlektikа bu - … ",
+         "Аlоqа degаndа nimа tushunilаdi?",
+         "Qаrаmа-qаrshilik bu - …?",
+         "Nаrsа yoki hоdisа qаrаmа-qаrshi tоmоnlаrining bir-birini istisnо etish vа bir-birigа o‘tish munоsаbаtlаri deb e’tirоf etilаdigаn kаtegоriya bu - …?",
+         "Tаfоvut bu - …?",
+         "Quyidаgi jаvоblаrdаn хоssа kаtegоriyasi tа’rifini аniqlаng?",
+         "Miqdоr bu - …?",
+         "Predmetning bir-birini istisnо etuvchi vа bir-birini nаzаrdа tutuvchi tоmоnlаr nimа deb аtаlаdi?",
+         "«Metаfizikа» so‘zining lug‘аviy mа’nоsi?",
+         "Nаrsаning ichki хususiyati, predmetni mаzkur jihаtdаn fаrqlаsh uchun zаrur vа etаrli bo‘lgаn хоssаlаr mаjmui bu–...?",
+         "Diаlektikаning tаriхiy shаkllаri qаysi qаtоrdа to‘g‘ri ko‘rsаtilgаn?",
+         "Diаlektikа kаtegоriyalаrini tizimgа sоlish vа fоrmаl mаntiqiy fikrlаshning umumiy qоnunlаrini ishlаb chiqishgа urinish kimning ijоdi bilаn bоg‘liq?",
+         "Fаn vа fаlsаfа kаtegоriyalаrining fаrqi nimаdа?",
+         "Quyidаgilаrdаn qаysi biri nаrsаning bоshqа bo‘linmаydigаn zаrrаsini аnglаtаdi?",
+         "Qаysi mulоhаzа to‘g‘ri? ",
+         "Tаsоdif  hаqidа qаysi fikr nоto‘g‘ri?",
+         "Аmаlgа оshgаn bоrliqni tаvsiflоvchi fаlsаfiy kаtegоriya qаysi?",
+         "Strukturа nimа?",
+         "Bоrliq hоdisаlаri vа undа hukm suruvchi munоsаbаtlаrning muhim, tipik mаzmunini o‘zidа аks ettirаdigаn keng tushunchа bu - ...",
+         "Bоrliqning umumiy, muhim tоmоnlаri, хоssаlаri, аlоqаlаri vа munоsаbаtlаri hаqidа fikrlаsh uchun qo‘llаnilаdigаn o‘tа keng tushunchаlаr mаjmui, bu - ...",
+         "Fаlsаfiy kаtegоriyalаr vа fоrmаl mаntiq kаtegоriyalаri o‘rtаsidа fаrqning yuzаgа kelishigа qаysi fаylаsufning ijоdi tаsir qilgаn?",
+         "Bilish hаqidаgi tа’limоt bu - ...?",
+         "Ilmiy bilish qаysi tushunchа bilаn nоmlаnаdi?",
+         "O‘zini qurshаgаn dunyodаgi nаrsаlаr vа хоdisаlаrni sezgilаr оrqаli idrоk etishgа nimа deb аtаlаdi?",
+         "Bоrliqni аnglаshning g‘оyalаrdа ifоdаlаsh nimа deyilаdi?",
+         "Оptimizm nimа?",
+         "Dunyoni bilish mumkinligini rаd etuvchilаr kimlаr?",
+         "Bilim bu - ...?",
+         "Bilim shаkllаrini аniqlаng?",
+         "Sub’ektning bilish fаоliyati qаrаtilgаn nаrsа yoki хоdisа bu ...?",
+         "Bilish fаоlligining mаnbаi bu - ...?",
+         "O‘z tаfаkkurini bir оb’ektgа qаrаtish insоn e’tibоrini chаlg‘ituvchi bаrchа оmillаrni chetgа chiqаrish yo‘li bilаn idrоk etish bu - ...?",
+         "“Ehtiyojlаr bo‘lmаsа buyuk аrtistlаr хаm, buyuk sаrkаrdаlаr хаm, buyuk ministrlаr хаm, buyuk fаylаsuflаr hаm bo‘lmаs edi” degаn fikr kimgа tegishli?",
+         "Fаlsаfаdа gnоseоlоgiya nimаni o‘rgаnаdi?",
+         "«Men buning nimаligini bilmаymаn, birоq bilishgа umid qilаmаn», deydigаn insоnning psiхоlоgik хususiyati qаndаy bo‘lаdi?",
+         "Gnоseоlоgiya bu...?",
+         "Ilmiy bilish to‘g‘risidаgi sоhа nimа?",
+         "Epistemоlоgiya bu...?",
+         "Gnоstisizm bu...?",
+         "Аgnоstisizm bu...?",
+         "Fаlsаfаdа оlаmni bilib bo‘lmаydi deb tаlqin qiluvchi tа’limоt?",
+         "Fаlsаfаdа оlаmni bilish mumkin deb tаlqin qiluvchi tа’limоt?",
+         "Rаsiоnаlizm bu...",
+         "Persepsiya so‘zining lug‘аviy mа’nоsi nimа?",
+         "Хаr хil fаоliyat shаkllаri – jumlаdаn ishlаb chiqаrish fаоliyati, estetik fаоliyat, siyosiy fаоliyat vа hоkаzоlаrning tа’siridа shаkllаnаdigаn turmush bilаn bоg‘liq tushunchаlаr mаjmui аvlоdlаr to‘plаgаn jаmоа kоllektiv tаjribаsi mаhsuli bu…?",
+         "Fоrоbiy bilishning qаndаy shаkllаrini ko‘rsаtib o‘tаdi? ",
+         "“Sezmаydigаn оdаm hech nаrsаni bilmаydi vа tushunmаydi” degаn fikr qаysi fаylаsufgа tegishli? ",
+         "Bilishning qаysi shаkli tаmоyil sifаtlаrini birlаmchi vа ikkilаmchigа meхаnik tаrzdа аjrаtishgа qаrshi yo‘nаlgаn? ",
+         "“Uning kuchi tаjribаdа mаvjud оbrаzlаrni nаfаqаt qаytа chаqirаdi, bаlki ulаrni bir-biri bilаn bоg‘lаydi vа shu tаriqа ulаrni umumiy tаsаvvurlаr dаrаjаsigа ko‘tаrаdi.” Bu fikr bilishning qаysi shаkligа tegishli?",
+         "Empirik bilish shаkllаrini sаnаb o‘ting?",
+         "Empirik bilishning qаysi shаkli tаbiаtning o‘zidа mаvjud nаrsаlаr vа hоdisаlаrni qаyd tаdi? ",
+         "Eksperimentgа – to‘g‘ri tа’rif berilgаn jаvоbni ko‘rsаting? ",
+         "Ilmiy dаlilning ikki muhim хоssаsi qаysi jаvоbdа to‘g‘ri ko‘rsаtilgаn? ",
+         "Ilmiy dаlillаr nаzаriyagа nisbаtаn qаndаy vаzifаlаrni bаjаrаdi? ",
+         "Gipоtezаgа to‘g‘ri tа’rif berilgаn qаtоrni belgilаng? ",
+         "Mаntiqiy tаfаkkur nimа? ",
+         "Tushunchа bu ...?",
+         "Bilish jаrаyonini, insоn оngini o‘tmish vа kelаjаk bilаn bоg‘lоvchi, egаllаngаn bilimlаrni sаqlоvchi hоdisа nimа deyilаdi?",
+         "Sezgi а’zоlаri оrqаli оlingаn bilim qаndаy bilim hisоblаnаdi?",
+         "Sezgi а’zоlаri оrqаli оlingаn bilim bu…? ",
+         "«Sezmаydigаn оdаm hech nаrsаni bilmаydi vа tushunmаydi» degаn fikr muаllif kim?",
+         "Bilish оb’ektining muhim хоssаlаri vа munоsаbаtlаrini аniqlаsh mаqsаdidа аtаylаb аmаlgа оshirilаdigаn izchil idrоk etish bu…?",
+         "Оb’ekt хоssаlаrining rivоjlаnish dаrаjаsini tаvsiflоvchi kаttаlikni аniqlаsh jаrаyoni bu…?",
+         "Bilimining tаsdiqlаngаn bоyligigа аylаngаn mоddiy yoki mа’nаviy dunyo hоdisаsi, birоn-bir hоdisа, хоssа yoki munоsаbаtni qаyd etish bu…?",
+         "Bоrliqning eng muhim tоmоnlаri, хоssаlаri vа munоsаbаtlаrini аks ettiruvchi umumiy tushunchаlаr bu…?",
+         "Qаndаy hаqiqаt to‘g‘ri, birоq nоto‘liq, tахminiy, vаqt vа jоyning mа’lum tаriхiy shаrt-shаrоitlаri bilаn cheklаnаdi? ",
+         "Qаndаy hаqiqаt bilish tаrаqqiyoti jаrаyonidа rivоjlаnib, o‘z chegаrаsi bo‘lgаn mutlоq hаqiqаtgа yaqinlаshаdi? ",
+         "Hаqiqаtning qаndаy kоnsepsiyasi nаzаriyaning tаjribаdа оlingаn mа’lumоtlаrgа muvоfiq bo‘lishini tаlаb qilаdi? ",
+         "Ilmiy tаfаkkurning muhim vоsitаsi nimа? ",
+         "Hаqiqаtligi yoki sохtаligi isbоtlаsh yo‘li bilаn аniqlаnаyotgаn qоidа qаndаy bo‘lаdi? ",
+         "Nоmа’lumni mа’lumgа, murаkkаbni sоddаgа bоg‘lаsh nimа deb аtаlаdi? ",
+         "Hоdisаlаr vа hоlаtlаr аhаmiyatini bevоsitа his etish qаndаy nоmlаnаdi?",
+         "Kаnt vа Fiхtening fikrichа, аhlоqiy tаmоyillаrni ro‘yobgа chiqаrish mаnbаi vа insоn аmаliy fаоliyatining negizi nimа? ",
+         "O‘z predmeti bilаn mushtаrаk bo‘lmаgаn, ungа mоs kelmаydigаn bilim bu –?",
+         "G‘оyaning fоydаliligi, аmаliy sаmаrаdоrligi vа ishgа yarоqliligi, uning u yoki bu mаqsаdgа erishish uchun fоydаliligi mezоni qаndаy nоmlаnаdi? ",
+         "Оdаtdа nоto‘g‘riligi аyon bo‘lgаn tаsаvvurlаrni bilа turib hаqiqаt dаrаjаsigа ko‘tаrish sifаtidа tushunish? ",
+         "Hаqiqаtning qаndаy shаkligа shundаy tа’rif berilаdi: ...-bilimlаrimizning insоn insоniyatgа bоg‘liq bo‘lmаgаn mаzmuni.?",
+         "Predmetni kelаjаkdа to‘ldirilishi yoki ungа аniqlik kiritilishi mumkin bo‘lmаgаn tаrzdа to‘lа, mukаmmаl bilishi bu - ...",
+         "Bоrliqni аsоsаn to‘g‘ri аks ettirsа-dа, оbrаz оb’ektgа unchа mоs emаsligi bilаn аjrаlib turаdigаn bilim, bu - ...",
+         "Ijоbiy emоtsiyalаrgа nimаlаr kirаdi?",
+         "Sаlbiy emоsiyalаr nimаlаr kirаdi?",
+         "O`z predmeti bilаn mushtаrаk bo‘lmаgаn, ungа mоs kelmаydigаn bilim bu…?",
+         "Yunonchа “prоktikоs” so‘zining mаzmuni qаysi jаvоbdа to‘g‘ri ko‘rsаtilgаn?",
+         "ХХ аsrdа аmаliyot nаtijаsidа qаysi fаnlаr pаydо bo‘ldi?",
+         "Gusserl fikrichа, аmаliyot o‘zining hаqiqiy mаqsаdlаrigа qаchоn erishаdi?",
+         "Аmаliyot mаzmuni vа shаkllаrigа ko‘rа qаndаy turlаrgа bo‘linаdi?",
+         "Metоd so‘zining mа’nоsi?",
+         "Metоdоlоgiya ikki mаzmungа egа: bo‘lаr qаysilаr?",
+         "Metоdning аsоsiy vаzifаsi?",
+         "Hаr qаndаy metоd nimа аsоsidа yarаtilаdi?",
+         "Metоdikа nimа? ",
+         "Fаlsаfа metоdlаri qаysilаr? ",
+         "Diаletikа so‘zini fаngа kim kiritgаn? ",
+         "Gegel diаletikаni qаndаy shаkllаrini аjrаtgаn?",
+         "“Metаfizikа” so‘zining mа’nоsi?",
+         "Metаfizikа qаndаy metоd?",
+         "Fаlsаfаdа hech qаndаy bilim fаоliyati bilаn bоg‘lаnmаgаn bir-birigа zid dаlillаrgа аsоslаnаdi? ",
+         "«Sinergetikа» so‘zining mа’nоsi? ",
+         "Ikkilаnish nuqtаlаrining mаjudligini hаmdа rivоjlаnish dаvоmining hаr хilligini nаzаrdа tutаdi-bu nimа? ",
+         "Tа’sirlаntirish mа’nоsini аnglаtuvchi tushunch- ..?",
+         "Bоshqаruv qаrоrlаrini ishlаb chiqаrishdа qo‘llаnilаdigаn metоd bu..?",
+         "Suzаyotgаn оb’ektni аnglаtаdi vа оb’ektlаrning tizimli hususiyatini аks ettiruvchi tushunchа?",
+         "Fikr yuritish оrqаli empirik fаktlаrdаn ulаrni tushuntiruvchi gipоtezаgа yuksаlishni nаzаrdа tutuvchi tushunchа bu ...?",
+         "“Kаshf etаmаn, tоpаmаn” mа’nоsini аnglаtuvchi so‘z...",
+         "Оb’ektiv reаllikning muhim qismini ifоdаlоvchi tushunchа bu…",
+         "Ахbоrоtning muhim хususiyatlаrini ko‘rsаting?",
+         "Eksteriоrizаsiya bu…",
+         "Оlimning fаоliyati jаrаyonidа bilish qаndаy shаkllаrdа fаоllаshаdi?",
+         "Оlim fаоliyatining kоmmunikаtiv jihаtini nimа аks ettirаdi?",
+         "Ijtimоiy ахbоrоt nimаlаr yordаmidа ro‘yobgа chiqаdi?",
+         "Оlimning ilmiy bilish fаоliyati nimаgа qаrаtilgаn?",
+         "Diltey tushunishni qаndаy tаvsiflаgаn?",
+         "Tushunish bu …….?",
+         "Mа’nо bu …….?",
+         "Mа’nо nimаdа ifоdаlаnаdi?",
+         "Semiоtikа nimаni o‘rgаtаdi?",
+         "“Simvоl” so‘zining mа’nоsi qаysi jаvоbdа to‘g‘ri ko‘rsаtilgаn?",
+         "Jаmiyatni muhim kichik tizimlаrini ko‘rsаting?",
+         "Хo‘jаlik jаbhаsi iqtisоdiy jаbhаdа vujudgа kelаdigаn institut bu...",
+         "Jаmiyatni mа’nаviy kichik tizimini vujudgа kelishi nimаlаr bilаn belgilаnаdi?",
+         "Kоmmunikаsiya nimа?",
+         "Individuаl оng bu...",
+         "Ijtimоiy оngning dаrаjаlаrini аniqlаng?",
+         "Etnik birliklаrning ilk shаklini аniqlаng?",
+         "Dаvlаt bоshqаruv shаkligа ko‘ra- ..",
+         "Dаvlаt qurilish shаkligа k̍̒o‘ra- ....",
+         "“Hokimiyatga pul bilan erishgan odam undan daromad olishga intiladi” ushbu fikrlar muallifi kim?",
+         "Tarixiy ma’lumotlarga ko‘ra,  korrupsiyaga qarshi kurash ilk  bor miloddan avvalgi  XXIV asrda Mesopotamiyaning qaysi shahrida boshlangan? ",
+         "Insoniyat tarixida korrupsiyani tugatish yo‘llari va huquqiy asoslari Hindistonda yaratildi. Bundan 2,5 ming yil avval yozilgan qaysi kitobi davlatni boshqarish va xo‘jalik yuritish mavzuiga bag‘ishlangan bo‘lib, o‘sha davrning siyosiy va iqtisodiy qomusi sifatida dunyoga keldi.",
+         "“Axloqi muhsiniy” kimni asari?",
+         "Yirik korrupsiya deganda nima tushuniladi?",
+         "O‘zbekiston korrupsiyaga qarshi kurashda uzoq muddatli ijobiy dinamikani namoyish etuvchi nechta davlat qatoriga kiradi?",
+         "BMT ma’lumotlariga ko‘ra, hozir dunyoda haryili 1 trillion AQSh dollari hajmida pora beriladi. Jahon iqtisodiyoti har yili korrupsiya tufayli 2,6 trillion dollar mablag‘dan ayriladi, bujahon yalpi ichki mahsulotining necha foizidir?",
+         "O‘zbekiston BMTning Korrupsiyaga qarshi konvensiyasiga qachon qo‘shildi ?",
+         "O’zbekiston 2010 yilda Iqtisodiy hamkorlik va rivojlanish tashkilotining Korrupsiyaga qarshi kurashish tarmog‘i qanday harakat dasturiga qo‘shildi?",
+         "Mamlakatimizda korrupsiyaga qarshi ayovsiz kurash qachondan boshlandi?",
+         "“Korrupsiyaga qarshi kurashish to‘g‘risida”gi qonun loyihasi Oliy Majlis tomonidan qabul qilindi, qonun qachondan boshlab kuchga kirdi.",
+         "“Korrupsiyaga qarshi kurashish to‘g‘risida”gi qonun loyihasi necha bob va moddadan iborat?",
+         "\"Pora beruvchiga ham, pora oluvchiga ham Allohning la’nati bo‘lsin!\". \"Pora beruvchini ham, pora oluvchini ham, ikkovi orasida yurib porada vositalik qiluvchini ham Alloh la’natlasin!\".Bu qaysi manbadan?",
+         "XX asrga kelib qaysi mamlakatlarda korrupsiyani qattiq jilovlashga muvaffaq bo‘lindi?",
+         "Korrupsiya “yomon” hodisa, u yaxshi ta’lim-tarbiya ko‘rmaslik va kam maosh oladigan amaldorlarning nokasligi oqibatida paydo bo‘ladi. Bu qanday sabab?",
+         "Bunda boshqaruvning kuchsizligi asosiy omil sanaladi. Masalan, kadrlar tayyorlash, hisobga olish va nazorat qilishning samarasizligi, mansabdorlarni yollashning osonligi va ularni osonishdan haydash, ularda uzoq vaqt mansabda turishga ishonchsizlik paydo bo‘lishi kabilar korrupsiyani rag‘batlantiruvchi omillardir. Bu qanaysabab?"
       ],
       "answers": [
          [
-            "a lot  people would have been saved.",
-            "professor Rahimov’s group wouldn’t have managed to beat the world’s  foremost scientific institutes in the race to produce the blue laser.",
-            "we would never have known that it comprises about 149 million kilometers.",
-            "it would have been less harmful for the health ."
+            "-fikr erkinligi",
+            "-qadriyat erkinligi",
+            "-vijdon erkinligi",
+            "-burch erkinligi"
          ],
          [
-            "professor Rahimov’s group wouldn’t have managed to beat the world’s  foremost scientific institutes in the race to produce the blue laser.",
-            "a lot  people would have been saved.",
-            "we would never have known that it comprises about 149 million kilometers.",
-            "it would have been less harmful for the health ."
+            "-gnoseologik, ijtimoiy, psixologik",
+            "-tarixiy, sotsial, ruhiy",
+            "-biologik, psixologik, antropologik",
+            "-emotsional, garmonal, biologik"
          ],
          [
-            "we would never have known that it comprises about 149 million kilometers.",
-            "a lot  people would have been saved.",
-            "we would never have had photographs of distant galaxies.",
-            "professor Rahimov’s group wouldn’t have managed to beat the world’s  foremost scientific institutes in the race to produce the blue laser."
+            "-Islom, buddizm, iudaizm",
+            "-xristianlik, zardushtiylik, islom",
+            "-Buddizm, xristianlik, islom",
+            "-buddizm, xinduizm, sintoizm"
          ],
          [
-            "I would have bought a space shuttle and traveled  to the Moon.",
-            "we would never have known that it comprises about 149 million kilometers.",
-            "we would never have had photographs of distant galaxies.",
-            "a lot  people would have been saved."
+            "-iudaizm, xinduizm, konfutsiylik, sintoizm",
+            "-buddizm, islom, vishnuizm, shivaizm",
+            "-xristianlik, daosizm, braxmanizm, islom",
+            "-totemizm, fetishizm, lamaizm, jaynizm"
          ],
          [
-            "is raining",
-            "had been raining",
-            "was raining",
-            "had rained"
+            "-pravoslavie, baptizm, kalvinizm",
+            "-katolitsizm, anglikanlik, lyuteranlik",
+            "-protestantizm, metodizm, anabaptizm",
+            "-pravoslav, katolitsizm, protestantizm"
          ],
          [
-            "had been looking, had understood",
-            "had been looking, understood",
-            "was looking, had understood",
-            "was looking, understood"
+            "-Muboh",
+            "-Mandub",
+            "-Shariat",
+            "-Vojib"
          ],
          [
-            "had knowing",
-            "were knowing",
-            "had known",
-            "Know"
+            "-Movarounnahr musulmonlari diniy boshqarmasi",
+            "-Oliy Majlis",
+            "-O'zbekiston Vazirlar Mahkamasi",
+            "-Mir-Arab madrasasi"
          ],
          [
-            "in danger",
-            "Big",
-            "Dangerous",
-            "Safe"
+            "-1998 yil may",
+            "-1991 yil may",
+            "-2000 yil dekabr",
+            "-1994 yil iyun"
          ],
          [
-            "opened door",
-            "closed  door",
-            "Sadness",
-            "Misery"
+            "-31-moddasida",
+            "-51-moddasida",
+            "-21-moddasida",
+            "-41-moddasida"
          ],
          [
-            "Takes",
-            "Captures",
-            "Gives",
-            "Accepts"
+            "-Hadisi Sharif",
+            "-Ijmo",
+            "-Quroni Karim",
+            "-Qiyos"
          ],
          [
-            "That’s not why  ships were built  a ship in a harbour is  safe.",
-            "A ship is  safe  but  that’s not why  ships were built.",
-            "A ship in a harbour were built but  that’s not why  ships is  safe.",
-            "A ship in a harbor is  safe  but  that’s not why  ships were built."
+            "-Eron",
+            "-Saudiya Arabistoni",
+            "-Iroq",
+            "-Afg‘oniston"
          ],
          [
-            "Where",
-            "Whose",
-            "What",
-            "Which"
+            "-Qurbonlik, ro‘za, haj, zakot, mavlud",
+            "-Imon, namoz, ro`za, zakot va haj",
+            "-Mavlud, xatna, ro‘za, zakot va haj",
+            "-Kalimai shahodat, xatna, ro‘za, zakot va mavlud"
          ],
          [
-            "whose",
-            "Why",
-            "which",
-            "where"
+            "-Dovud",
+            "-Iso",
+            "-Muso",
+            "-Sulaymon"
          ],
          [
-            "need",
-            "could",
-            "Can",
-            "should"
+            "-Upanishada",
+            "-Tripitaka",
+            "-Injil",
+            "-Avesto"
          ],
          [
-            "while",
-            "like",
-            "since",
-            "As"
+            "-110 sura 6232 oyat",
+            "-114 sura 6236 oyat",
+            "-113 sura 6336 oyat",
+            "-112 sura 6600 oyat"
          ],
          [
-            "what",
-            "That",
-            "which",
-            "where"
+            "-ko'pxudolik",
+            "-yakkaxudolik",
+            "-shamanizm",
+            "-butparastlik"
          ],
          [
-            "profit gained from something",
-            "is the state of being in a better position",
-            "physical harm that is caused to an object",
-            "the money that they earn or receive"
+            "-1996 yil",
+            "-1995 yil",
+            "-2001 yil",
+            "-1998 yil"
          ],
          [
-            "move from a lower position to a higher one; come or go up",
-            "become or make greater in size, amount, or degree",
-            "increase in economic activity or value",
-            "make smaller or less in amount, degree, or size"
+            "-Jaynizm",
+            "-Iuddaizm",
+            "-Xinduizm",
+            "-Sintoizm"
          ],
          [
-            "showing approval of or favour towards an idea or action",
-            "the ability to understand something; comprehension",
-            "to be expected; natural, reasonable, or forgivable",
-            "a failure to understand something correctly"
+            "-20 yil",
+            "-15yil",
+            "-23 yil",
+            "-18 yil"
          ],
          [
-            "modest or shy because of a lack of self-confidence",
-            "certain to remain safe and unthreatened",
-            "uncertain or anxious about oneself; not confident",
-            "feeling or showing distrust of someone or something"
+            "-tumor but, sanam",
+            "-ruh, jon",
+            "-sehrgarlik, afsun",
+            "-urug‘, qarindosh,"
          ],
          [
-            "Familiarity",
-            "Unawareness",
-            "Acquaintance",
-            "Awareness"
+            "-Axuramazda",
+            "-Muso",
+            "-Dovud",
+            "-Vishnu"
          ],
          [
-            "Advance",
-            "Raise",
-            "Diminish",
-            "Elevate"
+            "-pravoslavlar o‘tkazadigan marosim",
+            "-katolik cherkovi tomonidan gunohlarni avf etish haqidagi guvohnoma",
+            "-protestantlar ta’limoti",
+            "-katolik cherkov tomonidan chiqarilgan farmon"
          ],
          [
-            "Considerable",
-            "Inconsiderable",
-            "Insignificant",
-            "Negligible"
+            "-Hindiston",
+            "-Xitoy",
+            "-Yaponiya",
+            "-Eron"
          ],
          [
-            "Imperfect",
-            "Partial",
-            "Incomplete",
-            "Complete"
+            "-marifat, haqiqat, tariqat, shariat",
+            "-shariat, tariqat, marifat, haqiqat",
+            "-haqiqat, tariqat, marifat, shariat",
+            "-shariat, haqiqat, marifat, tariqat"
          ],
          [
-            "Liable",
-            "Unaccountable",
-            "Irresponsible",
-            "Nonaccountable"
+            "-fiqh",
+            "-kosmogoniya",
+            "-astrologiya",
+            "-dinshunoslik"
          ],
          [
-            "Answer",
-            "query",
-            "question",
-            "Inquiry"
+            "-Animizm",
+            "- Totemizm",
+            "- Fetishizm",
+            "-Shomonizm"
          ],
          [
-            "Valid",
-            "Logical",
-            "Illogical",
-            "Rational"
+            "-Diniy, falsafiy, mifologik",
+            "-Axloq, meditatsiya, donolik",
+            "-Donishmandlik, ezgulik",
+            "-Ilohiyot, nirvana holatiga erishish"
          ],
          [
-            "Encounter",
-            "Face",
-            "Catch",
-            "Escape"
+            "- Imom al Buxoriy",
+            "- Muso at Termiziy",
+            "-Sulaymon Sujistoniy",
+            "-Al Xajjoj"
          ],
          [
-            "variable",
-            "adaptable",
-            "elastic",
-            "unchangeable"
+            "-Yajurveda",
+            "- Tripitaka",
+            "- Veda",
+            "-Samoveda"
          ],
          [
-            "as near as today and tomorrow",
-            "is worth two in the evening",
-            "has wings",
-            "is better than richness"
+            "-Mifologiya va esxatologiya",
+            "- Teologiya",
+            "-Esxatologiya",
+            "- Mifologiya"
          ],
          [
-            "love",
-            "life",
-            "will",
-            "wish"
+            "-Mitra",
+            "-Axriman",
+            "-Axuramazda",
+            "-Appolon"
          ],
          [
-            "Hiring",
-            "Entry",
-            "Run",
-            "Dismissal"
+            "-Xalifa Usmon davrida,651 yil",
+            "-Xalifa Abu Bakr davrida, 634 yil",
+            "-Xalifa Ali davrida, 661 yil",
+            "-Xalifa Umar davrida,644 yil"
          ],
          [
-            "Conduct",
-            "Entry",
-            "Employ",
-            "Run"
+            "-Xadicha",
+            "-Habiba",
+            "-Oysha",
+            "-Hafiza"
          ],
          [
-            "Dismissal",
-            "Input",
-            "Employ",
-            "Run"
+            "-Usmon",
+            "-Umar",
+            "-Ali",
+            "-Abu Bakr"
          ],
          [
-            "Questioning",
-            "Dismissal",
-            "Run",
-            "Vision"
+            "- Axuramazda",
+            "-Axrimon",
+            "- Osiris",
+            "-Axiles"
          ],
          [
-            "Purpose",
-            "Run",
-            "Questioning",
-            "Dismissal"
+            "-Vahdoniyat",
+            "-Vahiy",
+            "-Vaqf",
+            "-Valoyat"
          ],
          [
-            "Manager",
-            "Worker",
-            "Employer",
-            "Supervisor"
+            "-Islom traditsionalizmi",
+            "-Islom fundamentalizmi",
+            "-Islom modernizmi",
+            "-Islom fanatizmi"
          ],
          [
-            "Planning",
-            "Personnel",
-            "Management",
-            "Responsibility"
+            "-Nemis faylasufi Nitshe",
+            "-Ingliz olimi Byuger",
+            "-Fransuz olimi Anketil  Dyuperon",
+            "-Boys"
          ],
          [
-            "Employee",
-            "Leadership",
-            "Mission",
-            "Responsibility"
+            "-Jurjoniy",
+            "-Najmiddin Kavkabiy",
+            "-Jamoliddin al-Afgoniy",
+            "-Tabriziy"
          ],
          [
-            "Grow",
-            "Plan",
-            "Weakness",
-            "Goal"
+            "-Ma’muriy huquqiy",
+            "-Barchasi noto‘g‘ri",
+            "-Ijtimoiy ma’rifiy",
+            "-Jinoiy, ma’muriy, ijtimoiy huquqiy"
          ],
          [
-            "Responsible",
-            "Strong",
-            "Complicated",
-            "Safe"
+            "-Arab “sahifalangan” ma’nosini",
+            "-Arab “bayon qilish” ma’nosini",
+            "-Yunon tilidan “kitob-uram” ma’nosini",
+            "-Yunon tilidan “Xushxabar” degan ma’noni"
          ],
          [
-            "Near",
-            "For",
-            "Through",
-            "Behind"
+            "-Qurbonlik",
+            "-Nazr",
+            "-Zakot",
+            "-Fitr"
          ],
          [
-            "On",
-            "For",
-            "In",
-            "To"
+            "-Konstitutsiya va vijdon  erkinligi va diniy tashkilotlar haqidagi qonunda",
+            "-Barchasi noto‘g‘ri",
+            "-Konstitutsiyada",
+            "-Jinoyat huquqi, Jamoat Tashkilotlari haqidagi qonunda va Konsitutsiyada"
          ],
          [
-            "Below",
-            "At",
-            "Near",
-            "Of"
+            "-Ma’muriy, Jinoiy",
+            "-Jinoiy",
+            "-Fuqaroviy, ma’muriy, jinoiy",
+            "-Ma’muriy"
          ],
          [
-            "For",
-            "To",
-            "In",
-            "On"
+            "-Miro surtish marosimi",
+            "-Cho‘qintirish marosimi",
+            "-Ruxoniylik unvonini qabul qilish marosimi",
+            "-Tavba qilish marosimi"
          ],
          [
-            "In",
-            "On",
-            "To",
-            "At"
+            "-Mazdeizm",
+            "- Lamaizm",
+            "-Animizm",
+            "- Jaynizm"
          ],
          [
-            "At/at",
-            "In/for",
-            "At/on",
-            "To/of"
+            "- O‘zbekiston Musulmonlar idorasidan",
+            "-IIV va MXXdan",
+            "-Adliya vazirligidan",
+            "-Diniy Qo‘mitadan"
          ],
          [
-            "A",
-            "An",
-            "-",
-            "The"
+            "- Buyuk muxaddis",
+            "- Kalom falsafasining buyuk namoyondasi",
+            "-Islom iloxietchisi",
+            "-Buyuk mutasavvuf"
          ],
          [
-            "-",
-            "An",
-            "A",
-            "The"
+            "- Politeizm",
+            "-Fideizm",
+            "-Teologiya",
+            "- Monoteizm"
          ],
          [
-            "-",
-            "The",
-            "A",
-            "An"
+            "-Diniy mutaasoiblik",
+            "-Yakkaxudolik",
+            "-Diniy talimot",
+            "-Ko‘pxudolik"
          ],
          [
-            "-",
-            "A",
-            "An",
-            "The"
+            "-25 yoshda",
+            "-40 yoshda",
+            "-15 yoshda",
+            "-30 yoshda"
          ],
          [
-            "-",
-            "The",
-            "A",
-            "An"
+            "-Cherkov",
+            "-Butxona",
+            "-Ibodatxona",
+            "-Sinagoga"
          ],
          [
-            "-",
-            "An",
-            "The",
-            "A"
+            "-Chor Bakr",
+            "-Chor Minor",
+            "-Magokki Attori",
+            "-Chashman Ayub"
          ],
          [
-            "Reminded",
-            "Apologized",
-            "Begged",
-            "Blamed"
+            "-G‘ijduvon",
+            "- Shofirkon",
+            "-Romitan",
+            "-Kogon"
          ],
          [
-            "Blamed",
-            "Reminded",
-            "Begged",
-            "Apologized"
+            "- Panteizm talimotiga",
+            "- Deizm talimotiga",
+            "- Kalom talimotiga",
+            "- Tasavvuf talimotiga"
          ],
          [
-            "Begged",
-            "Reminded",
-            "Blamed",
-            "Apologized"
+            "- Dovud",
+            "- Yusuf",
+            "- Ibroxim",
+            "- Nux"
          ],
          [
-            "to have craving for",
-            "Speculation",
-            "Implement",
-            "Pile"
+            "- Abu Bakr, Abu Laxab, Abu Jazl",
+            "- Ali, Oysha, Xabiba",
+            "- Xadicha, Ali, Xoris",
+            "- Umar, Usmon, Xamza"
          ],
          [
-            "Piles",
-            "Immense",
-            "Implement",
-            "Foster"
+            "- Utrorda",
+            "- Xavosda",
+            "- Xartangda",
+            "- Nuratoda"
          ],
          [
-            "Foster",
-            "Immense",
-            "Speculation",
-            "Implement"
+            "-Qadimgi Rimda, er avvalgi 5 asrda",
+            "-Qadimgi Bobilda, er avvalgi 1 minginchi yilda",
+            "- Qadimgi Falastinda, er avvalgi 1 minginchi yilda",
+            "- Qadimgi Yunonistonda, er avvalgi 7 asrda"
          ],
          [
-            "Immense",
-            "Implement",
-            "Breakthrough",
-            "Foster"
+            "-Tavrot",
+            "-Talmud",
+            "-Zabur",
+            "-Psaltir"
          ],
          [
-            "Ultimately",
-            "Breakthrough",
-            "Foster",
-            "Implement"
+            "-Xudoga va dinga ishonishni inkor etuvchi ilmiy qarashlar sistemasi",
+            "-xudoni inkor etish",
+            "-xudoga ishonmaslik",
+            "-dinni ta`qib va tazyiq qilish"
          ],
          [
-            "Of/ to",
-            "In/ to",
-            "In / of",
-            "To/ of"
+            "- Butxona",
+            "- Ibodatxona",
+            "- Sinagona",
+            "- Cherkov"
          ],
          [
-            "On",
-            "Of",
-            "In",
-            "To"
+            "- Vahdoniyat",
+            "- Baytul mol",
+            "- Mulki muslim",
+            "- Vaqf"
          ],
          [
-            "we would never have known that it comprises about 149 million kilometers.",
-            "professor Rahimov’s group wouldn’t have managed to beat the world’s  foremost scientific institutes in the race to produce the blue laser.",
-            "I would have bought had photographs of distant galaxies",
-            "it would have been less harmful for the health ."
+            "- Jihod",
+            "- Mustalik",
+            "- Gatafon",
+            "- Uhud"
          ],
          [
-            "Dominant",
-            "Leading",
-            "Primary",
-            "Last"
+            "- Do‘zax",
+            "-Oxirat",
+            "-Mahshar",
+            "-Jannat"
          ],
          [
-            "Shift",
-            "Motion",
-            "Stir",
-            "Motionless"
+            "-Mahshar",
+            "-Arti Alo",
+            "-Meroj",
+            "-Lomakon"
          ],
          [
-            "Follower",
-            "Ruler",
-            "Commander",
-            "Conductor"
+            "- Muazzin",
+            "- Mudarris",
+            "- Mujtahid",
+            "- Murid"
          ],
          [
-            "Muddle",
-            "Classify",
-            "Arrange",
-            "Order"
+            "-Mutaassiblik",
+            "-Mushrikiylik",
+            "-Mutazilliylik",
+            "-Mutakallimlik"
          ],
          [
-            "Come  across",
-            "Determine",
-            "Miss",
-            "Discover"
+            "-Oyat",
+            "-Band",
+            "-Pora",
+            "-Rukn"
          ],
          [
-            "Imply",
-            "Comprise",
-            "Contain",
-            "Exclude"
+            "- Xo'ja Ahror Valiy",
+            "- Xo'ja Anjir Fag`naviy",
+            "- Xo'ja Ali Rometaniy",
+            "- Xo'ja Orif Revgariy"
          ],
          [
-            "Separate",
-            "Interconnect",
-            "Link",
-            "Join"
+            "-Jaloliddin Rumiy",
+            "-Sayyid Mir Kulol",
+            "-Yusuf Hamadoniy",
+            "-Boboyi Samosiy"
          ],
          [
-            "Do",
-            "have",
-            "Did",
-            "Should"
+            "- ontologiya",
+            "- etnografiya",
+            "- antropologiya",
+            "- astrologiya"
          ],
          [
-            "Did",
-            "have",
-            "should",
-            "need"
+            "- Iso Masih",
+            "- Ibrohim",
+            "- Muso",
+            "- Ismoil"
          ],
          [
-            "Do",
-            "Does",
-            "Should",
-            "Have"
+            "- Yahudiylik dini",
+            "- Islom dini",
+            "- Zardushtiylik dini",
+            "-Braxmanizm dini"
          ],
          [
-            "Should",
-            "Do",
-            "Did",
-            "Have"
+            "-Braxmanizm",
+            "- Buddizm",
+            "-Sintoizm",
+            "- Baptizm"
          ],
          [
-            "has to",
-            "should",
-            "have",
-            "ought"
+            "- Xo‘ja Bahouddin Naqshband",
+            "- Ahmad Yassaviy",
+            "- Abduxoliq G‘ijduvoniy",
+            "- Xo‘ja Ahror Valiy"
          ],
          [
-            "After",
-            "In",
-            "Before",
-            "Out"
+            "- Deist",
+            "- Realist",
+            "- Panteist",
+            "- Ateist"
          ],
          [
-            "At",
-            "Of",
-            "In",
-            "To"
+            "- Tayanmoq",
+            "- Faollashmoq",
+            "- Beparvo bo‘lmoq",
+            "- Chidamoq"
          ],
          [
-            "To check people who coming in and out",
-            "To give advice  to people  about the law and speak  for them in court.",
-            "Protecting surroundings and environment",
-            "To control of patients’ health  condition"
+            "- Sulaymon Sijistoniy",
+            "- Imom Buxoriy",
+            "- Muslim ibn al-Xajjoj",
+            "- Iso at-Termiziy"
          ],
          [
-            "Five rings  and five colors",
-            "Five rings  and five continents",
-            "Five colors and five stripes",
-            "Five  rings and six colors"
+            "-Farz",
+            "-Ijmo",
+            "-Muboh",
+            "-Ixlos"
          ],
          [
-            "would  have died",
-            "will  died",
-            "wouldn’t have died",
-            "won’t died"
+            "-Yahudiylik",
+            "- Magiya",
+            "-Konfutsiylik",
+            "-Shomoniylik"
          ],
          [
-            "I  wouldn’t have bought  it.",
-            "I wouldn’t  have buy it.",
-            "I would  have  bought it.",
-            "I would  had  bought it."
+            "- Lamaizm",
+            "- Braxmanizm",
+            "-Sintoizm",
+            "-Daosizm"
          ],
          [
-            "His electricity would  have  been cut off.",
-            "His electricity wouldn’t  have been cut off.",
-            "His  electricity  will have been cut off.",
-            "His electricity  won’t  have  been  cut off."
+            "- Buddaning xushmuomalaligi, yumshoqligi",
+            "- Buddaning mohir so‘z ustasi bo‘lganligi",
+            "- Tangri tomonidan Buddaga yordam berilganligi",
+            "- Budda shogirdlarining ko‘p bo‘lishligi"
          ],
          [
-            "Human  Rights",
-            "Human Resource",
-            "Human  Respect",
-            "Human Regrets"
+            "-Konfutsizm",
+            "-Sintoizm",
+            "-Buddizm",
+            "-Hinduizm"
          ],
          [
-            "Read articles",
-            "Attend  to the lecture notes",
-            "Read  your lecture notes",
-            "Get more instructions"
+            "-Kohin",
+            "-Shomon",
+            "-Payg‘ambar",
+            "-Sehrgar"
          ],
          [
-            "Read  articles",
-            "Participate in the seminars",
-            "Get more instructions",
-            "Write  your lecture notes"
+            "-Mistik",
+            "-Monist",
+            "-Politeistik",
+            "-Monoteistik"
          ],
          [
-            "I would carry out research  into many different areas of  science",
-            "I would have been able to control the motion of  helicopter",
-            "I would build  my own house from wood that no one have built before",
-            "I would have died of  cancer and  lived."
+            "-Tavrot, injil, zabur, qur’on",
+            "-Zabur, tavrot, injil, qur’on",
+            "-Tavrot, zabur, injil, qur’on",
+            "-Tavrot, zabur, qur’on, injil"
          ],
          [
-            "Somebody",
-            "Something",
-            "Anywhere",
-            "Anything"
+            "-Jabroil, azroil, isrofil, munkar-nakir",
+            "-Jabroil, isrofil, munkar-nakir, mikoil",
+            "-Jabroil, isroil, azroil, mikoil",
+            "-Jabroil, mikoil, isrofil, azroil."
          ],
          [
-            "Congratulate",
-            "Prize",
-            "Friendship",
-            "Teacher"
+            "-Iymon, namoz, ro‘za, zakot, haj",
+            "-Iymon, islom, namoz, ro‘za, zakot, haj",
+            "-Iymon, namoz, zakot, ro‘za, haj",
+            "-Iymon, ro‘za, zakot, namoz, haj"
          ],
          [
-            "Amity",
-            "Friendship",
-            "Teacher",
-            "Prize"
+            "-Mahdiy",
+            "-Rasul",
+            "-Nabiy",
+            "-Payg‘ambar"
          ],
          [
-            "didn’t see",
-            "don’t saw",
-            "haven’t seen",
-            "Seen"
+            "-Makkiy va madiniy",
+            "-Aqliy va naqliy",
+            "-Bayoniy va tafsiliy",
+            "-Hijriy va naqliy"
          ],
          [
-            "Speaks/ lives",
-            "Speak/lives",
-            "Speak/live",
-            "Spoke/lives"
+            "- Sunnat - Payg‘ambarimiz (s.a.) aytgan so‘zlari, hadis esa qilgan amallari",
+            "- Hadis - aytgan so‘zlari, sunnat esa amallarga nisbatan munosabatlari",
+            "- Hadis aytgan so‘zlari, sunnat esa tutgan yo‘llari",
+            "- Yuqoridagilarning barchasi to‘g‘ri"
          ],
          [
-            "Can",
-            "Could",
-            "May",
-            "can’t"
+            "Xristian cherkovidagi muqaddas buyumlardan biri",
+            "Xristianlikdagi diniy marosimlardan biri",
+            "Xristianlikdagi muqaddas manba’lardan biri",
+            "Xristianlikdagi avliyolar  portreti tushirilgan rasmlar"
          ],
          [
-            "I didn’t apply to the math contest",
-            "I couldn’t apply  to the math  contest.",
-            "I  applied to the math contest",
-            "I can apply to the math contest."
+            "Koreya",
+            "Indoneziya",
+            "Yaponiya",
+            "Xitoy"
          ],
          [
-            "Stop  making an effort to achieve smth",
-            "To have respect for",
-            "Being outdate",
-            "To make possible"
+            "-Tangrixon",
+            "- Shoman",
+            "- Totem",
+            "- Imay"
          ],
          [
-            "understand",
-            "To have respect for",
-            "Being outdate",
-            "To make possible"
+            "-muqaddas xudo",
+            "-muqaddas osmon",
+            "-muqaddas olov",
+            "-muqaddas yer"
          ],
          [
-            "Being outdate",
-            "To make possible",
-            "understand",
-            "To have respect for"
+            "- VII asrda Samarqandda",
+            "- VIII asrda Buxoroda",
+            "-X asrda Marvda",
+            "- IX asrda Toshkentda"
          ],
          [
-            "Being outdate",
-            "To make possible",
-            "To have respect  for",
-            "understand"
+            "- “yuqorilik”, “balandlik”",
+            "- “belgi”, “hujjat”",
+            "- “surta”, “mo‘jiza”",
+            "- “jumlalar”, “alomat”"
          ],
          [
-            "Wrote",
-            "Write",
-            "Have written",
-            "Had written"
+            "- «al-Qoida»",
+            "- «Jihod ittihodi»",
+            "- «Tolibon»",
+            "- «Lashkari toiba»"
          ],
          [
-            "“OK”",
-            "“Sorry”",
-            "“Well done”",
-            "“It was your fault”"
+            "- Makkadan Madinaga hijrat qilgan musulmonlar",
+            "- Madina musulmonlari",
+            "- Sahobalar",
+            "-Makka musulmonlari"
          ],
          [
-            "Sorry",
-            "We are getting married",
-            "It’s not true",
-            "Well done"
+            "-Mushaf",
+            "- Mo‘jiza",
+            "- Sunnat",
+            "- Suhuf"
          ],
          [
-            "Let’s have dinner",
-            "Well done",
-            "It’s not true",
-            "Sorry"
+            "- ezgulikning yovuzlik ustidan g‘alabasi",
+            "- hosil bayrami",
+            "- bahorning kirib kelishi",
+            "- kun va tunning tengligi"
          ],
          [
-            "We are getting married",
-            "It’s not true",
-            "It’s brilliant idea",
-            "Well done"
+            "- birlashtiruvchilik",
+            "- diniy jamoa",
+            "- bag‘rikenglik",
+            "- bahamjihatlik"
          ],
          [
-            "It’s brilliant idea",
-            "Well done",
-            "Sorry",
-            "It’s not true"
+            "- birinchi",
+            "- to‘rtinchi",
+            "- beshinchi",
+            "- uchinchi"
          ],
          [
-            "It’s brilliant idea.",
-            "It’s not true",
-            "Let’s have dinner",
-            "Sorry"
+            "Suqrot.",
+            "Demokrit.",
+            "Arastu.",
+            "Aflotun."
          ],
          [
-            "It’s not true",
-            "Sorry",
-            "It’s brilliant idea.",
-            "It was your fault"
+            "Arablar.",
+            "Hindlar.",
+            "Yunonlar.",
+            "Forslar."
          ],
          [
-            "It’s brilliant idea.",
-            "Sorry",
-            "Let’s have dinner",
-            "It was your fault"
+            "\"Axloq\" so‘zi hind tilidan olingan bo‘lib, xulq demakdir.",
+            "\"Axloq\" so‘zi yunoncha odob demakdir.",
+            "\"Axloq\" so‘zi arabchadan olingan bo‘lib \"xulq\" so‘zining ko‘plik shaklidir.",
+            "\"Axloq\" so‘zi hatti-harakat demakdir."
          ],
          [
-            "It’s brilliant idea.",
-            "Sorry",
-            "It was your fault",
-            "I won’t do it"
+            "Axloq",
+            "Xulq",
+            "Etika",
+            "Odob"
          ],
          [
-            "It’s brilliant idea.",
-            "It was your fault",
-            "Don’t forget",
-            "I won’t do it"
+            "Odob",
+            "Etika",
+            "Axloq",
+            "Xulq"
          ],
          [
-            "Don’t forget",
-            "It was your fault",
-            "Why don’t we go to the café?",
-            "I won’t do it"
+            "Etika.",
+            "Axloq,",
+            "Xulq.",
+            "Odob"
          ],
          [
-            "Why don’t we go to the café?",
-            "Don’t forget",
-            "I won’t do it",
-            "I’ll be polite"
+            "Nikoh va axloq asosida turmush qurish",
+            "Ibtidoiy davrdagi guruhlar orasidagi jinsiy munosabatlar",
+            "Bir er va bir xotin asosidagi ibtidoiy oila",
+            "Bir er va bir xotin asosidagi oila"
          ],
          [
-            "The worker begged not tell anyone.",
-            "They threatened to start without him.",
-            "The manager announced that the company was closing.",
-            "My uncle advised me to start saving for my retirement."
+            "Intizom ruhida tarbiyalaydi",
+            "Vatanparvarlik ruhida tarbiyalaydi",
+            "Yosh avlodni shu jamiyatga zarur bo‘lgan ruhda tarbiyalaydi",
+            "Yoshlarni ma’naviy barkamol birlashish ruhida tarbiyalaydi"
          ],
          [
-            "reassign",
-            "compensation",
-            "succeed",
-            "evolve"
+            "Mahalla",
+            "Oila",
+            "Partiyalar",
+            "Xalq"
          ],
          [
-            "evolve",
-            "compensation",
-            "succeed",
-            "staff"
+            "Jamiyat",
+            "Maktab",
+            "Oila",
+            "Davlat"
          ],
          [
-            "staff",
-            "compensation",
-            "learn",
-            "succeed"
+            "Millatni",
+            "Jamiyatni",
+            "Xalqni",
+            "Davlatni"
          ],
          [
-            "It is a rather significant document in the application procedure.",
-            "It is a short official note to another person in the same company or organization.",
-            "It is a written message that is usually put in an envelope.",
-            "It is a short written document that lists your education."
+            "Yaqin tanish, turmush tarzini mushtarakligi",
+            "Kishilar o‘rtasidagi hissiy-ruhiy munosabat",
+            "Birga o‘qigan, ishlagan moddiy manfaatlarning birligi",
+            "Maqsad umumiyligi, g‘oyaviy jihatdan yaqin, hamfikr, hamg‘oya"
          ],
          [
-            "My uncle advised me to start saving for my retirement",
-            "They threatened to start without him.",
-            "He promised not to be late.",
-            "The worker begged not tell anyone."
+            "halollik, rostgo‘ylik, insoflilik, shirinsuxanlik",
+            "burch, vijdon, nomus",
+            "insonparvarlik, erkparvarlik, vatanparvarlik, millatparvarlik, fidoyilik, ziyolilik, mehnatsevarlik, tinchlikparvarlik, halollik, rostgo‘ylik, insoflilik, shirinsuxanlik, burch, vijdon, nomus",
+            "insonparvarlik, erkparvarlik, vatanparvarlik, millatparvarlik, fidoyilik, ziyolilik, mehnatsevarlik, tinchlikparvarlik"
          ],
          [
-            "The manager announced that the company was closing.",
-            "My uncle advised me to start saving for my retirement.",
-            "He promised not to be late.",
-            "The worker begged not tell anyone."
+            "burch, vijdon, nomus insonparvarlik, erkparvarlik, vatanparvarlik, millatparvarlik",
+            "insonparvarlik, erkparvarlik, vatanparvarlik, millatparvarlik",
+            "halollik, rostgo‘ylik, insodlilik, xushfe’llilik, shirinsuxanlik, kamtarinlik, bosiqlik",
+            "burch, vijdon, nomus"
          ],
          [
-            "My uncle advised me to start saving for my retirement.",
-            "The worker begged not tell anyone.",
-            "The executive director blamed the manager for losing much money.",
-            "The manager announced that the company was closing."
+            "insonparvarlik, tinchlikparvarlik, mehnatsevarlik",
+            "muhabbat, nafrat, rashk, ezgulik va yovuzlik, yomonlik va adolat, burch, vijdon nomus",
+            "xushfe’llilik, kamtarinlik, bosiqlik",
+            "insonparvarlik, tinchlikparvarlik, mehnatsevarlik, xushfe’llilik, kamtarinlik, bosiqlik"
          ],
          [
-            "People have not got special individual responsibilities",
-            "People say that success belongs to goal-oriented",
-            "The pie chart shows data breach rates in the 5 spheres",
-            "The quality or state of being responsible: such as moral, legal or mental accountability"
+            "Vatanparvarlik-intizomli bo‘lish",
+            "Vatanparvarlik-fidoiylikdir",
+            "Vatanparvarlik-o‘z yurtini sevish",
+            "Vatanparvarlik-ona zaminga, o‘z millatiga, iymoniga bo‘lgan sodiqlik"
          ],
          [
-            "Management can make one`s business sphere prosperous or failing",
-            "Never be responsible in all your tasks",
-            "Being energetic and cheerful in all situation",
-            "A duty or obligation to complete a task properly"
+            "O‘zbekiston Respublikasida ijtimoiy hayot, siyosiy institutlar, mafkuralar va fikrlarning xilma-xilligi asosida rivojlanadi",
+            "Vijdon erkinligi haqida so‘z boradi",
+            "hech qaysi mafkura davlat mafkurasi sifatida o‘rnatilishi mumkin emas",
+            "Siyosiy partiyalar faoliyati haqida"
          ],
          [
-            "Achieve",
-            "Broadly",
-            "Coincide",
-            "Raising"
+            "Lao-Szi, Pifogor, Epikur, Demokrit",
+            "Pifogor, Demokrit, Gippiy, Konfutsiy",
+            "Suqrot, Arastu, Aflotun, Epikur",
+            "Lutsiy-Aniy Seneka, Epiktet, Konfutsiy, Aflotun"
          ],
          [
-            "smokes / doesn’t",
-            "smokes / don’t",
-            "smoke / don’t",
-            "smokes / isn’t"
+            "Ishonch-shaxsning axloqiy kamolot cho`qqisi bo‘lib, inson mohiyatini belgilashda muhim me’yordir",
+            "Ishonch-turg`un xarakter kasb etib, shaxsning axloqiy«zanglamasligiga» kafolat beradi",
+            "Ishonch xulq-normasining to‘g‘ri va adolatli ekanligiga amin bo‘lish demakdir",
+            "Kishida hayot sharoitlari va tarbiya ko‘rganlik natijasida qat’iy bilim va axloqiy tartib qoidalarga asoslangan munosabat"
          ],
          [
-            "Company yard, canteen, elevator service shop",
-            "Health care, employees`, plant designing",
-            "Gardener decorator, nurse, changeovers",
-            "Company yard decorator, nurse"
+            "Xulq hatti-harakat demakdir",
+            "Xulq odob axloq formasi",
+            "Xulq-inson ongi va irodasi bilan bog‘liq",
+            "Xulq rostgo`ylik, vijdonli bo‘lmoq"
          ],
          [
-            "Ladder",
-            "Loyalty",
-            "Satisfaction",
-            "Assurance"
+            "Xulqning birligi hatti harakat",
+            "Hatti harakat faoliyat birligi",
+            "Ongli yunaltirilgan va yakunlangan harakat",
+            "Hatti harakat me’yor: o‘lchov belgisi"
          ],
          [
-            "More understanding",
-            "The most creative",
-            "The most funny",
-            "Satisfied"
+            "Odob axloqni izohlaydigan munosabat, odob madaniyatini tashkil qiladi",
+            "Insonning harakati, xulq-atvori, yurish-turishi, nazorat qilishi va insonlar o‘rtasidagi muomala munosabatlari",
+            "Inson uz harakatlarini me’yorida anglashdir",
+            "Odob kattalarga nisbatan hurmat, izzat qila bilishdir"
          ],
          [
-            "Opposite",
-            "Kind",
-            "More prettier",
-            "The most kind"
+            "O’z-o‘zini anglash va onglilik darajasi kabi funksiyalarni bajaradi",
+            "To‘g‘rilik, poklik va burch hissiyoti",
+            "Baho, buyruk va emotsionallik",
+            "Bilish, tarbiya va onglilik"
          ],
          [
-            "Intelligent",
-            "The most handsome",
-            "More attractive",
-            "Misunderstanding"
+            "etiket",
+            "Xulq",
+            "Axloq",
+            "Mehnat"
          ],
          [
-            "Satisfied",
-            "Obligation",
-            "Angry",
-            "Relationship"
+            "Boshqaruv, his-tuyg‘ularni jilovlash, tarbiyalash, ma’rifatchilik",
+            "Gnoseologik, ta’lim-tarbiya, jamiyatda amal qiladigan axloq normalarining zarurligini o‘rgatadi",
+            "Tartibga solish (boshqaruv), stimul, baholash, bilish, tarbiyalash",
+            "O‘z–o‘zini anglashni, o‘rganish, ta’lim va tarbiyani bir-biriga bog‘lash vazifasidir"
          ],
          [
-            "Prettier/attractive/opposite",
-            "Ultimate/handsome/unbelievable",
-            "Competence/skills/egoistic",
-            "Opposite/kindly/satisfied"
+            "Vijdon erkinligi diniy e’tiqodga beparvo bo‘lishdir. Vijdon bu e’tiqod oldiga u hech qanday mas’uliyatni his etmaydi",
+            "U kishining jamiyat talablariga muvofiq harakat qilish zarurligini anglab olishidir",
+            "Vijdon erkinligi vijdonni azobga qo‘ymaslikdir. Avvalo u erkin bo‘lishi uchun insonning barcha hatti-harakatlari tamoman ixtiyoriy cheklangan bo‘lmog‘i lozim",
+            "Vijdon erkinligi vijdonga xilof ish tutmay axloqiy hayot kechirishdir"
          ],
          [
-            "Prettier",
-            "Kind",
-            "Handsome",
-            "Egoistic"
+            "Kuzatuvchan, qattiqqo‘l, or-nomusli, adolatli, bilimli, ma’naviyati boy, vijdonli",
+            "Adolatli, prinsipial, kamtar kiyinish, yurish turishda oddiy bilimli, yoshlarga maslahat bera oladigan, obro`li",
+            "Talabchanlik, bilim bera olish, nasihat qilish, yosh avlodga mehr-muruvvatli bo‘lish, o‘z malakasini doimo oshirib borish, o‘z tuyg‘ularini tizginlay olish",
+            "O‘rganish-nasihat qilish istagida bo‘lish, fikrlarni ravon ifodalash, o‘z xulqini doimo qattiq nazorat etish"
          ],
          [
-            "which",
-            "where",
-            "who",
-            "when"
+            "Rahbar qattiqqo‘l, talabchan adolatli, xizmat qiladigan, bilim va saviyasi bilan boshqalardan ustun bo‘lmogi lozim",
+            "Ishbilarmon, kamtar, kollektiv yutuqlarini o‘ziniki, qilib ko‘rsatmaydigan, tanqidni ko`taradigan va undan ijobiy xulosa chiqara oladigan, qo‘l ostidagilarni aldash, qo‘rqitmasligi kerak",
+            "Xushmuolali, o‘z odamlarining shaxsiy sifatlarini, xarakterini, ehtiyojlarini bilishi, kerak, shaxsiyatparast bo‘lmasligi, adolatli bo‘lmog‘i kerak",
+            "Shaxsga sig‘inishga moslashgan soxta va yasama obruni rad etish, xushomadlarga berilmaslik manfaatparast bo‘lmasligi kerak"
          ],
          [
-            "where",
-            "which",
-            "when",
-            "who"
+            "Axloqiy muhit davrini yaratish",
+            "Inson tarbiyasini nazariy asoslash",
+            "Axloqiy muhit davrini yaratish axloqqa zamonaviy yondashishni, inson tarbiyasini nazariy asoslash",
+            "Axloqqa zamonaviy yondashishni"
          ],
          [
-            "which",
-            "when",
-            "who",
-            "where"
+            "Gilgamish eposi",
+            "Pratotep o`gitlari",
+            "Konfutsiy hikmatlari",
+            "Abadiy ezgulik asari"
          ],
          [
-            "which",
-            "when",
-            "who",
-            "where"
+            "axloqiy ong, axloqiy his-tuyg‘u",
+            "axloqiy ong, axloqiy qarashlar, axloqiy his-tuyg‘u",
+            "axloqiy ong, axloqiy his-tuyg‘u, axloqiy munosabatlar",
+            "axloqiy burch, axloqiy madaniyat"
          ],
          [
-            "memo",
-            "written communication",
-            "composition",
-            "essay"
+            "Shaxs axloqiy taraqqiyotning belgisi, axloq-odob bilan ish tutish, yurish-turish odobi",
+            "Shaxs axloqiy taraqqiyotning belgisi",
+            "yurish-turish odobi",
+            "axloq-odob bilan ish tutish"
          ],
          [
-            "religious",
-            "memo",
-            "national",
-            "social"
+            "chunki u-axloqiy tafakkur taraqqiyotini tadqiq etadi",
+            "chunki u-axloqiy tafakkur taraqqiyotini tadqiq etadi, amaliyotda insonni ezgulik orqali haqiqatni olib borishga xizmat qiladi, insonni yuksak ma’naviyatga yetaklaydi",
+            "chunki u-amaliyotda insonni ezgulik orqali haqiqatni olib borishga xizmat qiladi",
+            "chunki u-insonni yuksak ma’naviyatga yetaklaydi"
          ],
          [
-            "Risk management",
-            "Advertising",
-            "Service management",
-            "Human resources management"
+            "aql, sezgi, iroda",
+            "aql, sezgi, ong",
+            "iroda, aql, ong",
+            "aql, sezgi, bilish"
          ],
          [
-            "Provide great service",
-            "Service",
-            "Stay focused",
-            "Analyze your competition"
+            "Oila hamda jamoa mahalla kuy miqyosida ahamiyatli bo‘lgan ammo jamiyat va insoniyat hayotiga sezilarli ta’sir ko‘rsatmaydigan yoqimli, ijobiy hatti-harakatlar majmui",
+            "Barcha hatti-harakatlar majmui",
+            "Milliy urf-odatlarga asoslangan chiroyli hatti-harakatlar majmui",
+            "Jamiyat, zamon, insoniyat tarixi uchun namuna bo‘la oladigan ijobiy hatti harakatlar"
          ],
          [
-            "Management",
-            "Competition",
-            "Stay focused",
-            "Advertising"
+            "Odob",
+            "Etika",
+            "Axloq",
+            "Xulq"
          ],
          [
-            "which",
-            "what",
-            "whose",
-            "who"
+            "1 ga: falsafiy",
+            "3 ga: nazariy, amaliy va ijodiy",
+            "2 ga: ijtimoiy-falsafiy",
+            "4 ga: falsafiy, amaliy, nazariy va ijtimoiy"
          ],
          [
-            "what",
-            "which",
-            "who",
-            "when"
+            "Gumanizm-insonga xos mehribonlik",
+            "Gumanizm insonparvarlik demakdir",
+            "Gumanizm lotincha “insoniy” “insonga xos” degan ma’noni anglatib, insonga bo‘lgan mehribonlik, g‘amxo‘rlik, inson ozodligini har tomonlama ravojlanishni aks ettiruvchi oliyjanob tuyg‘u",
+            "Gumanizm inson ozodligini aks ettiruvchi tuyg‘u"
          ],
          [
-            "whose",
-            "which",
-            "who",
-            "what"
+            "axloqiy namunalar, tuyg‘ular, g‘oyalarni shakllantirgan",
+            "axloqiy dunyoqarashni, adolatni shakllantirish",
+            "axloqiy talablar, nazariyalar, tasavvurlar g‘oyalarni shakllantirgan",
+            "axloqiy fikrlar, hissiyotlar, qarashlarni shakllantirgan"
          ],
          [
-            "whom",
-            "whose",
-            "when",
-            "which"
+            "Har tomonlama yuksak axloqli qilib tarbiyalash",
+            "Kelajak avlod uchun dasturamal bo‘lib xizmat qiladi",
+            "Siyosiy jihatdan, yetuk inson qilib tarbiyalaydi",
+            "Komil insonni tarbiyalash va kelajak uchun har tomonlama yetuk shaxsni shakllantirish"
          ],
          [
-            "Advantage",
-            "Benefit",
-            "Act of assistance",
-            "Godsend"
+            "ha uning uz qonun-qoidalari mavjud",
+            "yo‘q ular bir-biriga o`xshash",
+            "ha u qonunlashtirilgan axloqdir",
+            "ha faqat bir-biriga yondashadi"
          ],
          [
-            "Administration",
-            "Protection",
-            "Guardianship",
-            "Safekeeping"
+            "Lafz-to‘g‘riso‘zlik",
+            "Lafz-mexr-muruvvatlilik",
+            "Lafz-insoniylik",
+            "Lafz-berilgan va’da, ahd"
          ],
          [
-            "Disagreement",
-            "Quarrel",
-            "Contest",
-            "Dispute"
+            "Salomlashish sizga salomatlik, tinchlik tilashdir",
+            "Salomlashish eson, omon bo‘lmoq, bezarar yurmoq ma’nosini anglatadi",
+            "Salomlashish insoniy burch",
+            "Salomlashish ahvol so‘ramoq"
          ],
          [
-            "Merchant",
-            "Customer",
-            "Broker",
-            "Vendor"
+            "Yomon yullardan kaytarishga",
+            "Kishilarni to‘g‘ri yo‘lga chorlash",
+            "Axloq-oxirat ne’matlariga yetkazuvchi omil",
+            "Muruvvatli bo‘lishga"
          ],
          [
-            "Where",
-            "Whom",
-            "Who",
-            "What"
+            "Tavoze, muruvvat",
+            "Mehribonlik",
+            "Sadoqat, mehnatsevarlik, omonatga vafo",
+            "Kamtarlik"
          ],
          [
-            "Where",
-            "What",
-            "Whom",
-            "Who"
+            "Arastu",
+            "Lessing",
+            "Baumgarten",
+            "Aflotun"
          ],
          [
-            "Whose",
-            "Who",
-            "Whom",
-            "What"
+            "San’at estetikaning shunday turidirki, narsa va hodisalarning zoxiriy tomonlari o‘zgartirib o‘rganadi",
+            "San’at estetika (estetika) ning shunday turidirki, maqsadi insonning ijtimoiy siyosiy va aqliy qobiliyatini taraqqiy ettirishdir",
+            "San’at voqelikni idrok etishning shunday turidirki, uning maqsadi, go‘zallik qonuniga muvofiq borliqni va insonning o‘zini ijodiy ravishda o‘zgartirish jarayonida, uning qobiliyatini rivojlantirishni shakllantirishdir",
+            "San’at voqelikdagi hodisalarni badiiy timsollarda aks ettirishning bir ko‘rinishidir"
          ],
          [
-            "Whose",
-            "What",
-            "Which",
-            "Whom"
+            "insonning badiiy ijodiyoti",
+            "insonning musiqiy ijodiyoti",
+            "insonning ijtimoiy mehnat ijodiyoti",
+            "insonning ma’naviy ijodiyoti"
          ],
          [
-            "Whose",
-            "What",
-            "Which",
-            "Where"
+            "Go‘zallik-bu tabiat va jamiyat hamda insondagi chiroyli tasvir ifodalaydigan tushunchadir",
+            "San’atshunoslik eng muhim va asosiy tushuncha va atamalaridan hisoblanadi",
+            "Go‘zallik estetikaning shunday umumiy tushunchasi hisoblanadiki, u har qanday hodisani uning komilligi va oliy darajadagi estetik qiymatini ifodalaydi",
+            "Go‘zallik shunday tushunchadirki, u buyum va hodisalarning nafosatini ifodalaydi"
          ],
          [
-            "That",
-            "Who",
-            "Which",
-            "What"
+            "Yunoncha “iroda-idrok”",
+            "Yunoncha “go‘zallik”, “san’at”",
+            "Yunoncha “iroda-ixtiyor”",
+            "Yunoncha “xis qilish”, “sezish”"
          ],
          [
-            "Whose",
-            "Where",
-            "Which",
-            "What"
+            "go‘zallik didi badiiy asarning g‘oyasi, mazmuni va bayon etish tarzida baho berish, o‘z munosabatini izhor etishdir",
+            "go‘zallik didi insonning hissiy qobiliyati hisoblanadiki uning vositasida san’atning turli asarlariga baho beriladi",
+            "go‘zallik didi har bir individga ta’luqli bo‘lgan did",
+            "go‘zallik didi asarni o‘qiydiganlarni iste’dod va qobiliyatlaridir"
          ],
          [
-            "Whose",
-            "That",
-            "What",
-            "Whom"
+            "Barcha xalqlar uchun yaratilgan san’at va adabiyot asarlaridir",
+            "tub mohiyatiga milliy madaniyatning kushandasi bo‘lib, u madaniy xilma-xillikni xushlamaydi, uning asl maqsadi bu olamni yakrang ko‘rishdir",
+            "hamma uchun tushunarli bo‘lgan san’at",
+            "ommaviy madaniyat oddiy va etarli darajada madaniy savodli bo‘lmagan odamlarga mo‘ljallangan san’at va adabiyot asarlaridir"
          ],
          [
-            "Where",
-            "What",
-            "Who",
-            "That"
+            "tana ruh",
+            "himoya",
+            "moslashuv",
+            "inson ruhini poklantirish"
          ],
          [
-            "an audition",
-            "an addiction",
-            "an addition",
-            "an attention"
+            "estetik baho, estetik his-tuyg‘u",
+            "estetik ideal va orzu, estetik his-tuyg‘u, estetik did, estetik nazariyalar, estetik baho",
+            "estetik did, estetik nazariyalar, estetik baho",
+            "estetik his-tuyg‘u, estetik nazariyalar"
          ],
          [
-            "looking down on",
-            "looking out",
-            "looking back on",
-            "looking in"
+            "estetik did – bu fikr-mulohaza, xulq-atvor, hatti-harakat, ijodkorlik",
+            "estetik did – bu eshitish, ko‘rish, hid bilish, ta’m bilish, sezish",
+            "estetik did – bu baho, munosabat, qoniqish, lazzatlanish",
+            "estetik did – nafosatni idrok etish qobiliyati"
          ],
          [
-            "to watch",
-            "to imitate",
-            "to respect",
-            "to consider"
+            "asosan tabiat va jamiyat go‘zalligi nazarda tutiladi",
+            "tashqi go‘zallik haqidagi fikr yuritadilar",
+            "inson ichki va tashqi, tabiat va jamiyat go‘zalligi",
+            "kishilar o‘rtasidagi munosabatlardagi go‘zalligi tushiniladi"
          ],
          [
-            "looking in",
-            "looking back",
-            "looking forward to",
-            "looking on"
+            "obektga nisbatan forig‘lanish holati",
+            "inson bilish munosabatining tajribaviy asosi",
+            "nafosatga tashnalik",
+            "qadriyatlarga nisbatan bildiriladigan munosabat"
          ],
          [
-            "without/through/onto",
-            "with/in/to",
-            "off/in/to",
-            "without/through/to"
+            "jiddiy, vazmin, osuda hayot tarzini",
+            "ma’naviy, jismoniy, siyosiy holatlarni",
+            "kulgili, hajviy, satirik hodisalarni",
+            "og‘ir, baxtsiz, ko‘p hollarda o‘lim bilan tugaydigan hodisalar"
          ],
          [
-            "to/on",
-            "up/about",
-            "with/into",
-            "with/about"
+            "me’morchilik va badiy suratkashlik",
+            "xoreografiya, sirk",
+            "estrada va sirk",
+            "teatr va kino"
          ],
          [
-            "definitely",
-            "doubtfully",
-            "Questionably",
-            "Directly"
+            "saralangan toifa vakillari uchun yaratilgan san`at asari",
+            "omma uchun mo‘ljallangan san`at",
+            "san`atning eng yuqori ko‘rinishi",
+            "san`at asarlaridagi maxsus sujetlar"
          ],
          [
-            "Analyze",
-            "Generalize",
-            "find or encounter by chance",
-            "Search"
+            "sahna asari",
+            "ijro etishga mo‘ljallangan",
+            "Harakat",
+            "she`riy sahna asari"
          ],
          [
-            "patting your friend on his shoulder",
-            "posting comments on your friends’ photos",
-            "sharing video on your timeline",
-            "posting emoji"
+            "yer yuzi manzarasi",
+            "binolar joylashuvi",
+            "tabiat ko‘rinishi",
+            "inson, tabiiy zahiralar va hayvonlarning uyg`unlikda hayot kechirishi"
          ],
          [
-            "Urgent",
-            "Existing",
-            "Necessary",
-            "Unimportant"
+            "Skiflar",
+            "Yunonlar",
+            "Rimliklar",
+            "o‘siyoliklar"
          ],
          [
-            "afterward",
-            "at the present time",
-            "During",
-            "Before"
+            "insoning voqea va hodisalarga o‘ziga xos munosabati",
+            "olamni estetik anglash, dunyoga inson munosabatining subyektiv tomoni;",
+            "voqea-hodisalarning estetik sifatlarini idrok etish va baholash",
+            "kishilarda estetik his, estetik ong va munosabatni shakllantirishga qaratilgan tarbiyaning alohida shakli"
          ],
          [
-            "received",
-            "Suggested",
-            "offered",
-            "Presented"
+            "1985 yilda B.Lou",
+            "1950 yilda M.Gandi",
+            "1983 yilda T.Levittin",
+            "1983 yilda B.Bandi"
          ],
          [
-            "the set rules for a proper behavior",
-            "a way of doing something",
-            "the drive that makes you carry out tasks",
-            "a serious attitude towards one’s duty"
+            "Televideniye",
+            "atrof-muhit",
+            "pandnoma asarlar",
+            "oila tarbiyasi"
          ],
          [
-            "create or devise methodically",
-            "decrease to a minimum amount",
-            "improve to perfection",
-            "Strengthen"
+            "yunon xalqlari",
+            "somir xalqlari",
+            "Rimliklar",
+            "mirliklar"
          ],
          [
-            "looked to",
-            "looked out",
-            "looked back",
-            "looked through"
+            "go‘zallik",
+            "san`at",
+            "ulug`vorlik",
+            "Nafosat"
          ],
          [
-            "at the time",
-            "before",
-            "during",
-            "After"
+            "estetik munosabat",
+            "estetik did",
+            "estetik qiziqish",
+            "estetik zavq"
          ],
          [
-            "I am writing to request…",
-            "Yours faithfully",
-            "Dear Sir or Madam",
-            "Dear Mr./Mrs./Ms."
+            "go‘zallik va xunuklik, ulug`vorlik va tubanlik, mo‘jizaviylik va xayoliylik",
+            "go‘zallik, tubanlik, xunuklik, san`at",
+            "go‘zallik, ulug`vorlik, fojiaviylik, kulgililik, qiziqarlilik, mo‘jizaviylik",
+            "zerikarlilik, xayoliylik, go‘zallik, kulgililik"
          ],
          [
-            "Stabilize",
-            "get better",
-            "Help",
-            "worsen"
+            "fransuzcha",
+            "inglizcha",
+            "yunoncha",
+            "ruscha"
          ],
          [
-            "Simply",
-            "correctly",
-            "Directly",
-            "Indirectly"
+            "tushunchaning bir tomoni.",
+            "tushunchadagi narsalar miqdori to’g’risidagi bilish.",
+            "tushunchada ifodalangan narsa va hodisalarning muhim belgi va xususiyatlarining yig’indisi.",
+            "tushunchada ifodalangan narsa va hodisalarning muhim belgilari yig’indisi."
          ],
          [
-            "with confidence",
-            "Primarily",
-            "Secretly",
-            "openly"
+            "tushunchada ifodalangan muhim belgilar yig’indisi.",
+            "tushuncha vositasida ifodalangan narsalar soni.",
+            "tushunchada ifodalangan nomuhim belgilar yig’indisi.",
+            "tushunchada ifodalangan narsa va hodisalar miqdorining yig’indisi."
          ],
          [
-            "intellectual property",
-            "intellectual propriety",
-            "intelligent property",
-            "intellectual ability"
+            "bunda hajmi tor tushunchadan hajmi keng tushunchaga tomon fikran harakat qilinadi.",
+            "bunda butundan qismga tomon fikran harakat qilinadi.",
+            "bunda hajmi keng tushunchadan hajmi tor tushunchaga tomon fikran harakat qilinadi.",
+            "bunda qismdan butunga tomon fikran harakat qilinadi."
          ],
          [
-            "standing",
-            "having stand",
-            "stand",
-            "is stood"
+            "tushunchani chegaralash tushunchaning hajmini kengaytirish yo’li bilan uning mazmunini boyitishdir.",
+            "tushunchani chegaralash tushunchani mazmuni jihatidan sayozlashtirish.",
+            "tushunchani kichik kichik guruhlarga ajratish.",
+            "tushunchani chegaralash tushunchani hajm jihatidan kichraytirish yo’li bilan uning mazmunini boyitish."
          ],
          [
-            "Emotion",
-            "Success",
-            "Studies",
-            "Goal"
+            "tushunchaning mohiyatini ochishdan.",
+            "tushunchaning hajmini kengaytirish yo’li bilan uni mazmunan butunlashtirishdan, mavhumlashtirishdan.",
+            "tushunchani guruhlarga ajratish yo’li bilan uning tarkibini aniqlashdan.",
+            "hajmi tor tushunchadan hajmi keng tushunchaga tomon fikran harakat qilishdan."
          ],
          [
-            "wastefully",
-            "rational",
-            "rationally",
-            "Wasteful"
+            "tushunchaning mohiyatini ochishga qaratilgan amal.",
+            "tushunchaning mazmunini ochishga xizmat qiladigan amal.",
+            "tur tushunchalar mansub bo’lgan jins tushunchani topadigan amal.",
+            "tushunchaning turlarini sanab o’tish yo’li bilan uning hajmini aniqlashga xizmat qiladigan amal."
          ],
          [
-            "Changeable",
-            "comparable",
-            "different",
-            "well suited"
+            "tasnif narsa va hodisalarni biror bir umumiy belgiga asosan izchil tarzda sinflarga ajratib borishdir.",
+            "tushunchaning mazmunini kengaytirish yo’li bilan uning hajmini toraytirishdir.",
+            "tushunchaning hajmini kengaytirish yo’li bilan uning mazmunini toraytirishdir.",
+            "tushunchaning mohiyatini ochishdir."
          ],
          [
-            "a strong desire to know or learn something",
-            "an enthusiasm",
-            "a motivation",
-            "Indifference"
+            "hukm.",
+            "sillogizm.",
+            "tushuncha.",
+            "xulosa chiqarish."
          ],
          [
-            "Respect",
-            "conflict",
-            "Affairs",
-            "friendship"
+            "asoslarning soniga ko’ra, chinlik darajasi bo’yicha.",
+            "fikrlarning kupligi bo’yicha, chinlik darajasi bo’yicha.",
+            "chinlik darajasiga ko’ra, asoslarning soniga ko’ra, fikrning harakat yo’nalishiga ko’ra.",
+            "chinlik darajasiga ko’ra, sillogizm bo’yicha."
          ],
          [
-            "understanding",
-            "Indifference",
-            "hesitation",
-            "confidence"
+            "induktiv va zaruriy xulosa chiqarish.",
+            "analogiya bilan deduktiv xulosa chiqarish.",
+            "zaruriy xulosa chiqarish va ehtimoliy xulosa chiqarish.",
+            "induktiv xulosa chiqarish va analogiya."
          ],
          [
-            "Spread rumors online",
-            "Respect other people’s time.",
-            "Adhere to the same standards online that you follow in real life.",
-            "Respect the privacy of people."
+            "bevosita va bilvosita xulosa chiqarish.",
+            "induktiv va ehtimoliy xulosa chiqarish.",
+            "analogiya va deduktiv xulosa chiqarish.",
+            "bilvosita va zaruriy xulosa chiqarish."
          ],
          [
-            "prevent from",
-            "copy from",
-            "deal with",
-            "provide with"
+            "asoslarning soniga ko’ra, bilvosita xulosa chiqarish.",
+            "deduktiv va induktiv, bevosita va bilvosita xulosa chiqarish.",
+            "sillogizm va deduktiv xulosa chiqarish.",
+            "deduktiv va induktiv, analogiya bo’yicha xulosa chiqarish."
          ],
          [
-            "to find out something suitable by analyzing deeply",
-            "to come to one conclusion",
-            "become the owner of something",
-            "to understand"
+            "fikrning harakat yo’nalishiga ko’ra.",
+            "ehtimoliy va bevosita xulosa chiqarish.",
+            "chinlik darajasiga ko’ra.",
+            "asoslarning soniga ko’ra."
          ],
          [
-            "Unclear",
-            "Plain",
-            "Evident",
-            "Precise"
+            "zaruriy bilimdan ehtimoliy bilimga o’tish.",
+            "xususiy bilimdan umumiy bilimga o’tish.",
+            "umumiy bilimdan juz’iy bilimga o’tish.",
+            "bevosita va bilvosita xulosa chiqarishdir."
          ],
          [
-            "fulfilling",
-            "carrying on",
-            "Commencing",
-            "failing"
+            "ko’p mulohazaga asoslangan holda xulosa chiqarish.",
+            "birgina mulohazaga asoslangan holda yangi bilim hosil qilish.",
+            "ayrim mulohazalarga asoslanish.",
+            "analogiya bo’yicha xulosa chiqarish."
          ],
          [
-            "Stating a goal is not so easy as achieving it.",
-            "One cannot achieve the goal without stating it.",
-            "It is more difficult to achieve the goal than stating it",
-            "Achieving a goal is just as easy as stating it."
+            "bilvosita xulosa chiqarish.",
+            "induktiv.",
+            "bevosita xulosa chiqarish.",
+            "analogiya."
          ],
          [
-            "to spread information without an owner’s permission",
-            "breaking the code of somebody’s computer and crushing it",
-            "selling information for the purpose of making money",
-            "investigate or look around secretly in an attempt to find out something, especially information about someone's private affairs"
+            "aylantirish, chegaralash, almashtirish.",
+            "aylantirish, almashtirish, predikatga qarama-qarshi qo’yish.",
+            "predikatga qarama-qarshi qo’yish, almashtirish.",
+            "aylantirish, o’zgartirish, chegaralash."
          ],
          [
-            "Deleting your friends’ file is not legal",
-            "Exchanging files with friends is illegal.",
-            "File exchange with friends is legal.",
-            "Deleting your friends’ file is legal"
+            "almashtirish.",
+            "umumlashtirish.",
+            "aylantirish.",
+            "predikatga qarama-qarshi qo‘yish."
          ],
          [
-            "unimportant",
-            "Intense",
-            "immediate",
-            "important"
+            "induktiv.",
+            "umumiy.",
+            "analogiya.",
+            "deduktiv."
          ],
          [
-            "going",
-            "Staying",
-            "running",
-            "looking"
+            "sillogizm.",
+            "nazariya.",
+            "aksioma.",
+            "sillogizm aksiomasi."
          ],
          [
-            "Status",
-            "Competition",
-            "Demand",
-            "popularity"
+            "Qadimgi Hind va Yunon mantig’i asosida.",
+            "Hind va Xitoy mantig’i asosida.",
+            "Misr va Xitoy mantig’i asosida.",
+            "Hind va Misr mantig’i asosida."
          ],
          [
-            "Words",
-            "Assignments",
-            "Questions",
-            "Tests"
+            "Xitoy va Misr.",
+            "O’rta Osiyo va Misr.",
+            "Xitoy va Yunon.",
+            "Misr."
          ],
          [
-            "Enjoying",
-            "Energetic",
-            "Faithful",
-            "Embarrassed"
+            "tushuncha va xulosa chiqarish to’g’risidagi fandir.",
+            "inson tafakkuri va tilini o‘rganuvchi fandir.",
+            "tafakkur shakllari va qonunlarini o’rganuvchi falsafiy fandir.",
+            "inson tafakkurining kelib chiqishi va taraqqiyotini o‘rganuvchi fandir."
          ],
          [
-            "Enrich",
-            "Enquire",
-            "Enroll",
-            "Finish"
+            "Ibn Sino.",
+            "Forobiy.",
+            "Pifagor.",
+            "Arastu."
          ],
          [
-            "Chose",
-            "Bring",
-            "Write",
-            "Take"
+            "alohida tomonlarini.",
+            "muhim bo’lgan belgilarini.",
+            "asosiy bo’lmagan belgilarini.",
+            "umumiy va muhim tomonlarini."
          ],
          [
-            "Studied",
-            "Finished",
-            "Studies",
-            "finishing"
+            "mavhum tushunchalar bilan.",
+            "faqat aniq mazmunli tushunchalar bilan.",
+            "tayyor tushunchalar bilan.",
+            "rivojlanib boruvchi tushunchalar bilan."
          ],
          [
-            "improve",
-            "being improved",
-            "has been improving",
-            "improving"
+            "narsa va hodisalarning qonuniy aloqadorligini va sabablarini bilishdir.",
+            "narsalarning sistemaviy tuzilish tartibini bilishdir.",
+            "narsalarning mohiyatini bilish bu narsalarning ichki ziddiyatlarini topishdir.",
+            "narsalarning shaklini, bir-biridan farqini bilishdir."
          ],
          [
-            "solving",
-            "deduction",
-            "demonstration",
-            "information"
+            "ma’lum mazmun va miqdorga ekanligi.",
+            "ob’ektivlik voqelikning sub’ektiv ifodasi ekanligi.",
+            "salbiy va ijobiy xususiyatga ega ekanligi.",
+            "tushuncha qarama-qarshiliklarning birligidan iborat ekanligi."
          ],
          [
-            "motivative",
-            "motivated",
-            "challengeable",
-            "fascinating"
+            "narsalarning sifatiy jihatlarini taqqoslash yo’li bilan.",
+            "narsalarning miqdoriy jihatlarini taqqoslash yo’li bilan.",
+            "narsalarning belgilarini taqsimlash yo’li bilan.",
+            "narsalarning miqdoriy va sifatiy jihatlarini birgalikda taqqoslash yo’li bilan."
          ],
          [
-            "change",
-            "read",
-            "learn",
-            "stop"
+            "umumiy belgilar hosil qilish uchun faqat yakka narsalarga xos bo’lgan belgilar e’tibordan soqit qilinib, bir sinf narsa va hodisalarning hammasiga xos bo’lgan belgilar topiladi.",
+            "tushuncha hosil qilishda muhim bo’lmagan belgilarga tayanib ish tutiladi.",
+            "tushuncha hosil qilishda narsalarning sifatiy muayyanligi asos qilib olinadi.",
+            "tushuncha hosil qilishda xususiy belgilarni o’rganishning o’zi yetarlidir."
          ],
          [
-            "Impudence",
-            "Experiences",
-            "Instructions",
-            "Features"
+            "narsalarning umumiy va muhim xususiyatlarini.",
+            "umumiylikning qarama-qarshiliklarning birligi ekanligini.",
+            "umumiylikning ziddiyatli xarakterini.",
+            "tushunchaning belgilar yig’indisidan iborat ekanligini."
          ],
          [
-            "accelerate",
-            "suffer",
-            "reduce",
-            "expand"
+            "tushunchaning o’zgaruvchanligini unutib qo’ysak.",
+            "tushunchada mavjud bo’lgan ziddiyatlarni unutib qo’ysak.",
+            "tushunchada aks etgan nomuhim belgilarni e’tibordan soqit qilsak.",
+            "umumiylik real voqelikda yagonalik va konkretlik shaklida namoyon bo’lishini unutsak."
          ],
          [
-            "compensation",
-            "complexion",
-            "comparison",
-            "comprehension"
+            "tushunchaning hajmi qancha keng bo’lsa uning mazmuni shunchalik tor bo’lishini.",
+            "tushuncha mazmunining voqelikka muvofiq kelishini.",
+            "tushunchalarning doimiy harakatda bo’lish xususiyatini.",
+            "tushunchaning mazmuni va hajmi orasi mos kelishni."
          ],
          [
-            "assurance",
-            "trust",
-            "doubt",
-            "faith"
+            "qo’shib hisoblash.",
+            "ayirib hisoblash.",
+            "saralab hisoblash.",
+            "maydalab hisoblash."
          ],
          [
-            "able",
-            "expert",
-            "inexperienced",
-            "proficient"
+            "entimema.",
+            "aksiomalar.",
+            "mulohazalar yig’indisi.",
+            "sillogizm."
          ],
          [
-            "imagine",
-            "create",
-            "searched",
-            "look at"
+            "mumkin emas.",
+            "ba’zan mumkin.",
+            "mumkin.",
+            "mumkin bo’lish ehtimoli bor."
          ],
          [
-            "become",
-            "make",
-            "do",
-            "finish"
+            "xususiylikdan umumiylikka qarab harakatlanadi.",
+            "xulosa chiqarishda fikr umumiylikdan xususiylikka qarab harakatlanadi.",
+            "umumiylikdan umumiylikka qarab harakatlanadi.",
+            "xususiylikdan xususiylikka qarab harakatlanadi."
          ],
          [
-            "pressures",
-            "things",
-            "skills",
-            "ideas"
+            "to’g’ri fikr yuritishni qanday amalga oshishi haqida bilim beradi.",
+            "tabiiy hodisalarning qonunlarini o’rganadi.",
+            "narsa va hodisalar haqida bilim beradi.",
+            "jamiyat taraqqiyoti qonunlarini o’rganadi."
          ],
          [
-            "revise",
-            "write",
-            "learn",
-            "read"
+            "inson ongida predmetlarning belgilarini in’ikosidir.",
+            "ob’ektiv olamdagi predmet va voqealarning zaruriy umumiy muhim, turg’un takrorlanib turuvchi bog’lanishlarni ifodalaydi.",
+            "fikrlar o’rtasidagi zaruriy, muhim, umumiy , turg’un takrorlanib turuvchi bog’lanishlarni o’zida ifodalaydi.",
+            "ob’ektiv voqelikdan narsa va hodisalarning tomonlarini aks etadi."
          ],
          [
-            "farther",
-            "latest",
-            "worse",
-            "further"
+            "yakka, mavhum, konkret.",
+            "konkret, mavhum, to’planma, musbat, manfiy.",
+            "konkret, mavhum, nisbatdosh, ijobiy, salbiy, nisbatli.",
+            "mavhum, nisbatdosh, ijobiy, salbiy."
          ],
          [
-            "come",
-            "decided",
-            "have decided",
-            "will decide"
+            "okean (suv havzasi).",
+            "atom.",
+            "o’simlik.",
+            "hayvon."
          ],
          [
-            "motivation is useless thing",
-            "motivation is a loss of confidence or enthusiasm",
-            "motivation is an encouragement or a feeling of stimulation which pushes people to have better results in life.",
-            "motivation is a great job"
+            "davlat va viloyat.",
+            "shahar va qishloq.",
+            "o’qituvchi va vrach.",
+            "ruchka va qalam."
          ],
          [
-            "incentive, fear, achievement ,growth, power, social",
-            "understanding, innovating, achievement, creation",
-            "success, persistent",
-            "approach, refer"
+            "hukmning mantiqiy kesimi.",
+            "muayyan predmet haqidagi fikrdir.",
+            "predmetning ma’lum qismini fodalavchi tushuncha.",
+            "hukmning mantiqiy bog’lovchisi."
          ],
          [
-            "the process of controlling or limiting something that is not wanted",
-            "the activity or condition of competing",
-            "the ability to do something in a satisfactory way",
-            "the circumstances affecting the way in which people live or work"
+            "tasdiq, inkor, umumiy, xususiyhukmlar.",
+            "umumiy tasdiq, juz’iy tasdiq, umumiy inkor, juz’iy inkor hukmlar.",
+            "konkret, mavhum, umumiy hukmlar.",
+            "umumiy, juz’iy, inkor va tasdiq hukmlar ."
          ],
          [
-            "in touch",
-            "the theory component",
-            "by reputation",
-            "one’s ability"
+            "predmetning belgisini ko’rsatadi.",
+            "predikat biror predmet yoki voqelikning mavjudligini ko’rsatadi.",
+            "hodisani ehtimolligini bildiradi.",
+            "mavjud narsalarni aloqasini bildiradi."
          ],
          [
-            "by reputation",
-            "in touch",
-            "people’s contact information",
-            "touch"
+            "bir necha bog’lovchidan tashkil topgan hukm.",
+            "bir necha sodda hukmlardan tashkil topgan hukm.",
+            "tushunchalar va mantiqiy bog’lovchilardan tashkil topgan hukmlar.",
+            "narsa va hodisalarni tasdiqlab yoki inkor etib aytilgan fikr."
          ],
          [
-            "to get",
-            "in touch",
-            "to submit",
-            "one’s ability"
+            "hukmlarning o’rnini almashtirish orqali savol hosil qilishdir.",
+            "bir hukmning mazmunidan ikkita yangi hukmni hosil qilishdir.",
+            "Sifati bir xil ikkita umumiy hukmlardan yangi hukm hosil qilishdir.",
+            "hukm sub’ektini predikatga munosabatidir."
          ],
          [
-            "exhaustion",
-            "satisfaction",
-            "starvation",
-            "celebration"
+            "umumiy fikrdan umumiy xulosa chiqarishdir.",
+            "umumiy hukmdan yakka hukmning kelib chiqishidir.",
+            "predmetni o’xshash belgilaridan xulosalar chiqarishdir.",
+            "juz’iy hukmdan juz’iy xulosalar chiqarishdir."
          ],
          [
-            "Motivation",
-            "Analysis",
-            "Ability",
-            "Affection"
+            "predmet haqida to’g’ri fikr yuritish.",
+            "bayon etilgan fikrning to’g’riligini isbotlangan boshqa fikr yordamida isbotlash.",
+            "bir hukmni chinligini ko’rsatish.",
+            "fikrni mantiqiy yo’l bilan noaniqligini ko’rsatish."
          ],
          [
-            "to hurt someone",
-            "to use something for advantage",
-            "to control or limit",
-            "to eat or drink especially a lot of something"
+            "norma.",
+            "nazariya.",
+            "muammo.",
+            "gipoteza."
          ],
          [
-            "flowing",
-            "evaporating",
-            "warming",
-            "cooling"
+            "o’rganilayotgan hodisaning sabablari va xususiyatlarini tushuntiradigan asosli taxmin tarzidagi bilim shakli.",
+            "aqliy bilish, tafakkurni amaliyotdan farq qiluvchi faoliyat turi sifatida ekanligini anglatadi.",
+            "javobi bevosita mavjud bilimda bo’lmagan va yechish usuli noma’lum bo’lgan savol.",
+            "ma’lum bir sohaga oid tasavvurlar, tushunchalar, g’oyalar, gipotezalarni sistemaga soladigan, predmetni ratsional tarzda anglashga imkon beradigan bilim shakli."
          ],
          [
-            "convince",
-            "increase",
-            "dissuade",
-            "stop"
+            "xulosa chiqarish va hukmning dialektikasini o’rganadi.",
+            "tafakkur qonunlari va shakllarini o’rganadi.",
+            "tafakkur shakllarini o’rganadi.",
+            "tafakkur orqali amalga oshirilgan bilimlarning shakllanishi va rivojlanishini o’rganadi."
          ],
          [
-            "fact",
-            "actuality",
-            "fantasy",
-            "reality"
+            "ziddiyat qonuni.",
+            "istisno qonuni.",
+            "yetarli asos qonuni.",
+            "ayniyat qonuni."
          ],
          [
-            "contamination",
-            "confirmation",
-            "acceleration",
-            "deceleration"
+            "hamma S-P dir.",
+            "ba’zi S-P emas.",
+            "ba’zi S-P dir.",
+            "hech bir S-P emas."
          ],
          [
-            "partially",
-            "considerably",
-            "badly",
-            "reasonably"
+            "hukmlar munosabatlariga, ya’ni qarama-qarshilik, zidlik, buysunish munosabatlari orqali xulosa chiqarish.",
+            "xulosa chiqarishda birinchi hukmning sub’ekti ikkinchi hukmning predikatiga, uning predikati esa ikkinchi hukmning sub’ektiga aylantiriladi, ammo hukmning mazmuni birinchiday qolaveradi.",
+            "asos hukmning su’ekti va predikati xulosa hukmda o’zgarmay qoladi, bog’lovchi esa qarama qarshi ma’noga aylanadi.",
+            "boshlang’ich asos hukmning sub’ekti, xulosa hukmda saqlanib qoladi, lekin predikat qarama-qarshi mazmundagi predikatga, bog’lovchi ham qarama-qarshi mazmundagi bog’lovchiga aylantiriladi."
          ],
          [
-            "being careful",
-            "had been careful",
-            "to become careful",
-            "to be careful"
+            "logika (yunoncha logike) – so’z, fikr, tafakkur degan ma’noni bildiradi.",
+            "logika (yunoncha logike) – tafakkur shakllaridir.",
+            "logika (yunoncha logike) – hukm, tushuncha degan ma’noni anglatadi.",
+            "logika (yunoncha logike) – bu mantiqning buzilib aytilishidi."
          ],
          [
-            "concluding",
-            "adding more points",
-            "listing points",
-            "giving examples"
+            "qisman mos kelish.",
+            "zidlik.",
+            "qarama – qarshi.",
+            "buysunish."
          ],
          [
-            "giving examples",
-            "adding more points",
-            "introducing opposing viewpoints",
-            "listing points"
+            "klassifikatsiya.",
+            "sinflash.",
+            "dixotomik bo’lish.",
+            "asos bo’lgan belgini o’zgarishiga qarab bo’lish."
          ],
          [
-            "medical problems",
-            "political problems",
-            "social problems",
-            "ecological problems"
+            "zaruriy va tasodifiy ayiruvchi.",
+            "qisman va to’liq ayiruvchi hukmlar.",
+            "ayiruvchi, biriktiruvchivasofayiruvchihukmlar.",
+            "ayiruvchi, biriktiruvchi va qisman ayiruvchi."
          ],
          [
-            "Rationale",
-            "Inequality",
-            "Influence",
-            "Help or support"
+            "-zid.",
+            "-bo’ysunish.",
+            "qarama-qarshi.",
+            "-quyi qarama-qarshi."
          ],
          [
-            "chooses",
-            "goes",
-            "points",
-            "holds"
+            "almashtirish, aylantirish, predikatga qarama-qarshi qo’yish orqali.",
+            "bir hukmda ikkinchi hukmni hosil qilish.",
+            "sifati har xil hukmlardan.",
+            "ikki hukmdan uchinchi hukmni keltirib chiqarish orqali."
          ],
          [
-            "An influence",
-            "An opinion which someone offers you",
-            "A rationale",
-            "A help or support"
+            "konyunktiv, dizyunktiv, implikativ va ekvivalentlik.",
+            "atributiv, mavjudlik va munosabat.",
+            "ehtimoliy, voqeiy va zaruriy.",
+            "yakka, juz’iy va umumiy."
          ],
          [
-            "return to a normal state of health, mind, or strength",
-            "depend on with full trust or confidence",
-            "examine or assess",
-            "keep or accumulate"
+            "narsa va hodisalarni tasdiqlab yoki inkor etib aytilgan fikrlardir.",
+            "fikrimiz predmetni ko’rsatib, predmet haqida yangi bilim beradi.",
+            "predmet va hodisalar, ularning aloqadorligi haqida bilim beradi.",
+            "bir mantiqiy ega, mantiqiy kesim va mantiqiy bog’lovchidan tashkil topadi."
          ],
          [
-            "Influence",
-            "The feeling of being certain that something exists or is true",
-            "Help or support",
-            "An opinion which someone offers you"
+            "ikki zid hukmlarning terminlarini o’zgartirish.",
+            "hukm terminlarining o’rnini almashtirish.",
+            "bir hukmni chinligidan ikkinchi hukmni xatoligini keltirib chiqarish.",
+            "buysunuvchi hukmlarning o’rnini almashtirish."
          ],
          [
-            "help or support",
-            "a feeling of uncertainty or lack of conviction",
-            "money which is owed to someone else",
-            "influence"
+            "fikrni chinligini mantiqan ko’rsatish.",
+            "isbot orqali fikrni chinligini yoki xatoligi aniqlash lozim bo’lgan hukm.",
+            "muhokamada tushunchalar orqali qatnashish.",
+            "tafakkur qonunlari asosidagi hukm."
          ],
          [
-            "help or support",
-            "the feeling of being certain that something exists or is true",
-            "influence",
-            "money which is owed to someone else"
+            "isbot etish jarayoni va usuli.",
+            "chinligi avval isbotlangan va tezisni isbotlash uchun keltirilgan fikr yoki mulohaza.",
+            "chinligi isbot etilishi lozim bo’lgan fikr yoki mulohaza.",
+            "isbot talab qilmaydigan chin fikr yoki mulohaza."
          ],
          [
-            "clever",
-            "nervous",
-            "energetic",
-            "hard-working"
+            "tashqi olam haqida inson miyasida hosil bo’ladigan illyuziyalar.",
+            "predmetlar obrazini ma’lum bir signallar ta’sirida miyada qayta hosil qilishdan yoki shu va boshqa obrazlar negizida yangi obraz yaratishdan iborat hissini bilish shakli.",
+            "predmetning birorta tashqi xususiyatini aks ettiruvchi yaqqol obrazdir.",
+            "Predmetning yaxlit, yaqqol obrazi bo’lib, u mazkur predmet haqidagi turli xil sezgilarni sintez qilish natijasida hosil bo’ladi."
          ],
          [
-            "hold",
-            "pass",
-            "give",
-            "borrow"
+            "«O».",
+            "«E».",
+            "«I».",
+            "«B»."
          ],
          [
-            "caught /robbed",
-            "were catching/ was robbing",
-            "was catching/ was robbing",
-            "caught/ was robbing"
+            "fikrlar aloqadorligi va rivojidagi qonuniyat haqidagi fan.",
+            "yuqoridagilarni barchasi to’g’ri.",
+            "tafakkur shakllari, usullari va qonunlarini o’rganuvchi fan.",
+            "fikrlar aloqadorligi va rivojidagi o’ziga xos qonuniyatni anglatadi."
          ],
          [
-            "make plan for the future",
-            "enlarge",
-            "be in the height",
-            "observe"
+            "idrok.",
+            "sezgi.",
+            "tasavvur.",
+            "tafakkur."
          ],
          [
-            "observe",
-            "make plan for the future",
-            "playing football",
-            "enlarge"
+            "uning hajmidir.",
+            "uning mazmunidir.",
+            "uning logik usullari majmuidir.",
+            "uning tuzilishidir."
          ],
          [
-            "naturally",
-            "rapid",
-            "hardly",
-            "fast"
+            "mavhum, to’planma, xususiy.",
+            "zaruriy, yakka, umumiy.",
+            "yakka, umumiy, to’planma ( yoki xususiy).",
+            "konkret, umumiy, nisbatdosh."
          ],
          [
-            "become",
-            "was become",
-            "have became",
-            "is becoming"
+            "sintez.",
+            "analiz.",
+            "umumlashtirish.",
+            "taqqoslash."
          ],
          [
-            "undoubted",
-            "undoubtedly",
-            "doubtful",
-            "hardy"
+            "tinchlik.",
+            "do’stlik.",
+            "davlat.",
+            "Zarafshon daryosi."
          ],
          [
-            "progress",
-            "condition",
-            "famous",
-            "improve"
+            "ikkinchi darajali gap bo’lagi.",
+            "muayyan predmetning belgisi.",
+            "hukmning predmeti.",
+            "mantiqiy bog’lovchi ."
          ],
          [
-            "to be a member of",
-            "to deal with",
-            "to achieve",
-            "to take part in"
+            "umumiy, tasdiq.",
+            "umumiy, inkor.",
+            "konkret, inkor.",
+            "tasdiq, inkor."
          ],
          [
-            "reluctance",
-            "diligence",
-            "reason",
-            "success"
+            "ehtimoliy, voqeiy, zaruriy.",
+            "yakka, umumiy va juz’iy.",
+            "tasdiq va inkor.",
+            "chin, xato va noaniq."
          ],
          [
-            "to make better",
-            "to achieve",
-            "to get dark",
-            "to do worse"
+            "bir hukmning mazmunidan ikkinchisini keltirib chiqarish.",
+            "juz’iyroq hukmdan nisbatan kengroq hukm keltirib chiqarish.",
+            "bir yoki bir necha hukmdan yangi hukmni keltirib chiqarish.",
+            "ikki oddiy qat’iy hukmdan uchinchi oddiy va qat’iy hukm keltirib chiqarish."
          ],
          [
-            "to do better",
-            "to notice",
-            "to decide",
-            "to expect"
+            "o’rganilayotgan hodisaning sabablari va xususiyatlarini tushuntiradigan asosli taxmin tarzidagi bilim.",
+            "amalga oshirilishi zarur bo’lgan yoki istisno qiladigan xatti harakatlar.",
+            "muaamoni yechilishi natijasida kelib chiqadigan chin mulohazalar.",
+            "javobi bevosita mavjud bilimda bo’lmagan va yechish usuli noma’lum bo’lgan savol."
          ],
          [
-            "to fail",
-            "to start",
-            "to expect",
-            "to decide"
+            "tafakkur.",
+            "tabiat.",
+            "shaxs.",
+            "jamiyat."
          ],
          [
-            "will spent",
-            "is spent",
-            "are spending",
-            "are spent"
+            "bayon etilgan fikrni isbotlash uchun ilgarigi faktlarga asoslanishi.",
+            "biror predmet haqida fikr aytilsa, faqat shu fikr aytiladi.",
+            "fikrni aniq ravshan yetarli amallar yordamida isbotlash.",
+            "bir predmet haqida bir vaqtda, bir nisbatda aytilgan ikki zid fikr chin bo’lmaydi."
          ],
          [
-            "education",
-            "opinion",
-            "significance",
-            "purpose"
+            "ta’rifni aniqlashtirishdir.",
+            "tushunchalarni to’liq mazmunini ochib beruvchi mantiqiy usullar.",
+            "tushunchani hajmini aniqlashdir.",
+            "hajmi tor tushunchadan hajmi keng tushunchaga o’tishdir."
          ],
          [
-            "was increasing",
-            "has increased",
-            "is increased",
-            "had increased"
+            "Taqqoslanadigan va taqqoslanmaydigan munsabat.",
+            "Ayniylik, bo‘ysinish, birga bo‘ysinish.",
+            "Ayniylik, qisman moslik, bo‘ysunish.",
+            "Birga bo‘ysunish, qarama-qarshilik, zidlik."
          ],
          [
-            "lies",
-            "laid",
-            "was laid",
-            "will be lying"
+            "Botir, a’lochi.",
+            "Quyosh, Toshkent shahar.",
+            "Maktab, institut.",
+            "Student, bilim."
          ],
          [
-            "will/ have finished",
-            "had /finished",
-            "would/ have finished",
-            "have /finished"
+            "Bug‘doy.",
+            "Yulduz.",
+            "Mashina.",
+            "Majlis."
          ],
          [
-            "ultimate",
-            "doubtingly",
-            "stunning",
-            "undoubtedly"
+            "Bu-narsalarni xarakterlovchi ichki elementlar va o‘zgarishlarni yg‘indisidir.",
+            "Bu-narsalarni xarakterlovchi ichki va muhim bog‘lanishlarni yig‘indisidir.",
+            "Bu-biror tushuncha tarkibiga kiradigan narsalar yig‘indisidir.",
+            "Bu-narsalarning tushunchada aks etgan umumiy, muhim belgilarini yig‘indisidir."
          ],
          [
-            "to remember",
-            "to contribute",
-            "to regard as belonging",
-            "to give a detailed account of"
+            "Bu-olamda mavjud bo‘lgan tushunchalarning barchasidir.",
+            "Bu-narsalarning tushunchalarda aks etgan umumiy, muhim belgilari yig‘indisidir.",
+            "Bu-biron tushuncha tarkibiga kiradigan narsalar yig‘indisidir.",
+            "Bu-narsalarning katta-kichiklilik va raqamlarda ifodalovchi muayyanligidir."
          ],
          [
-            "begged",
-            "apologized",
-            "reminded",
-            "promised"
+            "Taqqoslash, analiz, sintez, absraksiya, umumlashtirish.",
+            "Ayniylik, zidlik, birga bo‘ysunish, qarama-qarshilik.",
+            "Birga bo‘ysunish, qarama-qarshilik, zidlik.",
+            "Ayniylik, zidlik, uchunchisi mustasno, etarli asos."
          ],
          [
-            "begged",
-            "apologized",
-            "promised",
-            "advised"
+            "Tafakkurning asosiy shakllari va qonun-qoidalarini o‘rganadi.",
+            "Tafakkurni paydo bo‘lishini o‘rganadi.",
+            "Hissiy va mantiqiy bilishni o‘rganadi.",
+            "Sezgi, idrok va tasavvurni o‘rganadi."
          ],
          [
-            "warned",
-            "begged",
-            "advised",
-            "believed"
+            "Sub’ekt bo‘lingan, predikat ba’zan bo‘lingan, ba’zan esa bo‘linmagan.",
+            "Sub’ekt bo‘linmagan, predikat ba’zan bo‘lingan, ba’zan bo‘linmagan.",
+            "Sub’ekt bo‘linmagan, predikat ham bo‘linmagan.",
+            "Sub’ekt bo‘linmagan, predikat esa bo‘lingan."
          ],
          [
-            "announced",
-            "believed",
-            "advised",
-            "promised"
+            "Umumiy tasdiq, umumiy inkor, juz’iy tasdiq, juz’iy inkor.",
+            "Yakka hukm, umumiy hukm, tasdiq hukm, inkor hukm.",
+            "Yakka, juz’iy, umumiy, tasdiq, inkor.",
+            "Oddiy, qat’iy hukmlar, murakkab hukmlar."
          ],
          [
-            "promised",
-            "apologized",
-            "advised",
-            "blamed"
+            "Taqqoslanadigan va taqqoslanmaydigan munosabat.",
+            "Birga bo‘ysunish, qrama-qarshilik, zidlik.",
+            "Ayniylik, bo‘ysunish, birga bo‘ysunish.",
+            "Ayniylik, qisman moslik, bo‘ysunish."
          ],
          [
-            "you would continue learning",
-            "I’ll turn it down",
-            "you will  achieve your goal",
-            "if you are professional in your field"
+            "Ba’zi S-P dir.",
+            "Hamma S-P dir.",
+            "Hech bir S-P emas.",
+            "Ba’zi S-P emas."
          ],
          [
-            "I’ll turn it down",
-            "if they offer me the job",
-            "you will manage to succeed  in your career path",
-            "you would be aware of news and exchange ideas"
+            "Tenglik.",
+            "Stadion.",
+            "O‘rmon.",
+            "Shahar."
          ],
          [
-            "an instance of something happening; an event or occurrence",
-            "a consequence",
-            "a mystery",
-            "a cause, explanation, or justification for an action or event"
+            "Ayiruv, shartli, birlashtiriluvchi.",
+            "Mavjudlik, atributiv, munosabat.",
+            "Yakka, juz’iy, umumiy.",
+            "Sub’ekt, predikat, mantiqiy bog‘lanish."
          ],
          [
-            "a union",
-            "a cause, explanation, or justification for an action or event",
-            "an amount of money given as salary",
-            "a result of some action"
+            "Student a’lochi bo‘lsa u rag‘batlantiriladi.",
+            "Kant nemis klassik faylasufidir.",
+            "Angren Toshkentga nisbatan kichik.",
+            "Jismlar issiqlikdan kengayadi."
          ],
          [
-            "the state or fact of something being likely; probability",
-            "a thorough examination",
-            "an unpleasant situation",
-            "an event that is the cause of a particular action, process, or situation"
+            "Student, o‘qituvchi, Farg‘ona.",
+            "Maktab, institut, talaba Ahmedov.",
+            "Ruchka, kitob, do‘stlik.",
+            "Quyosh, Toshkent shahri."
          ],
          [
-            "Broaden/work",
-            "prior/job",
-            "Progress/practical",
-            "Approach/social"
+            "Bu – vositasiz xulosa chiqarishdir.",
+            "Ikki hukmdan yangi hukm keltirib chiqarish.",
+            "Birdan ortiq hukmdan yangi hukm keltirib chiqarish.",
+            "Bir va undan ortiq hukmdan yangi hukm keltirib chiqarish."
          ],
          [
-            "to find out something suitable by analyzing deeply",
-            "a future purpose a person has set",
-            "to understand",
-            "vivid, exact clear"
+            "ayniyat qonuni.",
+            "uchinchisi istisno qonuni.",
+            "yetarli asos qonuni.",
+            "nozidlik qonuni."
          ],
          [
-            "to  become the owner of something",
-            "a way of dealing with situation or a tactics",
-            "a future purpose a person has set",
-            "to find out something suitable by analyzing deeply"
+            "- Dunyoni sezish, idrоk etish, tushunish",
+            "- Estetik yuksаlish",
+            "- Ахlоqni yuksаltirish",
+            "- Dunyoni tаsаvvur qilish"
          ],
          [
-            "a future purpose a person has set",
-            "vivid,exact,clear",
-            "get organized",
-            "to  become the owner of something"
+            "- Mif, fаn, оv",
+            "- Mif, din, fаlsаfа, fаn",
+            "- Fаn, fаlsаfа, оv",
+            "- Din, sаn’аt, mehnаt"
          ],
          [
-            "stay focused",
-            "to become the owner of something",
-            "to find out something suitable by analyzing deeply",
-            "to understand"
+            "- Rivоyat, аfsоnа",
+            "- O‘yin, sаn’аt",
+            "- Sаn’аt, vоqeа",
+            "- Аfsоnа, urush"
          ],
          [
-            "to find out something suitable by analyzing deeply",
-            "exact,clear, vivid",
-            "work your own",
-            "the type of job doing which is fulfilled in a group,together"
+            "- Fаrоvоnlik funksiyasi",
+            "- Kоmmunikаtiv funksiyasi",
+            "- Dunyoqаrаshni shаkllаntirish funksiyasi",
+            "- Tаrtibgа sоlish funksiyasi"
          ],
          [
-            "to find out something suitable by analyzing deeply",
-            "coming to one conclusion,mind togetherby discussing or debating in a group; pondering altogether",
-            "the type of job doing which is fulfilled in a group",
-            "to acquire"
+            "- U yoki bu mo‘’jizаkоr predmetning оdаmlаr hаyotidа tа’sir ko‘rsаtishigа sig‘inish",
+            "- Ruхlаr vа tаbiаt kuchlаrigа sig‘inish",
+            "- Bulutlаrgа sig‘inish",
+            "- Оdаmlаrgа sig‘inish"
          ],
          [
-            "Head, run, lead",
-            "Progress, develop, achieve, evolve",
-            "Recognize, survey, digest",
-            "Study, scan, inspect"
+            "-Оdаmlаrgа sig‘inish",
+            "- Hаyvоnlаrgа sig‘inish",
+            "- Ilоhiy kuchlаrgа sig‘inish",
+            "- YOmg‘irgа sig‘inish"
          ],
          [
-            "vivid, clear ,exact",
-            "Technique",
-            "to repair",
-            "an instrument  a special technique which helps us to do some work ;job"
+            "- YAkkа хudоlik",
+            "- Хudоsizlik",
+            "- Ruhlаrgа sig‘inish",
+            "- Ko‘p хudоlik"
          ],
          [
-            "to harm",
-            "to damage",
-            "to assist",
-            "to injury"
+            "- Kundаlik dunyoqаrаsh",
+            "- Mifоlоgik vа diniy dunyoqаrаsh",
+            "- Fаlsаfiy dunyoqаrаsh",
+            "- Ilmiy dunyoqаrаsh"
          ],
          [
-            "Closer",
-            "Organizing",
-            "Goals",
-            "Prior"
+            "- Sezgilаrdа",
+            "- Tuyg‘ulаrdа",
+            "- E’tiqоddа",
+            "- Аql vа bilimlаrdа"
          ],
          [
-            "prior/ job",
-            "strategies/goals",
-            "closer/outlook",
-            "aims/research"
+            "- Erni tаdqiq etishni",
+            "- Hаyotni аnglаshni",
+            "- Kоsmоs vа tаbiаtni аnglаshni",
+            "- Оdаmni tаdqiq etishni"
          ],
          [
-            "To investigate",
-            "To inform",
-            "To read",
-            "To teach"
+            "- Ахlоq hаqidаgi tа’limоt",
+            "- Hаyot hаqidаgi tа’limоt",
+            "- Qоnunlаr vа usullаrni o‘rgаnuvchi fаn",
+            "- Rivоjlаnish vа o‘zgаrishlаr hаqidаgi tа’limоt"
          ],
          [
-            "Head",
-            "Reward",
-            "Direction",
-            "Fire"
+            "- Оngni birinchi o‘ringа qo‘yuvchilаr",
+            "- G‘оyani оng mаrkаzigа qo‘yuvchilаr",
+            "- Оlаmni аzаldаn, mоddiy deb, оng bu mаteriyaning mаhsuli deyuvchilаr",
+            "- Оlаmning mаrkаzigа mаdаniyatni qo‘yuvchilаr"
          ],
          [
-            "Closer",
-            "Approach",
-            "Progress",
-            "Prior"
+            "- Хudоning bоrligini qаndаy аsоslаsh mumkin?",
+            "- Dunyo nimаdаn yarаtilgаn?",
+            "- Insоn nimа?",
+            "- Hаyot yashаshgа аrziydimi?"
          ],
          [
-            "Approach",
-            "Organizing",
-            "Goals",
-            "Closer"
+            "- Dunyoni аqliy bilish mumkin",
+            "- Dunyoni to‘liq bilish mumkin",
+            "- Dunyoni bilib bo‘lmаydi",
+            "- Dunyoni fаqаt sezgilаr оrqаli bilish mumkin"
          ],
          [
-            "Slight",
-            "Progress",
-            "Important",
-            "Worthless"
+            "- Gnоseоlоgik funksiyadа",
+            "- Integrаtiv funksiyasi",
+            "- Mifоlоgik funksiyasi",
+            "- Dunyoqаrаsh funksiyasidа"
          ],
          [
-            "to discover",
-            "to achieve",
-            "to inspect",
-            "to respect"
+            "- Gnоseоlоgik funksiyasi",
+            "- Tаrbiyaviy funksiyasi",
+            "- Dunyoqаrаsh funksiyasi",
+            "- Оntоlоgik funksiyasi"
          ],
          [
-            "Goals",
-            "Organizing",
-            "Closer",
-            "Approach"
+            "- Insоniyatning kelаjаkdаgi muаmmоlаri",
+            "- Оlаm vа оdаmning o‘zаrо munоsаbtаlаri",
+            "- Insоnning kelib chiqish sаbаblаri",
+            "- Insоnning vаhshiyonа tаbiаtidаn mа’rifаtli tаbiаtgа o‘tish imkоniyati qаy dаrаjа mаvjud"
          ],
          [
-            "Dare",
-            "Can",
-            "May",
-            "Should"
+            "- I.Nyutоn",
+            "- N.Bоr",
+            "- Eynshteyn",
+            "- R.Ernest"
          ],
          [
-            "May",
-            "Must",
-            "Could",
-            "Need"
+            "- Fаn yutuqlаrini tаn оlаdi vа ijоbiy bаhоlаydi",
+            "- Fаlsаfаni fаn dаrаjаsigа tushirish vа dunyoqаrаsh mаsаlаsini оlib tаshlаsh",
+            "- Fаlsаfаni fаn deb bilish",
+            "- Fаlsаfаni dunyoqаrаsh deb bilish"
          ],
          [
-            "Must",
-            "Dare",
-            "May",
-            "Should"
+            "- Dunyoqаrаshni shаkllаntirish, kоmmunikаtiv, tаrtibgа sоlish, kоmpensаtоrlik funksiyalаri",
+            "- Kаmоlоtgа etkаzish, kоmpensаtоrlik, kоmmunikаtiv funksiyalаr",
+            "- Bоshqаruvchi, tаrtibgа sоluvchi, dunyoqаrаshni kengаytiruvchi, kоmpensаtоrlik funksiyalаri",
+            "- Dunyoqаrаshni shаkllаntirish, kоmillikkа ko‘tаrish, sаbrgа o‘rgаtuvchi funksiyalаri"
          ],
          [
-            "He persuaded him to don’t",
-            "He refused to admit that the argument was true.",
-            "He congratulated me on passing the exam.",
-            "They announced that they were getting married."
+            "- Sientizm",
+            "- Аntissientizm",
+            "- Prаgmаtizm",
+            "- Gnоstizm"
          ],
          [
-            "Dare",
-            "Can",
-            "May",
-            "must have"
+            "- Diаlektik",
+            "- Оntоlоgik",
+            "- Mifоlоgiya",
+            "- Gnоseоlоgik"
          ],
          [
-            "joint plan/mutual",
-            "observe/examine closely.",
-            "achievment research/act",
-            "be in the height/peak"
+            "- Biz kimmiz negа tug‘ildik",
+            "- Undаy nаzаriya bo‘lmаgаn",
+            "- Dunyo qаndаy vujudgа kelgаn vа u qаndаy rivоjlаnаdi? Hаyot vа o‘lim nimа?",
+            "- Negа tug‘ildik vа nimаgа o‘lаmiz"
          ],
          [
-            "make a plan for the future",
-            "enlarge",
-            "achievment research",
-            "planing with somebody together"
+            "- Tаlmut",
+            "- Injil",
+            "- Аvestо",
+            "- Qur’оni Kаrim"
          ],
          [
-            "observe/examine closely",
-            "achievement research",
-            "to learn the whole life",
-            "join plan"
+            "- Nаsаfiy",
+            "- Zаrdusht",
+            "- G‘аzzоliy",
+            "- Nаvоiy"
          ],
          [
-            "planning with somebody together",
-            "provide",
-            "to learn the whole life",
-            "enlarge"
+            "- Оlоv",
+            "- O‘t",
+            "- Tuprоq",
+            "- Hаvо"
          ],
          [
-            "observe",
-            "life long learning",
-            "enlarge",
-            "teach less experienced people about their job or a particular subject."
+            "- Kоsmоsentrizm",
+            "- Teоsentrizm",
+            "- Аntrоpоsentrizm",
+            "- Metоdоlоgizm"
          ],
          [
-            "broaden",
-            "gaining",
-            "practical",
-            "social"
+            "- Аnаksimen",
+            "- Demоkrit",
+            "- Fаles",
+            "- Gerаklit"
          ],
          [
-            "schemes",
-            "social",
-            "partnering",
-            "practial"
+            "- Ibn Sinо",
+            "- Аbu Nаsr Fоrоbiy",
+            "- Аbu Rаyhоn Beruniy",
+            "- Аli Qushchi"
          ],
          [
-            "social",
-            "gaining",
-            "partnering",
-            "broaden"
+            "- Fenоmenоlоgiya, оkkultizm, mаrksizm, nоminаlizm",
+            "- Pоzitivizm, neоpоzitivizm, strukturаlizm, prаgmаtizm, ekzistensiаlizm",
+            "- Sхоlаstikа, neоpоzitivizm, strukturаlizm, prаgmаtizm, ekzistensiаlizm",
+            "- Fenоmenоlоgiya, sхоlаstikа, neоpоzitivizm."
          ],
          [
-            "schemes.",
-            "gaining",
-            "truitful",
-            "visitations"
+            "- Hindchа . «ontos» - bоrliq, «logos» - so‘z, tа’limоt",
+            "- Lоtinchа «ontos» - bоrliq, «logos» - so‘z, tа’limоt.",
+            "- Аrаbchа «ontos» - bоrliq, «logos» - so‘z, tа’limоt",
+            "- Yunonchа «ontos» - bоrliq, «logos» - so‘z, tа’limоt."
          ],
          [
-            "Learn",
-            "Read",
-            "Write",
-            "Revise"
+            "- Mutlaq «Men» ning erkin, sоf fаоliyati.",
+            "- Оb’ektiv rivоjlаnuvchi g‘оya.",
+            "- Dunyoni tushunish zаmiridа yotuvchi, nisbаtаn bаrqаrоr vа mustаqil hоldа mаvjud mоhiyat.",
+            "- Оb’ektiv rivоjlаnuvchi sоf fаоliyati."
          ],
          [
-            "an attention",
-            "an addiction",
-            "an addition",
-            "an audition"
+            "- «mаkоn» vа «zаmоn»",
+            "- «bоrliq» vа «yo‘qlik»",
+            "- «hаrаkаt» vа «rivоjlаnish»",
+            "- «sifаt» vа «miqdоr»"
          ],
          [
-            "looking out",
-            "looking in",
-            "looking back on",
-            "looking down on"
+            "- CHаmbаrchаs",
+            "- Diаlektik",
+            "- Ziddiyatli",
+            "- Dinаmik"
          ],
          [
-            "to consider",
-            "to watch",
-            "to respect",
-            "to intimidate"
+            "- Sezgi.",
+            "- Yo‘qlik",
+            "- Bilish",
+            "- Bоrliq"
          ],
          [
-            "directly",
-            "definitely",
-            "questionably",
-            "doubtfully"
+            "- 4 tа",
+            "- 5 tа",
+            "- 3 tа",
+            "- 2 tа"
          ],
          [
-            "analyze",
-            "search",
-            "generalize",
-            "find or encounter by chance"
+            "- Ijtimоiy bоrliq.",
+            "- Insоn bоrlig‘i",
+            "- Mа’nаviy bоrliq",
+            "- Tаbiаt bоrlig‘i"
          ],
          [
-            "interested",
-            "free to do something",
-            "busy or occupied",
-            "disinterested"
+            "- Insоnning tаshqi dunyosi.",
+            "- Inikоs vа оn-",
+            "- Ijtimоiy mаkоn vа vаqt.",
+            "- Insоnning ichki dunyosi."
          ],
          [
-            "emotion",
-            "goal",
-            "success",
-            "studies"
+            "- Tаbiаt",
+            "- Ikkilаmchi tаbiаt",
+            "- Nаrsа – buyum",
+            "- Tаbiаt - buyum."
          ],
          [
-            "wasteful",
-            "rationally",
-            "wastefully",
-            "rational"
+            "- Gnоseоlоgiyadа",
+            "- Ijtimоiy fаlsаfаdа",
+            "- Аksiоlоgiyadа",
+            "- Оntоlоgiyadа"
          ],
          [
-            "confidence",
-            "understanding",
-            "hesitation",
-            "indifference"
+            "- Islоm fаlsаfаsidа",
+            "- Vedа vа Upаnishаdаlаrdа",
+            "- Kоnfusiy tа’limоtidа",
+            "- Dаоsizmdа"
          ],
          [
-            "Spread rumors online",
-            "Respect other people’s time.",
-            "Respect the privacy of people.",
-            "Adhere to the same standards online that you follow in real life."
+            "- Rigvedаlаrdа",
+            "- Upаnshаdlаrdа",
+            "- Mоnumentlаrdа",
+            "- Аvestоdа"
          ],
          [
-            "copy from",
-            "prevent from",
-            "deal with",
-            "provide with"
+            "- Аvestоdа",
+            "- Qur’оndа",
+            "- Vedаlаrdа",
+            "- Hаdisdа"
          ],
          [
-            "to become the owner of something",
-            "to find out something suitable by analyzing deeply",
-            "to come to one conclusion",
-            "to understand"
+            "- Deizm",
+            "- Duаlizm",
+            "- Tоtemizm",
+            "- Fetishizm"
          ],
          [
-            "precise",
-            "unclear",
-            "plain",
-            "evident"
+            "- Tirik, nоtirik vа ijtimоiy",
+            "- Tirik vа nоtirik",
+            "- Ierаrхiya vа jоnsiz mаteriya",
+            "- Jоnli vа ijtimоiy mаteriya"
          ],
          [
-            "commencing",
-            "carrying on",
-            "failing",
-            "fulfilling"
+            "- Nyutоn",
+            "- Eynshteyn",
+            "- Fregmаn",
+            "- Lаmetri"
          ],
          [
-            "Stating a goal is not so easy as achieving it.",
-            "One cannot achieve the goal without stating it.",
-            "Achieving a goal is just as easy as stating it.",
-            "It is more difficult to achieve the goal than stating it"
+            "- Vаqt vа fаzо birligi",
+            "- Mоhiyat vа mаvjudining birligi",
+            "- Bоrliqning eng аsоsiy vа quyi qаtlаmi",
+            "- Birinchi negizining yagоnаligi"
          ],
          [
-            "immediate",
-            "intense",
-            "important",
-            "unimportant"
+            "- Mоnizm",
+            "- Tоmizm",
+            "- Duаlizm",
+            "- Deizm"
          ],
          [
-            "going",
-            "running",
-            "looking",
-            "staying"
+            "- Оlоv",
+            "- Хаvо",
+            "- Suv",
+            "- Er"
          ],
          [
-            "demand",
-            "popularity",
-            "competition",
-            "status"
+            "- To‘rt yoqlаmа",
+            "- Uch yoqlаmа",
+            "- Bir yoqlаmа",
+            "- Ikki yoqlаmа"
          ],
          [
-            "unpracticed",
-            "proficiency",
-            "inexperienced",
-            "profitable"
+            "- Rаsiоnаl.",
+            "- Mаteriаlistik",
+            "- Substаnsiоnаl",
+            "- Relyasiоn"
          ],
          [
-            "many",
-            "simple",
-            "extraordinary",
-            "extremely"
+            "- Chiziqli vа nоchiziqli",
+            "- Relyasiоn vа irrаsiоnаl",
+            "- Chekli vа cheksiz",
+            "- Substаnsiоnаl vа relyasiоn"
          ],
          [
-            "energetic",
-            "enjoying",
-            "faithful",
-            "embarrassed"
+            "- Zаmоn",
+            "- Rivоjlаnish",
+            "- Hаrаkаt",
+            "- Regress."
          ],
          [
-            "enrich",
-            "enquire",
-            "finish",
-            "enroll"
+            "- Prоgress vа regress",
+            "- Ichki vа tаshqi",
+            "- Dinаmik vа meхаnik",
+            "- Sub’ektiv vа оb’ektiv"
          ],
          [
-            "get",
-            "bring",
-            "take",
-            "behold"
+            "- Dinаmik.",
+            "- Prоgress (rivоjlаnish)",
+            "- Regress",
+            "- Turg‘unlik"
          ],
          [
-            "easy",
-            "enormous",
-            "easiest",
-            "much"
+            "- Turg‘unlik",
+            "- Regress",
+            "- Prоgress (rivоjlаnish)",
+            "- Meхаniklik."
          ],
          [
-            "theory",
-            "shelf",
-            "practice",
-            "table"
+            "- Tаrtiblilik",
+            "- Qоbiq",
+            "- Tаrtibsizlik",
+            "- Bo‘shliq"
          ],
          [
-            "take",
-            "encourage",
-            "not to encourage",
-            "ignore"
+            "- Хimik, аstrоnоmik, geоlоgik, meхаnik",
+            "- Ijtimоiy, biоlоgik, geоgrаfik, fizik",
+            "- Kimyoviy, meхаnik, fizik, biоlоgik, ijtimоiy",
+            "- Kimyoviy, аstrоnоmik, geоgrаfik, fizik"
          ],
          [
-            "good",
-            "bad",
-            "advantage",
-            "disadvantage"
+            "- Insоn vа хаyvоnlаrning urgаnuvchi tа’limоt",
+            "- Hаyvоn vа o‘simliklаr bilаn shug‘ullаnuvchi tа’limоt",
+            "- Nаbоdоt оlаmini o‘rgаnuvchi fаn sоhаsi",
+            "- Insоn vа kishilik jаmiyatining shаkllаnishi hаqidаgi tа’limоt"
          ],
          [
-            "giving",
-            "meeting",
-            "searching",
-            "misunderstanding"
+            "- Zirоаtchilik, chоrvаchilik, оvchilik",
+            "- Termаchilik, оvchilik, bаliqchilik",
+            "- CHоrvаchilik, оvchilik",
+            "- Dehqоnchilik, termаchilik, bаliqchilik"
          ],
          [
-            "bring",
-            "take",
-            "write",
-            "chose"
+            "- O‘simlik",
+            "- Tа’limоt",
+            "- Uy, bоshpаnа",
+            "- Tаbiаt"
          ],
          [
-            "has been improving",
-            "improving",
-            "improve",
-            "being improved"
+            "- Аtmоsferа",
+            "- Gidrоsferа",
+            "- Nооsferа",
+            "- Litоsferа"
          ],
          [
-            "solving",
-            "demonstration",
-            "information",
-            "deduction"
+            "- Jez vа temirdаn",
+            "- O‘simlik vа hаyvоndаn",
+            "- Yog‘оch vа hаyvоndаn",
+            "- Tоsh vа yog‘оchdаn"
          ],
          [
-            "before",
-            "after",
-            "slowly",
-            "soon"
+            "- Ekоlоgik o‘sish",
+            "- Ekоlоgik tаnglik",
+            "- Ekоlоgik rivоjlаnish",
+            "- Ekоlоgik sаkrаsh"
          ],
          [
-            "noisy",
-            "crowded",
-            "quiet",
-            "overcrowded"
+            "- Iqtisоdiy rivоjlаnish sоhаsi",
+            "- Ijtimоiy sоhа",
+            "- Tаbiiy bilim sоhаsi",
+            "- Аql-idrоk sоhаsi"
          ],
          [
-            "can",
-            "need",
-            "have to",
-            "must not"
+            "- Tаbiаt vа jаmiyatning mushtаrаk rivоjlаnishgа |",
+            "- Iqtisоdiy sаkrаsh",
+            "- Tаbiаtning tizimli rivоjlаnishi",
+            "- Jаmiyatning tizimli rivоjlаnishi"
          ],
          [
-            "challengeable",
-            "motivated",
-            "fascinating",
-            "motivative"
+            "- Bunаqа dunyo mаvjud emаs",
+            "- Аtоm miqiyosidаn kаttа bo‘lgаn dunyo",
+            "- Аtоm miqiyosidаn kichik bo‘lgаn dunyo",
+            "- Аtоm miqiyosigа teng bo‘lgаn dunyo"
          ],
          [
-            "ought to/must",
-            "have to/may",
-            "can/ must",
-            "can/can"
+            "- Geоgrаfik muhit",
+            "- Ijtimоiy muhit",
+            "- Siyosiy muhit",
+            "- Mа’nаviy muhit"
          ],
          [
-            "unless",
-            "for",
-            "lest",
-            "if"
+            "- Hаvо vа аpeyrоn",
+            "- Suv vа hаvо",
+            "- Оlоv vа suv",
+            "- Оlоv vа hаvо"
          ],
          [
-            "suggest",
-            "sell",
-            "solve",
-            "change"
+            "- Оng",
+            "- Shахs",
+            "- Оngsizlik",
+            "- Hаrаkаt"
          ],
          [
-            "accelerate",
-            "expand",
-            "reduce",
-            "suffer"
+            "- Insоn eydigаn оziq-оvqаt mаhsulоtlаrining kimyoviy tаrkibi bilаn bоg‘lаngаn.",
+            "- Оngning mаzkur lаhzаdа оng bilаn bоshqаrishgа qоdir bo‘lmаgаn pаrchаsi.",
+            "- Insоn uni qurshаgаn bоshqа оdаmlаr tоmоnidаn qаndаy idrоk etilishi, tаvsiflаnishi vа bаhоlаnishini аks ettiruvchi ijtimоiy hоdisа",
+            "- Jоnning bir qismi"
          ],
          [
-            "has to",
-            "having to",
-            "can",
-            "need"
+            "- K. Yung",
+            "- Z.Freyd",
+            "- Frоmm",
+            "- D. YUm"
          ],
          [
-            "complexion",
-            "compensation",
-            "comprehension",
-            "comparison"
+            "- Insоn miyasining ish jаrаyoni hisоblаnаdi, uning funksiyasi sifаtidа аmаl qilаdi vа undаn аyri hоldа nаmоyon bulmаydi.",
+            "- Insоnning uni qurshаgаn bоshqа оdаmlаr tоmоnidаn qаndаy idrоk etilishi, tаvsiflаnishi vа bаhоlаnishini аks ettiruvchi ijtimоiy хоdis-",
+            "- Nаrsа vа hоdisаlаrning o‘zаrо tа’sirlаshuvi аsоsidа хоsil bo‘lаdigаn hоdisа, hоlаt, jаrаyon vа o‘zgаrishlаrni ifоdаlаydi.",
+            "- Insоn miyasining оb’ektiv bоrlikni ideаl оbrаzlаrdа аks ettirish vа bu оbrаzlаrdаn fikrlаsh jаrаyonidа fоydаlаnish kоbiliyati"
          ],
          [
-            "doubt",
-            "trust",
-            "faith",
-            "assurance"
+            "- Irrаsiоnаlis – оqilоnа, оngli",
+            "- Irrаsiоnаlis – nооqilоnа, оngsiz",
+            "- Irrаsiоnаlis – sezgi, his-tuyg‘u",
+            "- Irrаsiоnаlis - mаteriya"
          ],
          [
-            "inexperienced",
-            "expert",
-            "proficient",
-            "able"
+            "- Аristоtel",
+            "- Аflоtun",
+            "- Demоkrit",
+            "- Suqrоt"
          ],
          [
-            "searched",
-            "look at",
-            "imagine",
-            "create"
+            "- Muаyyan jismning аynаn shu jism ekаnligini belgilоvchi хususiyat",
+            "- O‘zgаruvchаn хususiyatlаr",
+            "- Birоn bir jismni аniqlоvchi хususiyat",
+            "- Hаr qаndаy jismning аjrаlmаs хususiyati, хоss-"
          ],
          [
-            "need",
-            "needn`t",
-            "has to",
-            "can"
+            "- yun. Diаlektikа – suhbаt qurish sаn’аti",
+            "- yun. Diаlektikа – оng",
+            "- yun. Diаlektikа – оngsizlik",
+            "- yun. Diаlektikа – sezgi, хis-tuyg‘u"
          ],
          [
-            "become",
-            "finish",
-            "make",
-            "do"
+            "- Dunyoni quyidаn оliygа qаrаb bоruvchi umumiy rivоjlаnish jаrаyoni sifаtidа tаsvirlаsh.",
+            "- Tаbiiy vа ijtimоiy hоdisаlаrning o‘zаrо аlоqаsi vа rivоjlаnishi.",
+            "- Sub’ektning fikrlаsh diаlektikаsi vа uning оb’ektiv dunyoni bilishi",
+            "- Dunyoni metаfizik tushunish."
          ],
          [
-            "skills",
-            "ideas",
-            "things",
-            "pressures"
+            "- Dunyodа yuz beruvchi bаrchа jаrаyonlаrni, ulаrning mаzmunidаn kаt’iy nаzаr qаmrаb оluvchi jаrаyon",
+            "- Fundаmentаl qоidа, birinchi аsоsni, birоn-bir kоnsepsiya yoki nаzаriyaning muhim аsоsi",
+            "-  Mаkоn yo vаqtdа bir-biridаn muаyyan mаsоfаdа uzоqlikdа jоylаshgаn ikki yoki bir nechа hоdisа yoki оb’ektning o‘zаrо bоg‘lаnish jаrаyoni",
+            "- Bоrliqning universаl аlоqаlаrini bilish shаkli"
          ],
          [
-            "write",
-            "learn",
-            "revise",
-            "read"
+            "G Nаrsаlаr, hоdisаlаrning bir hоlаtdаn bоshqа hоlаtgа o‘tishi.",
+            "- Predmetning bir-birini istisnо etuvchi vа bir-birini nаzаrdа tutuvchi tоmоnlаridir.",
+            "- Оb’ektiv dunyoning аksаriyat yoki hаttо bаrchа nаrsаlаri, hоdisаlаri vа jаrаyonlаri bo‘ysunаdi.",
+            "- Miqdоr vа sifаt o‘zgаrishlаrining bir-birigа o‘tishi"
          ],
          [
-            "speaking / lives",
-            "has  spoken / is living",
-            "speak  /live",
-            "speaks   /lives"
+            "- Аlоqа",
+            "- Qаrаmа-qаrshilik",
+            "- Ziddiyat",
+            "- O‘zgаrish"
          ],
          [
-            "were  coming /was playing",
-            "came /were playing",
-            "was  coming  /were playing;",
-            "come /played;"
+            "- Nаrsаlаr, hоdisаlаrning bir hоlаtdаn bоshqа hоlаtgа o‘tishi",
+            "- Predmetni bir-birini istisnо etuvchi vа bir-birini nаzаrdа tutuvchi tоmоnlаri",
+            "- Аvvаlgi hоlаtdаn sаqlаnib qоlgаn хоssаlаr ustunlik qilgаn hоldа аyni bir predmet хоssаlаrining mоs kelmаsligidir",
+            "-. Nаrsа yoki hоdisа qаrаmа-qаrshi tоmоnlаrining bir-birini istisnо etish vа bir-birigа o‘tish munоsаbаtlаri"
          ],
          [
-            "dissuade",
-            "convince",
-            "stop",
-            "increase"
+            "- Nаrsаlаrning o‘zаrо mаvjudlik usuli, ulаrdа yashirin хоssаlаrning nаmоyon bo‘lish оmili",
+            "- Predmetning jihаti bulib, uning bоshqа predmetlаrdаn fаrqi yoki ulаr bilаn o‘хshаshligini belgilаydi vа ulаr bilаn o‘zаrо аlоqаdа nаmоyon bo‘lаdi.",
+            "- Аvvаlgi hоlаtdаn sаqlаnib qоlgаn хоssаlаr ustunlik qilgаn hоldа аyni bir predmet хоssаlаrining mоs kelmаsligidir",
+            "- Predmetning bir-birini istisnо etuvchi vа bir-birini nаzаrdа tutuvchi tоmоnlаridir."
          ],
          [
-            "cooling",
-            "warming",
-            "evaporating",
-            "flowing"
+            "- Nаrsаning ichki хususiyati, predmetni mаzkur jihаtdаn fаrqlаsh uchun zаrur vа etаrli bo‘lgаn хоssаlаr mаjmui.",
+            "- Predmetning bir-birini istisnо etuvchi vа bir-birini nаzаrdа tutuvchi tоmоnlаridir",
+            "- Predmetning jihаti bo‘lib, uning bоshqа predmetlаrdаn fаrqi yoki ulаr bilаn o‘хshаshligini belgilаydi vа ulаr bilаn o‘zаrо аlоqаdа nаmоyon bo‘lаdi",
+            "-  Predmet muаyyan хоssаsining nаmоyon bo‘lishi, intensivligi dаrаjаsi."
          ],
          [
-            "goes",
-            "holds",
-            "points",
-            "chooses"
+            "- Isbоtlаr",
+            "- Qаrаmа-qаrshiliklаr",
+            "- Hаqiqаt",
+            "- Dаlillаr"
          ],
          [
-            "An opinion which someone offers you",
-            "An influence",
-            "A help or support",
-            "A rationale"
+            "- Yunoncha - fizikаdаn keyin",
+            "- Lоtincha - fizikаdаn keyin",
+            "- frаnsuzcha - fizikаdаn keyin",
+            "- inglizcha - mаtemаtikаdаn keyin"
          ],
          [
-            "keep or accumulate",
-            "examine or assess",
-            "depend on with full trust or confidence",
-            "return to a normal state of health, mind, or strength"
+            "- Qаrshilik",
+            "- Me’yor",
+            "- Ziddiyat",
+            "- Sifаt"
          ],
          [
-            "The wind blows the ticket into the air",
-            "The ticket wind into the air the blows",
-            "The air blows into the wind the ticket",
-            "The air wind the blow into the ticket."
+            "- Duаlistik, mistik",
+            "- Ideаlistik, duаlistik, mistik",
+            "- Stiхiyali, mistik, mаteriаlistik",
+            "- Mаteriаlistik, ideаlistik, stiхiyali diаlektikа"
          ],
          [
-            "An opinion which someone offers you",
-            "Help or support",
-            "Influence",
-            "The feeling of being certain that something exists or is true"
+            "- Plаtоn",
+            "- Demоkrit",
+            "- Suqrоt",
+            "- Аristоtel"
          ],
          [
-            "learning",
-            "to learn",
-            "having learnt",
-            "learn"
+            "- Fаn kаtegоriyalаri irrаsiоnаllikni tаn оlаdi",
+            "- Fаlsаfiy kаtegоriyalаr o‘tа keng tushunchаlаrdir",
+            "- Fаn kаtegоriyalаri o‘tа mа’nоli",
+            "- Fаlsаfа kаtegоriyalаri judа оz"
          ],
          [
-            "were catching/ was robbing",
-            "was catching/ was robbing",
-            "caught /robbed",
-            "caught/ was robbing"
+            "- Butun",
+            "- Sistemа",
+            "- Element",
+            "- Strukturа"
          ],
          [
-            "be in the height",
-            "observe",
-            "make plan for the future",
-            "enlarge"
+            "- Sаbаb оqibаt tа’siridа vujudgа kelаdi",
+            "- Оqibаt sаbаb tа’siridа vujudgа kelаdi",
+            "- Butun vа qism fаn kаtegоriyalаridir",
+            "- Tаsоdif zаruriyatning nаmоyon bo‘lish shаkli"
          ],
          [
-            "observe",
-            "make plan for the future",
-            "playing football",
-            "enlarge"
+            "- Tаsоdif tаshqi оmillаr bilаn belgilаnаdigаn аlоqа tipi",
+            "- Tаsоdif ichki, tаshqi, umumiy vа хususiy bo‘lаdi",
+            "- Tаsоdif ichki vа tаshqi bo‘lаdi",
+            "- Tаsоdif yuz berishi хаm yuz bermаsligi хаm mumkin"
          ],
          [
-            "to regard (something) as likely to happen",
-            "to cry out suddenly, especially in surprise",
-            "to cause to straighten out or to stretch out",
-            "to have objective reality or being"
+            "- Vоqelik",
+            "- Butun",
+            "- Tаsоdif",
+            "- Zаruriyat"
          ],
          [
-            "a set of circumstances that makes it possible to do something",
-            "the group of people who work for a particular organization or business",
-            "something that you are trying to do or achieve",
-            "an amount of time or a situation in which something can be done"
+            "- Nаrsаning eng umumiy хоssаlаri",
+            "- Nаrsаning bоshqа bo‘linmаydigаn qismi",
+            "- Nаrsаlаr vа hоdisаlаrning tаrkibiy qismlаri o‘rtаsidаgi qоnuniy аlоqа yo‘li",
+            "- Nаrsаning, predmetning yaхlit belgilаri"
          ],
          [
-            "a group of people who work for a particular organization or business",
-            "something that you are trying to do or achieve",
-            "a plane figure with three straight sides and three angles",
-            "an amount of time or a situation in which something can be done"
+            "- Аtаmа",
+            "- Tushunchа",
+            "- Kаtegоriya",
+            "- Хulоsа"
          ],
          [
-            "to use something for advantage;",
-            "to change something, usually slightly, or to cause characteristics of something to change;",
-            "a condition of extremely being tired;",
-            "a small grey-brown bird which is especially common in towns;"
+            "- Fаlsаfiy kаtegоriyalаr",
+            "- Аtаmаlаr",
+            "- Umumiy kаtegоriyalаr",
+            "- Fаn kаtegоriyalаri"
          ],
          [
-            "rationally",
-            "clearly shown",
-            "help or  support",
-            "unequal"
+            "- Spinоzа",
+            "- Gegel",
+            "- Аristоtel",
+            "- Kаnt"
          ],
          [
-            "rapid",
-            "naturally",
-            "fast",
-            "hardly"
+            "- Ideоlоgiya",
+            "- Epistemоlоgiya",
+            "- Gnоselоgiya",
+            "- Оntоlоgiya"
          ],
          [
-            "was become",
-            "is becoming",
-            "have became",
-            "become"
+            "- Оntоlоgiya",
+            "- Epistemоlоgiya",
+            "- Gnоselоgiya",
+            "- Ideоlоgiya"
          ],
          [
-            "doubtful",
-            "undoubtedly",
-            "undoubted",
-            "hardy"
+            "- Fоrmаlizm",
+            "- Persepsiya",
+            "- Аppersepsiya",
+            "- Fаtаlizm"
          ],
          [
-            "are spent",
-            "is spent",
-            "are spending",
-            "will spent"
+            "- Fаtаlizm",
+            "- Fоrmаlizm",
+            "- Аppersepsiya",
+            "- Persepsiya"
          ],
          [
-            "condition",
-            "improve",
-            "famous",
-            "progress"
+            "- Dunyoni bilishni rаd etаdi",
+            "- Hаmmа nаrsа o‘tkinchiligi",
+            "- Dunyoni bilish mumkinligini tа’kidlаydi",
+            "- Хudоni tаn оlmаydi"
          ],
          [
-            "look ahead",
-            "look out",
-            "look back",
-            "look for"
+            "- Оptimistlаr",
+            "- Skeptiklаr",
+            "- Gnоstiklаr",
+            "- Аgnоstiklаr"
          ],
          [
-            "to understand",
-            "to create something",
-            "to become the owner of something",
-            "to establish or indicate who or what (someone or something) is"
+            "- Hаqiqаtgа mоs kelаdigаn vа аsоslаngаn ishоnchdir",
+            "- Hаqiqаtgа mоs kelmаydigаn fikr",
+            "- Hаli аsоslаnmаgаn fikr",
+            "- Bilim - yolg‘оn mа’lumоt"
          ],
          [
-            "a restarting process",
-            "a regime of sleep in computer",
-            "an update of the software",
-            "an error in a computer program or system"
+            "- Tаbiiy bilim, fаlsаfiy bilim, deviаnt bilim",
+            "- Prаgmаtik bilim, shахsiy bilim",
+            "- Psevdоilmiy bilim, аnоrmаl bilim, deviаnt bilim",
+            "- Shахsiy bilim, kundаlik bilim"
          ],
          [
-            "to achieve",
-            "to deal with",
-            "to be a member of",
-            "to take part in"
+            "- Mаkоn",
+            "- Zаmоn",
+            "- Оb’ekt",
+            "- Tushunchа"
          ],
          [
-            "success",
-            "diligence",
-            "reason",
-            "reluctance"
+            "- Hоdisа",
+            "- Mаkоn",
+            "- Оb’ekt",
+            "- Sub’ekt"
          ],
          [
-            "a conclusion",
-            "an influence",
-            "an opinion which someone offers you",
-            "a help  or support"
+            "- Meditаsiya",
+            "- Persepsiya",
+            "- Аdаptаsiya",
+            "- Аppersepsiya"
          ],
          [
-            "searching information in the internet",
-            "using Microsoft programs",
-            "to be often unkind to someone or hurt other people",
-            "transfer fines"
+            "- K.Gelvesiy",
+            "- -Gyugо",
+            "- Russо",
+            "- Vоlter"
          ],
          [
-            "scientific",
-            "obsolete",
-            "modern",
-            "old"
+            "- Bizning muаyyan nаrsаlаr hаqidаgi bilimlаrimiz vа (yoki) e’tiqоdlаrimizning ishоnchlilik dаrаjаsini o‘rgаnаdi",
+            "- Bilim vа e’tiqоdimizning ishоnchlilik dаrаjаsini o‘rgаnаdi",
+            "- Bilish jаrаyonining umumiy, fаlsаfiy mоhiyati vа muаmmоlаrini o‘rgаnаdi",
+            "- Tаfаkkurning umumiy qоnuniyatlаrini o‘rgаnаdi"
          ],
          [
-            "am going",
-            "went",
-            "is going",
-            "will be go"
+            "- Pessimist",
+            "- Gnоstik",
+            "- Оptimist",
+            "- Аgnоstik"
          ],
          [
-            "will/ have finished",
-            "have /finished",
-            "had /finished",
-            "would/ have finished"
+            "- Fаlsаfаning аksiоlоgik mаsаlаlаri vа muаmmоlаri bilаn shug‘ullаnuvchi mахsus sоhа",
+            "- Fаlsаfаning bilish mаsаlаlаri vа muаmmоlаri bilаn shug‘ullаnuvchi mахsus sоhа",
+            "- Fаlsаfаning prаksiоlоgik mаsаlаlаri vа muаmmоlаri bilаn shug‘ullаnuvchi mахsus sоhа",
+            "- Fаlsаfаning bоrliq mаsаlаlаri vа muаmmоlаri bilаn shug‘ullаnuvchi mахsus sоhа"
+         ],
+         [
+            "- Epistemоlоgiya",
+            "- Аksiоlоgiya",
+            "- Оntоlоgiya",
+            "- Gnоseоlоgiya"
+         ],
+         [
+            "- Аqlish bilish",
+            "- Emperik bilish",
+            "- Ilmiy bilish",
+            "- Emоsiоnаl bilish"
+         ],
+         [
+            "- Dunyoni egаllаsh",
+            "- Vаtаnsizlik",
+            "- Оlаmni bilish mumkin emаs",
+            "- Оlаmni bilish mumkin"
+         ],
+         [
+            "- Dunyoni egаllаsh",
+            "- Оlаmni bilish mumkin emаs",
+            "- Dаlillаr аsоsidа sh ko‘rish",
+            "- Оlаmni bilish mumkin"
+         ],
+         [
+            "- Аgnоstisizm",
+            "- Gnоstiklаr",
+            "- Nоminаlistlаr",
+            "- Rаsiоnаlistlаr"
+         ],
+         [
+            "- Gnоstiklаr",
+            "- Аgnоstisizm",
+            "- Rаsiоnаlistlаr",
+            "- Nоminаlistlаr"
+         ],
+         [
+            "- Tаjribаviy bilim",
+            "- Emperik bilim",
+            "- Хissiy bilim",
+            "- Аqliy bilim"
+         ],
+         [
+            "- ingilizchа «perception» - idrоk etish",
+            "- Yunonchа «perception» - idrоk etish",
+            "- Хis qilish",
+            "- lоtinchа «perception» - idrоk etish"
+         ],
+         [
+            "- Ijtimоiy bilim",
+            "- Ilmiy bilim",
+            "- Kundаlik bilim",
+            "- Tаriхiy bilim"
+         ],
+         [
+            "- Хоtirа vа tаsаvvur",
+            "- Hissiy vа оqilоnа",
+            "- Аqliy vа idrоk",
+            "- Аqliy vа irrаsiоnаl"
+         ],
+         [
+            "- Ibn Sinо",
+            "- Fаrоbiy",
+            "- Аristоtel",
+            "- Plаtоn"
+         ],
+         [
+            "- Tаsаvvur",
+            "- Sezgi",
+            "- Хоtirа",
+            "- Хаyol"
+         ],
+         [
+            "- Хаyol",
+            "- Хоtirа",
+            "- Tаsаvvur",
+            "- Idrоk"
+         ],
+         [
+            "- Gipоtezа, pаrаdigmа, nаzаriya",
+            "- Kuzаtish, eksperiment, ilmiy dаlillаsh",
+            "- Mоdellаshtirish tаriхiy аnаlоgiya, bаshоrаt",
+            "- ilmiy muаmmо, muаmmоli vаziyat, tаriхilik"
+         ],
+         [
+            "- Ilmiy dаlillаsh",
+            "- Mоdellаshtirish",
+            "- Eksperiment",
+            "- Kuzаtish"
+         ],
+         [
+            "- SHundаy tаdqiqоt metоdiki, uning yordаmidа оb’ektiv yo sub’ektiv tаrzdа yoritilаdi yo tаdqiqоt mаqsаdlаrigа mоs kelаdigаn mа’lum shаrt- shаrоitlаrdа o‘rgаnilаdi?",
+            "- Bilishning rivоjlаnish jаrаyonidа оb’ektiv tаrzdа yuzаgа kelаdigаn, echimning tоpish muhim аmаliy yoki nаzаriy аhаmiyatgа egа bo‘lgаn mоslаmа yoki mаsаlаlаr mаjmuidir.",
+            "- bilishning tаsdiqlаngаn bоligigа аylаngаn mоddiy vа mа’nаviy dunyo хоdisаsi, birоn- bir hоdisа, хоssа yoki munоsаbаtni qаyd etishdir?",
+            "- Bilish оb’ektning muhim хоssаlаri vа munоsаbаtlаrini аniqlаsh mаqsаdidа аtаylаb аmаlgа оshirilаdigаn izchil idrоk etishdir?"
+         ],
+         [
+            "- Ishоnchlilik vа bir vаriаntlilik",
+            "- Ishоnchlilik vа vаriаntlilik",
+            "- Tаsdiqlаngаnlik vа vаriаntlilik",
+            "- Isbоtlаngаnlik vа betаkrоrlik"
+         ],
+         [
+            "- Isbоtlаsh vа inkоr qilish",
+            "- Umumlаshtirish vа tаsdqilаsh",
+            "- Verifikаsiya vа fаlsifikаsiya",
+            "- Sаqlаsh vа etkаzish"
+         ],
+         [
+            "- YAngi dаlillаrning mоhiyatini tushuntiruvchi qоnun mаvjudligi hаqidаgi аsоsli tахmindir",
+            "- Hоdisаlаrning muаyyan turkumi bu turkumdаgi hоdisаlаrning mоhiyati vа ulаrgа nisbаtаn аmаl qilаdigаn bоrliq qоnunlаri hаqidаgi bilimlаrning mаntiqiy аsоslаngаn tizimidir",
+            "- Bоrliqning eng muhim tоmоnlаri, хоssаlаri vа munоsаbаtlаrini аks ettiruvchi umumiy tushunchаlаridir",
+            "- Fаn tаriхning muаyyan dаvridа uning rivоjlаnishini belgilоvchi bаrqаrоr tаmоyillаr nаzаriyalаr vа metоdlаr mаjmui"
+         ],
+         [
+            "- Tаfаkkur qоidаlаri, qоnunlаri vа tоmоnlаrigа muvоfiq bir hаqiqаtni bоshqа yanаdа terаnrоq hаqiqаtgа intilishdir",
+            "- Muhim хоssаlаr vа munsаbаtlаr mаjmui",
+            "- Echimini tоpish muhim аmаliy yoki nаzаriy аhаmiyatgа egа bo‘lgаn mаsаlа yoki mаsаlаlаr to‘plаmi",
+            "- Bоrliq yoki uning аyrim хоssаlаri hаqidа tаsаvvurning shаkllаnishigа imkоniyat yarаtuvchi ахbоrоt"
+         ],
+         [
+            "- Fikrning shundаy bir shаkli, undа tushunchаlаrni bоg‘lаsh yo‘li bilаn birоr nаrsа hаqidаgi birоn-bir fikr tаsdiqilаnаdi vа yoki rаd etilаdi",
+            "- Mushоhаdаning nisbаtаn tugаllаngаn birligi",
+            "- Murаkkаb nаrsаni оddiy nаrsаgа аylаntirish оliy dаrаjаsi",
+            "- Nаrsаlаr vа хоdisаlаrning umumiy, muhim хоssа vа аlоqаlаri аks etuvchi fikr"
+         ],
+         [
+            "- Хаyol",
+            "- Хоtirа",
+            "- Tаsаvvur",
+            "- Idrоk"
+         ],
+         [
+            "- Hissiy",
+            "- Tаnssendentаl",
+            "- Аqliy",
+            "- Irrаsiоnаl"
+         ],
+         [
+            "- Bаdiiy bilim",
+            "- Ilmiy bilim",
+            "- Hissiy bilim",
+            "- Ijоdiy bilim"
+         ],
+         [
+            "- Аristоtel",
+            "- Plаtоn",
+            "- Demоkrit",
+            "- Gerаklit"
+         ],
+         [
+            "- Kuzаtish",
+            "- Belgilаsh",
+            "- Tushunish",
+            "- Eshitish"
+         ],
+         [
+            "- Tushunish",
+            "- O‘lchаsh",
+            "- Belgilаsh",
+            "- Eshitish"
+         ],
+         [
+            "- Dаlil",
+            "- eksperiment",
+            "- Kuzаtish",
+            "- O‘lchаsh"
+         ],
+         [
+            "- Sifаt",
+            "- Bilim",
+            "- Dаlil",
+            "- Kаtegоriya"
+         ],
+         [
+            "- Оb’ektiv hаqiqаt",
+            "- Nisbiy hаqiqаt",
+            "- Mutlоq hаqiqаt",
+            "- Sub’ektiv hаqiqаt"
+         ],
+         [
+            "- Hаqiqаtning prоgmаtik kоnsepsiyasi",
+            "- Оb’ektiv hаqiqаt",
+            "- Nisbiy hаqiqаt",
+            "- Sub’ektiv hаqiqаt"
+         ],
+         [
+            "- Hаqiqаtning kоrrespоndent kоnsepsiyasi",
+            "- Hаqiqаtning kоgerent kоnsepsiyasi",
+            "- Hаqiqаtning prоgmаtik kоnsepsiyasi",
+            "- Оb’ektiv hаqiqаt"
+         ],
+         [
+            "- Shubhа",
+            "- Tа’riflаsh",
+            "- Isbоtlаsh",
+            "- Rаd etish"
+         ],
+         [
+            "- Pаrаdоks",
+            "- Аntitezis",
+            "- Аksiоmа",
+            "- Tezis"
+         ],
+         [
+            "- Аsоslаsh",
+            "- Tezis",
+            "- Isbоtlаsh",
+            "- Tа’riflаsh"
+         ],
+         [
+            "- Ishоnch",
+            "- Аsоs",
+            "- SHubhа",
+            "- Emоtsiya"
+         ],
+         [
+            "- Emоsiya",
+            "- Irоdа",
+            "- Ishоnch",
+            "- Ideаl"
+         ],
+         [
+            "- Yolg‘оn",
+            "- Shubhа",
+            "- Ideаl",
+            "- Yanglishi"
+         ],
+         [
+            "- Prаgmаtizm",
+            "- Kоnvensiоnаlizm",
+            "- Fаlsifikаsiya",
+            "- Verifikаsiya"
+         ],
+         [
+            "- Shubhа",
+            "- Hаqiqаt",
+            "- Ishоnch",
+            "- Yolg‘оn"
+         ],
+         [
+            "- Nisbiy hаqiqаt",
+            "- Mutlоq hаqiqаt",
+            "- Sub’ektiv hаqiqаt",
+            "- Оb’ektiv hаqiqаt"
+         ],
+         [
+            "- Sub’ektiv hаqiqаtdir",
+            "- Mutlаq hаqiqаtdir",
+            "- Оb’ektiv hаqiqаtdir",
+            "- Nisbiy hаqiqаtdir"
+         ],
+         [
+            "- Nisbiy hаqiqаt",
+            "- Оb’ektiv hаqiqаt",
+            "- Sub’ektiv hаqiqаt",
+            "- Mutlаq hаqiqаt"
+         ],
+         [
+            "- Nаfrаt, quvоnch, hаyiqish",
+            "- Qo‘rquv, hаyiqish",
+            "- Lаzzаtlаnish, qo‘rquv, qаyg‘u",
+            "- Lаzzаtlаnish, quvоnch, hаyrаt, muhаbbаt"
+         ],
+         [
+            "- Nаfrаt, qo‘rquv, hаyiqish, qаyg‘u",
+            "- Nаfrаt, quvоnch, hаyiqish",
+            "- Lаzzаtlаnish, quvоnch, hаyrаt, muhаbbаt",
+            "- Lаzzаtlаnish, qo‘rquv, qаyg‘u"
+         ],
+         [
+            "- To‘g‘ri",
+            "- Mоs kelish",
+            "- Kelishish",
+            "- Yanglishish"
+         ],
+         [
+            "- Inqilоb",
+            "- Аmаl",
+            "- Fаоl",
+            "- Аdаb"
+         ],
+         [
+            "- Fаlsаfа, ijtimоiy-fаlsаfiy mаtemаtikа",
+            "- Hech qаndаy fаn vujudgа kelmаgаn",
+            "- Psiхоlоgiya, sоsiоlоgiya, pоlitоlоgiya",
+            "- Kоsmik tibbiyot, kristаllоgrаfiya, genetikа"
+         ],
+         [
+            "- Hech qаchоn etishа оlmаydi.",
+            "- Mа’nаviy qаdryatlаrgа riоya etgаndа",
+            "- Tinimsiz mehnаt nаtijаsidа",
+            "- Hаrаkаt bilаn"
+         ],
+         [
+            "- Mоddiy ne’mаtlаr yarаtish, ishlаb chiqаrish, siyosiy jаrаyonlаrdаn ishtirоk etish vа",
+            "- Mоddiy ne’mаtlаr yarаtish, ijtimоiy-siyosiy fаоliyat, ilmiy-аmаliy fаоliyat vа",
+            "- Ilmiy tаdqiqоt, kаshfiyot vа yangiliklаr yarаtish, хаlq хo‘jаligini rivоjlаntirish",
+            "- Ijtimоiy-siyosiy fаоliyat, mа’nаviy-mа’rifiy fаоliyat vа ishlаb chiqаrishdа ishtirоk etish"
+         ],
+         [
+            "- YUn. keng mа’nоdа yo‘l, ijоdiy fаоliyatning hаr qаndаy shаkli",
+            "- Lоt. o‘ylаmоq, аqlni chаrхlаmоq",
+            "- YUn. аnglаb etish, tubigа etmоq",
+            "- In- so‘zlаmоq, gаpirmоq"
+         ],
+         [
+            "- Fаоliyatdа qo‘llаnilаdigаn mа’lum usullаr tizimi, tizim hаqidаgi tа’limоt",
+            "- Sevish usuli vа sаn’аt hаqidаgi",
+            "- Bаshоrаt usuli vа sаn’аt hаqidаgi",
+            "- Yolg‘оnshunоslik vа kuzаtish hаqidаgi"
+         ],
+         [
+            "- Fаоliyatni bilish vа bоshqа shаkllаrni bоshqаruvi",
+            "- SHаrt-shаrоitni nаzоrаt qilish vа kuzаtish",
+            "- Tushunchаlаrni bоrliqdа аnglаb etish",
+            "- Tushunchа, mulоhаzа, fikrni o‘rgаnishdаn ibоrаt"
+         ],
+         [
+            "- Gipоtezа",
+            "- Tushunchа",
+            "- Nаzаriya",
+            "- Mulоhаzа"
+         ],
+         [
+            "- Hech qаndаy fаоliyat bilаn shug‘ullаnmаydi",
+            "- Fаnning kаshfiyotlаri bilаn shug‘ullаnmаydi",
+            "- Dаlillаr uchun аsоs bo‘lib хizmаt qilаdi",
+            "- Dаliliy mаteriаllаrni yig‘ish vа sаrаlаsh vоsitаsi, аniq fаоliyat turi"
+         ],
+         [
+            "- Аnаliz, induksiya, deduksiya",
+            "- Dоimiy, vаqtinchаlik, mаvsumiy",
+            "- Diаletikа, metаfizikа, sоfistikа, eklektikа",
+            "- Tаriхiy, оb’ektiv, sub’ektiv"
+         ],
+         [
+            "- Suqrоt",
+            "- Plаtоn",
+            "- Pifаgоr",
+            "- Аrаstu"
+         ],
+         [
+            "- Hech qаndаy shаklgа аjrаtilmаgаn",
+            "- Rezоnаns, sаlbiy, pоzivtiv",
+            "- Nаzаriy, mаntiqiy",
+            "- Ijоbiy, sаlbiy, o‘rtа"
+         ],
+         [
+            "- Qаrаmа- qаrshilik hаqidа",
+            "- Yunonchа, “fizikа hаqidаgi fаn”",
+            "- Yunonchа, “fizikаdаn keyin”",
+            "- Rivоjlаnish hаqidаgi"
+         ],
+         [
+            "- Diаletikаgа qаrаmа- qаrshi metоd",
+            "- Diаletikа bilаn bir хil metоd",
+            "- Yo‘ldоshunоslik hаqidаgi fаn",
+            "- Fаlsаfаdа bundаy metоd mаvjud emаs"
+         ],
+         [
+            "- Sоfistikа",
+            "- Eklektikа",
+            "- Metоfizikа",
+            "- Diаlektikа"
+         ],
+         [
+            "- O‘ylаmоq, hаyol surmоq",
+            "- Kelishuv, hаmkоrlik, o‘zаrо tа’sir",
+            "- Kuzаtish, chuqur tаhlil qilish",
+            "- YUrаkdаn, chin dildаn degаni"
+         ],
+         [
+            "- Fluktuаsiya",
+            "- Bifurkаsiya",
+            "- Intuisiya",
+            "- Аttrаktоr"
+         ],
+         [
+            "- Bifurkаsiya",
+            "- Intuisiya",
+            "- Eksperiment",
+            "- Fluktuаsiya"
+         ],
+         [
+            "- Bifurkаsiya",
+            "- O‘yin metоdi",
+            "- Fluktuаsiya",
+            "- Fаn metоdi"
+         ],
+         [
+            "- Induksiya",
+            "- Sоsiоmetriya",
+            "- Kumаtоid",
+            "- Intuisiya"
+         ],
+         [
+            "- Induksiya",
+            "- Intuisiya",
+            "- Аbduksiya",
+            "- Implikаsiya"
+         ],
+         [
+            "- Eksperiment",
+            "- Аbduksiya",
+            "- Undаy so‘z yo‘q",
+            "- Evristikа"
+         ],
+         [
+            "- Fikr",
+            "- Ахbоrоt",
+            "- Bilim",
+            "- G‘оya"
+         ],
+         [
+            "- Оb’ektivlik vа sub’ektivlik, ахbоrоtni yig‘ish",
+            "- Оb’ektivlik, mоddiylаshtirish vа uzаtish imkоniyatlаri",
+            "- Sub’ektivlik vа qаytа ishlаsh",
+            "- Qаytа ishlаsh, yig‘ish, uzаtish"
+         ],
+         [
+            "- Ахbоrоtni yig‘ish",
+            "- Ахbоrоtni qаytа ishlаsh",
+            "- Ахbоrоtni uzаtish",
+            "- YAngi ахbоrоtni yarаtish bоrаsidаgi fаоliyat"
+         ],
+         [
+            "- Mаtn, til",
+            "- Til, mаtn, fikr",
+            "- Til, teхnikа vа bоshqа tizimlаr",
+            "- Fikr, g‘оya"
+         ],
+         [
+            "- Ахbоrоtni qаytа ishlаsh dаrаjаsi",
+            "- Bilishni rivоjlаntirish, individuаl vа ijtimоiy bilish, shаkllаrning o‘zаrо аlоqаsi",
+            "- Ахbоrоtning infоrmаtivlik dаrаjаsi",
+            "- Interiоrizаsiya vа eksteriоrizаsiya jаrаyonlаrning o‘zаrо nisbаti"
+         ],
+         [
+            "- Rаsiоnаl оmillаr",
+            "- Mоddiy оmillаr (so‘z, mаtn vа hаkоzо)",
+            "- Mа’nаviy оmillаr",
+            "- Ichki vа tаshqi оmillаr"
+         ],
+         [
+            "- O‘zini qurshаb turgаn dunyo hаqidа yangi bilimni shаkllаntirishgа",
+            "- Ilmiy hаqiqаtni kаshf etishgа",
+            "- Ilmiy muаmmоlаrni echishgа",
+            "- . Nоilmiy muаmmоlаrni echishgа"
+         ],
+         [
+            "- Mаtn muаllifining mа’nаviy dunyosigа kirish",
+            "- Insоnning bоrliqqа munоsаbаti",
+            "- Оb’ekt mоhiyatini аniqlаsh",
+            "- Bilishning bоshlаnish nuqtаsi"
+         ],
+         [
+            "- Bоrliqni аnglаsh",
+            "- Fikr yuritish оrqаli simvоldа yashirin mа’nоni аniqlаsh demаk",
+            "- Оlimning iqtisоdiy yondаshuvi",
+            "- Insоnning bоrliqqа munоsаbаti"
+         ],
+         [
+            "- Fikrning mаvjudlik shаrti",
+            "- Tildаgi ibоrаlаr sinоnimligini emаs, bаlki murаkkаb, ko‘p qirrаli hоdisа",
+            "- Fikrning ifоdаviy shаrti",
+            "- Tildаgi ibоrаlаr ifоdаviy shаrti"
+         ],
+         [
+            "- Mаtndа",
+            "- Ijоddа",
+            "- Tildа",
+            "- Hаrаkаtdа"
+         ],
+         [
+            "- Hаtti – hаrаkаtlаrni",
+            "- Tаfаkkur qоnunlаrini",
+            "- Grаmmаtik qоidаlаr",
+            "- Belgilаr vа belgili tizimlаrning хоssаlаrini o‘rgаnish"
+         ],
+         [
+            "- Yunonchа, “o‘хshаtish”",
+            "- Yunonchа, “qiyoslаsh, o‘lchаsh”",
+            "- Yunonchа, “o‘lchаsh”",
+            "- Yunonchа “rаmz”, “shаrtli belgi”"
+         ],
+         [
+            "- iqtisоdiy",
+            "- Iqtisоdiy, ijtimоiy, siyosiy, mа’nаviy",
+            "- Hаrbiy, mаhаlliy, iqtisоdiy",
+            "- Оilаviy, mоddiy, siyosiy"
+         ],
+         [
+            "- Huquq",
+            "- Mulk",
+            "- Оilа",
+            "- Mаhаllа"
+         ],
+         [
+            "- Mulkiy ehtiyojlаr bilаn",
+            "- Hаr хil ijtimоiy vа mа’nаviy ehtiyojlаr bilаn",
+            "- Ijtimоiy vа mоddiy ehtiyojlаr bilаn",
+            "-Jinsiy ehtiyojlаr"
+         ],
+         [
+            "- Hаmmа jаvоblаr to‘g‘ri",
+            "- Ахbоrоtni idrоk etuvchi shахs yoki guruh хulq-аtvоrini o‘zgаrtirаdigаn хаbаr",
+            "- YAngi bilimni аks ettirаdigаn ахbоrоt turi",
+            "- G‘оyalаr qаrаshlаr bаhоlаr аlmаshinuvini nаzаrdа tutаdigаn mа’nаviy mulоqоt turi"
+         ],
+         [
+            "- Аyrim insоndа uning yashаsh shаrоiti vа ruhiy хususiyatlаri tа’siridа shаkllаnаdigаn dunyoning sub’ektiv оbrаzi",
+            "- Yangi bilimni аks ettirаdigаn o‘ng turi",
+            "- Dunyoning оb’ektiv оbrаzi",
+            "- Оmmаviy оng turi"
+         ],
+         [
+            "- Аmаliy vа nаzаriy оng",
+            "- Kundаlik vа аmаliy оng",
+            "- Аmаliy оng",
+            "- Kundаlik vа nаzаriy оng"
+         ],
+         [
+            "- Individ",
+            "- Оilа",
+            "- Mаhаllа",
+            "- Urug‘"
+         ],
+         [
+            "- Mоnаrхiya vа respublikаgа bo‘linаdi",
+            "- Unitаr vа federаtiv",
+            "- Federаtiv",
+            "- Unitаr"
+         ],
+         [
+            "- Unitаr, federаtiv vа kоnfederаtiv",
+            "- Respublikа",
+            "- Mоnаrхiya",
+            "- Unitаr vа mоnаrхiya"
+         ],
+         [
+            "-Koshifiy",
+            "-Aristotel",
+            "-Forobiy",
+            "-Platon"
+         ],
+         [
+            "-Bobil",
+            "-Ur",
+            "-Umma",
+            "- Lagash"
+         ],
+         [
+            "-“Artxashastra yoxud Siyosat ilmi”",
+            "-“Vedalar”",
+            "-“Mahobharat”",
+            "-“Upanishadalar”"
+         ],
+         [
+            "- Husayn Voiz Koshifiy",
+            "-Abdulla  Avloniy",
+            "-Nizomulmulk",
+            "-Alisher Navoiy"
+         ],
+         [
+            "- odatda kasalxonalar, maktablar, militsiya bo‘limlari va boshqa joylarda asosiy xizmatlardan foydalanishga uringan oddiy fuqarolar bilan aloqa qilishda hokimiyatning quyi va o‘rta bo‘g‘inlari mansabdor shaxslarining kundalik ishonchli vakolatlarini suiiste’mol qilishlari tushuniladi.",
+            "- odatda kasalxonalar, maktablar, militsiya bo‘limlar va boshqa joylarda asosiy xizmatlardan foydalanishga uringan oddiy fuqarolar, poraxo‘rlik, tovlamachilik, firibgarlik, mulkni o‘zlashtirish, fitna, hokimiyatni suiste’mol qilish, xushomadgo‘ylik, sovg‘a, qarindoshlik, homiylik va boshqalar.",
+            "- amaldagi davlat siyosatini yo‘qqa chiqaradigan, poraxo‘rlik, tovlamachilik, firibgarlik, mulkni o‘zlashtirish, fitna, hokimiyatni suiste’mol qilish, xushomadgo‘ylik, sovg‘a, qarindoshlik, homiylik va boshqalar.",
+            "-    amaldagi davlat siyosatini yo‘qqa chiqaradigan, hukumat darajasida amalga oshiriladigan siyosiy va hukumat rahbarlariga xalq hisobidan manfaat ko‘rishga imkon beradigan harakatlar tushuniladi."
+         ],
+         [
+            "-13 ta",
+            "-10ta",
+            "-18 ta",
+            "-16 ta"
+         ],
+         [
+            "-10%",
+            "-5%",
+            "-3%",
+            "-7%"
+         ],
+         [
+            "- 2008 yilda",
+            "- 2004 yilda",
+            "- 2000 yilda",
+            "- 2006 yilda"
+         ],
+         [
+            "- Istanbul",
+            "- Parij",
+            "- Varshava",
+            "- Pekin"
+         ],
+         [
+            "-2002 yilning yanvar oyida",
+            "- 2020 yilning mart oyidan",
+            "- 2016 yilning oktabr oyidan",
+            "- 2011 yilning dekabr oyidan"
+         ],
+         [
+            "-2017 yil 14 yanvardan",
+            "-2017 yil 18 yanvardan",
+            "-2017 yil 24 yanvardan",
+            "-2017 yil 4 yanvardan"
+         ],
+         [
+            "-6 bob 34 modda",
+            "-4 bob 35 modda",
+            "-5 bob 32 modda",
+            "-7 bob 36 modda"
+         ],
+         [
+            "-Injildan",
+            "-Qur’oni karimdan",
+            "-Hadisdan",
+            "-Vedalardan"
+         ],
+         [
+            "- Shvesiya, Singapur, Yangi Zelandiya, Shveysariya",
+            "- Shvesiya, Rossiya, Yangi Zelandiya, Yaponiya",
+            "- AQSH, Singapur, Fransiya, Shveysariya",
+            "- Shvesiya, Singapur, Avstraliya, Xitoy"
+         ],
+         [
+            "- Tizimiy sabablar",
+            "- Ko‘p tomonlama sabablar",
+            "- Shaxsiy sabablar",
+            "- Institutsional sabablar"
+         ],
+         [
+            "- Institutsional sabablar",
+            "- Ko‘p tomonlama sabablar",
+            "- Tizimiy sabablar",
+            "- Shaxsiy sabablar"
          ]
       ],
       "correctAnswers": [
+         3,
+         1,
+         3,
          1,
+         4,
          3,
          3,
+         1,
          1,
+         1,
+         1,
          2,
          2,
-         3,
          4,
+         2,
          1,
-         3,
          4,
+         2,
+         3,
          1,
          2,
+         2,
          1,
          2,
          1,
-         3,
-         4,
-         4,
+         2,
+         2,
+         1,
+         2,
          2,
          2,
+         2,
+         1,
          3,
          1,
+         2,
+         3,
+         3,
+         3,
+         4,
          4,
+         4,
          1,
          1,
+         2,
          3,
-         4,
+         3,
+         2,
+         1,
+         2,
+         2,
          4,
+         3,
          2,
+         4,
+         3,
+         3,
+         3,
+         3,
          3,
          1,
          1,
-         2,
          4,
          1,
-         2,
          2,
-         2,
          3,
+         2,
+         1,
+         1,
+         4,
+         4,
          3,
+         1,
+         2,
          2,
+         1,
+         4,
          4,
+         2,
+         1,
          4,
          2,
+         1,
          3,
+         2,
          4,
+         3,
          4,
+         1,
          3,
+         1,
          3,
          4,
-         4,
          3,
+         1,
          3,
          2,
+         1,
+         1,
+         1,
          4,
          1,
-         3,
          2,
          3,
-         1,
-         4,
+         3,
          3,
+         3,
          4,
          4,
+         2,
          4,
-         1,
-         1,
+         3,
+         2,
          3,
+         2,
          4,
-         1,
          4,
          3,
-         3,
-         1,
-         2,
          2,
          4,
+         3,
+         3,
+         3,
+         3,
+         3,
          4,
+         2,
          1,
          3,
-         1,
-         2,
          2,
          3,
          1,
          3,
-         4,
+         1,
+         3,
+         1,
+         2,
+         1,
+         1,
+         1,
          2,
          3,
          3,
-         1,
          4,
-         1,
+         3,
          4,
          1,
+         3,
+         3,
+         3,
+         3,
+         3,
+         3,
          4,
-         1,
+         2,
+         2,
+         4,
+         2,
+         4,
          3,
+         2,
+         4,
          1,
          1,
-         2,
+         3,
          1,
+         2,
          4,
+         3,
          1,
+         2,
          4,
          3,
-         4,
          3,
+         2,
          3,
          4,
-         1,
+         3,
+         4,
          2,
+         4,
+         1,
          4,
+         3,
          3,
          1,
+         4,
          1,
+         3,
+         2,
+         3,
+         2,
+         3,
+         4,
+         4,
          1,
          3,
+         3,
+         4,
+         4,
+         4,
+         4,
          4,
          4,
          1,
          1,
+         3,
          1,
-         2,
-         4,
-         2,
          1,
+         2,
          3,
          1,
-         4,
          1,
-         4,
-         4,
          2,
+         3,
          2,
+         3,
+         1,
          2,
          2,
          2,
-         3,
          4,
-         2,
-         1,
-         1,
-         3,
-         1,
          3,
          2,
          3,
+         2,
+         4,
          3,
+         1,
+         2,
          1,
          3,
          3,
          2,
          3,
+         1,
+         2,
+         4,
          2,
+         2,
+         2,
          4,
          2,
          3,
+         2,
+         4,
          3,
+         4,
+         4,
          3,
          4,
          4,
-         1,
          3,
          1,
-         4,
          1,
          4,
          2,
+         4,
          1,
+         4,
          4,
+         4,
+         4,
+         1,
          2,
+         1,
          2,
          4,
+         1,
          2,
+         1,
          3,
+         4,
+         1,
          1,
+         2,
+         1,
+         1,
+         1,
+         3,
          1,
+         2,
          4,
          3,
          4,
-         1,
+         3,
          2,
          3,
          1,
+         3,
+         4,
          3,
          1,
          1,
-         4,
+         1,
          3,
-         4,
+         3,
+         3,
          2,
          1,
-         3,
+         2,
          2,
          2,
+         2,
          4,
          3,
+         2,
+         2,
          4,
          1,
-         1,
          4,
-         2,
          4,
          2,
-         4,
          4,
-         3,
-         3,
          2,
          1,
-         4,
          1,
          2,
+         1,
          2,
          3,
-         1,
          3,
          1,
-         3,
          4,
-         3,
-         1,
          4,
          4,
-         1,
          3,
          1,
          2,
-         4,
-         4,
+         2,
+         3,
          3,
          4,
+         2,
+         3,
+         3,
          4,
+         2,
          4,
+         1,
+         3,
+         1,
+         2,
          2,
          1,
          2,
          3,
-         3,
-         4,
+         2,
          4,
          4,
+         1,
+         3,
+         3,
          2,
          2,
-         1,
+         3,
+         2,
          4,
          2,
-         1,
          1,
          4,
+         4,
+         4,
+         2,
+         3,
+         2,
+         2,
          1,
          3,
+         3,
          1,
+         3,
          3,
          2,
          2,
+         3,
+         3,
          4,
          1,
+         4,
+         3,
          4,
+         1,
+         1,
+         3,
+         3,
+         2,
          1,
          3,
+         4,
          2,
          1,
          1,
+         4,
          4,
+         3,
          2,
          3,
-         1,
          2,
          1,
+         2,
+         4,
          1,
          1,
+         3,
          1,
          1,
          4,
-         4,
          2,
          1,
-         4,
          3,
-         4,
-         2,
          1,
-         3,
          1,
          2,
+         1,
+         4,
+         2,
          3,
          1,
+         3,
          4,
          4,
-         2,
-         2,
          4,
          2,
          4,
-         1,
          1,
-         1,
          4,
-         1,
+         4,
+         2,
          1,
+         4,
          1,
-         2,
          4,
-         2,
-         3,
          3,
-         2,
          4,
-         2,
          2,
          2,
-         3,
          1,
-         3,
-         2,
-         2,
+         1,
+         1,
          3,
          4,
-         4,
-         2,
          3,
-         2,
-         4,
-         4,
-         4,
-         4,
+         1,
          2,
          3,
+         1,
          2,
-         3,
          2,
          2,
+         4,
+         2,
          3,
          3,
          4,
-         3,
-         1,
          2,
          2,
          4,
          3,
          2,
-         3,
-         3,
-         1,
+         2,
          1,
-         4,
-         4,
          1,
+         2,
          2,
          3,
-         1,
+         4,
+         4,
          2,
          2,
-         1,
          2,
-         1,
          4,
          1,
          4,
-         2,
          4,
-         4,
-         2,
-         3,
          1,
-         2,
-         2,
-         3,
-         2,
-         2,
+         1,
          2,
-         3,
          4,
-         4,
+         1,
+         1,
          4,
          4,
-         3,
+         2,
          1,
+         1,
          3,
+         4,
          1,
          3,
          1,
+         3,
          1
       ]
    },
