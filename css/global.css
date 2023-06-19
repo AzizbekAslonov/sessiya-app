@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+
 :root {
     background-color: rgb(29, 26, 26);
 }
@@ -25,12 +26,12 @@ h2 {
     margin-bottom: 4rem;
 }
 
-.author{
+.author {
     margin-top: 15px;
     border: 1px dashed #fff;
 }
 
-.author a{
+.author a {
     padding: 10px;
     color: #ffffff;
     display: inline-block;
@@ -38,23 +39,23 @@ h2 {
     margin: 0 !important;
 }
 
-.mt{
+.mt {
     margin-top: 20px;
 }
 
-.mb{
+.mb {
     margin-bottom: 20px;
 }
 
-.mb-2{
+.mb-2 {
     margin-bottom: 40px;
 }
 
-.p-2{
+.p-2 {
     padding: 0 15px;
 }
 
-.text-white{
+.text-white {
     color: #fff;
 }
 
@@ -96,7 +97,7 @@ h2 {
     display: none;
 }
 
-.scale:hover{
+.scale:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
     transition: transform 150ms;
@@ -116,29 +117,31 @@ h2 {
     border-radius: 5px;
     transition: 0.2s !important;
 }
-.btn-primary{
+
+.btn-primary {
     color: #fff;
     background: linear-gradient(90deg, rgb(18, 92, 255) 0%, rgb(0, 102, 255) 100%);
 }
 
-.btn-info{
+.btn-info {
     background: #0b354d;
     color: #fff;
- }
+}
 
- .btn-info:hover{
+.btn-info:hover {
     box-shadow: 0 0.4rem 1.4rem 0 #0a2d41;
- }
+}
 
-.btn-secondary{
-    background: linear-gradient(90deg, rgb(255,247,9) 0%, rgb(240, 221,6) 100%);
+.btn-secondary {
+    background: linear-gradient(90deg, rgb(255, 247, 9) 0%, rgb(240, 221, 6) 100%);
     color: #000;
- }
- .btn-secondary:hover{
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(255,255,0,0.5);
- }
+}
 
-.btn-sm{
+.btn-secondary:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+}
+
+.btn-sm {
     font-size: 25px;
     padding: 1.3rem 0;
     width: 18rem;
@@ -150,33 +153,33 @@ h2 {
     transform: none;
 }
 
-.white{
+.white {
     color: #fff;
     margin-top: 60px;
 }
 
-.endInput{
+.endInput {
     margin-bottom: 3rem;
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
     outline: none;
     transition: .4s;
-    box-shadow: 0 0 15px rgba(86,185,235,0.8);
+    box-shadow: 0 0 15px rgba(86, 185, 235, 0.8);
 }
 
-.endInput:focus{
-    box-shadow: 0 0 35px rgba(86,185,235,0.8);
+.endInput:focus {
+    box-shadow: 0 0 35px rgba(86, 185, 235, 0.8);
 }
 
-.buttons{
+.buttons {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
 }
 
-@media(max-width: 992px){
-    .btn-sm{
+@media(max-width: 992px) {
+    .btn-sm {
         font-size: 20px;
         padding: 1rem 0;
         width: 15rem;
@@ -184,18 +187,18 @@ h2 {
 }
 
 
-@media(max-width: 576px){
+@media(max-width: 576px) {
     .container {
         max-width: none;
     }
 
-    .btn{
+    .btn {
         font-size: 1.6rem;
         padding: 1.4rem 0;
         width: 18rem;
     }
 
-    .btn-sm{
+    .btn-sm {
         font-size: 20px;
         padding: 1rem 0;
         width: 15rem;

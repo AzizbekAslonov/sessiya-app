@@ -4,6 +4,12 @@ const btnCollection = [
    // { data: 'Dasturlash', classes: 'btn scale btn-primary' },
    { data: 'Falsafa', classes: 'btn scale btn-secondary' },
 ]
+
+const localName = localStorage.getItem('name')
+if (!localName) {
+   nameInput.hidden = false
+}
+
 btnCollection.forEach(btn => {
    const buttonEl = DOMElement({
       tag: 'a',
@@ -14,8 +20,18 @@ btnCollection.forEach(btn => {
    })
 
    buttonEl.addEventListener('click', () => {
-      localStorage.setItem('science', btn.data);
-      location.assign('game.html');
+      if (!nameInput.hidden) {
+         if (!nameInput.value) {
+            alert('Isminigizni kiriting')
+         } else {
+            localStorage.setItem('name', nameInput.value)
+            localStorage.setItem('science', btn.data)
+            location.assign('game.html')
+         }
+      } else {
+         localStorage.setItem('science', btn.data)
+         location.assign('game.html')
+      }
    })
 
    buttons.insertAdjacentElement('beforeend', buttonEl)
