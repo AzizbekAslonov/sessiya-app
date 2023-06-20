@@ -6,8 +6,8 @@ const btnCollection = [
 ]
 
 const localName = localStorage.getItem('name')
-if (!localName) {
-   nameInput.hidden = false
+if (localName) {
+   nameInput.value = localName
 }
 
 btnCollection.forEach(btn => {
@@ -20,17 +20,13 @@ btnCollection.forEach(btn => {
    })
 
    buttonEl.addEventListener('click', () => {
-      if (!nameInput.hidden) {
-         if (!nameInput.value) {
-            alert('Isminigizni kiriting')
-         } else {
-            localStorage.setItem('name', nameInput.value)
-            localStorage.setItem('science', btn.data)
-            location.assign('game.html')
-         }
-      } else {
+
+      if (nameInput.value) {
+         localStorage.setItem('name', nameInput.value)
          localStorage.setItem('science', btn.data)
          location.assign('game.html')
+      } else {
+         alert('Isminigizni kiriting')
       }
    })
 
