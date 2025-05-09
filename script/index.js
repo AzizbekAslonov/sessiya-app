@@ -2,7 +2,9 @@ let buttons = document.querySelector('.buttons');
 
 const btnCollection = [
    // { data: 'Dasturlash', classes: 'btn scale btn-primary' },
+   // { data: 'Pedagogika', classes: 'btn scale btn-secondary' },
    { data: 'Pedagogika', classes: 'btn scale btn-secondary' },
+   { data: 'Pedagogika2', classes: 'btn scale btn-primary' },
 ]
 
 const localName = localStorage.getItem('name')
