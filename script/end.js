@@ -8,7 +8,7 @@ if (result) {
    const chat_id = '1039710604';
    let str = '';
    str += `${localStorage.getItem('name')}%0A`
-   str += `${Math.round(result.mostRecentScore / 25 * 100) + '%'}%0A`
+   str += `${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100) + '%'}%0A`
    str += `${result.time + 's'}%0A`
 
    str = str.replace(/(\r\n|\n|\r)/gm, "");
