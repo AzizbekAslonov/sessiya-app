@@ -7,7 +7,7 @@ if (realSciences.includes(localScience)) {
    if (localName) {
       const a = new Questions(localScience, {
          eachAddingScore: 1,
-         count: 25,
+         count: 60,
          variants: ['A', 'B', 'C', 'D'],
          // By default -> random: true,
          randomAnswers: true,
