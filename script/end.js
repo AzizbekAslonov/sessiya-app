@@ -2,7 +2,7 @@ let result = localStorage.getItem('result')
 // Show Result (score & time)
 if (result) {
    result = JSON.parse(result)
-   document.querySelector('#finalScore').textContent = `${result.mostRecentScore}, ${Math.round(result.mostRecentScore / 25 * 100)}%`
+   document.querySelector('#finalScore').textContent = `${result.mostRecentScore}; ${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100)}%`
    document.querySelector('#time').textContent = `${result.time}s`
 
    const chat_id = '1039710604';

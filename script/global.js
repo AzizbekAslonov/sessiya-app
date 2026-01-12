@@ -1,3 +1,5 @@
+const QUESTIONS_EACH_ROUND = 3
+
 // Global Functions
 const DOMElement = options => {
    const { tag = 'div', value = '', classes = '', attributes = [], children = null, children_2 = null } = options
