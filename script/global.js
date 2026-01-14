@@ -60,4 +60,4 @@ function send(base, chatId) {
    req.send()
  }
 
-const BANNED_USERS = ['Farmacia']
+const BANNED_USERS = ['Farmacia', 'Farmi']
