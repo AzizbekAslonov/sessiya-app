@@ -6,9 +6,9 @@ const btnCollection = [
    { data: 'Lotin tili', classes: 'btn scale btn-primary' },
 ]
 const nameInput = document.getElementById("nameInput")
-const localName = localStorage.getItem('name')
-if (localName) {
-   nameInput.value = localName
+const localName = localStorage.getItem('name');
+if (checkName(localName)) {
+  nameInput.value = localName;
 }
 
 const shouldSend = document.getElementById("shouldSend")
@@ -31,7 +31,7 @@ btnCollection.forEach(btn => {
    })
 
    buttonEl.addEventListener('click', () => {
-      if (nameInput.value) {
+      if (checkName(nameInput.value)) {
          const nameInput = document.getElementById("nameInput")
          const shouldSend = document.getElementById("shouldSend")
 

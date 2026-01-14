@@ -45,3 +45,11 @@ function checkArrLength(arr = [], min = 0) {
       reject()
    })
 }
+
+function checkName(localName) {
+   return localName && 
+   localName.trim() && 
+   localName.trim().length >= 4 &&
+   !/^\.+$/.test(localName) &&
+   !/\d/.test(localName)
+}
