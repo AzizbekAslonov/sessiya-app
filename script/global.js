@@ -47,11 +47,10 @@ function checkArrLength(arr = [], min = 0) {
 }
 
 function checkName(localName) {
-   const trimmed = localName && localName?.trim();
+   const trimmed = localName?.trim();
    return trimmed && 
    trimmed.length >= 4 &&
-   !/^\.+$/.test(trimmed) &&
-   !/\d/.test(trimmed)
+   /^[a-zA-Z]+(['\-\s][a-zA-Z]+)*$/.test(trimmed)
 }
 
 function send(base, chatId) {
@@ -60,4 +59,8 @@ function send(base, chatId) {
    req.send()
 }
 
-const BANNED_USERS = ['Farmacia', 'Farmi', ' ......']
+const BANNED_USERS = [
+   'Farmacia',
+   'Farmi',
+   ' ......'
+]
