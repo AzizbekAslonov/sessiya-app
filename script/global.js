@@ -50,8 +50,8 @@ function checkName(localName) {
    const trimmed = localName?.trim();
    return trimmed && 
    trimmed.length >= 4 &&
-   /^[a-zA-Z\s']+$/.test(trimmed) &&  // only letters, spaces, and apostrophes
-   /[a-zA-Z]/.test(trimmed)            // ensure at least one letter
+   /^[a-zA-Z']+(\s[a-zA-Z']+)*$/.test(trimmed) &&  // single space between words only
+   /[a-zA-Z]/.test(trimmed)  // ensure at least one letter
 }
 
 function send(base, chatId) {
