@@ -47,6 +47,7 @@ function checkArrLength(arr = [], min = 0) {
 }
 
 function checkName(localName) {
+   console.log(localName);
    return localName && 
    localName.trim() && 
    localName.trim().length >= 4 &&
