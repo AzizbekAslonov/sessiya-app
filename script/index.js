@@ -7,6 +7,12 @@ const btnCollection = [
 ]
 const nameInput = document.getElementById("nameInput")
 const localName = localStorage.getItem('name');
+
+if (localName === 'Farmacia') {
+   alert('Siz ismingizni kiritmaganingiz uchun bloklandingiz!')
+   location.assign('index.html')
+}
+
 if (checkName(localName)) {
   nameInput.value = localName;
 }
