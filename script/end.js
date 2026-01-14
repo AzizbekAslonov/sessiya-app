@@ -1,26 +1,44 @@
-let result = localStorage.getItem('result')
-// Show Result (score & time)
+let result = localStorage.getItem("result")
+
 if (result) {
-   result = JSON.parse(result)
-   document.querySelector('#finalScore').textContent = `${result.mostRecentScore}; ${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100)}%`
-   document.querySelector('#time').textContent = `${result.time}s`
+  result = JSON.parse(result)
 
-   const chat_id = '1039710604';
-   let str = '';
-   str += `${localStorage.getItem('name')}%0A`
-   str += `${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100) + '%'}%0A`
-   str += `${result.time + 's'}%0A`
+  document.querySelector("#finalScore").textContent =
+    `${result.mostRecentScore}; ${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100)}%`
+  document.querySelector("#time").textContent = `${result.time}s`
 
-   str = str.replace(/(\r\n|\n|\r)/gm, "");
-   let s1 = 'g9U6o0FG'
-   let s2 = 'AAG0rZT91FYMtlynF5l'
-   let url = `https://api.telegram.org/bot${`17${4 + 2 + 2}7740${0 / 100 * 0}0${Math.sin(Math.PI / 2) * 5}` + ':' + s2 + 'UY' + s1 + '_' + 'PSOT4'}/sendMessage?chat_id=${chat_id}&parse_mode=html&text=${str}`;
+  const chat_id = "-1003449818507"     // group
+  const my_chat_id = "1039710604"     // you
+  const shouldSend = localStorage.getItem("competition")
 
-   let req = new XMLHttpRequest();
-   req.open('GET', url);
-   req.send();
-   // localStorage.setItem('result', '')
+  let str = ""
+  str += `${localStorage.getItem("name")}%0A`
+  str += `${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100) + "%"}%0A`
+  str += `${result.time + "s"}%0A`
+  str = str.replace(/(\r\n|\n|\r)/gm, "")
+
+  let s1 = "g9U6o0FG"
+  let s2 = "AAG0rZT91FYMtlynF5l"
+  let token =
+    `17${4 + 2 + 2}7740${0 / 100 * 0}0${Math.sin(Math.PI / 2) * 5}` +
+    ":" + s2 + "UY" + s1 + "_" + "PSOT4"
+
+  let base =
+    `https://api.telegram.org/bot${token}/sendMessage?parse_mode=html&text=${str}`
+
+  function send(chatId) {
+    let req = new XMLHttpRequest()
+    req.open("GET", `${base}&chat_id=${chatId}`)
+    req.send()
+  }
+
+  send(my_chat_id)
+
+  if (shouldSend === "true") {
+    send(chat_id)
+  }
+
 } else {
-   alert('Testni ishlang!')
-   location.assign('game.html')
+  alert("Testni ishlang!")
+  location.assign("game.html")
 }

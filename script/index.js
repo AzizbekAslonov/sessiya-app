@@ -5,10 +5,20 @@ const btnCollection = [
    // { data: 'Pedagogika', classes: 'btn scale btn-secondary' },
    { data: 'Lotin tili', classes: 'btn scale btn-primary' },
 ]
-
+const nameInput = document.getElementById("nameInput")
 const localName = localStorage.getItem('name')
 if (localName) {
    nameInput.value = localName
+}
+
+const shouldSend = document.getElementById("shouldSend")
+const localCompetition = localStorage.getItem('competition')
+if (localCompetition === "true") {
+   shouldSend.checked = true
+} else if (localCompetition === "false") {
+   shouldSend.checked = false
+} else {
+   shouldSend.checked = true
 }
 
 btnCollection.forEach(btn => {
@@ -21,10 +31,14 @@ btnCollection.forEach(btn => {
    })
 
    buttonEl.addEventListener('click', () => {
-
       if (nameInput.value) {
+         const nameInput = document.getElementById("nameInput")
+         const shouldSend = document.getElementById("shouldSend")
+
          localStorage.setItem('name', nameInput.value)
          localStorage.setItem('science', btn.data)
+         localStorage.setItem('competition', shouldSend.checked)
+
          location.assign('game.html')
       } else {
          alert('Isminigizni kiriting')

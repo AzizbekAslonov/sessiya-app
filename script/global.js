@@ -1,4 +1,4 @@
-const QUESTIONS_EACH_ROUND = 60
+const QUESTIONS_EACH_ROUND = 35
 
 // Global Functions
 const DOMElement = options => {
