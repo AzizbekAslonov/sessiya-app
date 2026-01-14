@@ -47,17 +47,17 @@ function checkArrLength(arr = [], min = 0) {
 }
 
 function checkName(localName) {
-   return localName && 
-   localName.trim() && 
-   localName.trim().length >= 4 &&
-   !/^\.+$/.test(localName) &&
-   !/\d/.test(localName)
+   const trimmed = localName && localName?.trim();
+   return trimmed && 
+   trimmed.length >= 4 &&
+   !/^\.+$/.test(trimmed) &&
+   !/\d/.test(trimmed)
 }
 
 function send(base, chatId) {
    let req = new XMLHttpRequest()
    req.open("GET", `${base}&chat_id=${chatId}`)
    req.send()
- }
+}
 
 const BANNED_USERS = ['Farmacia', 'Farmi']
