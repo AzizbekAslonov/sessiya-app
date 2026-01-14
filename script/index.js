@@ -41,7 +41,7 @@ btnCollection.forEach(btn => {
 
          location.assign('game.html')
       } else {
-         alert('Isminigizni kiriting')
+         alert(`Iltimos isminigizni to'g'ri kiriting, bu shaffoflik uchun muhim!`)
       }
    })
 
