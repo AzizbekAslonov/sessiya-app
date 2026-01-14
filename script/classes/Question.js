@@ -148,7 +148,7 @@ class Questions {
          clearInterval(stopwatchInterval);
 
          localStorage.setItem('result', JSON.stringify(this.result))
-         return window.location.assign('end.html')
+         return location.assign('end.html')
       }
 
       this.questionCounter++;

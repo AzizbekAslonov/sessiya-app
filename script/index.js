@@ -8,7 +8,7 @@ const btnCollection = [
 const nameInput = document.getElementById("nameInput")
 const localName = localStorage.getItem('name');
 
-if (localName === 'Farmacia') {
+if (BANNED_USERS.includes(localName)) {
    alert('Siz ismingizni kiritmaganingiz uchun bloklandingiz!')
    location.assign('index.html')
 }
@@ -40,11 +40,6 @@ btnCollection.forEach(btn => {
       if (checkName(nameInput.value)) {
          const nameInput = document.getElementById("nameInput")
          const shouldSend = document.getElementById("shouldSend")
-
-         if (localName === 'Farmacia') {
-            alert('Siz ismingizni kiritmaganingiz uchun bloklandingiz!')
-            location.assign('index.html')
-         }
 
          localStorage.setItem('name', nameInput.value)
          localStorage.setItem('science', btn.data)

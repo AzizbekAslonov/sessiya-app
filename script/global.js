@@ -51,5 +51,7 @@ function checkName(localName) {
    localName.trim() && 
    localName.trim().length >= 4 &&
    !/^\.+$/.test(localName) &&
-   !/\d/.test(localName) && localName !== 'Farm' && localName !== 'Farmacia'
+   !/\d/.test(localName)
 }
+
+const BANNED_USERS = ['Farmacia']

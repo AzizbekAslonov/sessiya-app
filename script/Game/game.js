@@ -1,6 +1,11 @@
 const localName = localStorage.getItem('name')
 let localScience = localStorage.getItem('science');
 
+if (BANNED_USERS.includes(localName)) {
+   alert('Siz ismingizni kiritmaganingiz uchun bloklandingiz!')
+   location.assign('index.html')
+}
+
 if (!checkName(localName)) {
    alert(`Iltimos isminigizni to'g'ri kiriting, bu shaffoflik uchun muhim!`)
    location.assign('index.html')
