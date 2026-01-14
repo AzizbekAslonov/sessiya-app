@@ -41,6 +41,11 @@ btnCollection.forEach(btn => {
          const nameInput = document.getElementById("nameInput")
          const shouldSend = document.getElementById("shouldSend")
 
+         if (localName === 'Farmacia') {
+            alert('Siz ismingizni kiritmaganingiz uchun bloklandingiz!')
+            location.assign('index.html')
+         }
+
          localStorage.setItem('name', nameInput.value)
          localStorage.setItem('science', btn.data)
          localStorage.setItem('competition', shouldSend.checked)
