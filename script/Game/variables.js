@@ -1,1747 +1,1726 @@
 const realSciences = [
-   'Noorganik kimyo'
+   'Lotin tili',
 ]
 
 const ALL_QUESTIONS = {
-  'Noorganik kimyo': {
+  'Lotin tili': {
     "questions": [
-      "Eritmalar necha xil bo`ladi?",
-      "Eruvchanlikka bosimning ta`sirini qaysi olim o`rgangan?",
-      "Noelektrolit eritmalarga misol keltiring.",
-      "Elektrolit moddalarga misol keltiring.",
-      "Eritmalar konsentratsiyasi deb,-……….",
-      "Eritmaning moddalar konsentratsiyasiga bog`liq bо`lgan xossalari …………. deyiladi.",
-      "Osmotik bosimni о`lchash uchun mо`ljallangan idish ……….. deb nomlanadi.",
-      "Osmotik bosimni baholash uchun ishlatiladigan bosim turini ko`rsating.",
-      "Eritmalarning 3 ta agregat xolatini ko`rsating.",
-      "……….. - bu erituvchi molekulalarini eritmaga (yoki kichik konsentratsiyali eritmadan katta konsentratsiyali eritmaga) yarim о`tkazgich memrana orqali bir tomonlama diffuziyasidir.",
-      "Rеаkstiya vаqtidа аjrаlаdigаn yoki yutilаdigаn issiqlik miqdоri rеаkstiyaning …………..dеb аtаlаdi.",
-      "Harorat va issiqlikni o`zaro farqi keltirilgan qatorni toping.",
-      "Issiqlik ajralib chiqishi bilan boradigan kimyoviy reaksiya ………deyiladi.",
-      "Issiqlik yutilishi bilan boradigan kimyoviy reaksiya ………deyiladi.",
-      "20 gr tuz 70 gr suvda eritildi hisil bo`lgan eritmaning massasini hisoblang?",
-      "50 gr eritma tayyorlash uchun 10 gr tuz olingan bo`lsa, shu eritmani tayyorlash uchun qancha suv olingan?",
-      "25 gr tuz 55 gr suvda eritildi hisil bo`lgan eritmaning massasini hisoblang?",
-      "50 gr eritma tayyorlash uchun 34 gr suv olingan bo`lsa, shu eritmani tayyorlash uchun qancha tuz solingan?",
-      "Qanday tenglamalar termokimyoviy tenglamalar deyiladi?",
-      "Murakkab moddani hosil bo`lish issiqligi nima?",
-      "Reaksiya issiqlik effektini aniqlash uchun qanday asbob ishlatiladi?",
-      "Kimyoviy rеаkstiyalаrning issiqlik effektini hisоblаsh qаysi qоnungа аsоslаnilаdi?",
-      "Kompleks birikmalarda markaziy atomning valent soni nimaga teng bo`ladi.",
-      "Ion zaryadiga ko`ra kompleklar nechiga bo`linadi?",
-      "Na3[Co(NO2)6] kompleks birikmani sistematik nomenklatura bo`yicha nomlang.",
-      "K2[Pt(Cl4)] kompleks birikmani sistematik nomenklatura bo`yicha nomlang.",
-      "Elektrodlarning turlari keltirilgan qatorni toping.",
-      "Gazli elektrodga misol keltiring.",
-      "Kalomel elektrodga misol keltiring.",
-      "Galvanik elementlar elektrodlarini potensiallari oʻrtasidagi farqi uning ishlashiga zarur boʻlgan shart boʻlib uni galvanik sistemani…………deb yuritiladi.",
-      "Eritma deb nimaga aytiladi?",
-      "Gazli eritma berilgan qatorni toping.",
-      "Suyuq eritma berilgan qatorni toping.",
-      "Qattiq eritm berilgan qatorni toping.",
-      "Eruvchanlikka qanday omil ta`sir ko`rsatadi?",
-      "Eritmaning ma`lum massa miqdorida yoki hajmida erigan modda massasi yoki modda miqdori ....... deb ataladi. Nuqtalar o`rnini to`ldiring.",
-      "To`yinmagan eritma deb nimaga aytiladi?",
-      "Eritma konsentratsiyasini ifodalashning nechta usuli bor",
-      "Erigan modda massasini eritmaning umumiy massasiga nisbati erigan moddaning ........ deb ataladi. Nuqtalar o`rnini to`ldiring.",
-      "Eritma konsentratsiyasi 1 l eritmada erigan moddaning ekvivalentlar soni bilan ifodalansa, bunday eritmalar........ bo`ladi. Nuqtalar o`rnini to`ldiring.",
-      "Tashqi muhitdan amalda yoki fikran ajratib olingan va bir-biriga ta`sir etib turadigan moddalar yoki jismlar guruhi ……. deb ataladi.Nuqtalar o`rnini to`ldiring.",
-      "Tashqi muhit bilan modda va energiya alamashadigan sistema qanday sistema?",
-      "Tashqi muhit bilan energiya almashadigan sistema qanday sistema?",
-      "Tashqi muhit bilan modda ham, energiya ham almashmaydigan sistema qanday sistema?",
-      "Reagent kislotalar bo`lsa qanday moddalar aniqlanadi?",
-      "Reagent asoslar bo`lsa qanday moddalar aniqlanadi?",
-      "Dag`al-dispers sistemalar zarrachalarining o`lchami nechaga teng?",
-      "Kolloid – dispers sistemalar zarrachalarining o`lchami nechaga teng?",
-      "Molekulyar - ion dispers sistemalar zarrachalarining o`lchami nechaga teng?",
-      "Gomogen sistemalar bo`lib, mayda zarrachalar, ya`ni atom, ion yoki uncha katta bo`lmagan molekulalar suyuq erituvchida erishida hosil bo`ladi. Erigan modda zarrachalari cho`kmaydi va filtr yoki yarim o`tkazgich membranalarda ushlanib qolmaydi. Qanday eritma haqida ma`lumot berilgan",
-      "Zarrachalar o`lchami сhin eritmadagi zarrachalarga nisbatan tahminan 10-100 barobar yirik bo`ladi. zarrachalari filtrdan o`tadi, lekin yarim o`tkazuvchan membranadan o`tmaydi va ushlanib qoladi.Qanday eritma haqida ma`lumot berilgan?",
-      "Osmos holatini to`xtatish uchun eritmaga ta`sir ettirish zarur bo`lgan bosim qiymatiga ……deyiladi. Nuqtalar o`rnini to`ldiring.",
-      "Ham kislota ham asos xossasini namoyon qiladigan moddalar ...... deyiladi. Nuqtalar o`rnini to`ldiring.",
-      "Birinchi marta kislotalar dissotsiyalanganda vodorod ionlarini hosil qilishini kim va qachon fanga kiritgan?",
-      "AnionliKomplekslar berilgan qatorni toping.",
-      "Dispers faza suyuqlik dispers muhiti gaz bo`lgan moddalarga misol berilgan qatorni toping.",
-      "Dispers faza qattiq dispers muhiti suyuq bo`lgan moddalarga misol berilgan qatorni toping.",
-      "Kimyoda moddaning dispers holati va sirt hodisalarini õrganuvchi bo`lim ……deyiladi.Nuqtalar o`rnini to`ldiring",
-      "Kompleks birikmalar tarkibida ligand vazifasini kislota qoldig`i ishtirok etsa qanday nomlanadi.",
-      "Kompleks birikmalar tarkibida ligand vazifasini suv ishtrok etsa qanday nomlanadi.",
-      "«Margansovka» nima ?",
-      "Radioaktiv nurlanish uch turini ayting",
-      "Alfaning massasi nechiga teng",
-      "Gammaning massasi nechiga teng",
-      "Pozitron-emissiyasida nima sodir bo`ladi",
-      "Transmutatsiya",
-      "Eritma nima",
-      "gomogen sistema keltirilgan qatorni toping",
-      "geterogen sistema keltirilgan qatorni toping",
-      "Komplek birikmalar nechi qismdan tashkil topgan",
-      "Kompleks birikmalarning ichki sferasi necha qismdan tashkil topgan",
-      "Ligandlarning ikkinchi nomi nima?",
-      "K3[Fe(CN)6] nomlang",
-      "Qizil qon tuzini formulasi keltirilgan qatorni toping",
-      "Sariq qon tuzini formulasi keltirilgan qatorni toping",
-      "Kompleks birikmalarda uchraydigan izomeriya turini aniqlang",
-      "Gidrat izomeriyaga misol keltiring",
-      "Termodinamika so`zining ma`nosi",
-      "Termodinamika atamasini fanga ilk bor kim ishlatgan",
-      "Termodinamika nimani o`rganadi",
-      "Sistema nima?",
-      "Termodinamikaning tadqiqot odyekti nima",
-      "Termodinamikaning 1 qonuni keltirilgan qatorni toping",
-      "Termodinamikaning 1 qonunining matematik ifodasi qaysi",
-      "Qanday sistemaga ochiq sistema nima deyiladi?",
-      "Qanday sistemaga yopiq sistema deyiladi",
-      "Izolyatsiyalangan sistema qanday sistema",
-      "Agar termodinamik jarayonda sistemaning kimyoviy tarkibi o`zgarsa, u holda bu jarayonga…....",
-      "Kinetik va potensial energiyalar farqi",
-      "Elektrod necha xil bo`ladi",
-      "Katod qanday zaryadlangan",
-      "Anod qanday zaryadlangan",
-      "Elektrod deb-,……",
-      "Amfoter gidroksidlar qatorini ko`rsating.",
-      "Kislotali oksidlar qatorini ko`rsating.",
-      "ls2 2s2 2p6 3s2 3p5 elektron formula qaysi galogenga to`g`ri keladi?",
-      "Qaysi gruppa elementlarning elektromanfiyligi kuchli?",
-      "Kimyoviy elementning tartib nomeri nimaga teng?",
-      "Molyar kontsetratsiya nima?",
-      "Gidroliz reaksiyalari nima?",
-      "Sariq qon tuzi - K4[Fe(CN)6] tarkibidagi markaziy atom bilan ligandlar orasidagi bog` qaysi turga mansub?",
-      "Quyida berilganlardan qaysilari oksidlanish jarayonini aks ettiradi? 1) Cu→ Cu2+; 2) N5+→ N1+ 3) N-1 → N-3; 4) N+1→N+4",
-      "Cl  ning qaysi oksidlanish darajasidagi birikmalari faqat oksidlovchi bo`ladi.A",
-      "(37) Cl  izotopida neytronlar yadroning … % ini tashkil etadi?",
-      "3s – orbitaldagi elektronlarning maksimal soni qancha?",
-      "Quyidagilarning qaysi biri noto`g`ri?",
-      "Element atomining tartib nomeri 13 va massalar soni 27 bo`lsa, valent elektronlar soni qancha",
-      "Element izotoplari nimalar bilan farq qilinadi?",
-      "Hozirgi qoida boyicha 1 m.a.b quyida keltirilganlarning qaysısıga mos keladi?",
-      "Fizikaviy kimyoning va kimyoviy reaksiyalarining issiqlik effektini, moddalarning issiqlik sig`imini o`rganadigan bo`limga nima deyiladi?",
-      "Absolyut massa bu ...?",
-      "Quyidagi qaysi element 1ta elektronni o`zidan oson beradi?",
-      "Na ning elektron konfyugratsiyasini yozing",
-      "Atomlarning o`lcham birligini ko`rsating",
-      "Quyidagi birikmalardan qaysi biri ion bog`lanishli birikma",
-      "Kimyoviy reaksiyada ishtirok etayotgan moddalarning konsentratsiyalarini vaqt birligi ichida o`zgarishiga nima deyiladi?",
-      "Kimyoviy reaksiya tezligiga tasir etuvchi omillar qaysi javobda to`g`ri ko`rsatilgan?",
-      "Kimyoviy reaksiyalarni tezlashtiradigan,ammo o`zi o`zgarmay qoladigan moddalar nima deyiladi?",
-      "Azotning nisbiy molekular massasi nechaga teng?",
-      "Azotning oksidlanish darajasi HNO3da qanday bo`ladi?",
-      "Erkin holda azot havoda qacha og`irlik jihaydan necha % ni tashkil etadi?",
-      "Kimyoviy reaksiya tezligini hisoblash formulasi qaysi?",
-      "Boshlang`ich modda konsentratsiyasi orttirilsa, muvozanat qaysi tomonga siljiydi?",
-      "Katalizator qo`llash muvozanatni qaysi tomonga siljitadi?",
-      "Ushbu reaksiyada bosim oshirilsa muvozanat qaysi tomonga siljiydi?2SO2+O2 = 2SO3 + Q",
-      "Avogadro qonuni qaysi bandda to`g`ri ta`riflangan.",
-      "Asosli oksidlar qatorini aniqlang.",
-      "Kislotalarga berilgan to`g`ri ta`rifni ko`rsating.",
-      "Oddiy modda qaysi bandda keltirilgan?",
-      "Tuzlarga berilgan to`g`ri ta`rifni ko`rsating.",
-      "Faqat kislorodii kislotalardan iborat qatorni ko`rsating.",
-      "Suvda erimaydigan asoslar qatorini aniqlang.",
-      "Vоdоrоd lаbоrаtоriya shаrоitidа quyidаgi qаysi usullаr bo`yichа оlinаdi?1.Sn+HCI→ 2.AI+NaOH→ 3.KCI→ elеktrоliz 4. H2O→ elеktrоliz",
-      "Vаlеntlikkа bеrilgаn to`g`ri tа`rifni ko`rsаting",
-      "Qutbsiz kovalent bog`lanishli moddani belgilang",
-      "Qutbli kovalent bog`lanishli moddani belgilang",
-      "Kaliy suv bilan ta`sirlashganda qanday gaz ajralib chiqadi?",
-      "Avagadro doimiysini toping",
-      "Osh tuzi malekulasidagi kimiyaviy bog`lanishni ko`rsating ?",
-      "Tarkibi har xil elementlardan iborat bo`lgan moddalr bu –",
-      "Koinotda eng ko`p tarqalgan element ?",
-      "Elektronning massasi protonning massasidan necha marta kichik ?",
-      "Erigan moddaning massa ulushini topish formulasi qaysi ?",
-      "Sanoatda vodorod xlorid qanday usulda olinadi?",
-      "Modda miqdorini topish formulasini belgilang.",
-      "Kimyoviy elementlar nechaga bo`linadi?",
-      "Ishqoriy metallar yozilgan qatorni belgilang",
-      "Ishqoriy metallarning valentligi nechaga teng?",
-      "H3PO4 – ortofosfat kislotada fosforning oksidlanish darajasi nechaga teng?",
-      "Qanday qonun quyidagicha ta`riflanadi . Har qanday kimyoviy sof modda olinish usuli va joyidan qat`i nazar doimiy tar kibga ega bo`ladi",
-      "Karrali nisbatlar qonunini belgilang?",
-      "Massaning saqlanish qonunining ta`rifi berilgan qatorni ko`rsating?",
-      "Yadro atrofida qanday zarrachalar hrakatlanadi?",
-      "Yadro zaryadlari turlicha bo`lib, massalari bir xil bo`lgan atomlar turi bu- .",
-      "Atom yadrolarida neytronlar soni bir xil, ammo protonlar soni bilan farq lanadigan elementlar bu-",
-      "Ammoniy ionida qanday bog`lanish bor?",
-      "Atomlarning umumiy elektron juftlari vositasida bog`lanishi nima deyiladi.",
-      "Ion bog`lanishli moddani belgilang?",
-      "olmos, grafit, kremniy tarkibida qanday kristall panjara mavjud?",
-      "NaCl, KNO3, CuSO4 tarkibida qanday kristall panjara mavjud?",
-      "Na, Ba, Zn, Al da qanday kristall panjara turi mavjud?",
-      "gidroksoniy ionida qanday bog`lanish turi mavjud?",
-      "Neytronlar soni 7ta protonlar soni 8ta bo`lgan elementning atom massasini toping?",
-      "Gazlar bilan bog`liq hodisalarni qaysi olim o`rgangan",
-      "Elektromanfiyliklari bir xil bo`lgan elementlarni belgilang",
-      "Elektromanfiyligi bir-biridan keskin farq qiladigan element atomlaridan hosil bo`lgan moddalar bu-",
-      "Atomning planetar modelini taklif etgan olim nu-",
-      "Kimyoviy elementning tartib raqami shu elementning qanday xossalarini ifodalaydi?",
-      "Bariyning nisbiy atom massasi 137 ga teng, uning tartib raqami 56 ekanligini bilgan holda, bariy atomi yadrosidagi neytronlar sonini aniqlang.",
-      "Qanday qonun ta`rifi Kimyoviy reaksiya tezligi reaksiyaga kirishayotgan moddalarning kontsentratsiyalari ko`paytmasiga to`g`ri proporsionaldir deb ta`riflangan",
-      "Temperatura xar 10°C oshganda reaksiyaning tezligi 2−4 marta ortishini dastlab kim tajriba asosida ta`rifladi",
-      "Kataliz deganda nimani tushunasiz ?",
-      "Tezlik konstantasi (k) bu-",
-      "Fermentat kataliz bu…..",
-      "Ingibitorlar nima?",
-      "Katalizator zaharlari",
-      "Agar reaksiya o`zining stexometrik tenglamasiga muvofiq birgina bosqichda borsa, bunday reaksiya nima deb ataladi",
-      "Promotorlar bu-",
-      "Qaytar rеaksiyalarning tеzligi qanday aniqlaniladi?",
-      "Eritmаdа erigаn mоddа kоnsеntrаsiyasi yuqоri bo`lgаndа qanday eritmа dеb yuritilаdi",
-      "Erigan modda kam bo`lsa qanday eritma deyiladi",
-      "Qanday eritmalarda har qaysi komponentning ichki energiyasi konsentratsiyaga bog`liq emas va komponentning parsial-molyar hajmi eritilganida o`zgarmaydi",
-      "Erituvchining (diffuziya hisobiga) yarim o`tkazgich membrana orqali erigan modda konsentratsiyasi kam bo`lgan eritmadan erigan modda konsentratsiyasi ko`p bo`lgan eritmaga o`z-o`zidan o`tish jarayoniga nima deb ataladi.",
-      "Osmos bosimi nima yordamida o`lchanadi",
-      "Osmos hodisasi bo`yicha necha xil eritmalar bo`ladi",
-      "Standart qilib olingan eritma osmotik bosimiga teng osmotik bosimli eritmalarga nima deyiladi",
-      "NaCl ning necha foizli eritmasi izotonik eritma hisoblanadi?",
-      "Osmotik bosimi standart eritmanikidan yuqori bo`lganlari qanday eritmalar deyiladi",
-      "Osmotik bosimi standart eritmanikidan past bo`lganlari qanday eritmalar deyiladi",
-      "Raulning 1-qonuni bu",
-      "Qaysi xodisa tufayli tuproqdagi suv o`simliklarning xujayralariga kiradi va daraxt uchlaridagi barglarga borib etguncha o`nlab metr yuqoriga ko`tariladi?",
-      "tenglama orqali nima xisoblanadi?",
-      "Oksidlovchini aniqlang",
-      "Oksidlovchini aniqlang",
-      "Qaytaruvchini aniqlang",
-      "Oksidlovchilarga misol keltirilgan qatorni belgilang",
-      "Oksidlanish-qaytarilish reaksiyalari necha turga bo`linadi?",
-      "Al+HNO3(suyul) → Al(NO3)3+N2O+H2O qanday reaksiya turiga misol bo`la oladi?",
-      "NH4NO2 = N2 +2H2O qanday reaksiya turiga misol bo`la oladi?",
-      "Yengil metallarni belgilang-",
-      "Eng og`ir metal bu-",
-      "Eng yengil metal bu-",
-      "Ishlatilishiga ko`ra metallar necha turga bo`linadi?",
-      "Qanday metallar projektor va reflektorlar tayyorlashda ishlatiladi?",
-      "Qaysi element elektrmanfiylik qiymati eng yuqori bo`lgan element hisoblanadi",
-      "Tipik metallmaslar metallar bilan qanday bog`li birikmalar hosil qiladi",
-      "Temir tabiatda qanday uchraydi?",
-      "Kumush tabiatda qanday holatda uchraydi?",
-      "Au,Pt tabiatda qanday holatda uchraydi?",
-      "Fosfor –3 oksidlanish darajasiga ega birikmasini toping",
-      "Litiy, natriy, magniy, alyuminiy elementlarida qanday bog`lanish mavjud?",
-      "n.sh.da 1mol gazlar qancha hajmni egallaydi?",
-      "KMnO4 da marganes +7 oksidlanish darajasidan kislotali muhitda nechaga o`tadi?",
-      "KMnO4 da marganes +7 oksidlanish darajasidan kislotali muhitda o`tganda eritma rangi qanday o`zgaradi?",
-      "Eng yumshoq metal bu-",
-      "Eritmalari yoki suyuqlanmalari elektr tokini o`tkazadigan moddalar …… deyiladi. Nuqtalar o`rnini to`ldiring.",
-      "Doimiy bosimda sodir bo`ladigan jarayon-",
-      "Doimiy hajmda sodir bo`ladigan jarayon nima deyiladi",
-      "Doimiy temperaturada sodir bo`ladigan jarayon qanday jarayon",
-      "Kinetik energiya bu-",
-      "Potensial energiya bu-",
-      "Ekzotermik reaksiya bu-",
-      "Endotermik reaksiya bu-",
-      "Fenol bilan suv qanday nisbatda aralashadi?",
-      "Suv bilan spirt qanday nisbatda aralashadi?",
-      "Suv bilan Simob qanday nisbatda aralashadi?",
-      "Tuzlanish nima?",
-      "Antibakterial xossaga ega elementni toping",
-      "fiziologik eritma nima",
-      "NO, CO N2O,SiO quyidagi oksidlar qanday oksid turiga mansub-",
-      "H2S + SO2 = 2H2O + 3SQuyidagi reaksiya oksidlanish-qaytarilishning qanday turiga mansub",
-      "Nofaol molekulani kimyoviy reaksiyaga kirishadigan faol holatga keltirish uchun kerak bo`ladigan qo`shimcha energiya nima deb yuritiladi",
-      "Ca3N2+HNO3 → Ca(NO3)2+NO2+H2O reaksiya turi bu-",
-      "KMnO4 → K2MnO4+MnO2+O2 reaksiya turi bu-",
-      "KClO3 → KCl+ KClO4 reaksiya turi bu-",
-      "KClO3 → KCl+O2 reaksiya turi bu-",
-      "Cu2S+HNO3 → Cu(NO3)2+H2SO4+NO+H2O O2 reaksiya turi bu-",
-      "Hg+HNO3(suyul) → Hg2(NO3)2+NO+H2O",
-      "Kimyoviy reaksiyalar vaqtida ajralib chiqadigan (yoki yutiladigan) energiyani tekshiradigan kimyoviy sohasi ............deb ataladi",
-      "Izotermik jarayonda jismga yutilgan issiqliklar yig`indisining jism absolyut temperaturasiga nisbati shu jismning ..........miqdorini ko`rsatadi",
-      "Standart sharoitda ∆G funksiya qanday quyidagi ko`rinishda ega",
-      "Issiqlik miqdori qaysi belgi bilan belgilanadi.",
-      "Termodinamikaning birinchi qonuni xulosalaridan birini tanlang",
-      "Termodinamikaning ikkinchi qonuni xulosalaridan birini tanlang",
-      "Termodinamik Sistema nima?",
-      "Termodinamik Sistema necha xil?",
-      "Suvda erimaydigan oksidni tanlang",
-      "Suvda erimaydigan oksidni tanlang"
+      "Lotin alifbosida nechta harf bor?",
+      "Qaysi so`zda ”C“ harfi “ts” deb o`qiladi?",
+      "Retsept blankasi necha qismdan iborat?",
+      "Nuqtalar o`rnini to`ldiring: Murdadan qo`rish -………..phobia.",
+      "Nuqtalar o`rnini to`ldiring: o`z qoni bilan davolash -…………….haemotherapia.",
+      "“Ko`krak sohasida kasalligi” ma`nosini ifodalovchi atamalar yasang:",
+      "“mushak to`qimasidagi o`sma” my-…..",
+      "......nomlardagi tarkibiy qismlar taxminan anatomik, fiziologik va terapevtik xarakterdagi axborotni berishi mumkin.",
+      "“Shirin miya siropi”",
+      "Dorivor ashyolarning nomenklaturasi……",
+      "“Ch”-harf birikmasi qaysi tovushni bildiradi?",
+      "Diftong deb nimaga aytiladi?",
+      "Berilgan atamalarning qaysi birida diftong bor?",
+      "Qaysi so`zda C harfi ”k“ deb tallafuz qilinadi?",
+      "Qaysi holatlarda ”S“ harfi “z” deb o`qiladi?",
+      "Digraf deb nimaga aytiladi?",
+      "Qaysi so`zda “s” harfi [z] deb o`qiladi?",
+      "Berilgan atamalarning qaysi birida digraf bor?",
+      "Lotin tilida urg`u nechinchi bo`g`indan qo`yiladi?",
+      "“Antipyrinum” so`zida qaysi tarkibiy qism axborot beruvchi?",
+      "« Corvalolum » so`zida qaysi tarkibiy qism axborot beruvchi ?",
+      "« Novocainum » so`zida qaysi tarkibiy qism axborot beruvchi ?",
+      "Qon tomirlarini kengaytiruvchi axborot beruvchi so`zni toping:",
+      "Mahalliy og`riqsizlantiruvchi …….",
+      "“aralashtirmoq” fe`lini ajrating",
+      "Qaysi so`zda „ti” harf birikmasi [ti] deb o`qiladi",
+      "V turlanishdagi otni aniqlang",
+      "“Aralashtir suyuq surtma hosil bo`lsin”-bu",
+      "Sifat so`z turkumi qaysi javobda berilgan?",
+      "II turlanishdagi otni aniqlang",
+      "V turlanishdagi ot qaysi variantda berilgan?",
+      "Shakarning lotincha nomlanishi?",
+      "“Yuqori jag`” ning lotincha-yunoncha dubleti?",
+      "Birinchi guruh sifatni aniqlang",
+      "Qaysi so`zda ikkinchi bo`g`in qisqa o`qiladi",
+      "“Fosfor” elementi nomini aniqlang",
+      "“Musculus longus” tarjimasini toping",
+      "Qaysi so`zda ikkinchi bo`g`in cho`ziq o`qiladi",
+      "“ala” so`zi Gen.Singda qanday qo`shimcha oladi",
+      "“Kapsulalarda”qisqartma so`zini aniqlang",
+      "“ os zygomatic...“ to`g`ri qo`shimchani qo`ying",
+      "„Chirurgia” so`zining ma`nosi?",
+      "[kv] tovushini beradigan so`zni aniqlang",
+      "Otning rod ko`rsatkichi nechta",
+      "Th- harf birikmasi qaysi tovushni bildiradi",
+      "Sch- harf birikmasi qaysi tovushni bildiradi",
+      "Birinchi guruh sifatni aniqlang",
+      "Atamaning mos tarjimasini toping: “ponasimon suyak”",
+      "Cho`ziqlik qoidasi nechta qoidadan iborat?",
+      "Qaysi diftonglar urg`u oladi?",
+      "“Compositus” so`zi nechta bo`gindan iborat?",
+      "“Ligamentum” so`zida urg`u qaysi bo`g`inga tushadi?",
+      "“Diaeta” so`zida urg`u qaysi bo`g`inga tushadi?",
+      "Maqolni lotin tilida tarjimasini toping. ”Yozmoq, ikki qayta o`qimoqdir“.",
+      "Lotin tilida fe`llar nechta turda bo`linadi?",
+      "Birinchi tuslanishda fe`l qaysi qo`shimchaga ega?",
+      "Miscere - fe`li qaysi tuslanishga ega?",
+      "Audire – fe`li qaysi tuslanishga ega ?",
+      "Fe`lning lug`at shakli to`gri yozilgan qatorni toping.",
+      "Retseptda fe`llar qaysi maylda yoziladi?",
+      "Lotin tilida otlar nechta turlanishga bo`linadi?",
+      "Birinchi turlanishdagi otni aniqlang.",
+      "Moslashmagan aniqlovchi atamani aniqlang.",
+      "Bosh kelishik lotinchada-",
+      "III - turlanishdagi otni aniqlang.",
+      "V-turlanishdagi otni aniqlang:",
+      "Lug`at shakli to`g`ri yozilgan otni toping",
+      "IV turlanishdagi otni aniqlang",
+      "Maqolni lotin tilida to`g`ri tarjimasini toping. ”Mehnat tanani chiniqtiradi”.",
+      "Gen. Sing shaklidagi otni aniqlang;",
+      "Gustus,us,m. Bu atama qaysi turlanishga tegishli?",
+      "Moslashmagan aniqlovchili atamani toping.",
+      "Berilgan qaysi javobda sifat to`g`ri yozilgan?",
+      "Birinchi guruh sifatni aniqlang",
+      "Ikkinchi guruh sifatga qaysi turlanish kiradi?",
+      "Moslashgan aniqlovchi atamasini toping.",
+      "“Yaqinlashtiruvchi ” ma`noni beradigan old qo`shimchali so`zni toping.",
+      "Qaysi so`zda “ichida”old qo`shimchasi ishlatilgan?",
+      "Qaysi so`zda “ostida”old qo`shimchasi ishlatilgan?",
+      "“Ko`krak qafasining pastki teshigi” atamasini aniqlang.",
+      "“Bosh miyaning yumshoq pardasi” atamasini toping.",
+      "“Qo`shmoq” fe`lini ajrating",
+      "Moslashgan aniqlovchili atamani toping",
+      "Oddiy darajadagi sifatni aniqlang.",
+      "“Aralashtir shamcha hosil bo`lguncha”-bu",
+      "„Suyak bo`g`imlarining yallig`lanishi” ma`nosini beradigan atamani toping.",
+      "„Bosh miyaning yallig`lanishi” atamasini toping.",
+      "“Til`” ning lotincha-yunoncha dubleti?",
+      "„Davolash” ma`nosini bildiradigan atamani yunoncha – lotincha atalishini aniqlang.",
+      "„Tosh kasalligi” atamasini aniqlang.",
+      "Qaysi so`zda „su” harf birikmasi [sv] deb o`qiladi?",
+      "Qaysi so`zda „ti” harf birikmasi [tsi] deb o`qiladi?",
+      "Bir kunlik dori qabul qilish dozasi qaysi javobda ko`rsatilgan?",
+      "“Pollex” so`zining ma`nosini toping.",
+      "Maqolning o`zbekcha ekvivalentini toping: “Omnium artium medicina nobillisima est”",
+      "Acidum ascorbinicum- ma`nosi nima?",
+      "Orttirma daraja sifatini toping.",
+      "“Tishga oid” atamasi qanday ataladi?",
+      "“Orqadagi” sifati qanday nomlanadi?",
+      "Moslashmagan aniqlovchi nima?",
+      "Moslashgan aniqlovchi atamani toping.",
+      "Moslashgan aniqlovchi nima?",
+      "To`qimalarni o`rganuvchi fan.",
+      "“O`t tosh kasalligi” atamasini aniqlang.",
+      "“Siydik – tosh kasalliklari” atamasini aniqlang.",
+      "Qon bosimining tushishi-",
+      "Lotin tilida “ad, ab”prefikslari qanday ma`nolarni ifodalashda qo`llaniladi?",
+      "“Tish” atamasini lotincha – yunoncha dubletini aniqlang:",
+      "Keksalikni o`rganuvchi fan qaysi javobda to`g`ri berilgan?",
+      "Qon bosimining ko`tarilishi-",
+      "Tuzning lotincha nomlanishi?",
+      "Tarjima qiling: ter bezlarida hosil bo`ladigan xavfsiz o`sma",
+      "“Funksiyaning buzilishi” old qo`shimchasi qaysi",
+      "Vodorod-",
+      "Yalpizning lotincha nomlanishi?",
+      "Moyning lotincha nomlanishi?",
+      "Quyida berilgan so`zlarni yunon-lotin dubletini toping. « tomir »",
+      "« O`t, safro »",
+      "“Soch”",
+      "“burun ”",
+      "“Mammologus” atamasi tarkibidagi lotincha atama elementni aniqlang.",
+      "Izoh bering : ”Rhinoplastica”",
+      "“Somatoscopia”",
+      "“ in vitro”",
+      "“Rux surtmasi”",
+      "Solutio Hydrogenii peroxydi- nima?",
+      "“Da tales doses ”iborasini to`gri tarjimasini toping",
+      "“Auto” atamasi qanday ma`noni bildiradi?",
+      "“Efkalipt moyi” atamasini toping.",
+      "[ngu] tovushi qaysi so`zda “ngv” talaffuzini beradi",
+      "Izoh bering : ”Haemangio ma”",
+      "”Medica mente, non medicamentis “, maqolini tarjimasini toping.",
+      "”Optimum medicamentum quies est “ maqolni tarjimasini toping.",
+      "Moslashgan aniqlovchi atamasini to`g`ri yozilgan variantni toping. Oq na`matak",
+      "Moslashgan aniqlovchi atamasini to`g`ri yozilgan variantni toping. Toza suv",
+      "Damlama va qaynatma nomlari uchta otdan iborat bo`ladi. Birinchi ot (Nom) bosh kelishikda tursa qolganlari qaysi kelishikda bo`ladi ?",
+      "Tarkibida 20-25% dan ortiq kukun holidagi moddalar bo`lgan surtma nima deyiladi?",
+      "Sirtdan ishlatishga mo`ljallangan yopishqoq konsistensiyali yumshoq dori turi nima deyiladi?",
+      "Tabuletta nima?",
+      "Farmokologik axborot beruvchi tarkibiy qismlarni aniqlang.",
+      "Abreviatura deganda nimani tushunasiz?",
+      "Tibbiyotda qo`llaniladigan dorivor moddalar nechi xil nom bilan ataladi?",
+      "“Senna barglarining damlamasi”",
+      "Damlama va qaynatma nomlari nechta otdan iborat ?",
+      "Tarjima qiling : « Qizilpoycha o`simligining qaynatmasi »",
+      "Nastoykalar, ekstraktlar, sharbatlar nechta otdan iborat bo`ladi?",
+      "“Shirin miya siropi”",
+      "“Do`lananing ekstrakti”",
+      "Bir dori shaklida belgilangan dozalarda birdan ortiq ta`sir etuvchi moddalarga ega bo`lgan dori-darmonlar........ deyiladi.",
+      "Dorivor preparatlarning nomlari to`g`ri berilgan qatorni toping: “Valeriana nastoykasi”",
+      "Dorivor vositalar nomenklaturasi ning nechta tipik guruhi mavjud?",
+      "Dorivor ashyolarning nomenklaturasi……",
+      "Tomirlarni kasallanishi:",
+      "“Dermatomyco sis” atama elementining ma`nosi:",
+      "Orqa miya suyagining yallig`lanishi:",
+      "Oshqozondan qon ketishi:",
+      "Izoh bering : ”xeno“ yakka atama element qanday ma`noni bildiradi?",
+      "Izoh bering : ”allo“ yakka atama element qanday ma`noni bildiradi?",
+      "”Cystoscopia“ qanday ma`noni bildiradi?",
+      "Herba Mentae-",
+      "”Dysenteria “ qanday ma`noni bildiradi?",
+      "“Marvaridgul nastoykasi” iborasi qaysi javobda t o`gri k o`rsatilgan.",
+      "”O`pka “ atamasini yunon-lotin dubletini toping.",
+      "”Electrothera pia” atama elementi qanday ma`noni bildiradi?",
+      "”Otorhinolaryngologia“ atamasining o`zbek tilida berilishi.",
+      "”Cholelithiasis“ atamasining o`zbek tilidagi variant.",
+      "”Yiring oqishi“ atamasining lotin tilidagi variant.",
+      "Oq rangning lotincha-yunoncha dubleti?",
+      "“Og`iz orqali” – bu:",
+      "”Laparatomia“ atamasini tarjimasini toping:",
+      "Mujskoy rodning lotincha variantini tanlang",
+      "Jenskiy rodning lotincha variantini tanlang",
+      "“Osteomylitis” atama elementidagi suffiksni toping.",
+      "“O`rin insonni emas, inson o`rinni bezaydi” maqolni tarjimasini toping.",
+      "“Invia est in medicina via sine lingua Latina” maqolni o`zbekcha tarjimasini toping.",
+      "Sredniy rodning lotincha variantini tanlang",
+      "Yashil rangning lotincha-yunoncha dubleti?",
+      "Damlama. Qisqartma holatda.",
+      "3-turlanishdagi fe`lni toping.",
+      "Og`iz bo`shligi kasalliklari haqidagi fan-",
+      "„Valeriana damlamasi” atamasini to`gri toping:",
+      "Kislorod.",
+      "Malham. Qisqartma holatda.",
+      "Eritma. Qisqartma holatda.",
+      "Shamcha. Qisqartma holatda.",
+      "Inyeksiya uchun.",
+      "To`g`ri javobni toping. Sulfat kislota.",
+      "Limon kislotasi.",
+      "« Kapsulalarda » atamasini aniqlang.",
+      "“Brom” elementini aniqlang.",
+      "« Peroksid » so`zini aniqlang.",
+      "Quyidagi fe`llardan 1 – tuslanishdagi fe`lni toping.",
+      "« Keyin » ma`nosini beruvchi predlogli atamani ajrating.",
+      "“Kukun hosil bo`lguncha aralashtir”",
+      "Agar dorini zudlik bilan bemorga berish kerak bo`lsa, u holda resept blankasining yuqori qismini o`ng tomonida qanday so`z yozilishini aniqlang.",
+      "Lug`at shakli to`g`ri yozilgan fe`lni aniqlang.",
+      "To`g`ri yozilgan retsept qatorini toping.",
+      "“Androgen” so`zida qaysi tarkibiy qism axborot beruvchi?",
+      "“Ingalyasiya uchun” iborasining tarjimasini toping.",
+      "I-tuslanishdagi fe`lni aniqlang.",
+      "Quyidagi fe`llardan shart maylidagi fe`lni ajrating.",
+      "Quyidagi fe`llardan buyruq maylidagi fe`lni ajrating.",
+      "Quyidagi dori shakllaridan qattiq dori shaklini ajrating.",
+      "Quyidagi dori shakllaridan yumshoq dori shaklini ajrating.",
+      "Quyidagi iboraning tarjimasini toping: « To`g`ri ichak orqali ».",
+      "Gutta, ae f dorining qanday formasi.",
+      "Hepatitis bu-",
+      "Histo- atamasining lotincha nomlanishini aniqlang.",
+      "Ich ketishi (tez-tez suyuq ich surishi)",
+      "Ichakka sun`iy teshik qo`yish.",
+      "Ichakni asbob yordamida tekshirish.",
+      "Ichki organlarni o`rganuvchi fan:",
+      "Yurakning tez urishi-",
+      "„Olei Menthae piperitae” atamasini to`gri toping:",
+      "-itis so`z yasovchi qo`shimchasi qaysi ma`noda qo`llaniladi?",
+      "Kasallik ma`nosi bilan kelgan atamani aniqlang.",
+      "Kasalliklarni dori vositalari bilan davolash.",
+      "Kasallikning mazmuni va bemor holati to`g`risidagi shifokorning qisqacha xulosasi",
+      "Katta ko`krak mushagi -",
+      "Keyin ma`nosini beruvchi old qo`shimchani aniqlang.",
+      "Kichik boldir suyakining boshchasi.",
+      "Klinik atamali so`zni aniqlang.",
+      "Ko`krak mushaklari nomi qanday?",
+      "Ko`krak umurtqalari atamasini to`g`ri javobini aniqlang.",
+      "Ko`krakni o`lchash – bu.",
+      "Ko`ndalang o`simta bu-",
+      "Ko`plik shaklida Aniqlik nisbatning III shaxs yozilgan fe`lni aniqlang",
+      "„Extrakti Crataegi fluidi 20,0” atamasini to`gri toping:",
+      "Capcula seu ampula",
+      "Kukun qisqartirilgan",
+      "Lotin va Yunon tillarida ishlatiladigan “Yakka” atama elementini toping.",
+      "“Belgila” so`zining qisqartirilgan ma`nosi -",
+      "Lotinchada “Oddiy”.",
+      "Lotinchada Og`riq ma`nosi bilan kelgan atamani aniqlang.",
+      "Lotinchada qisqa “Ol” nima?",
+      "Lotinchada Rux elementini toping",
+      "Milk shilliq qavati yallig`lanishi atamasini aniqlang.",
+      "Mos old qo`shimchani qo`ying. “Tonusning buzulishi”.",
+      "Mos tarjimani toping. “Takrorlash – bilimning onasi”.",
+      "Mos tarjimani toping: “Bilim- bu kuchdir”.",
+      "Nafas qisishi, qiynalib nafas olish.",
+      "Nafasning vaqtinchalik yo`qolishi.",
+      "Nephectomia – bu:",
+      "O`pkaning yallig`lanish atamasini toping.",
+      "Moslashgan aniqlovchi atamasini to`g`ri yozilgan variantni toping."
     ],
     "answers": [
       [
-        "- 2, elektrolit va noelektrolit",
-        "- 2, metal va metallmas",
-        "- 2, organik va noorganik",
-        "- 2, gomogen va geterogen"
+        "- 25 ta",
+        "- 26 ta",
+        "- 28 ta",
+        "- 30 ta"
       ],
       [
-        "- Mendeleyev qonuni",
-        "- Sechenov qonuni",
-        "- Genri qonuni",
-        "- Raul qonuni"
+        "- Clavicula",
+        "- Caput",
+        "- Cera",
+        "- Cranium"
       ],
       [
-        "- Distillangan suv",
-        "- Shakarning suvdagi eritmasi",
-        "- Ho`l yog`och",
-        "- NaCl ning suvdagi eritmasi"
-      ],
-      [
-        "- Plasmassa",
-        "- Distillangan suv",
-        "- Ho`l yog`och",
-        "- Quruq yog`och"
-      ],
-      [
-        "- eritmaning ma`lum massa yoki hajmidagi erigan moddaning (g, ml, l, mol) miqdoriga aytiladi.",
-        "- Erituvchida erigan moddaning 1 mol miqdoriga aytiladi.",
-        "- eritmaning ma`lum massadagi erigan moddaning (g, ml, l, mol) miqdoriga aytiladi.",
-        "- eritmaning ma`lum hajmidagi erigan moddaning (g, ml, l, mol) miqdoriga aytiladi."
-      ],
-      [
-        "- Eritma ustidagi bug` bosimi",
-        "- Raul qonuni",
-        "- Osmotik bosimi",
-        "- Kolligativ xossalari"
-      ],
-      [
-        "- Osmolenta",
-        "- Osmonografiya",
-        "- Osmometr",
-        "- Monometr"
-      ],
-      [
-        "- Gidrostatik bosim",
-        "- Gazlarning siqilgandagi bosimi",
-        "- Eritma bug` bosimi",
-        "- Boshlang`ich bosim"
-      ],
-      [
-        "- Gaz, plazma, chang",
-        "- Plazma, qurum, gaz",
-        "- Gazsimon , suyuq , qattiq",
-        "- Aralashgan, gomogen, geterogen"
-      ],
-      [
-        "- Gazlarning erish jarayoni",
-        "- Erish jarayoni",
-        "- Osmos jarayoni",
-        "- Muzlash jarayoni"
-      ],
-      [
-        "- Ekzоtеrmik",
-        "- Issiqlik effеkti",
-        "- Solishtirma issiqlik",
-        "- Endоtеrmik"
-      ],
-      [
-        "- Harorat intensiv kattalik, issiqlik ekstensiv kattalik",
-        "- Harorat termometrda o`lchanadi, issiqlik esa amperda",
-        "- Harorat ekstensiv kattalik, issiqlik intensiv kattalik",
-        "- Harorat ham, issiqlik ham bir xil qiymatda bo`ladi"
-      ],
-      [
-        "- Yonish",
-        "- Endоtеrmik",
-        "- Ekzоtеrmik",
-        "- Issiqlik effеkti"
-      ],
-      [
-        "- Parchalanish reaksiyasi",
-        "- Ekzоtеrmik reaksiya",
-        "- Issiqlik effеkti",
-        "- Endоtеrmik reaksiya"
-      ],
-      [
-        "- 20 gr",
-        "- 80 gr",
-        "- 90 gr",
-        "- 100 gr"
-      ],
-      [
-        "- 60 gr",
-        "- 30 gr",
-        "- 20 gr",
-        "- 40 gr"
-      ],
-      [
-        "- 80 gr",
-        "- 50 gr",
-        "- 60 gr",
-        "- 70 gr"
-      ],
-      [
-        "- 32 gr",
-        "- 16 gr",
-        "- 26 gr",
-        "- 14 gr"
-      ],
-      [
-        "- Issiqlik ajralib chiqishi bilan boradigan kimyoviy reaksiya deyiladi.",
-        "- Issiqlik yutilishi bilan boradigan kimyoviy reaksiya deyiladi.",
-        "- Issiqlik effekti ko`rsatilgan tenglamalar, termokimyoviy tenglamalar deyiladi.",
-        "- Solishtirma issiqlik qiymati ko`rsatilgan tenglamalar, termokimyoviy tenglamalar deyiladi."
-      ],
-      [
-        "- Murakkab moddaning hosil bo`lish issiqligi deb, standart issiqlik effektiga, ∆H 0/b – yani mazkur sharoitda oddiy moddalardan 1 mol murakkab modda hosil bo`lishiga aytiladi (bosim – 101325 Pa, temperatura - 250C.",
-        "- Reaksiya issiqlik effekti boshlang`ich moddalarni yonish yig`indisi effektidan mashg`ulotlar yonish effekt yig`indisi ayirmasiga teng (∆H hosil bo`lish) .",
-        "- Reaksiya issiqlik effekti moddalar hosil bo`lish issiqlik effektidan (∆H hosil bo`lish) boshlang`ich moddalar summasi ayirmasiga teng.",
-        "- Moddaning yonish issiqligi deb, uning kislorodda yonish reaksiyasidan hosil bo`lgan issiqlik samarasi D Nyonish ga aytiladi."
-      ],
-      [
-        "- Termometrda",
-        "- Kalorimetrda",
-        "- Voltometrda",
-        "- Kalonkali likobda"
-      ],
-      [
-        "- Gibbs",
-        "- Gеss",
-        "- Sеchеnоv",
-        "- Rаul"
-      ],
-      [
-        "- Ligantlar soniga",
-        "- Ligantlar sonidan tashqi sfera soni ayiriladi",
-        "- Tashqi manfiy sfera soniga teng bo`ladi",
-        "- Tashqi sfera soniga teng bo`ladi"
-      ],
-      [
-        "- Akvakomplekslar va atsidokokomplekslar",
-        "- Manfiy va musbat qism tutgan komplekslar",
-        "- Beqaror va barqaror komplekslar",
-        "- Kationli, anionli va neytral"
-      ],
-      [
-        "- Kaliy tetraxloro platinium II",
-        "- Dixloro diamino platinium IV",
-        "- Natriy geksanitro kobaltum III",
-        "- Geksaamino kobaltum IV xlorid"
-      ],
-      [
-        "- Geksaamino kobaltum IV xlorid",
-        "- Dixloro diamino platinium IV",
-        "- Kaliy tetraxloro platinium II",
-        "- Natriy geksanitro kobaltum III"
-      ],
-      [
-        "- Metal, shisha, kalomel, selofan",
-        "- Gazli, metal, shisha, kalomel, ionselektiv",
-        "- Gazli, metal, shisha, membranalar",
-        "- Eriydigan va erimaydigan"
-      ],
-      [
-        "- Grafit elektrodi",
-        "- Vodorod elektrodi",
-        "- Menbranali elektrod",
-        "- Hg2Cl2 tuzi"
-      ],
-      [
-        "- Menbranali elektrod",
-        "- Vodorod elektrodi",
-        "- Hg2Cl2 tuzi",
-        "- Grafit elektrodi"
-      ],
-      [
-        "- Potensial",
-        "- Elektr kuchi",
-        "- EYUK",
-        "- Elektrod potensial"
-      ],
-      [
-        "- Ikki va undan ko`p tarkibiy qismlardan iborat, termodinamik barqaror, o`zgaruvchan tarkibli gomogen sistema.",
-        "- Ikki va undan ko`p tarkibiy qismlardan iborat, termodinamik barqaror, o`zgaruvchan tarkibli yopiq sistema.",
-        "- Ikki va undan ko`p tarkibiy qismlardan iborat, termodinamik barqaror, o`zgaruvchan tarkibli geterogen sistema.",
-        "- Ikki va undan ko`p tarkibiy qismlardan iborat, termodinamik barqaror, o`zgaruvchan tarkibli ochiq sistema."
-      ],
-      [
-        "- NaCl eritmasi",
-        "- Havo",
-        "- Cho`yan",
-        "- Po`lat"
-      ],
-      [
-        "- Jez",
-        "- Havo",
-        "- Aroq",
-        "- Cho`yan"
-      ],
-      [
-        "- Havo",
-        "- Jez",
-        "- Gazlangan suv",
-        "- Aroq"
-      ],
-      [
-        "- Eitmaning qattiqligi",
-        "- Harorat, moddaning tabiati.",
-        "- Erituvchining bug` bosimi .",
-        "- Moddaning hajmi ."
-      ],
-      [
-        "- Modda bosimi",
-        "- Modda konsentratsiyasi",
-        "- Modda hajmi",
-        "- Modda temperaturasi"
-      ],
-      [
-        "- Erituvchida ayni eritilgan moddadan yana erisa",
-        "- Eritmaning bosimi ortganda berilgan moddadan erimasa",
-        "- Erituvchida ayni eritilgan moddadan boshqa erimasa",
-        "- Eitmaning harorati ortganda berilgan moddan erimasa"
-      ],
-      [
-        "- 5",
-        "- 3",
+        "- 9",
+        "- 7",
         "- 6",
-        "- 1"
-      ],
-      [
-        "- Titr",
-        "- Massa ulush",
-        "- Normal",
-        "- Molyal ulush"
-      ],
-      [
-        "- Molyal konsentratsiyali",
-        "- Normal konsentratsiyali",
-        "- Molyar konsentratsiyali",
-        "- Titr konsentratsiyali"
-      ],
-      [
-        "- Sistema",
-        "- İzolatsiyalangan sistema",
-        "- Ochiq sistema",
-        "- Yopiq sistema"
-      ],
-      [
-        "- Yopiq",
-        "- Gomogen",
-        "- Izolatsiyalangan",
-        "- Ochiq"
-      ],
-      [
-        "- Ochiq",
-        "- Yopiq",
-        "- Geterogen",
-        "- Gomogen"
-      ],
-      [
-        "- Izolatsiyalangan",
-        "- Yopiq",
-        "- Ochiq",
-        "- Geterogen"
-      ],
-      [
-        "- Asoslar",
-        "- Qaytaruvchilar",
-        "- Oksidlovchilar",
-        "- Metallar"
-      ],
-      [
-        "- Kislotalar",
-        "- Galogenidlar",
-        "- Metallar",
-        "- Qaytaruvchilar"
-      ],
-      [
-        "- 1-100nm",
-        "- 50 nm",
-        "- 100 nm dan yuqori",
-        "- 100 nm dan kichik"
-      ],
-      [
-        "- 100 nm dan 50 nm gacha",
-        "- 30 nm",
-        "- 40 nm",
-        "- 1nm dan 100 nm gacha"
-      ],
-      [
-        "- 1 mmk dan yuqori",
-        "- 20 mmk dan kichik",
-        "- 100 mmk dan kichik",
-        "- 1 mmk dan kichik"
-      ],
-      [
-        "- Gomogen sistemalar",
-        "- Chin eritma",
-        "- Dag`al-dispers sistemalar",
-        "- Kalloid eritmalar"
-      ],
-      [
-        "- Chin eritma",
-        "- Kalloid eritma",
-        "- Dag`al- dispers sistema",
-        "- Geterogen sistema"
-      ],
-      [
-        "- Osmotik bosim",
-        "- Emulsiya",
-        "- Entropiya",
-        "- Diffuziya"
-      ],
-      [
-        "- Amfoter",
-        "- Oksidlar",
-        "- Tuzlar",
-        "- Asoslar"
-      ],
-      [
-        "- 1867-yilda Beketov",
-        "- 1897-yilda Svante Arrenius",
-        "- 1987 –yilda Sheele",
-        "- 1887- yilda Svante Arrenius"
-      ],
-      [
-        "- K3[Fe(CN)6]",
-        "- [Fe(CO)5]",
-        "- Pt(NH3)4 Cl2",
-        "- Cu(NH3)4\tSO4"
-      ],
-      [
-        "- Gel",
-        "- Tuman",
-        "- Sut",
-        "- Qatiq"
-      ],
-      [
-        "- Gel",
-        "- Chang",
-        "- Suyuq dori",
-        "- Tuman"
-      ],
-      [
-        "- Fizik kimyo",
-        "- Noorganik kimyo",
-        "- Organik kimyo",
-        "- Kolloid kimyo"
-      ],
-      [
-        "- Atsidokomplekslar",
-        "- Amminatlar",
-        "- Ammiakatlar",
-        "- Akvakomplekslar"
-      ],
-      [
-        "- Akvakomplekslar",
-        "- Amminatlar",
-        "- Ammiakatlar",
-        "- Atsidokomplekslar"
-      ],
-      [
-        "- KMnO4",
-        "- NaCl",
-        "- Na2CO3",
-        "- CaCO3"
-      ],
-      [
-        "- A, B, C",
-        "- Electron, pozitron, alfa",
-        "- Uran, pozitroni",
-        "- alfa ,betta ,gamma"
-      ],
-      [
-        "- 2",
-        "- 1",
-        "- 0",
-        "- 4"
-      ],
-      [
-        "- -1",
-        "- 4",
-        "- 2",
-        "- 0"
-      ],
-      [
-        "- turg`un bo`lmagan yadrodagi proton faqat pozitronga aylanadi",
-        "- yadrodagi proton neytronga aylanadi",
-        "- turg`un bo`lmagan yadrodagi proton, neytron va pozitronga aylanadi",
-        "- yadrodagi neytron pozitronga aylanadi"
-      ],
-      [
-        "- yadroning tartib raqami bir birlikka kamayadi va bu bir element yangi elementga aylanadi",
-        "- gamma yemirilish",
-        "- parchalanish",
-        "- alfa yemirilish"
-      ],
-      [
-        "- faza",
-        "- geterogen sistema",
-        "- 2 jinsli gomogen sistema",
-        "- 1 jinsli gomogen sistema"
-      ],
-      [
-        "- suspenza",
-        "- loyqa suv",
-        "- chang havo",
-        "- NaCl ning suvdagi eritmasi"
-      ],
-      [
-        "- shudring",
-        "- yog`li suv",
-        "- shakarning suvdagi eritmasi",
-        "- NaCl ning suvdagi eritmasi"
-      ],
-      [
-        "- 2, manfiy va musbat",
-        "- 2, ichki va tashqi sfera",
-        "- 2, metall va kislota qoldig`i",
-        "- 2, metall va ligant"
-      ],
-      [
-        "- bunday sfera mavjud emas",
-        "- 2, manfiy va musbat",
-        "- 2, metall va ligant",
-        "- 2, ichki va tashqi sfera"
-      ],
-      [
-        "- metall",
-        "- manfiy qism",
-        "- kislota qoldig`i",
-        "- addеntlar"
-      ],
-      [
-        "- kaliy geksasiano ferrum III",
-        "- dixloro tetraamino platinium IV xlorid",
-        "- diamino argenium I xlorid",
-        "- natriy geksagidrokso alyuminiumIII"
-      ],
-      [
-        "- [Ag(NH3)2]Cl",
-        "- K4[Fe(CN)6]",
-        "- K2[Zn(OH)4]",
-        "- K3[Fe(CN)6]"
-      ],
-      [
-        "- K2[Zn(OH)4]",
-        "- [Ag(NH3)2]Cl",
-        "- K3[Fe(CN)6]",
-        "- K4[Fe(CN)6]"
-      ],
-      [
-        "- geometrik, optik, koordinatsion, gidrat, ionli izomeriya",
-        "- Uglerod skilet izomeriyasi, qo`sh bog` izomeriyasi",
-        "- Dinamik, sis va trans izomeriya",
-        "- Fazoviy va geametrik izomeriya"
-      ],
-      [
-        "- [Cr(H2O)6]CI3 va [CrCI2(H2O)4]CI*2H2O",
-        "- K [PtCl3 (C2O4)]",
-        "- [Pt(NH3)2NO2Cl] SO4",
-        "- [CoBr(NH3)5]SO4 va [CoSO4(NH3)5]Br"
-      ],
-      [
-        "- yunoncha termo-issiqlik, dinamika-kuch, quvvat",
-        "- grekcha termo-kuch, quvvat, dinamika-issiqlik",
-        "- grekcha termo-issiqlik, dinamika-kuch, quvvat",
-        "- yumoncha, issiqlik mashinalari"
-      ],
-      [
-        "- Karno",
-        "- Tomson",
-        "- Verner",
-        "- Joul"
-      ],
-      [
-        "- qaytar va qaytmas jarayonlarni",
-        "- energiyani sarflanishini",
-        "- issiqlik mashinalarida issiqlikni ishga aylanishini",
-        "- sistemalarni"
-      ],
-      [
-        "- Atrof muhitdan hayolan yoki amalda ajratib olingan jism yoki jismlar guruhi",
-        "- Sistema bilan bevosita yoki bilvosita kontakda bo`ladigan barcha narsalar",
-        "- Atrof muhit bilan moddalar almashina olmaydigan, ammo energiya almashina oladigan sistamalar",
-        "- Faqat Oddiy probirka"
-      ],
-      [
-        "- geterogen eritma",
-        "- sistema",
-        "- faza",
-        "- gomogen eritma"
-      ],
-      [
-        "- energiya bir turdan ikkinchi turga o`tganda yo`qotilishga uchramaydi 1",
-        "- 1-tur abadiy ishlaydigan mashinaning amalga oshirish mumkin emas.",
-        "- tashqaridan energiya berib ish bajaradigan abadiy ishlaydigan mashina qurish mumkin.",
-        "- Sistema berk bo`lganda ham qanchadir energiya yo`qotiladi."
-      ],
-      [
-        "- Q = dH + А",
-        "- Q = dU + H",
-        "- Q = U + P",
-        "- Q = (d)U + А"
-      ],
-      [
-        "- Atrof muhit bilan moddalar almashina olmaydigan, ammo energiya almashina oladigan sistamalar",
-        "- Atrof muhit bilan modda ham, energiya ham almashina olmaydi.",
-        "- Tabiatdagi barcha narsalar",
-        "- Atrof muhit bilan modda va energiya almashina oladi."
-      ],
-      [
-        "- Atrof muhit bilan modda ham, energiya ham almashina olmaydi.",
-        "- Atrof muhit bilan moddalar almashina olmaydigan, ammo energiya almashina oladigan sistamalar",
-        "- tabiatdagi barcha narsalar",
-        "- Atrof muhit bilan modda va energiya almashina oladi."
-      ],
-      [
-        "- Atrof muhit bilan modda va energiya almashina oladi.",
-        "- tabiatdagi barcha narsalar",
-        "- Atrof muhit bilan moddalar almashina olmaydigan, ammo energiya almashina oladigan sistamalar",
-        "- Atrof muhit bilan modda ham, energiya ham almashina olmaydi."
-      ],
-      [
-        "- O`z-o`zidan boradigan jarayon deyiladi",
-        "- termodinamik jarayon deyiladi",
-        "- Kimyoviy reaksiya deyiladi",
-        "- O`z-o`zidan bormaydigan jarayon deyiladi"
-      ],
-      [
-        "- Kinetik energiya harakat energiyasi bo`lsa, potensial energiya esa sistema zarrachalarining holat va o`zaro ta`sir energiyasidir",
-        "- ikkovi ham bir xil",
-        "- Kinetik energiya sistema zarrachalarining holat va o`zaro ta`sir energiyasi bo`lsa, potensial energiya esa harakat energiyasidir",
-        "- Kinetik energiya harakat energiyasi bo`lsa, potensial energiya ishga teng"
-      ],
-      [
-        "- 2, elektrolit va noelektrolitlar",
-        "- suyuqlanma va eritma",
-        "- 2, katod va anod",
-        "- 2, eriydigan va erimaydigan"
-      ],
-      [
-        "- manfiy",
-        "- zaryadsiz",
-        "- neytral",
-        "- musbat"
-      ],
-      [
-        "- manfiy",
-        "- musbat",
-        "- neytral",
-        "- zaryadsiz"
-      ],
-      [
-        "- bu kamida ikki fazadan iborat elektrkimyoviy sistemadir.",
-        "- elektr tokini ishga aylantirib beruvchi plastinka",
-        "- potensial aniqlovchi jarayonlarda ishtirok etuvchi moddalar",
-        "- plastinka"
-      ],
-      [
-        "- Ca(OH)2, Fe(OH)3,Ba(OH)2,",
-        "- Zn(OH)2, AI(OH)2, Cr(OH)3",
-        "- NaOH, Zn(OH)2 Cu(OH)2,",
-        "- KOH, Mg(OH)2, AI(OH)3"
-      ],
-      [
-        "- CO2, P2O5, S02 , NO2",
-        "- BaO, P205, CO.",
-        "- K2O, MgO, SO2, Na20;",
-        "- ZnO, N2O3, Al203, H2О ;"
-      ],
-      [
-        "- F",
-        "- Cl",
-        "- J",
-        "- Br"
-      ],
-      [
-        "- Li Na K",
-        "- B Al Cu",
-        "- Mg Ca Ba",
-        "- F Cl Br"
-      ],
-      [
-        "- Atom massasiga",
-        "- Protonlarning soniga",
-        "- Davr nomeriga",
-        "- Neytronlar soniga"
-      ],
-      [
-        "- 1l suvda erigan modda miqdori",
-        "- 1l eritmada erigan modda mollar soni.",
-        "- 1000g erituvchida erigan modda miqdori",
-        "- 1000g suvda erigan modda miqdori"
-      ],
-      [
-        "- kislota bilan suv orasida sodir bo`ladigan reaksiyalar",
-        "- tuz va asos orasida sodir bo`ladigan",
-        "- tuzlar bilan suv orasidagi sodir bo`ladigan reaksiyalar",
-        "- tuz va kislota orasida sodir bo`ladigan reaksiyalar"
-      ],
-      [
-        "- donor – aktseptor",
-        "- Ionli",
-        "- vodorod – aktseptor",
-        "- metall"
-      ],
-      [
-        "- 1, 4",
-        "- 3.4",
-        "- 1, 3",
-        "- 2, 3"
-      ],
-      [
-        "- +7",
-        "- +4",
-        "- -1",
-        "- +5"
-      ],
-      [
-        "- 54,05",
-        "- 55",
-        "- 52",
-        "- 52.5"
-      ],
-      [
-        "- 6",
-        "- 2",
-        "- 1",
         "- 8"
       ],
       [
-        "- 1s, 2p",
-        "- 1p, 2d",
-        "- 2p, 3d",
-        "- 2s, 4f"
+        "- Oligo",
+        "- Psedo",
+        "- Necro",
+        "- Megalo"
       ],
       [
-        "- 4",
-        "- 3",
-        "- 2",
-        "- 5"
+        "- Auto",
+        "- Iso",
+        "- Allo",
+        "- Hetero"
       ],
       [
-        "- valentlik elektronlar soni bilan",
-        "- Protonlar soni bilan",
-        "- atom qatori",
-        "- neytronlar soni"
+        "- Mammolog",
+        "- Mastalgia",
+        "- Mammalgia",
+        "- Mastopatia"
       ],
       [
-        "- kislorod izotoplarınıng tabiıy aralashmalarinin` atomı massasınıng 1/16 ulushi",
-        "- uglerod-12 izotop atomı massasınıng 1/12 ulushi",
-        "- uglerod-14 izotop atomı massasınıng 1/14 ulushi",
-        "- kislorod-16 izotop atomı massasınıng 1/16 ulushi"
+        "- –blastoma",
+        "- –blastus",
+        "- –oma",
+        "- –therapia"
       ],
       [
-        "- Termodinamika",
-        "- Elektrokimyo",
-        "- Kimyo",
-        "- Kimyoviy kinetika"
+        "- Farmasevtik",
+        "- Shakliy",
+        "- Ilmiy",
+        "- Trivial"
       ],
       [
-        "- elementning miqdoriy ko`rsatkichi",
-        "- Avogadro soni",
-        "- Elementning aniq o`lchangan massasi",
-        "- doimiy son"
+        "- Sirupus Glycyrrhizatis",
+        "- Ungentum Valodanas",
+        "- Sirupus Glycyrrhizae",
+        "- Sirupus Analgini"
       ],
       [
-        "- Al",
-        "- Ca",
-        "- Mg",
-        "- Na"
+        "- Retseptda yoziladigan dori darmonlarning nomlari",
+        "- O`rta asrlarda qo`llanilgan dorivor vositalarning nomlari",
+        "- Hozirgi davrda ham qo`llanilayotgan dorivor vositalar nomlarining yig`indisidir",
+        "- XXI asrdagi dorivor vositalarning nomlari"
       ],
       [
-        "- 1s2",
-        "- 1s22s1",
-        "- 1s1",
-        "- 1s22s22p63s1"
+        "- “F”",
+        "- “X”",
+        "- “R”",
+        "- “KS”"
       ],
       [
-        "- nm",
-        "- ml",
-        "- gr",
-        "- l"
+        "- Ikki unli harfning birgalikda kelib bitta tovushni berishi",
+        "- Qo`sh undoshning birgalikda kelib bitta tovushni berishi",
+        "- Undosh va unli harfning birgalikda kelib bitta tovushni berishi",
+        "- Unli va undosh harfning birgalikda kelib bitta tovushni berishi"
       ],
       [
-        "- HCOOH",
-        "- KF",
-        "- F2",
-        "- HF"
+        "- Mentha",
+        "- Paries",
+        "- Eucalyptus",
+        "- Rheum"
       ],
       [
-        "- Neytrallanish reaksiyasi",
-        "- Oksidlanish qaytarilish reaksiyasi",
-        "- Oksidlanish neytrallanish reaksiyasi",
-        "- Oksidlanish qaytish reaksiyasi"
+        "- Coelia",
+        "- Cyctis",
+        "- Cito",
+        "- Costa"
       ],
       [
-        "- To`g`ri javob yo`q",
-        "- Modda miqdoriga va bosimga",
-        "- Konsentratsiyaga bog`liq,haroratning tasiri,reaksiyaga kirishuvchi moddalar tabiatiga bog`liq, katlizatorning tasiri",
-        "- Kimyoviy reaksiya tezligiga haroratning tasiri,rangining o`zgarishi"
+        "- Diftongdan oldin kelsa",
+        "- Ikki undosh o`rtasida",
+        "- Ikki unli ortasida, M harfidan oldin, N harfidan keyin",
+        "- M harfidan oldin, N harfidan keyin"
       ],
       [
-        "- Kimyoviy reaksiya tenglamalarining tezligi",
-        "- Kimyoviy reaksiya tenglamalari",
-        "- Katalizator",
-        "- Kimyoviy muvozanat"
+        "- Qo`sh undoshning birgalikda kelib bitta tovushni berishi",
+        "- Undosh va unli harfning birgalikda kelib bitta tovushni berishi",
+        "- Ikki unli harfning birgalikda kelib bitta tovushni berishi",
+        "- Ikki undosh harfning birgalikda kelib bitta tovushni berishi"
       ],
       [
-        "- 48",
-        "- 34",
-        "- 28",
-        "- 14"
+        "- Dosis",
+        "- Colostomia",
+        "- Fascia",
+        "- Sulcus"
       ],
       [
-        "- -3",
-        "- +3",
-        "- +5",
-        "- -4"
+        "- Oedema",
+        "- Rhizoma",
+        "- Auctor",
+        "- Bucca"
       ],
       [
-        "- 29%",
-        "- 75,5%",
-        "- 28%",
-        "- 78%"
+        "- Uchinchi bo`g`in",
+        "- Birinchi bo`g`in",
+        "- Ikkinchi bo`g`in",
+        "- Beshinchi bo`g`in"
       ],
       [
-        "- V = c/t",
-        "- S = VT",
-        "- V = S/t",
-        "- t = c/V"
+        "- –pyr",
+        "- anti-",
+        "- –inum",
+        "- -um"
       ],
       [
-        "- Siljimaydi",
-        "- Chapga",
-        "- Awal o`ng, so`ngra chapga",
-        "- O`ngga"
+        "- –um",
+        "- cor-",
+        "- –olum",
+        "- –valolum"
       ],
       [
-        "- O`ngga",
-        "- Chapga",
-        "- Awal o`ng, so`ngra chapga",
-        "- Muvozanatni siljitmaydi, ammo uni tezroq qaror topishiga yordam beradi"
+        "- –um",
+        "- –cain-",
+        "- -inum",
+        "- novo"
       ],
       [
-        "- Chapga",
-        "- Siljimaydi",
-        "- Awal o`ng, so`ngra chapga",
-        "- O`ngga"
+        "- Vas-angio",
+        "- Alg",
+        "- Sulfa",
+        "- Pyr"
       ],
       [
-        "- Reaksiyaning issiqlik effekti boshlang`ich moddalar bilan hosil bo`lgan mahsulotning tabiatiga bog`liq bo`lib, reaksiyaning oraliq bosqichlariga taaluqli emas.",
-        "- Moddalar bir-biri bilan ularning ekvivalentlariga proportsional miqdorlarda ta`sirlashadilar.",
-        "- Bir xil sharoitda turii xildagi gazlarning bir xil xajrnlardagi molekulalar soni birxil bo`ladi.",
-        "- Element nisbiy atom massasining valentliklariga nisbati shu elementning ekvivalentidir."
+        "- -cillin",
+        "- -cyclin",
+        "- -mycin",
+        "- -cain"
       ],
       [
-        "- Na2O, BaO, CuO;",
-        "- CO2, SO3, P2O5",
-        "- ZnO, Al2O3 Sb2O3",
-        "- CO, NO, N2O"
+        "- fiare",
+        "- curare",
+        "- miscere",
+        "- dare"
       ],
       [
-        "- Molekulasi tarkibida metallarga o`z o`rnini bera oladigan vodorod atomlari va kislota qoldig`idan tarkib topgan murakkab moddalar.",
-        "- Tarkibida vodorod atomi va gidroksogruppa tutgan moddalar.",
-        "- Metall atomi bir yoki bir necha gidroksogruppalardan tashkil topgan murakkab moddalar.",
-        "- Tarkibi kislotalar va asoslar qoldiqlaridan iborat moddalar."
+        "- solutio",
+        "- lectio",
+        "- tibia",
+        "- curatio"
       ],
       [
-        "- HCl",
-        "- O2",
-        "- H2SO4",
-        "- K2O"
+        "- crus, cruris",
+        "- facies",
+        "- pubes",
+        "- stapes"
       ],
       [
-        "- Molekulasida metall atomi va kislota qoldig`idan tashkil topgan murakkab moddalar.",
-        "- Tarkibi metall atomi va gidroksogruppadan tarkib topgan murakkab moddalar.",
-        "- Tarkibi metall atomi va kisloroddan tarkib topgan murakkab moddalar.",
-        "- Tarkibi vodorod atomlari va kislota qoldig`idan tarkib topgan murakkab moddalar."
+        "- Misce,fiat pulvis",
+        "- Misce,fiat linimentum",
+        "- Misce,fiat unguentum",
+        "- lingua-glosso"
       ],
       [
-        "- H2S, H2CO3, HF;",
-        "- HBr, HCN, HI;",
-        "- HNO3, H2CO3, H2SiO3;",
-        "- HCI, H2CrO4, H2S."
+        "- musculus, i m",
+        "- corpus, oris n",
+        "- costalis, e",
+        "- mater, tris"
       ],
       [
-        "- Ca(OH)2, Ba(OH)2, KOH.",
-        "- NaOH, AI(OH)3, Zu(OH)2",
-        "- NaOH, Ca(OH)2, KOH;",
-        "- Cu(OH)2, Fe(OH)2, Cr(OH)2;"
+        "- pectus",
+        "- ductus",
+        "- sulcus",
+        "- textus"
       ],
       [
-        "- 2,3",
-        "- 1, 4",
-        "- 2,4",
-        "- 1,2"
+        "- rabies, ei",
+        "- stapes, dis",
+        "- pes, pedis",
+        "- pubes, is"
       ],
       [
-        "- Kimyoviy elеmеntlаrning bir-biri bilаn o`s ekvivаlеntlаrigа пrопоrsiоnаl bo`lgаn mаssа miqdоrlаrdа birikish yoki аlmаshinishi",
-        "- Elеmеnt аtоmlаrining bоshqа elеmеntning muаyyan sоndаgi аtоmlаrini biriktirib оlish хususiyati",
-        "- Mоddа tаrkikibining kimyoviy bеlgilаr vа indеkslаr yordаmidа ifоdаlаnish",
-        "- Bir хil shаrоitdаgi turli gаslаrning bir hаjmidаgi mоlеkulаlаr sоni bir хil bo`lishi"
+        "- sal",
+        "- saccharum",
+        "- sanus",
+        "- solutio"
       ],
       [
-        "- N2",
-        "- KJ",
-        "- H2O",
-        "- HCl"
+        "- rhino-nasus",
+        "- mandibula-genio",
+        "- maxilla-gnatho",
+        "- auris-oto"
       ],
       [
-        "- NaBr",
-        "- HCl",
-        "- KOH",
-        "- O2"
+        "- vertebralis, e",
+        "- longus, a, um",
+        "- major, jus",
+        "- costalis,e"
       ],
       [
-        "- H2",
-        "- O2",
-        "- H2O",
-        "- KH"
+        "- fissura",
+        "- labium",
+        "- maxilla",
+        "- officina"
       ],
       [
-        "- 60.2*1023",
-        "- 30.01* 1023",
-        "- 6.02*1023",
-        "- 3.01* 1023"
+        "- Zincum",
+        "- Phosphorus",
+        "- Sulfur",
+        "- Magnesium"
       ],
       [
-        "- Metall",
-        "- Qutbli kovalent",
-        "- Qutbsiz kovalent",
-        "- Ion"
+        "- uzun mushak",
+        "- uzun oyoq",
+        "- uzun bel",
+        "- uzun til"
       ],
       [
-        "- oddiy",
-        "- tuzlar",
-        "- allotropik",
-        "- murakkab"
+        "- diaeta",
+        "- thoracicus",
+        "- fluidus",
+        "- solubilis"
       ],
       [
-        "- H2",
-        "- Si",
-        "- O2",
-        "- He"
+        "- -ei",
+        "- -ae",
+        "- -is",
+        "- -inis"
       ],
       [
-        "- 1700",
-        "- 1836",
-        "- 1800",
-        "- 1825"
+        "- rhiz.",
+        "- in caps.",
+        "- inf.",
+        "- obl."
       ],
       [
-        "- C---M1 *100/M",
-        "- C----M/V 100",
-        "- C-----n /M1",
-        "- C-----M/M1"
+        "- -um",
+        "- -e",
+        "- -us",
+        "- -er"
       ],
       [
-        "- Vodorod bilan xlor gazlarini o`zaro reaksiyaga kirishtirib",
-        "- Kaliy xlorid tuzlariga nitrat kislota ta`sir ettirib",
-        "- Natriy xlorid tuzlariga fosfat kislota ta`sir ettirib",
-        "- Elektroliz orqali"
+        "- jarrohlik",
+        "- ko`z o`tkirligi",
+        "- aql mahorati",
+        "- qo`l mahorati"
       ],
       [
-        "- Vm=M/g",
-        "- g=M/Vm",
-        "- n = m/M",
-        "- m=M . V"
-      ],
-      [
-        "- Oksidlar va asoslarga",
-        "- Kislotalar va tuzlarga",
-        "- Oddiy modda va murakkab moddaga",
-        "- Metallar va metalmaslarga"
-      ],
-      [
-        "- Na, K, Rb",
-        "- H, C, O",
-        "- Ca, Mg, Fe",
-        "- B, Al, Ga"
+        "- cultus",
+        "- quadratus",
+        "- cuticula",
+        "- cutis"
       ],
       [
         "- 3",
-        "- 1",
-        "- 4",
-        "- 2"
-      ],
-      [
-        "- +3",
-        "- +5",
-        "- +1",
-        "- 0"
-      ],
-      [
-        "- Avogadro qonuni",
-        "- Tarkibning doimiy qonuni",
-        "- Massani saqlanish qonuni",
-        "- Ekvivalentlar qonuni"
-      ],
-      [
-        "- Kimyoviy reaksiyaga kirishayotgan moddalarning umumiy massasi reaksiya mahsulotlarining umumiy massasiga teng",
-        "- Har qanday kimyoviy sof modda olinish usuli va joyidan qat`i nazar doimiy tar kibga ega bo`ladi",
-        "- Agar ikki element bir-biri bilan bir necha kimyoviy birikma hosil qilsa, bu birikmalardagi bir element massasiga to`g`ri keluvchi boshqa element massalari o`zaro kichik butun sonlar nisbatida bo`ladi.Tabiatdagi har qanday o`zgarishlar izsiz yo`qolmaydi",
-        "- Bir xil sharoitda o`zaro teng hajmdagi turli xildagi gazlarda molekulalar soni teng bo`ladi"
-      ],
-      [
-        "- Bir xil sharoitda o`zaro teng hajmdagi turli xildagi gazlarda molekulalar soni teng bo`ladi.",
-        "- Har qanday kimyoviy sof modda olinish usuli va joyidan qat`i nazar doimiy tar kibga ega bo`ladi.",
-        "- Kimyoviy reaksiyaga kirishayotgan moddalarning umumiy massasi reaksiya mahsulotlarining umumiy massasiga teng.",
-        "- Agar ikki element bir-biri bilan bir necha kimyoviy birikma hosil qilsa, bu birikmalardagi bir element massasiga to`g`ri keluvchi boshqa element massalari o`zaro kichik butun sonlar nisbatida bo`ladi.Tabiatdagi har qanday o`zgarishlar izsiz yo`qolmaydi."
-      ],
-      [
-        "- elektron",
-        "- neytron",
-        "- pozitron",
-        "- proton"
-      ],
-      [
-        "- Izotonlar",
-        "- Neytronlar",
-        "- Izobarlar",
-        "- Izotoplar"
-      ],
-      [
-        "- Izotoplar",
-        "- Izobarlar",
-        "- Izotonlar",
-        "- Neytronlar"
-      ],
-      [
-        "- Metal-akseptor",
-        "- Ion",
-        "- Kovalent",
-        "- Donor-akseptor"
-      ],
-      [
-        "- Donor-akseptor",
-        "- Ion",
-        "- Metal",
-        "- Kovalent bog`lanish"
-      ],
-      [
-        "- H2S",
-        "- O2",
-        "- NaCl",
-        "- Cl2"
-      ],
-      [
-        "- Molekular",
-        "- Atom",
-        "- Metal",
-        "- Ion"
-      ],
-      [
-        "- Atom",
-        "- Metal",
-        "- Molecular",
-        "- Ion"
-      ],
-      [
-        "- Metal",
-        "- Atom",
-        "- Ion",
-        "- Molecular"
-      ],
-      [
-        "- Donor-akseptor",
-        "- Metal",
-        "- Ion",
-        "- Kovalent"
-      ],
-      [
-        "- 15",
-        "- 23",
-        "- 8",
-        "- 7"
-      ],
-      [
-        "- Lomonosov",
-        "- Prust",
-        "- Rezerford",
-        "- Avogadro"
-      ],
-      [
-        "- H2 , F2 , Cl2",
-        "- H2O, H2S, NH3",
-        "- NaCl, K2S, BaCl2",
-        "- HCl, HBr, HI"
-      ],
-      [
-        "- H2 , F2 , Cl2",
-        "- NaCl,K2S,BaCl2",
-        "- Li, Na, K, Al",
-        "- Fe, Cu, Zn"
-      ],
-      [
-        "- Prust",
-        "- Lomonosov",
-        "- Rezerford",
-        "- Avogadro"
-      ],
-      [
-        "- element atomi yadrosidagi protonlar sonini.",
-        "- atom yadrosi atrofidagi elektronlar sonini.",
-        "- atom yadrosi atrofidagi elektron qobiqchalar sonini.",
-        "- element atomi yadrosidagi neytronlar sonini."
-      ],
-      [
-        "- 81",
-        "- 137",
-        "- 193",
-        "- 56"
-      ],
-      [
-        "- Gess va P. Vaage",
-        "- K. Guldberg va P. Vaage",
-        "- Lavuazye-Laplas",
-        "- Vant-Goff"
-      ],
-      [
-        "- Lavuazye-Laplas",
-        "- Gess",
-        "- Y. Vant-Goff",
-        "- K. Guldberg va P. Vaage"
-      ],
-      [
-        "- Kimyoviy reaksiyani temperaturasiga qarab tezlatuvchi jarayonga kataliz deyiladi",
-        "- Oksidlanish -qaytarilish jarayoni bilan boradigan sohaga aytiladi",
-        "- Reaksiya borgan sohaga va mexanizmga ta`sir ko`rsatgan jarayonga kataliz deyiladi",
-        "- Katalizatorlar ishtirokida boradigan reaksiyalar katalitik reaksiyalar, ularni borish hodisasiga kataliz deyiladi"
-      ],
-      [
-        "- Reaksiyaga kirishuvchi moddalarning konsentratsiyalari nolga teng bo`lgandagi reaksiya tezligidir",
-        "- Reaksiyaga kirishuvchi moddalarning konsentratsiyalari ikkiga teng bo`lgandagi reaksiya tezligidir",
-        "- Reaksiyaga kirishuvchi moddalarning konsentratsiyalari uchga teng bo`lgandagi reaksiya tezligidir",
-        "- Reaksiyaga kirishuvchi moddalarning konsentratsiyalari birga teng bo`lgandagi reaksiya tezligidir"
-      ],
-      [
-        "- Metall katalizatorlar ishtirokidagi kataliz",
-        "- Katalizator bilan reaksion aralashma har xil fazada bo`lgan kataliz",
-        "- Katalizator bilan reaksion aralashma bir xil fazada bo`lgan kataliz",
-        "- Biologik katalizatorlar – fermentlar ishtirokidagi kataliz"
-      ],
-      [
-        "- Reaksiya tezligini tezlashtiradiga moddalar",
-        "- Reaksiya tezligini temperaturaga qarab tezlashtiradigan moddalar",
-        "- Reaksiya tezligini to`xtatadigan moddalar",
-        "- Reaksiya tezligini bosimga qarab tezlashtiradiga moddalar"
-      ],
-      [
-        "- Muvozanatni siljitmaydigan moddalar",
-        "- Muvozanatni chapga siltijatigan moddalar",
-        "- Katalizator ta`sirini oshiradigan moddalar",
-        "- Ba`zi moddalar katalizatorlarning aktivligini kamaytiradi yoki butunlay yo`qotadi"
-      ],
-      [
-        "- Qaytmas reaksiya",
-        "- Oddiy reaksiya",
-        "- Murakkab reaksiya",
-        "- Parallel reaksiya"
-      ],
-      [
-        "- Muvozanatni chapga siltijatigan moddalar",
-        "- Katalizatorlarning aktivligi turli qo`shimchalar ta`sirida oshadi",
-        "- Muvozanatni siljitmaydigan moddalar",
-        "- Katalizatorlarning aktivligini kamaytiradigan moddalar"
-      ],
-      [
-        "- To`g`ri va tеskari rеaksiyalar tеzliklarining farqi bilan.",
-        "- Tеskari rеaksiya tеzligi orqali",
-        "- To`g`ri va tеskari rеaksiyalar tеzliklarining yig`indisi bilan",
-        "- To`g`ri rеaksiya tеzligi orqali"
-      ],
-      [
-        "- To`yinmagan",
-        "- Suyultirilgаn",
-        "- Kоnsеntrlаngаn",
-        "- To`yingan"
-      ],
-      [
-        "- Kоnsеntrlаngаn",
-        "- To`yinmagan",
-        "- Suyultirilgаn",
-        "- To`yingan"
-      ],
-      [
-        "- Suyultirilgan",
-        "- Konsentrlangan",
-        "- To`yingan",
-        "- Ideal eritmalar"
-      ],
-      [
-        "- Osmos",
-        "- Braun harakati",
-        "- Diffuziya",
-        "- Elektr o`tkazuvchanlik"
-      ],
-      [
-        "- Osmometr",
-        "- Voltmetr",
-        "- Barometr",
-        "- Ampermetr"
-      ],
-      [
-        "- 4",
         "- 2",
-        "- 5",
-        "- 3"
+        "- 0",
+        "- 1"
       ],
       [
-        "- Izotonik eritmalar",
-        "- Izotermik eritmalar",
-        "- Gipotonik eritmalar",
-        "- Gipertonik eritmalar"
+        "- [t]",
+        "- [ks]",
+        "- [f]",
+        "- [r]"
       ],
       [
-        "- 2,5%",
-        "- 4%",
-        "- 0,9%",
-        "- 8%"
+        "- [sx]",
+        "- [r]",
+        "- [t]",
+        "- [ks]"
       ],
       [
-        "- Gipertonik",
-        "- Izotonik",
-        "- Izoxorik",
-        "- Gipotonik"
+        "- Simplex",
+        "- vertebralis",
+        "- palatinus, a, um",
+        "- teres"
       ],
       [
-        "- izobarik",
-        "- izotonik",
-        "- gipotonik",
-        "- gipertonik"
+        "- os ethmoidale",
+        "- os lunatum",
+        "- os breve",
+        "- os sphenoidale"
       ],
       [
-        "- eritmа ustidа erituvchining to`yingаn bug` bоsimi shu tеmpе¬rаturаdаgi tоzа eritmаnikigа qаrаgаndа dоimо yuqоri bo`lаdi.",
-        "- Temperatura xar 10°C oshganda reaksiyaning tezligi 2−4 marta ortishi.",
-        "- Elektrolit qo`shilganda gazning eruvchanligini ortishi .",
-        "- Elektrolit qo`shilganda gazning eruvchanligining kamayishi ."
+        "- Oltita",
+        "- Beshta",
+        "- Ikkita",
+        "- To`rtta"
       ],
       [
-        "- Sidementatsiya xodisasi",
-        "- Diffuziya xodisasi",
-        "- Erish xodisasi",
-        "- Osmos xodisasi"
+        "- Ae, au",
+        "- Ae, oe",
+        "- Au,eu",
+        "- Ch, oe"
       ],
       [
-        "- Osmotik bosim",
-        "- Reaksiya tezligi",
-        "- Ionlar radiusi",
-        "- Konsentratsiya"
+        "- Uch bo`g`in",
+        "- To`rt bo`gin",
+        "- Olti bo`g`in",
+        "- Besh bo`g`in"
       ],
       [
-        "- O3",
-        "- Na",
-        "- K",
-        "- Rb"
+        "- -Men- ikkinchi bo`g`inda",
+        "- -Li- to`rtinchi bo`g`inga",
+        "- -Ga-uchinchi bo`g`inga",
+        "- -Tum- birinchi bo`g`inda"
       ],
       [
-        "- F2",
-        "- NaH",
-        "- KH",
-        "- BaH2"
+        "- -AE- ikkinchi bo`g`inga",
+        "- To`rtinchi bo`g`inga",
+        "- -Di-uchinchi bo`g`inga",
+        "- -Ta-birinchi bo`g`inga"
       ],
       [
-        "- H2Cr2O7",
-        "- KMnO4",
-        "- H2SO4",
-        "- KH"
+        "- Omne principium difficile est.",
+        "- Alit lectio ingenium.",
+        "- Non scholae, sed vitae discimus.",
+        "- Qui scribit, bis legit."
       ],
       [
-        "- MnSO4, HCl, FeSO4",
-        "- KMnO4, H2O2, Cl2",
-        "- FeSO4, HBr, HJ",
-        "- KMnO4, H2O2, HJ"
+        "- To`rtta turda bo`linadi",
+        "- Ikkita turda bo`linadi",
+        "- Oltita turda bo`linadi",
+        "- Uchta turda bo`linadi"
       ],
       [
-        "- 5",
-        "- 3",
-        "- 4",
-        "- 6"
+        "- Ere -qo`shimchasi",
+        "- Are – qo`shimchasi",
+        "- Re -qoshimchasi",
+        "- Ire- qo`shimchasi"
       ],
       [
-        "- Molekulalararo",
-        "- Sinproporsiya",
-        "- Disproporsiya",
-        "- Ichki molekular"
+        "- Uchinchi tuslanishga",
+        "- Ikkinchi tuslanishga",
+        "- Birinchi tuslanishga",
+        "- To`rtinchi tuslanishga"
       ],
       [
-        "- Sinproporsiya",
-        "- Ichki molekular",
-        "- Disproporsiya",
-        "- Molekulalararo"
+        "- Ikkinchi tuslanishga",
+        "- Birinchi tuslanishga",
+        "- Uchinchi tuslanishga",
+        "- To`rtinchi tuslanishga"
       ],
       [
-        "- Litiy, natriy, kaliy",
-        "- Nikel, simob, qo`rg`oshin",
-        "- Kadmiy nikel, simob",
-        "- Qalay, qo`rg`oshin, mis"
+        "- Signo, are – I tuslanish",
+        "- Solvere, re -III tuslanish",
+        "- Are – Dare -I tuslanish",
+        "- Audire, ire -II tuslanish"
       ],
       [
-        "- osmiy",
-        "- kaliy",
-        "- litiy",
-        "- temir"
+        "- Shart va buyruq mayli",
+        "- Majhullik nisbati",
+        "- Aniqlik nisbati",
+        "- Sabab mayli"
       ],
       [
-        "- natriy",
-        "- temir",
-        "- litiy",
-        "- mis"
+        "- Beshta turlanishga",
+        "- Ikkita turlanishga",
+        "- Uchta turlanishga",
+        "- To`rta turlanishga"
       ],
       [
-        "- 4",
-        "- 5",
-        "- 2",
-        "- 3"
+        "- Mediana us um",
+        "- Asthma atis",
+        "- Stroma atis",
+        "- Gutta, ae f"
       ],
       [
-        "- Kalsiy va natriy",
-        "- Temir va qo`rg`oshin",
-        "- Indiy va kumush",
-        "- Natriy va magniy"
+        "- Glandula alveolaris",
+        "- Ligament umtores",
+        "- Ductus major",
+        "- Tinctura Valerianae"
       ],
       [
-        "- Kumush",
-        "- Ftor",
-        "- Natriy",
-        "- Brom"
+        "- dativus",
+        "- ablatuvus",
+        "- genetivus",
+        "- nominativus"
       ],
       [
-        "- ion",
-        "- kovalent",
-        "- vodorod",
-        "- metall"
+        "- Superfecies",
+        "- Brevi",
+        "- Tussis",
+        "- Posteriors"
       ],
       [
-        "- sulfat",
-        "- oksidlar",
-        "- xlorid",
-        "- erkin"
+        "- Species",
+        "- Floris",
+        "- Corporis",
+        "- Crus, cruris"
       ],
       [
-        "- sulfid",
-        "- erkin",
-        "- oksid",
-        "- xlorid"
+        "- Facies, is m",
+        "- Ductus, i n",
+        "- Zygoma, ua f",
+        "- Remedium, i m"
       ],
       [
-        "- erkin",
-        "- sulfid",
-        "- oksid",
-        "- xlorid"
+        "- Musculus",
+        "- Nasus",
+        "- Oculus",
+        "- ductus"
       ],
       [
-        "- P2O5",
-        "- PCl5",
-        "- PCl",
-        "- PH3"
+        "- Alit lectio ingenium.",
+        "- Labor corpus firmat.",
+        "- Citius, altius, fortius.",
+        "- Amat victoria curam."
       ],
       [
-        "- metall",
-        "- vodorod",
-        "- ion",
-        "- kovalent"
+        "- Musculus",
+        "- Aortae",
+        "- Apex",
+        "- Tuberculum"
       ],
       [
-        "- 22,4",
-        "- 86.8",
-        "- 67,2",
-        "- 44,8"
+        "- 3-turlanishga",
+        "- 5-turlanishga",
+        "- 4-turlanishga",
+        "- 2-turlanishga"
       ],
       [
-        "- +3",
-        "- +6",
-        "- +1",
-        "- +2"
+        "- Os longum",
+        "- Vena longa",
+        "- Musculus longus",
+        "- Os cranii"
       ],
       [
-        "- Qo`ng`ir",
-        "- Qora",
-        "- Rangsiz",
-        "- Yashil"
+        "- Niger, gra, grum",
+        "- Niger, tra,trum",
+        "- Niger, era, erum",
+        "- Niger, gera, gerum"
       ],
       [
-        "- xrom",
-        "- kaliy",
-        "- kumush",
-        "- seziy"
+        "- Simplex, icis",
+        "- Ala, ae, f",
+        "- Major,jus",
+        "- Albus, a, um"
       ],
       [
-        "- Noelektrolitlar",
-        "- Elektrolitlar",
-        "- Suyuqlanma",
-        "- Eritma"
+        "- 5-turlanish",
+        "- 2-turlanish",
+        "- 4-turlanish",
+        "- 3-turlanish"
       ],
       [
-        "- Izotermik",
-        "- Izoxorik",
-        "- Izobarik",
-        "- Adiabatik"
+        "- Pia mater",
+        "- Venter musculi",
+        "- Ala vomeris",
+        "- Tuber maxillae"
       ],
       [
-        "- Izotermik",
-        "- Adiabatik",
-        "- Izobarik",
-        "- Izoxorik"
+        "- Adductor",
+        "- Dilatator",
+        "- Extensor",
+        "- Abductor"
       ],
       [
-        "- Adiabatik",
-        "- Izotermik",
-        "- Izobarik",
-        "- Izoxorik"
+        "- Pericardia lis, e",
+        "- Paravaginalis, e",
+        "- Intramuscularis, e",
+        "- Postcentralis, e"
       ],
       [
-        "- moddaning kimyoviy tabiati (tuzilishi, kimyoviy bog` turlari va h.k.) bilan belgilanadigan energiyadir.",
-        "- zarrachalarning o`zaro joylashuvi bilan belgilanadigan energiya.",
-        "- zarrachalarning harakat tezligi bilan belgilanadigan energiya.",
-        "- makro jismlarning harakatini ta`minlaydigan va shu jarayon hisobiga sodir bo`ladigan ishni amalga oshiradigan energiya turidir."
+        "- Endoscopia",
+        "- Submandibularis, e",
+        "- Praesanillis,e",
+        "- Supraacromialis, e"
       ],
       [
-        "- makro jismlarning harakatini ta`minlaydigan va shu jarayon hisobiga sodir bo`ladigan ishni amalga oshiradigan energiya turidir",
-        "- zarrachalarning o`zaro joylashuvi bilan belgilanadigan energiya",
-        "- moddaning kimyoviy tabiati (tuzilishi, kimyoviy bog` turlari va h.k.) bilan belgilanadigan energiyadir",
-        "- zarrachalarning harakat tezligi bilan belgilanadigan energiya"
+        "- Ostium cavumnas",
+        "- Apertura thoracis inferioris",
+        "- Apertura thoracis inferior",
+        "- Apertura thoracis posterior"
       ],
       [
-        "- İssiqlik yutilishi bilan boradigan jaroyonlar",
-        "- Jarayon davomida energiya almashmasa",
-        "- Jarayon davomida umumiy ish miqdori o`zgarmasa",
-        "- Issiqlik ajralishi bilan boradigan jarayonlar"
+        "- Pia mater encephali",
+        "- Dura mater thoracis",
+        "- Dura mater spinalis",
+        "- Pia mater gastri"
       ],
       [
-        "- issiqlik yutilishi bilan boradigan jaroyonlar",
-        "- Jarayon davomida energiya almashmasa",
-        "- Jarayon davomida umumiy ish miqdori o`zgarmasa",
-        "- Issiqlik ajralishi bilan boradigan jarayonlar"
+        "- Signare",
+        "- Addere",
+        "- Repetere",
+        "- Audire"
       ],
       [
-        "- 1litrda 100 litr eriydi",
-        "- Birga bir nisbatda aralashadi",
-        "- 1hajmda 4 litr eriydi",
-        "- Suv bilan fenol ma`lum bir chegarada aralashadi."
+        "- Rosa alba",
+        "- caput fibulae",
+        "- arcus vertebrae",
+        "- os pubis"
       ],
       [
-        "- Ma`lum chegarada aralashadi",
-        "- Umuman aralashmaydi",
-        "- 1 hajmda 0,2 hajm eriydi",
-        "- Cheksiz aralashadi"
+        "- Minor, us",
+        "- Brevior ius",
+        "- Anterior, ius",
+        "- Magnus, a, um"
       ],
       [
-        "- Qisman aralashadi",
-        "- Umuman aralashmaydi",
-        "- 1 litrda 2 hajm eriydi",
-        "- 1 litrda 0.5 hajm eriydi"
+        "- Misce, fiat unguentum",
+        "- Misce, fiat linimentum",
+        "- Misce, fiat pasta",
+        "- Misce, fiat suppositorium"
       ],
       [
-        "- Elektrolit qo`shilganda gazning eruvchanligi bug` bosimidan ortib ketishi",
-        "- Elektrolit qo`shilganda gazning eruvchanligini ortishi",
-        "- Elektrolit qo`shilganda gazning eruvchanligining kamayishi",
-        "- Elektrolit qo`shilganda gazning eruvchanligi tenglashishi"
+        "- Osteomyelitis",
+        "- Osteoarthritis",
+        "- Osteoma",
+        "- Osteomalacia"
       ],
       [
-        "- natriy",
-        "- kumush",
-        "- simob",
-        "- alyuminiy"
+        "- Encephalon",
+        "- Encephalopathia",
+        "- Encephamyelitis",
+        "- Encephalitis"
       ],
       [
-        "- 3-10 % NaCl eritmasi",
-        "- 5 % NaCl eritmasi",
-        "- 0,9 % NaCl eritmasi",
-        "- 0,9 % KClO eritmasi"
+        "- mandibula-genio",
+        "- somato-corpus",
+        "- lingua-glosso",
+        "- stomato-oris"
       ],
       [
-        "- Asosli",
-        "- Befarq",
-        "- Amfoter",
-        "- Kislotali"
+        "- Therapia – curatio",
+        "- Toxo – venenum",
+        "- Neuro – nervus",
+        "- Angio- vas, vasis"
       ],
       [
-        "- Ichki molekulyar",
-        "- Molekulalararo",
-        "- Sinproporsiya",
-        "- Disproporsiya"
+        "- Psorias",
+        "- Helminthosis",
+        "- Lithiasis",
+        "- Amoebiasis"
       ],
       [
-        "- Kinetik energiya",
-        "- Mexanik energiya",
-        "- Potensial energiya",
-        "- Aktivlanish energiyasi"
+        "- Suasor",
+        "- Sulcus",
+        "- Submucosus",
+        "- Sulphus"
       ],
       [
-        "- Molekulararo",
-        "- Sinproporsiya",
-        "- Disproporsiya",
-        "- Ichki molekulalar"
+        "- Mixtio",
+        "- Articulatio",
+        "- Ostium",
+        "- Tibia"
       ],
       [
-        "- Ichki molekulalar",
-        "- Molekulararo",
-        "- Sinproporsiya",
-        "- Disproporsiya"
+        "- Pro die",
+        "- Pro infantibus",
+        "- Pro dosi",
+        "- Pro rectum"
       ],
       [
-        "- Sinproporsiya",
-        "- Molekulararo",
-        "- Disproporsiya",
-        "- Ichki molekulalar"
+        "- Ko`rsatkich barmoq",
+        "- Bosh barmoq",
+        "- Jimjiloq",
+        "- O`rta barmoq"
       ],
       [
-        "- Ichki molekulalar",
-        "- Molekulararo",
-        "- Disproporsiya",
-        "- Sinproporsiya"
+        "- Barcha san`atlar ichida eng sharaflisi tibbiyotdir",
+        "- Barcha sohalar ichida eng sharafli kasb egasidir",
+        "- Intilganga tole yor",
+        "- Mehnat tanani chiniqtiradi"
       ],
       [
-        "- Molekulalararo",
-        "- Ichki molekulalar",
-        "- Disproporsiya",
-        "- Sinproporsiya"
+        "- limon kislota",
+        "- askorbin kislota",
+        "- sirka kislota",
+        "- yog` kislota"
       ],
       [
-        "- Sinproporsiya",
-        "- Molekulalararo",
-        "- Disproporsiya",
-        "- Ichki molekulalar"
+        "- Purmus, a, um",
+        "- Purus, a, um",
+        "- Purimus, a, um",
+        "- Purissimus, a,um"
       ],
       [
-        "- Analitik kimyo",
-        "- Kvant kimyo",
-        "- Kinetika",
-        "- Termokimyo"
+        "- Intestinalis",
+        "- Dentalis",
+        "- Sacralis",
+        "- Alaris"
       ],
       [
-        "- Issiqlik",
-        "- Gelm-Gols",
-        "- entropiya",
-        "- Entalpiya"
+        "- Inferior",
+        "- Posterior",
+        "- Anterior",
+        "- Superior"
       ],
       [
-        "- ∆S=∑Smax-∑Sdast.mod",
-        "- ∆GT= ∑∆G T (max)- ∑∆G T(dast.mod)",
-        "- U+Q=A",
-        "- VT+pQ=Cv"
+        "- sifat va sifat",
+        "- ot va sifat",
+        "- ot va ot",
+        "- sifat va ot"
       ],
       [
-        "- A",
-        "- K",
-        "- J",
-        "- Q"
+        "- Os costalis",
+        "- Apex cordis",
+        "- Pars pulmonis",
+        "- Apex pulmonis."
       ],
       [
-        "- 2-tur abadiy dvigatel yaratib bo`lmaydi",
-        "- Absolyut 0 temperaturani olib bo`lmaydi",
-        "- Energiya bir turdan boshqa turga aylanmaydi",
-        "- 1-tur abadiy dvigatel yaratib bo`lmaydi"
+        "- ot va sifat",
+        "- son va ot",
+        "- ot va ot",
+        "- ot va son"
       ],
       [
-        "- Absolyut 0 temperaturani olib bo`lmaydi",
-        "- Energiya bir turdan boshqa turga aylanmaydi",
-        "- 1-tur abadiy dvigatel yaratib bo`lmaydi",
-        "- 2-tur abadiy dvigatel yaratib bo`lmaydi"
+        "- Hemotologia",
+        "- Cytologia",
+        "- Histologia",
+        "- Embryologia"
       ],
       [
-        "- Gomopolyar yadro",
-        "- Xayolan tashqi muhitdan ajratib ollingan bir biriga ta`sir etuvchi jismlar va moddalar guruhi",
-        "- Gomogen eritmalar",
-        "- Geterogen eritmalar"
+        "- Cholelithiasis",
+        "- Cholecystomia",
+        "- Cholestasis",
+        "- Cholaemia"
       ],
       [
-        "- izolyatsiyalangan",
-        "- ochiq",
-        "- Yopiq",
-        "- Ochiq , yopiq, izolyatsiyalangan"
+        "- Urologia",
+        "- Urolithiasis",
+        "- Urethra",
+        "- Uroposis"
       ],
       [
-        "- CO2",
-        "- CuO",
-        "- CaO",
-        "- SO2"
+        "- Atonia",
+        "- Hypotonia",
+        "- Dystonia",
+        "- Hypertonia"
       ],
       [
-        "- PbO",
-        "- CaO",
-        "- SO2",
-        "- CO2"
+        "- Oraliq, o`rta",
+        "- Yaqinlashtiruvchi va uzoqlashtiruvchi",
+        "- Tashqaridan ichkariga",
+        "- Yuqorigi, ustgi"
+      ],
+      [
+        "- gingiva-ulo",
+        "- uro – urina",
+        "- maxilla-gnatho",
+        "- dens-odonto"
+      ],
+      [
+        "- Psychologia",
+        "- Gerontologia",
+        "- Cardiologia",
+        "- Paediatria"
+      ],
+      [
+        "- Hypertonia",
+        "- Hypotonia",
+        "- Atonia",
+        "- Dystonia"
+      ],
+      [
+        "- Saccharum",
+        "- Sanus",
+        "- Sal",
+        "- Solutio"
+      ],
+      [
+        "- Myoma",
+        "- Adenoma",
+        "- Hydradenoma",
+        "- Hidradenoma"
+      ],
+      [
+        "- a, an",
+        "- hypo",
+        "- hyper",
+        "- dys"
+      ],
+      [
+        "- Hydrogenium",
+        "- Zincum",
+        "- Cuprum",
+        "- Carbo"
+      ],
+      [
+        "- Oleum",
+        "- Mentha",
+        "- Kalanchoe",
+        "- Aloe"
+      ],
+      [
+        "- Olivarum",
+        "- Oleum",
+        "- Kalanchoe",
+        "- Mentha"
+      ],
+      [
+        "- histo-/textus",
+        "- derma/cutis",
+        "- angio/vas",
+        "- hydro-/ aqua"
+      ],
+      [
+        "- Cele/hernia",
+        "- Hidro-/sudor",
+        "- Chole-/bilis",
+        "- Oto-/auris"
+      ],
+      [
+        "- Onco/tumor",
+        "- Geri-/senex",
+        "- Tricho-/papillus",
+        "- Dacrio-/lacrima"
+      ],
+      [
+        "- Onco/tumor",
+        "- Geri-/senex",
+        "- Rhino-/nasus",
+        "- Tricho-/papillus"
+      ],
+      [
+        "- Masto",
+        "- Scopia",
+        "- Logus",
+        "- Mamma"
+      ],
+      [
+        "- Burunni qayta tiklash operatsiyasi",
+        "- Jag`ni qayta tiklash operatsiyasi",
+        "- Jigar operatsiyasi",
+        "- Bo`g`im operatsiyasi"
+      ],
+      [
+        "- Tishni asbob yordamida tekshirish",
+        "- Og`izni asbob yordamida tekshirish",
+        "- Xalqumni asbob yordamida tekshirish",
+        "- Tanani asbob yordamida tekshirish"
+      ],
+      [
+        "- kapsulada",
+        "- qutida",
+        "- ampulada",
+        "- shishada"
+      ],
+      [
+        "- Unguenti Rici 30,0",
+        "- Unguenti Cupri 30,0",
+        "- Unguenti Anisi30,0",
+        "- Unguenti Zinci30,0"
+      ],
+      [
+        "- Glyukoza eritmasi",
+        "- Yodning spirtli eritmasi",
+        "- Vodorod peroksid eritmasi",
+        "- Analgin eritmasi"
+      ],
+      [
+        "- “Shunday dozalarda ber”",
+        "- “Tomchilab ber”",
+        "- “O`limgacha olib keladi`",
+        "- “Bir martalik doza”"
+      ],
+      [
+        "- O`z, xususiy",
+        "- Bir xil",
+        "- Boshqa",
+        "- Hayvonniki"
+      ],
+      [
+        "- Oleum Persicorum",
+        "- Oleum Eucalypti",
+        "- Oleum Aethereum",
+        "- Oleum Anisi"
+      ],
+      [
+        "- Lingua",
+        "- Angulus",
+        "- Frangula",
+        "- Lingula"
+      ],
+      [
+        "- Qonda o`sma",
+        "- Qon tomiri zichlanishi",
+        "- Qon tomirlarida xavfsiz o`sma",
+        "- Qon tomirini kengayishi"
+      ],
+      [
+        "- Qui scribit, bis legit.",
+        "- In observatione",
+        "- Una hirunda non facit ver.",
+        "- Dori bilan emas, aql bilan davola."
+      ],
+      [
+        "- Umr qisqa, san`at abadiydir.",
+        "- Tinchlik eng yaxshi davodir.",
+        "- Avvalo zarar keltirma.",
+        "- Xasisni qorni to`ysa ham ko`zi to`ymas."
+      ],
+      [
+        "- Infusum Valirianae",
+        "- Rosa alba",
+        "- Os cranii",
+        "- Tincturae Convalariae"
+      ],
+      [
+        "- Aqua pura",
+        "- Tabuletta Analgini",
+        "- Infusum Valirianae",
+        "- Tabuletta Codeini"
+      ],
+      [
+        "- Nominativus",
+        "- Genetivus",
+        "- Accusativus",
+        "- Dativus"
+      ],
+      [
+        "- Pasta",
+        "- Capsula",
+        "- Tinctura",
+        "- Gutta"
+      ],
+      [
+        "- Pasta",
+        "- Suppository um",
+        "- Unguentum",
+        "- Pulvis"
+      ],
+      [
+        "- surt Tarkibida 20-25% dan ortiq kukun holidagi moddalar bo`lgan surtma",
+        "- Suyuq surtma",
+        "- Sirtdan ishlatishga mo`ljallan gan yopishqoq konsistensiyali yumshoq dori",
+        "- Ichish, sirtdan ishlatish yoki in`yeksiya qilish uchun mo`ljallangan, dorivor moddalarni presslab olingan, dozalangan qattiq dori turi"
+      ],
+      [
+        "- –barb-, -mycin, -cyclin, -cort-",
+        "- -oestr, -chol, -sed-, -andr-",
+        "- –myko, -test-, -vas, -angi-",
+        "- –dol, -mycin, -cillin, card"
+      ],
+      [
+        "- Qisqartirish",
+        "- Ko`paytirish",
+        "- Olib tashlash",
+        "- Kengaytirish"
+      ],
+      [
+        "- 3 xil : ilmiy, shakliy va trivial",
+        "- 2 xil: ilmiy va trivial",
+        "- 2 xil: ilmiy va shakliy",
+        "- 2 xil: ilmiy va adabiy"
+      ],
+      [
+        "- Decoctum rhizomatis Tormentille",
+        "- folium Sennae",
+        "- Infusum foliorum Sennae",
+        "- Infusum radices Valerianae"
+      ],
+      [
+        "- 3 ta",
+        "- 4 ta",
+        "- 2 ta",
+        "- 5 ta"
+      ],
+      [
+        "- Extractum Crataegi",
+        "- Oleum Helianti",
+        "- Decoctum herbae Hyperici",
+        "- Folium Saennae"
+      ],
+      [
+        "- 3 ta",
+        "- 4 ta",
+        "- 1 ta",
+        "- 2ta"
+      ],
+      [
+        "- sirupus Glycyrrhizae",
+        "- sirupus Glycyrrhize",
+        "- sirupus Glycyrrhizatis",
+        "- sirupus Glycyrrhizi"
+      ],
+      [
+        "- extractum Crataegum",
+        "- extractum Crataegi",
+        "- extractum Crataegus",
+        "- extractum Crataegae"
+      ],
+      [
+        "- Sodda",
+        "- Murakkab",
+        "- Juft",
+        "- O`xshah"
+      ],
+      [
+        "- tinctura Valeriana",
+        "- tinctura Valerianae",
+        "- tinctura Valerianum",
+        "- tincture Valeriani"
+      ],
+      [
+        "- 4 ta",
+        "- 3 ta",
+        "- 7 ta",
+        "- 5 ta"
+      ],
+      [
+        "- XXI asrdagi dorivor vositalaring nomlari",
+        "- to`g`ri javob yo`q",
+        "- hozirgi davrda ham qo`llanilayotgan dorivor vositalar nomlarining yig`indisidir",
+        "- XXI asrdagi dorivor vositalaring nomlari"
+      ],
+      [
+        "- Angiopathia",
+        "- Angiostenosis",
+        "- Angiosclerosis",
+        "- Angiosis"
+      ],
+      [
+        "- Terining qatiqlashi shi",
+        "- Terini kesish",
+        "- Terining zamburug`li kasalligi",
+        "- Teri kasalligi"
+      ],
+      [
+        "- Osteoma",
+        "- Osteoparo sis",
+        "- Osteomyelitis",
+        "- Osteosis"
+      ],
+      [
+        "- Gastropa tia",
+        "- Gastritis",
+        "- Gastrosis",
+        "- Gastrorha gia"
+      ],
+      [
+        "- Boshqa odamning organ yoki to`qimalari dan foydalanish.",
+        "- Organism ning o`zidagi organ yoki to`qimalari dan foydalanish",
+        "- Odam organizmi o`zgarishi",
+        "- Hayvon organlari yoki to`qimala ridan foydala nish"
+      ],
+      [
+        "- Organism ning o`zidagi organ yoki to`qimalari dan foydalanish",
+        "- Hayvon organlari yoki to`qimalari dan foydalanish",
+        "- Boshqa odamning organ yoki to`qimalari dan foydalanish",
+        "- Organizmning qismlari o`zgarishi"
+      ],
+      [
+        "- Siydik pufagiga tosh hosil bo`lishi",
+        "- Siydik pufagini tekshirish",
+        "- Siydik pufagini olib tashlash",
+        "- Siydik pufagi yallig`lanishi"
+      ],
+      [
+        "- Oq galdarmoq guli",
+        "- Belladonna moyi",
+        "- Zaytun moyi",
+        "- Yalpiz bargi"
+      ],
+      [
+        "- Ichaklarni funksiyasini buzilishi",
+        "- Ichaklarini olib tashlanishi",
+        "- Ichaklar ning yallig`lanishi",
+        "- Ichaklarni tekshirish"
+      ],
+      [
+        "- Tinctura Convallariae",
+        "- Infisum Valerianae",
+        "- Tinctura Schizandrae",
+        "- Mentha Piperita"
+      ],
+      [
+        "- Pneumo / pulmo",
+        "- Abdomen/ laparo",
+        "- Laparo / abdomen",
+        "- Procto / anus"
+      ],
+      [
+        "- To`k zichligi",
+        "- Asbob bilan davolash",
+        "- Tekshirish asbobi",
+        "- To`k bilan davolash"
+      ],
+      [
+        "- Quloq, burun, hiqqildoq haqidagi fan",
+        "- Og`iz bo`shlig`ini o`rganuvchi fan",
+        "- Burun soxasini o`rganuvchi fan",
+        "- Ko`z soxasini urganuvchi fan"
+      ],
+      [
+        "- O`t pufagining yallig`lanishi",
+        "- O`t pufagida tosh bo`lishi",
+        "- Buyrak kasalligi",
+        "- O`t pufagini olib tashlash"
+      ],
+      [
+        "- Pyocytosis",
+        "- Pyocrinia",
+        "- Pyorrhagia",
+        "- Empyema"
+      ],
+      [
+        "- albus-leuco",
+        "- flavus-xantho",
+        "- cinereus-cyano",
+        "- niger-melano"
+      ],
+      [
+        "- per os",
+        "- pro narcosi",
+        "- per rectum",
+        "- pro infantibus"
+      ],
+      [
+        "- Qorin kasalligi",
+        "- Qorinni kesib ochish",
+        "- Qorinni ochib ko`rish",
+        "- Qorinni tekshirish"
+      ],
+      [
+        "- genus nominativum",
+        "- genus neutrum",
+        "- genus masculinum",
+        "- genus femininum"
+      ],
+      [
+        "- genus masculinum",
+        "- genus genetivum",
+        "- genus neutrum",
+        "- genus femininum"
+      ],
+      [
+        "- myelitis",
+        "- osteo",
+        "- myeli",
+        "- itis"
+      ],
+      [
+        "- Barba non facit philossophum",
+        "- Mala herba cito crescit.",
+        "- Una hirunda non facit ver.",
+        "- Homo locum ornate, non hominem locus."
+      ],
+      [
+        "- Ilmning ildizi achchiq, mevasi esa shirin.",
+        "- Xasisni qorni to`ysa ham ko`zi to`ymas.",
+        "- Lotin tilisiz tibbiyotga yo`l yo`q.",
+        "- Avvalo zarar keltirma."
+      ],
+      [
+        "- genus femininum",
+        "- genus masculinum",
+        "- genus dativum",
+        "- genus neutrum"
+      ],
+      [
+        "- cinereus-polio",
+        "- viridis-chloro",
+        "- niger-melano",
+        "- albus-leuco"
+      ],
+      [
+        "- Tab",
+        "- Ung",
+        "- Tinct",
+        "- Sol"
+      ],
+      [
+        "- Addo,ere",
+        "- Do, dare",
+        "- Signo,are",
+        "- Habeo,re"
+      ],
+      [
+        "- endocrinologia",
+        "- oncologia",
+        "- stomatologia",
+        "- dermatologia"
+      ],
+      [
+        "- Radix Valerianae",
+        "- Rhizoma Valerianae",
+        "- Infusum Valerianae",
+        "- Tinctura Valerianae"
+      ],
+      [
+        "- Phosphorus",
+        "- Zincum",
+        "- Xlor",
+        "- Oxygenium"
+      ],
+      [
+        "- Empl",
+        "- Emul",
+        "- Ung",
+        "- Sol"
+      ],
+      [
+        "- Sol",
+        "- Tab",
+        "- Decoc",
+        "- Pul"
+      ],
+      [
+        "- Emul",
+        "- Ext",
+        "- Gran",
+        "- Supp"
+      ],
+      [
+        "- Pro inject",
+        "- Aut tab",
+        "- Gel",
+        "- Per inf"
+      ],
+      [
+        "- Acidi sulfurior",
+        "- Acidi sulforosum",
+        "- Acidum sulfuricum",
+        "- Acidum sulfurosa"
+      ],
+      [
+        "- Acidum citricum",
+        "- Acidum lacticum",
+        "- Acidi citrici",
+        "- Acidi boricum"
+      ],
+      [
+        "- In vitro",
+        "- In ampullis",
+        "- In capsullis",
+        "- In vivo"
+      ],
+      [
+        "- Bromum",
+        "- Magnium",
+        "- Argentum",
+        "- Cuprum"
+      ],
+      [
+        "- Oxygenium",
+        "- Cilicium",
+        "- Oxydum",
+        "- Peroxydum"
+      ],
+      [
+        "- signo, are",
+        "- audio, ire",
+        "- misceo, ere",
+        "- repeto, ere"
+      ],
+      [
+        "- Post",
+        "- Sub lineguae",
+        "- Contra",
+        "- Comku"
+      ],
+      [
+        "- Misce, fiat pulvis",
+        "- Misce, fiat pasta",
+        "- Misce, fiat pililae",
+        "- Misce, fiat emulsum"
+      ],
+      [
+        "- Repete",
+        "- Dare",
+        "- Recipe",
+        "- Cito va Statim"
+      ],
+      [
+        "- Miscere 1",
+        "- Addo, ere, 3",
+        "- Do, are, 2",
+        "- Addere 1"
+      ],
+      [
+        "- Vilici 0,008",
+        "- Tanini 30",
+        "- Oleum Vaselini 30 ml(30,0)",
+        "- Tabuletta 5ml"
+      ],
+      [
+        "- -andr-",
+        "- -gen-",
+        "- -o-",
+        "- -and-"
+      ],
+      [
+        "- Pro inholationus",
+        "- Pro infantibus",
+        "- Pro injectionibus",
+        "- Pro reatgena"
+      ],
+      [
+        "- Sterilizo, are",
+        "- Finio, ire",
+        "- Misseo ,ere",
+        "- Recepio ,ere"
+      ],
+      [
+        "- Signetur",
+        "- Signa",
+        "- Misce",
+        "- Addo"
+      ],
+      [
+        "- Misceatur",
+        "- Signetur",
+        "- Audi",
+        "- Recipio"
+      ],
+      [
+        "- Tinctura ae f",
+        "- Decoctum i n",
+        "- Pilula",
+        "- Infusum i n"
+      ],
+      [
+        "- Gutta ae f",
+        "- Solutio",
+        "- Unguentum i n",
+        "- Pilula ae f"
+      ],
+      [
+        "- Pro intantibus",
+        "- Per rectum",
+        "- Per os",
+        "- Pro narcosi"
+      ],
+      [
+        "- Tomchi",
+        "- Pasta",
+        "- Granula",
+        "- Kapsula"
+      ],
+      [
+        "- Oshqozon ning yallig`lani shi",
+        "- Jigarning yallig`lanishi",
+        "- Jigarni operatsia qilish",
+        "- Buyrakning yallig`lanishi"
+      ],
+      [
+        "- Derto",
+        "- Textus",
+        "- Adeno",
+        "- Cele"
+      ],
+      [
+        "- Diarrea",
+        "- Diathrosis",
+        "- Diapedisis",
+        "- Diostema"
+      ],
+      [
+        "- Angiopathia",
+        "- Stenocardia",
+        "- Gastroptosis",
+        "- Enteroectomia"
+      ],
+      [
+        "- Enteroscopia",
+        "- Rhomboscopia",
+        "- Otoscopia",
+        "- Somatoscopia"
+      ],
+      [
+        "- Splanchnologia",
+        "- Gastroenterologia",
+        "- Neurologia",
+        "- Biologia"
+      ],
+      [
+        "- bradycardia",
+        "- platycardia",
+        "- brachycardia",
+        "- tachycardia"
+      ],
+      [
+        "- Zaytun moyi",
+        "- Do`lana ekstrakti",
+        "- Qalampir yalpiz moyi",
+        "- Arpabodiyon suvi"
+      ],
+      [
+        "- Qattiqlanish",
+        "- Surunkali kasallik",
+        "- O`sma",
+        "- Yallig`lanish"
+      ],
+      [
+        "- Gastrostomia",
+        "- Angiopathia",
+        "- Gastroectosia",
+        "- Cystogra phia"
+      ],
+      [
+        "- Pharmacalo gia",
+        "- Pharmocolo gia",
+        "- Pharmacothe rapia",
+        "- Pharmacognosis"
+      ],
+      [
+        "- Diagnostica",
+        "- Diapedisis",
+        "- Diarthrosis",
+        "- Diagnosis"
+      ],
+      [
+        "- M. serratos",
+        "- M. pectorales major",
+        "- M. brachialis",
+        "- M.pectorales minor"
+      ],
+      [
+        "- Contra",
+        "- Per",
+        "- Post",
+        "- Sub"
+      ],
+      [
+        "- Corpus fibulae",
+        "- Caput fibulae",
+        "- Caput tibea",
+        "- Corpus tibea"
+      ],
+      [
+        "- Medico",
+        "- Diacta",
+        "- Oculus",
+        "- Trauma"
+      ],
+      [
+        "- m. thoracis",
+        "- m.vaginalis",
+        "- m. adductor",
+        "- m.obdemena lis"
+      ],
+      [
+        "- Vertebrae sacrales",
+        "- Ossa metacarpi",
+        "- Vertebrae coccygeae",
+        "- Vertebrae thoracicae"
+      ],
+      [
+        "- Stetoscopia",
+        "- Stethologia",
+        "- Stetographia",
+        "- Stethometria"
+      ],
+      [
+        "- Processum transverso rum",
+        "- Processus tranversus",
+        "- Processus transverso rum",
+        "- Processi transverse"
+      ],
+      [
+        "- Signetur",
+        "- Repetat",
+        "- Signent",
+        "- Audist"
+      ],
+      [
+        "- Arpabodiyon suvi 20,0",
+        "- Suyuq do`lana ekstrakti 20,0",
+        "- Do`lana ekstrakti 20,0",
+        "- Zaytun moyi 20,0"
+      ],
+      [
+        "- Habdori yoki kukunda",
+        "- Suyuq yoki quruq",
+        "- Kapsula yoki ampulada",
+        "- Achiq va quruq"
+      ],
+      [
+        "- Solv",
+        "- Pulv",
+        "- Tinc",
+        "- Ung"
+      ],
+      [
+        "- Melo",
+        "- Somato",
+        "- Patho",
+        "- Glosso"
+      ],
+      [
+        "- Rp.",
+        "- D.",
+        "- M.",
+        "- S."
+      ],
+      [
+        "- Sir",
+        "- Simple",
+        "- Spec",
+        "- Sol"
+      ],
+      [
+        "- Rhinalgia",
+        "- Encephalopathia",
+        "- Otorhagia",
+        "- Cardiotransplantatio"
+      ],
+      [
+        "- Per",
+        "- Repet",
+        "- Past",
+        "- Rp"
+      ],
+      [
+        "- Zincum",
+        "- Phosphorus",
+        "- Sulfur",
+        "- Silicium"
+      ],
+      [
+        "- Gingivitis",
+        "- Laryngitis",
+        "- Nephritis",
+        "- Mastitis"
+      ],
+      [
+        "- Eu",
+        "- Dys",
+        "- dis",
+        "- Ana"
+      ],
+      [
+        "- Per fater",
+        "- Pigritio mater",
+        "- Per sciantiam",
+        "- Repititio est mater studiorum"
+      ],
+      [
+        "- Spes vana",
+        "- Stotus communis",
+        "- Scientia potestasest",
+        "- Scientia potentia est"
+      ],
+      [
+        "- Dystrophia",
+        "- Dysuria",
+        "- Dyspnoe",
+        "- Dyspepsia"
+      ],
+      [
+        "- Dyspnoe",
+        "- Tachypnoe",
+        "- Hypopnoe",
+        "- Apnoe"
+      ],
+      [
+        "- Jigarni olib tashlash",
+        "- Buyrakning pastga tushishi",
+        "- Buyrakning kengayishi.",
+        "- Buyrakni olib tashlash"
+      ],
+      [
+        "- Pneumonecto mia",
+        "- Pneumosclerosis",
+        "- Pneumolitis",
+        "- Pneumonia"
+      ],
+      [
+        "- Infusum Valirianae",
+        "- Extractum siccum",
+        "- Tabuletta Analgini",
+        "- Os cranii"
       ]
     ],
     "correctAnswers": [
@@ -1989,10 +1968,7 @@ const ALL_QUESTIONS = {
       4,
       4,
       4,
-      2,
-      4,
-      2,
-      1
+      2
     ]
-  }
+  },
 }
