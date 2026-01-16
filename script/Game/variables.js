@@ -1,1726 +1,683 @@
 const realSciences = [
-   'Lotin tili',
+   'Tarix',
 ]
 
 const ALL_QUESTIONS = {
-  'Lotin tili': {
+  'Tarix': {
     "questions": [
-      "Lotin alifbosida nechta harf bor?",
-      "Qaysi so`zda ”C“ harfi “ts” deb o`qiladi?",
-      "Retsept blankasi necha qismdan iborat?",
-      "Nuqtalar o`rnini to`ldiring: Murdadan qo`rish -………..phobia.",
-      "Nuqtalar o`rnini to`ldiring: o`z qoni bilan davolash -…………….haemotherapia.",
-      "“Ko`krak sohasida kasalligi” ma`nosini ifodalovchi atamalar yasang:",
-      "“mushak to`qimasidagi o`sma” my-…..",
-      "......nomlardagi tarkibiy qismlar taxminan anatomik, fiziologik va terapevtik xarakterdagi axborotni berishi mumkin.",
-      "“Shirin miya siropi”",
-      "Dorivor ashyolarning nomenklaturasi……",
-      "“Ch”-harf birikmasi qaysi tovushni bildiradi?",
-      "Diftong deb nimaga aytiladi?",
-      "Berilgan atamalarning qaysi birida diftong bor?",
-      "Qaysi so`zda C harfi ”k“ deb tallafuz qilinadi?",
-      "Qaysi holatlarda ”S“ harfi “z” deb o`qiladi?",
-      "Digraf deb nimaga aytiladi?",
-      "Qaysi so`zda “s” harfi [z] deb o`qiladi?",
-      "Berilgan atamalarning qaysi birida digraf bor?",
-      "Lotin tilida urg`u nechinchi bo`g`indan qo`yiladi?",
-      "“Antipyrinum” so`zida qaysi tarkibiy qism axborot beruvchi?",
-      "« Corvalolum » so`zida qaysi tarkibiy qism axborot beruvchi ?",
-      "« Novocainum » so`zida qaysi tarkibiy qism axborot beruvchi ?",
-      "Qon tomirlarini kengaytiruvchi axborot beruvchi so`zni toping:",
-      "Mahalliy og`riqsizlantiruvchi …….",
-      "“aralashtirmoq” fe`lini ajrating",
-      "Qaysi so`zda „ti” harf birikmasi [ti] deb o`qiladi",
-      "V turlanishdagi otni aniqlang",
-      "“Aralashtir suyuq surtma hosil bo`lsin”-bu",
-      "Sifat so`z turkumi qaysi javobda berilgan?",
-      "II turlanishdagi otni aniqlang",
-      "V turlanishdagi ot qaysi variantda berilgan?",
-      "Shakarning lotincha nomlanishi?",
-      "“Yuqori jag`” ning lotincha-yunoncha dubleti?",
-      "Birinchi guruh sifatni aniqlang",
-      "Qaysi so`zda ikkinchi bo`g`in qisqa o`qiladi",
-      "“Fosfor” elementi nomini aniqlang",
-      "“Musculus longus” tarjimasini toping",
-      "Qaysi so`zda ikkinchi bo`g`in cho`ziq o`qiladi",
-      "“ala” so`zi Gen.Singda qanday qo`shimcha oladi",
-      "“Kapsulalarda”qisqartma so`zini aniqlang",
-      "“ os zygomatic...“ to`g`ri qo`shimchani qo`ying",
-      "„Chirurgia” so`zining ma`nosi?",
-      "[kv] tovushini beradigan so`zni aniqlang",
-      "Otning rod ko`rsatkichi nechta",
-      "Th- harf birikmasi qaysi tovushni bildiradi",
-      "Sch- harf birikmasi qaysi tovushni bildiradi",
-      "Birinchi guruh sifatni aniqlang",
-      "Atamaning mos tarjimasini toping: “ponasimon suyak”",
-      "Cho`ziqlik qoidasi nechta qoidadan iborat?",
-      "Qaysi diftonglar urg`u oladi?",
-      "“Compositus” so`zi nechta bo`gindan iborat?",
-      "“Ligamentum” so`zida urg`u qaysi bo`g`inga tushadi?",
-      "“Diaeta” so`zida urg`u qaysi bo`g`inga tushadi?",
-      "Maqolni lotin tilida tarjimasini toping. ”Yozmoq, ikki qayta o`qimoqdir“.",
-      "Lotin tilida fe`llar nechta turda bo`linadi?",
-      "Birinchi tuslanishda fe`l qaysi qo`shimchaga ega?",
-      "Miscere - fe`li qaysi tuslanishga ega?",
-      "Audire – fe`li qaysi tuslanishga ega ?",
-      "Fe`lning lug`at shakli to`gri yozilgan qatorni toping.",
-      "Retseptda fe`llar qaysi maylda yoziladi?",
-      "Lotin tilida otlar nechta turlanishga bo`linadi?",
-      "Birinchi turlanishdagi otni aniqlang.",
-      "Moslashmagan aniqlovchi atamani aniqlang.",
-      "Bosh kelishik lotinchada-",
-      "III - turlanishdagi otni aniqlang.",
-      "V-turlanishdagi otni aniqlang:",
-      "Lug`at shakli to`g`ri yozilgan otni toping",
-      "IV turlanishdagi otni aniqlang",
-      "Maqolni lotin tilida to`g`ri tarjimasini toping. ”Mehnat tanani chiniqtiradi”.",
-      "Gen. Sing shaklidagi otni aniqlang;",
-      "Gustus,us,m. Bu atama qaysi turlanishga tegishli?",
-      "Moslashmagan aniqlovchili atamani toping.",
-      "Berilgan qaysi javobda sifat to`g`ri yozilgan?",
-      "Birinchi guruh sifatni aniqlang",
-      "Ikkinchi guruh sifatga qaysi turlanish kiradi?",
-      "Moslashgan aniqlovchi atamasini toping.",
-      "“Yaqinlashtiruvchi ” ma`noni beradigan old qo`shimchali so`zni toping.",
-      "Qaysi so`zda “ichida”old qo`shimchasi ishlatilgan?",
-      "Qaysi so`zda “ostida”old qo`shimchasi ishlatilgan?",
-      "“Ko`krak qafasining pastki teshigi” atamasini aniqlang.",
-      "“Bosh miyaning yumshoq pardasi” atamasini toping.",
-      "“Qo`shmoq” fe`lini ajrating",
-      "Moslashgan aniqlovchili atamani toping",
-      "Oddiy darajadagi sifatni aniqlang.",
-      "“Aralashtir shamcha hosil bo`lguncha”-bu",
-      "„Suyak bo`g`imlarining yallig`lanishi” ma`nosini beradigan atamani toping.",
-      "„Bosh miyaning yallig`lanishi” atamasini toping.",
-      "“Til`” ning lotincha-yunoncha dubleti?",
-      "„Davolash” ma`nosini bildiradigan atamani yunoncha – lotincha atalishini aniqlang.",
-      "„Tosh kasalligi” atamasini aniqlang.",
-      "Qaysi so`zda „su” harf birikmasi [sv] deb o`qiladi?",
-      "Qaysi so`zda „ti” harf birikmasi [tsi] deb o`qiladi?",
-      "Bir kunlik dori qabul qilish dozasi qaysi javobda ko`rsatilgan?",
-      "“Pollex” so`zining ma`nosini toping.",
-      "Maqolning o`zbekcha ekvivalentini toping: “Omnium artium medicina nobillisima est”",
-      "Acidum ascorbinicum- ma`nosi nima?",
-      "Orttirma daraja sifatini toping.",
-      "“Tishga oid” atamasi qanday ataladi?",
-      "“Orqadagi” sifati qanday nomlanadi?",
-      "Moslashmagan aniqlovchi nima?",
-      "Moslashgan aniqlovchi atamani toping.",
-      "Moslashgan aniqlovchi nima?",
-      "To`qimalarni o`rganuvchi fan.",
-      "“O`t tosh kasalligi” atamasini aniqlang.",
-      "“Siydik – tosh kasalliklari” atamasini aniqlang.",
-      "Qon bosimining tushishi-",
-      "Lotin tilida “ad, ab”prefikslari qanday ma`nolarni ifodalashda qo`llaniladi?",
-      "“Tish” atamasini lotincha – yunoncha dubletini aniqlang:",
-      "Keksalikni o`rganuvchi fan qaysi javobda to`g`ri berilgan?",
-      "Qon bosimining ko`tarilishi-",
-      "Tuzning lotincha nomlanishi?",
-      "Tarjima qiling: ter bezlarida hosil bo`ladigan xavfsiz o`sma",
-      "“Funksiyaning buzilishi” old qo`shimchasi qaysi",
-      "Vodorod-",
-      "Yalpizning lotincha nomlanishi?",
-      "Moyning lotincha nomlanishi?",
-      "Quyida berilgan so`zlarni yunon-lotin dubletini toping. « tomir »",
-      "« O`t, safro »",
-      "“Soch”",
-      "“burun ”",
-      "“Mammologus” atamasi tarkibidagi lotincha atama elementni aniqlang.",
-      "Izoh bering : ”Rhinoplastica”",
-      "“Somatoscopia”",
-      "“ in vitro”",
-      "“Rux surtmasi”",
-      "Solutio Hydrogenii peroxydi- nima?",
-      "“Da tales doses ”iborasini to`gri tarjimasini toping",
-      "“Auto” atamasi qanday ma`noni bildiradi?",
-      "“Efkalipt moyi” atamasini toping.",
-      "[ngu] tovushi qaysi so`zda “ngv” talaffuzini beradi",
-      "Izoh bering : ”Haemangio ma”",
-      "”Medica mente, non medicamentis “, maqolini tarjimasini toping.",
-      "”Optimum medicamentum quies est “ maqolni tarjimasini toping.",
-      "Moslashgan aniqlovchi atamasini to`g`ri yozilgan variantni toping. Oq na`matak",
-      "Moslashgan aniqlovchi atamasini to`g`ri yozilgan variantni toping. Toza suv",
-      "Damlama va qaynatma nomlari uchta otdan iborat bo`ladi. Birinchi ot (Nom) bosh kelishikda tursa qolganlari qaysi kelishikda bo`ladi ?",
-      "Tarkibida 20-25% dan ortiq kukun holidagi moddalar bo`lgan surtma nima deyiladi?",
-      "Sirtdan ishlatishga mo`ljallangan yopishqoq konsistensiyali yumshoq dori turi nima deyiladi?",
-      "Tabuletta nima?",
-      "Farmokologik axborot beruvchi tarkibiy qismlarni aniqlang.",
-      "Abreviatura deganda nimani tushunasiz?",
-      "Tibbiyotda qo`llaniladigan dorivor moddalar nechi xil nom bilan ataladi?",
-      "“Senna barglarining damlamasi”",
-      "Damlama va qaynatma nomlari nechta otdan iborat ?",
-      "Tarjima qiling : « Qizilpoycha o`simligining qaynatmasi »",
-      "Nastoykalar, ekstraktlar, sharbatlar nechta otdan iborat bo`ladi?",
-      "“Shirin miya siropi”",
-      "“Do`lananing ekstrakti”",
-      "Bir dori shaklida belgilangan dozalarda birdan ortiq ta`sir etuvchi moddalarga ega bo`lgan dori-darmonlar........ deyiladi.",
-      "Dorivor preparatlarning nomlari to`g`ri berilgan qatorni toping: “Valeriana nastoykasi”",
-      "Dorivor vositalar nomenklaturasi ning nechta tipik guruhi mavjud?",
-      "Dorivor ashyolarning nomenklaturasi……",
-      "Tomirlarni kasallanishi:",
-      "“Dermatomyco sis” atama elementining ma`nosi:",
-      "Orqa miya suyagining yallig`lanishi:",
-      "Oshqozondan qon ketishi:",
-      "Izoh bering : ”xeno“ yakka atama element qanday ma`noni bildiradi?",
-      "Izoh bering : ”allo“ yakka atama element qanday ma`noni bildiradi?",
-      "”Cystoscopia“ qanday ma`noni bildiradi?",
-      "Herba Mentae-",
-      "”Dysenteria “ qanday ma`noni bildiradi?",
-      "“Marvaridgul nastoykasi” iborasi qaysi javobda t o`gri k o`rsatilgan.",
-      "”O`pka “ atamasini yunon-lotin dubletini toping.",
-      "”Electrothera pia” atama elementi qanday ma`noni bildiradi?",
-      "”Otorhinolaryngologia“ atamasining o`zbek tilida berilishi.",
-      "”Cholelithiasis“ atamasining o`zbek tilidagi variant.",
-      "”Yiring oqishi“ atamasining lotin tilidagi variant.",
-      "Oq rangning lotincha-yunoncha dubleti?",
-      "“Og`iz orqali” – bu:",
-      "”Laparatomia“ atamasini tarjimasini toping:",
-      "Mujskoy rodning lotincha variantini tanlang",
-      "Jenskiy rodning lotincha variantini tanlang",
-      "“Osteomylitis” atama elementidagi suffiksni toping.",
-      "“O`rin insonni emas, inson o`rinni bezaydi” maqolni tarjimasini toping.",
-      "“Invia est in medicina via sine lingua Latina” maqolni o`zbekcha tarjimasini toping.",
-      "Sredniy rodning lotincha variantini tanlang",
-      "Yashil rangning lotincha-yunoncha dubleti?",
-      "Damlama. Qisqartma holatda.",
-      "3-turlanishdagi fe`lni toping.",
-      "Og`iz bo`shligi kasalliklari haqidagi fan-",
-      "„Valeriana damlamasi” atamasini to`gri toping:",
-      "Kislorod.",
-      "Malham. Qisqartma holatda.",
-      "Eritma. Qisqartma holatda.",
-      "Shamcha. Qisqartma holatda.",
-      "Inyeksiya uchun.",
-      "To`g`ri javobni toping. Sulfat kislota.",
-      "Limon kislotasi.",
-      "« Kapsulalarda » atamasini aniqlang.",
-      "“Brom” elementini aniqlang.",
-      "« Peroksid » so`zini aniqlang.",
-      "Quyidagi fe`llardan 1 – tuslanishdagi fe`lni toping.",
-      "« Keyin » ma`nosini beruvchi predlogli atamani ajrating.",
-      "“Kukun hosil bo`lguncha aralashtir”",
-      "Agar dorini zudlik bilan bemorga berish kerak bo`lsa, u holda resept blankasining yuqori qismini o`ng tomonida qanday so`z yozilishini aniqlang.",
-      "Lug`at shakli to`g`ri yozilgan fe`lni aniqlang.",
-      "To`g`ri yozilgan retsept qatorini toping.",
-      "“Androgen” so`zida qaysi tarkibiy qism axborot beruvchi?",
-      "“Ingalyasiya uchun” iborasining tarjimasini toping.",
-      "I-tuslanishdagi fe`lni aniqlang.",
-      "Quyidagi fe`llardan shart maylidagi fe`lni ajrating.",
-      "Quyidagi fe`llardan buyruq maylidagi fe`lni ajrating.",
-      "Quyidagi dori shakllaridan qattiq dori shaklini ajrating.",
-      "Quyidagi dori shakllaridan yumshoq dori shaklini ajrating.",
-      "Quyidagi iboraning tarjimasini toping: « To`g`ri ichak orqali ».",
-      "Gutta, ae f dorining qanday formasi.",
-      "Hepatitis bu-",
-      "Histo- atamasining lotincha nomlanishini aniqlang.",
-      "Ich ketishi (tez-tez suyuq ich surishi)",
-      "Ichakka sun`iy teshik qo`yish.",
-      "Ichakni asbob yordamida tekshirish.",
-      "Ichki organlarni o`rganuvchi fan:",
-      "Yurakning tez urishi-",
-      "„Olei Menthae piperitae” atamasini to`gri toping:",
-      "-itis so`z yasovchi qo`shimchasi qaysi ma`noda qo`llaniladi?",
-      "Kasallik ma`nosi bilan kelgan atamani aniqlang.",
-      "Kasalliklarni dori vositalari bilan davolash.",
-      "Kasallikning mazmuni va bemor holati to`g`risidagi shifokorning qisqacha xulosasi",
-      "Katta ko`krak mushagi -",
-      "Keyin ma`nosini beruvchi old qo`shimchani aniqlang.",
-      "Kichik boldir suyakining boshchasi.",
-      "Klinik atamali so`zni aniqlang.",
-      "Ko`krak mushaklari nomi qanday?",
-      "Ko`krak umurtqalari atamasini to`g`ri javobini aniqlang.",
-      "Ko`krakni o`lchash – bu.",
-      "Ko`ndalang o`simta bu-",
-      "Ko`plik shaklida Aniqlik nisbatning III shaxs yozilgan fe`lni aniqlang",
-      "„Extrakti Crataegi fluidi 20,0” atamasini to`gri toping:",
-      "Capcula seu ampula",
-      "Kukun qisqartirilgan",
-      "Lotin va Yunon tillarida ishlatiladigan “Yakka” atama elementini toping.",
-      "“Belgila” so`zining qisqartirilgan ma`nosi -",
-      "Lotinchada “Oddiy”.",
-      "Lotinchada Og`riq ma`nosi bilan kelgan atamani aniqlang.",
-      "Lotinchada qisqa “Ol” nima?",
-      "Lotinchada Rux elementini toping",
-      "Milk shilliq qavati yallig`lanishi atamasini aniqlang.",
-      "Mos old qo`shimchani qo`ying. “Tonusning buzulishi”.",
-      "Mos tarjimani toping. “Takrorlash – bilimning onasi”.",
-      "Mos tarjimani toping: “Bilim- bu kuchdir”.",
-      "Nafas qisishi, qiynalib nafas olish.",
-      "Nafasning vaqtinchalik yo`qolishi.",
-      "Nephectomia – bu:",
-      "O`pkaning yallig`lanish atamasini toping.",
-      "Moslashgan aniqlovchi atamasini to`g`ri yozilgan variantni toping."
+      "Toshkent-Samarqandni bog`lovchi tezyurar poyezd?",
+      "BMTning Bosh kotibi kim?",
+      "O`zbekiston Respublikasi Konstitutsiyasi va qonunlarda necha yoshga to`lgan fuqarolarning saylash huquqiga ega ekanligi belgilab qo`yilgan?",
+      "O`zbekiston Respublikasi Parlamentining quyi palatasi qanday nomlanadi?",
+      "Jamiyatda ikki yoki undan ortiq partiyaning faoliyat yuritishi nima deyiladi?",
+      "Oʻzbekiston Respublikasi Davlat madhiyasi matni kim tomonidan yozilgan?",
+      "Toshkentda birinchi bo`lib qaysi davlatning elchixonasi ochildi?",
+      "Vakolatli davlat organiga saylangan kishi, vakil qanday ataladi?",
+      "Toshkent islom instituti kimning nomiga qo`yilgan?",
+      "Ta`lim, fan va madaniyat masalalari bo`yicha Xalqaro islom tashkiloti qanday nomlanadi?",
+      "Necha yoshdan kam bo`lmagan fuqarolar Prezidentlikka saylanishi mumkin?",
+      "SH.M.Mirziyoyev O`zbekistonda harbiy ta`lim maktablariga qanday nom berishni taklif qilgan?",
+      "Konstitutsiyaga muvofiq o`zbekiston Respublikasining davlat boshlig`i kim?",
+      "Yuneskoning qarorgohi qaysi davlatda joylashgan?",
+      "O`zbekistonning eng yangi tarixi fani qaysi davrni o`rganadi?",
+      "Oliy Majlisning yuqori palatasi qanday nomlanadi?",
+      "Mustaqillik davrida tashkil topgan ilk siyosiy partiya bu qaysi partiya edi?",
+      "Taraqqiyotning “o`zbek modeli” ning asoschisi kim?",
+      "O`zbekiston Respublikasi Oliy Kengashining X sessiyasida 1992 yil 2 iyulda qaysi davlat ramzi qabul qilindi?",
+      "Viloyat va Toshkent shahar hokimi kim tomonidan qonunga muvofiq tayinlanadi hamda lavozimidan ozod etiladi?",
+      "O`zbekiston Respublikasining Davlat gerbida quyidagi qaysi rang mavjud emas?",
+      "Quyidagi qaysi rang qonun ustuvorligi va or nomuslilik ramzi?",
+      "1993 yil 1-noyabrda O`zbekistonda qanday pul muomalaga kiritildi?",
+      "Uzoqqa boruvchi ta`sir vositalari va uslublari; maqsadni istiqbolli dinamik aniqlab olish bu—…?",
+      "Bugungi kunda O`zbekistonda fuqarolarni qamoqqa olishga sanksiya berish huquqi …… o`tkazildi?",
+      "Tuman va shaharlarning hokimlari kim tomonidan tayinlanadi va lavozimidan ozod qilinadi?",
+      "1999-yil — „Alpomish“ dostonining necha yilligi o`tkazildi?",
+      "Innovatsiya- atamasini izohlang.?",
+      "O`zbekistonda favqulodda sudlar tuzishga …….",
+      "BMT homiyligidagi ta`lim, fan va madaniyat bilan shug`ullanuvchi xalqaro tashkilot –bu…",
+      "Mang`itlar sulolasining eng oxirgi vakili?",
+      "O`zbekiston SSRning birinchi poytaxti ni aniqlang",
+      "O`rta Osiyo tarixi haqida ma`lumot beruvchi eng qadimgi manba?",
+      "YUNESKO tomonidan qaysi kun “Xalqaro bag`rikenglik kuni” deb e`lon qilingan?",
+      "O`zbekiston Respublikasining aholisi mustaqillik e`lon qilingan paytda necha kishini tashkil etgan?",
+      "O`zbekistonda so`m valyutasi qachondan muomalaga kiritildi?",
+      "Toshkent xalqaro aeroportiga qachon O`zbekiston Respublikasi birinchi prezidenti I.Karimov nomi berildi?",
+      "Ro`za hayiti qachondan dam olish kuni deb e`lon qilindi?",
+      "Taraqqiyot strategiyasi nechanchi yillarni o`z ichiga oladi?",
+      "Demokratiya so`zining ma`nosi nima?",
+      "“Al Jome` as-Sahih “asari kimning qalamiga mansub?",
+      "“Fikrga qarshi fikr,g`oyaga qarshi g`oya, jaholatga qarshi ….bilan kurashmoq kerak.",
+      "1996 yilda qaysi shaharlar “Amir Temur” ordeni bilan mukofotlandi?",
+      "BMTning doimiy ish oʻrni (shtab kvartirasi) qaysi shaharda joylashgan?",
+      "Yer yuzida tinchlikni mustahkamlash va xavfsizlikni ta`minlash, davlatlarning oʻzaro hamkorligini rivojlantirish maqsadida tashkil etilgan xalqaro tashkilotni aniqlang",
+      "YUNESKO qaroriga binoan qaysi shaharda Markaziy Osiyo tadqiqotlari xalqaro instituti tashkil etilgan?",
+      "O`zbekiston Respublikasi Prezidentining iqtidorli yoshlarning chet ellarga o`qishini qo`llab quvvatlash bo`yicha tashkil etilgan jamg`arma nomini aniqlang.",
+      "Toshkent xalqaro aeroportiga qachon I.Karimov nomi berildi?",
+      "Qachon “O`zDAEWOavto” qo`shma korxonasi ochildi?",
+      "Qachon ”GM-Uzbekistan” qo`shma korxonasi tashkil etildi?",
+      "“Tarix” so`zi qaysi tildan olinib “o`tmish, o`tgan voqealar haqida hikoya qilish” degan manoni beradi?",
+      "Ittifoqdosh respublikalar o`rtasida birinchi bo`lib qaysi birida prezidentlik boshqaruvi joriy qilingan?",
+      "O`zbekiston Respublikasi  Prezidenti saylovi tog`risida”gi qonuni qachon qabul qilingan?",
+      "Qachongacha parlamentimiz Oliy Kengash nomi bilan atalgan?",
+      "2003 -2016- yillarda O`zbekiston respublikasida kim Bosh vazir bo`lgan?",
+      "O`zbekiston Respublikasi parlamenti necha palatadan iborat?",
+      "Buxoro shahri qachon YUNESKO ro`yxatiga kiradi?",
+      "“Buxoro tarixi” asarining muallifi kim?",
+      "O`zbekistonni dengiz yo`liga olib chiqadigan eng yaqin yo`l qaysi davlat orqali o`tgan?",
+      "Mamlakat Prezidenti 1996-yilni ... deb atash to`g`risida farmon qabul qildi",
+      "1994-yilni hukumat qarori bilan mamlakatimizda .... deb e`lon qilindi",
+      "BMT ning Toshkentdagi vakolatxonasi qachon ochilgan?",
+      "O`zbekis-ton qaysi tashkilotga 1991-yilning dekabr oyida a`zo bo`lgan?",
+      "Mustaqil O`zbekistonda ilk bor “Ta`lim to`g`risida”gi qonun qachon qabul qilindi?",
+      "Qachondan 9 may – “Xotira va qadrlash kuni” sifatida nishonlanadigan bo`ldi?",
+      "2023 yilning 30-aprel sanasida referendum o`tkazilib,O`zbekiston Respublikasi Konstitutsiyasiga o`zgartirishlar kiritilishi natijasida,Konstitutsiyamizninig tarkibi...",
+      "1993 yil yanvar oyida Toshkentda tashkil etilgan uchrashuvda qaysi tashkilot tuzildi?",
+      "O`zbekiston maktablari uchun darsliklar necha tilda chop etiladi?",
+      "Toshkentda Temuriylar tarixi davlat muzeyi qachon ochildi?",
+      "Muqaddas kitob-Qur`oni Karim 1992-yilda ilk bor kim tomonidan o`zbek tiliga tarjima qilindi?",
+      "Davlat hokimiyati necha bo`g`inga bo`linadi?",
+      "O`zbekistonda 1996-yida qaysi turdagi mashinalar ishlab chiqildi?",
+      "Shimoliy alyans harbiy bloki (NATO) ga qachon asos solingan?",
+      "Qaysi buyuk bobokalonimiz Humo qushini barcha tirik mavjudotlar ichida eng saxovatlisi deb ta`riflagan?",
+      "O`zbekistonning Birinchi Prezidenti qaysi yilga qadar o`z lavozimida bo`lgan?",
+      "2017-yilgi Harakatlar strategiyasi nechta ustuvor yo`nalishni o`z ichiga oladi?",
+      "1970-1980-yillarda Paxta maydonlariga sepilayotgan zaharli kimyoviy moddalar va defoliantlarning necha turi qo`llanildi?",
+      "“Suyunchi”, “Kelinlar qo`zg`oloni” kabi filmlar rejissori kim edi?",
+      "1980-yillar oxirida Navro`z bayrami, aprel oyining o`rtalaridan sun`iy o`ylab topilgan, qanday nomlangan bayram bilan almashtirilgan?",
+      "Quyidagi arboblardan qaysi biri “O`rta Osiyo jadidlarining otasi” deb tan olingan?",
+      "SSSR qachon parchalandi?",
+      "Jadid so`zinig ma`nosi nima?",
+      "O`zbekistonda qonun chiqaruvchi organ bu qaysi organ?",
+      "O`rta asrning qaysi olimi algebra fani asoschisi hisoblanadi?",
+      "Vijdon erkinligi- bu nima degani ?",
+      "Quyidagi shaxslardan qaysi biri jadid namoyondasi bo`lmagan?",
+      "Mamlakat iqtisodiyotida narx-navoning ko`tarilib, pulning qadrsizlanishi qanday nomlanadi?",
+      "O`zbekiston quyidagi qaysi davlat bilan chegaradosh emas?",
+      "O`zbekistonning qaysi viloyati hududi jihatdan eng katta?",
+      "“Har kim ta`lim olish huquqiga ega. Davlat bepul umumiy o`rta ta`lim va boshlang`ich professional ta`lim olishni kafolatlaydi. Umumiy o`rta ta`lim majburiydir”. Ushbu qoida yangi tahrirdagi Konstitutsiyamizning nechanchi moddasida belgilab qо`yilgan?",
+      "Mamlakatimizda aholining necha yoshgacha bо`lgan qismi yoshlar toifasiga kiritiladi?",
+      "Qaysi sana о`zbekistonda “Yoshlar kuni” sifatida nishonlanadi?",
+      "O`zbekistonda an`anaviy “Sharq taronalari” xalqaro musiqa festivali qaysi shaharda o`tkazib kelinmoqda?",
+      "1991-yilda yurtimizda qaysi allomaning 550 yilligi nishonlangan edi?",
+      "О`zbekiston Ekologik partiyasi qachon tashkil etildi?",
+      "O`zbekiston Respublikasida ijroiya hokimiyat rahbari kim?"
     ],
     "answers": [
       [
-        "- 25 ta",
-        "- 26 ta",
-        "- 28 ta",
-        "- 30 ta"
+        "- Afrosiyob",
+        "- Marokand",
+        "- Nasaf",
+        "- Lokomotiv"
       ],
       [
-        "- Clavicula",
-        "- Caput",
-        "- Cera",
-        "- Cranium"
+        "- Rumen Pudev",
+        "- Si Szinpin",
+        "- Antonio Guterrish",
+        "- Kristin Lagard"
       ],
       [
-        "- 9",
-        "- 7",
-        "- 6",
-        "- 8"
+        "- 18",
+        "- 19",
+        "- 25",
+        "- 21"
       ],
       [
-        "- Oligo",
-        "- Psedo",
-        "- Necro",
-        "- Megalo"
+        "- Sotsial",
+        "- Senat",
+        "- Qonunchilik",
+        "- Mulkdorlar"
       ],
       [
-        "- Auto",
-        "- Iso",
-        "- Allo",
-        "- Hetero"
+        "- Ko`p partiyaviylik",
+        "- Kuchli fuqarolik jamiyati",
+        "- Mahalliy o`zo`zini boshqarish",
+        "- Huquqiy Demokratik tamoyil"
       ],
       [
-        "- Mammolog",
-        "- Mastalgia",
-        "- Mammalgia",
-        "- Mastopatia"
+        "- Alisher Navoiy",
+        "- Muhammad Yusuf",
+        "- Erkin Vohidov",
+        "- Abdulla Oripov"
       ],
       [
-        "- –blastoma",
-        "- –blastus",
-        "- –oma",
-        "- –therapia"
+        "- Fransiya",
+        "- Turkiya",
+        "- AQSH",
+        "- Rossiya"
       ],
       [
-        "- Farmasevtik",
-        "- Shakliy",
-        "- Ilmiy",
-        "- Trivial"
+        "- Deputat",
+        "- Delegate",
+        "- Elchi",
+        "- Vazir"
       ],
       [
-        "- Sirupus Glycyrrhizatis",
-        "- Ungentum Valodanas",
-        "- Sirupus Glycyrrhizae",
-        "- Sirupus Analgini"
+        "- Al Moturidiy",
+        "- Iso Termiziy",
+        "- Imom Buxoriy",
+        "- Mahmud Zamaxshariy"
       ],
       [
-        "- Retseptda yoziladigan dori darmonlarning nomlari",
-        "- O`rta asrlarda qo`llanilgan dorivor vositalarning nomlari",
-        "- Hozirgi davrda ham qo`llanilayotgan dorivor vositalar nomlarining yig`indisidir",
-        "- XXI asrdagi dorivor vositalarning nomlari"
+        "- YUNISEF",
+        "- OIK",
+        "- ISESCO",
+        "- YUNESCO"
       ],
       [
-        "- “F”",
-        "- “X”",
-        "- “R”",
-        "- “KS”"
+        "- 21 yoshdan",
+        "- 35 yoshdan",
+        "- 18 yoshdan",
+        "- 25 yoshdan"
       ],
       [
-        "- Ikki unli harfning birgalikda kelib bitta tovushni berishi",
-        "- Qo`sh undoshning birgalikda kelib bitta tovushni berishi",
-        "- Undosh va unli harfning birgalikda kelib bitta tovushni berishi",
-        "- Unli va undosh harfning birgalikda kelib bitta tovushni berishi"
+        "- Temurbeklar maktabi",
+        "- Vatan himoyachilari",
+        "- Yosh vatanparvarlar",
+        "- Manguberdi o`g`lonlari"
       ],
       [
-        "- Mentha",
-        "- Paries",
-        "- Eucalyptus",
-        "- Rheum"
+        "- Vazirlar Mahkamasi rahbari",
+        "- Bosh vazir",
+        "- Prezident",
+        "- Oliy Majlis raisi"
       ],
       [
-        "- Coelia",
-        "- Cyctis",
-        "- Cito",
-        "- Costa"
+        "- Shvetsariya",
+        "- AQSH",
+        "- Rossiya",
+        "- Fransiyada"
       ],
       [
-        "- Diftongdan oldin kelsa",
-        "- Ikki undosh o`rtasida",
-        "- Ikki unli ortasida, M harfidan oldin, N harfidan keyin",
-        "- M harfidan oldin, N harfidan keyin"
+        "- Sovetlar davrini",
+        "- Mustamlakachilik davrini",
+        "- Milliy istqlol davrini",
+        "- O`rta asrlar davrini"
       ],
       [
-        "- Qo`sh undoshning birgalikda kelib bitta tovushni berishi",
-        "- Undosh va unli harfning birgalikda kelib bitta tovushni berishi",
-        "- Ikki unli harfning birgalikda kelib bitta tovushni berishi",
-        "- Ikki undosh harfning birgalikda kelib bitta tovushni berishi"
+        "- Qonunchilik palatasi",
+        "- Prezident administratsiyasi",
+        "- Hukumat kotibiyati",
+        "- Senat"
       ],
       [
-        "- Dosis",
-        "- Colostomia",
-        "- Fascia",
-        "- Sulcus"
+        "- O`zbekiston Xalq demokratik partiyasi",
+        "- Fidokorlar milliydemokratik partiyasi",
+        "- Vatan taraqqiyoti partiyasi",
+        "- Erk demokratik partiyasi"
       ],
       [
-        "- Oedema",
-        "- Rhizoma",
-        "- Auctor",
-        "- Bucca"
+        "- M.S.Gorbachev",
+        "- I.A.Karimov",
+        "- V.Elsin",
+        "- R.Nishonov"
       ],
       [
-        "- Uchinchi bo`g`in",
-        "- Birinchi bo`g`in",
-        "- Ikkinchi bo`g`in",
-        "- Beshinchi bo`g`in"
+        "- O`zbekiston Respublikasining Davlat valyutasi",
+        "- O`zbekiston Respublikasining Davlat madhiyasi",
+        "- O`zbekistonning Davlat gerbi",
+        "- O`zbekiston Respublikasining Davlat bayrog`i"
       ],
       [
-        "- –pyr",
-        "- anti-",
-        "- –inum",
-        "- -um"
+        "- O`zbekiston Respublikasi prezidenti",
+        "- Xalq tomonidan",
+        "- Oliy Majlis",
+        "- Vazirlar Mahkamasi"
       ],
       [
-        "- –um",
-        "- cor-",
-        "- –olum",
-        "- –valolum"
+        "- Qora",
+        "- Qirmizi",
+        "- Kumush",
+        "- Yashil"
       ],
       [
-        "- –um",
-        "- –cain-",
-        "- -inum",
-        "- novo"
+        "- Moviy havorang",
+        "- Siyoh rang",
+        "- Oq rang",
+        "- Tilla rang"
       ],
       [
-        "- Vas-angio",
-        "- Alg",
-        "- Sulfa",
-        "- Pyr"
+        "- so`m-kupon",
+        "- so`m",
+        "- Manat",
+        "- rubl"
       ],
       [
-        "- -cillin",
-        "- -cyclin",
-        "- -mycin",
-        "- -cain"
+        "- Sanksiya",
+        "- Konversiya",
+        "- Konsepsiya",
+        "- Strategiya"
       ],
       [
-        "- fiare",
-        "- curare",
-        "- miscere",
-        "- dare"
+        "- Prezidentga",
+        "- Hokimga",
+        "- Sudga",
+        "- Proukrorga"
       ],
       [
-        "- solutio",
-        "- lectio",
-        "- tibia",
-        "- curatio"
+        "- O`zbekiston Respublikasi Prezidenti",
+        "- Xalq deputatlari",
+        "- Tegishli viloyat hokimlari",
+        "- Xalq tomonidan"
       ],
       [
-        "- crus, cruris",
-        "- facies",
-        "- pubes",
-        "- stapes"
+        "- 1200 yilligi",
+        "- 1000 yilligi",
+        "- 1700 yilligi",
+        "- 500 yilligi"
       ],
       [
-        "- Misce,fiat pulvis",
-        "- Misce,fiat linimentum",
-        "- Misce,fiat unguentum",
-        "- lingua-glosso"
+        "- (yun. — tushuncha, ta`limot) Organizmning kimyoviy xususiyatlari, uning immuniteti haqidagi fan",
+        "- – (ingl.— kiritilgan yangilik, ixtiro)",
+        "- – (lot. o`xshatmoq, tenglashtirmoq, baravarlamoq) monandlik. Siyosiy identifikatsiya - u yoki bu siyosiy guruhga o`zini boshqalardan ajratish imkonini beruvchi barqaror belgilar",
+        "- lot.-cōnfessio dinlar va uning shaxobchalari, tarmoqlari, mazhab, oqim va yo`nalishlarini ifodalovchi umumiy tushuncha"
       ],
       [
-        "- musculus, i m",
-        "- corpus, oris n",
-        "- costalis, e",
-        "- mater, tris"
+        "- zarurat sababchi bo`lishi mumkin",
+        "- faqat poytaxtda ruxsat bor",
+        "- yo`l qo`yilmaydi",
+        "- majbur qilinadi"
       ],
       [
-        "- pectus",
-        "- ductus",
-        "- sulcus",
-        "- textus"
+        "- UNISEF",
+        "- JST",
+        "- YUNES KO",
+        "- MOQ"
       ],
       [
-        "- rabies, ei",
-        "- stapes, dis",
-        "- pes, pedis",
-        "- pubes, is"
+        "- Amir Olimxon",
+        "- Tuvaxon",
+        "- Xudoyorxon",
+        "- Sherg`ozixon"
       ],
       [
-        "- sal",
-        "- saccharum",
-        "- sanus",
-        "- solutio"
+        "- Toshkent",
+        "- Buxoro",
+        "- Samarqand",
+        "- Qo`qon"
       ],
       [
-        "- rhino-nasus",
-        "- mandibula-genio",
-        "- maxilla-gnatho",
-        "- auris-oto"
+        "- Marhumlar kitobi",
+        "- Rigveda",
+        "- Avesto",
+        "- Videvdat"
       ],
       [
-        "- vertebralis, e",
-        "- longus, a, um",
-        "- major, jus",
-        "- costalis,e"
+        "- 21 dekabr",
+        "- 16 noyabr",
+        "- 21 fevral",
+        "- 9 may"
       ],
       [
-        "- fissura",
-        "- labium",
-        "- maxilla",
-        "- officina"
+        "- 19,5 mln kishini",
+        "- 21,5 mln kishini",
+        "- 20 mln kishini",
+        "- 31,5 mln kishini"
       ],
       [
-        "- Zincum",
-        "- Phosphorus",
-        "- Sulfur",
-        "- Magnesium"
+        "- 1995 yil noyabrda",
+        "- 1994 yil 1 iyul",
+        "- 1995yil iyunda",
+        "- 1995 yil martda"
       ],
       [
-        "- uzun mushak",
-        "- uzun oyoq",
-        "- uzun bel",
-        "- uzun til"
+        "- 2017 yil",
+        "- 2018yil",
+        "- 2015 yil",
+        "- 2016 yil"
       ],
       [
-        "- diaeta",
-        "- thoracicus",
-        "- fluidus",
-        "- solubilis"
+        "- 1992 yil 27 martda",
+        "- 1990 yil 27 martda",
+        "- 1991 yil 2 martda",
+        "- 1990 yil 5 avgust"
       ],
       [
-        "- -ei",
-        "- -ae",
-        "- -is",
-        "- -inis"
+        "- 2020-2024 yillar",
+        "- 2022-2026 yillar",
+        "- 2021-2025 yillar",
+        "- 2018-2024 yillar"
       ],
       [
-        "- rhiz.",
-        "- in caps.",
-        "- inf.",
-        "- obl."
+        "- Tasdiqlayman",
+        "- Xalq hokimiyati",
+        "- Oldinda o`tiruvchi",
+        "- Yakka hokimlik"
       ],
       [
-        "- -um",
-        "- -e",
-        "- -us",
-        "- -er"
+        "- Imom al Buxoriy",
+        "- Xoja Ahror Valiy",
+        "- B.Naqshband",
+        "- Burhoniddin al Marg`inoniy"
       ],
       [
-        "- jarrohlik",
-        "- ko`z o`tkirligi",
-        "- aql mahorati",
-        "- qo`l mahorati"
+        "- madaniyat",
+        "- Tarbiya",
+        "- So`z",
+        "- Ma`rifat"
       ],
       [
-        "- cultus",
-        "- quadratus",
-        "- cuticula",
-        "- cutis"
+        "- Toshkent va Samarqand.",
+        "- Samarqand va Shahrisabz.",
+        "- Qarshi va Shahrisabz.",
+        "- Toshkent va Buxoro."
+      ],
+      [
+        "- Nyu-York",
+        "- Vashington",
+        "- Parij",
+        "- Chikago"
+      ],
+      [
+        "- BMT",
+        "- YUNESKO",
+        "- NATO",
+        "- SHHT"
+      ],
+      [
+        "- Samarqand",
+        "- Buxoro",
+        "- Xiva",
+        "- Toshkent"
+      ],
+      [
+        "- Fitrat",
+        "- Kamolot",
+        "- Umid",
+        "- Ulug`bek"
+      ],
+      [
+        "- 2013-yil",
+        "- 2014-yil",
+        "- 2018-yil",
+        "- 2017 -yil"
+      ],
+      [
+        "- 1995- yil avgust",
+        "- 1994 - yil sentabr",
+        "- 1993 - yil avgust",
+        "- 1996- yil iyul"
+      ],
+      [
+        "- 2009-yil",
+        "- 2007-yil",
+        "- 2003-yil",
+        "- 2008-yil"
+      ],
+      [
+        "- Fors",
+        "- Arab",
+        "- lotin",
+        "- Ingliz"
+      ],
+      [
+        "- O`zbekiston",
+        "- Tojikiston",
+        "- Turkmaniston",
+        "- Qozog`iston"
+      ],
+      [
+        "- 1991-yil 18-noyabr",
+        "- 1991-yil 29-dekabr",
+        "- 1992- yil 10-dekabr",
+        "- 1992 –yil 5-dekabr"
+      ],
+      [
+        "- 1998yil",
+        "- 1997-yil",
+        "- 1999-yil",
+        "- 1995-yil"
+      ],
+      [
+        "- Shavkat Mirziyoyev",
+        "- Shukrullo Mirsaidov",
+        "- Abdulhoshim Mutalibov",
+        "- O`tkir Sultonov"
       ],
       [
         "- 3",
         "- 2",
-        "- 0",
+        "- 1",
+        "- 4"
+      ],
+      [
+        "- 1998 yil",
+        "- 1993yil",
+        "- 1995 yil",
+        "- 1999 yil"
+      ],
+      [
+        "- Beruniy",
+        "- Farg`oniy",
+        "- Xorazmiy",
+        "- Narshaxiy"
+      ],
+      [
+        "- Afg`oniston",
+        "- Turkmaniston",
+        "- Hindiston",
+        "- Xitoy"
+      ],
+      [
+        "- “Amir Temur yili”",
+        "- Ibn Sino",
+        "- “Navoiy yili”",
+        "- “Ulug`bek yili”"
+      ],
+      [
+        "- “Ulug`bek yili”",
+        "- “Ibn Sino yili”",
+        "- “Amir Temur yili”",
+        "- “Navoiy yili”"
+      ],
+      [
+        "- 1999-yil 2-avgust",
+        "- 1998-yil 4-avgust",
+        "- 1995-yil 24-avgust",
+        "- 1993-yil 24-avgust"
+      ],
+      [
+        "- BMT",
+        "- Yunesko",
+        "- Yunisef",
+        "- MDH"
+      ],
+      [
+        "- 1994-yil 31-avgustda",
+        "- 2000-yil 15-sentyabrda",
+        "- 1997-yil 27-avgustda",
+        "- 1992-yil 2-iyulda"
+      ],
+      [
+        "- 1998-yil",
+        "- 2001-yil",
+        "- 1999-yil",
+        "- 1997-yil"
+      ],
+      [
+        "- Muqaddi-ma,6 bo`lim,27 bob 155 moddadan iborat bo`ldi",
+        "- Muqadddima,6 bo`lim,28 bob 160 moddadan iborat bo`ldi",
+        "- Muqadddima,6 bo`lim,27 bob 158moddadan iborat bo`ldi",
+        "- Muqadddima,4 bo`lim,30 bob 130 moddadan iborat bo`ldi"
+      ],
+      [
+        "- Mintaqaviy xavfsizlik tashkiloti",
+        "- Kollektiv xavfsizlik kengashi",
+        "- Mustaqil davlatlar Hamdo`stligi",
+        "- Markaziy Osiyo Hamdo`stligi"
+      ],
+      [
+        "- 8 tilda",
+        "- 9 tilda",
+        "- 6 tilda",
+        "- 7 tilda"
+      ],
+      [
+        "- 1994-yilda",
+        "- 1996-yilda",
+        "- 1999-yilda",
+        "- 1998-yilda"
+      ],
+      [
+        "- Sams Tabriziy tomonidan",
+        "- Alouddin Mansur tomonidan",
+        "- Shamsiddin Toshkandiy tomonidan",
+        "- Abdulaziz Samarqandiy tomonidan"
+      ],
+      [
+        "- 4",
+        "- 2",
+        "- 3",
         "- 1"
       ],
       [
-        "- [t]",
-        "- [ks]",
-        "- [f]",
-        "- [r]"
+        "- Nexia,Chevrolet Spark",
+        "- Matiz,yangilangan Damas",
+        "- Matiz, Nexia Donc",
+        "- Damas, Tico, Nexia"
       ],
       [
-        "- [sx]",
-        "- [r]",
-        "- [t]",
-        "- [ks]"
+        "- 1949 yil 4 aprel",
+        "- 2005 yil 19 dekabr",
+        "- 2001 yil 14 iyun",
+        "- 1945 yil 24 oktyabr"
       ],
       [
-        "- Simplex",
-        "- vertebralis",
-        "- palatinus, a, um",
-        "- teres"
+        "- Amir Temur",
+        "- Mirzo Ulug`bek",
+        "- Bobur",
+        "- Аlisher Navoiy"
       ],
       [
-        "- os ethmoidale",
-        "- os lunatum",
-        "- os breve",
-        "- os sphenoidale"
+        "- 2023-yil 30-mart",
+        "- 1992-yil",
+        "- 1993-yil 26-sentabrda",
+        "- 2016-yil"
       ],
       [
-        "- Oltita",
-        "- Beshta",
-        "- Ikkita",
-        "- To`rtta"
+        "- 5",
+        "- 2",
+        "- 12",
+        "- 6"
       ],
       [
-        "- Ae, au",
-        "- Ae, oe",
-        "- Au,eu",
-        "- Ch, oe"
+        "- 80 dan ortiq turi",
+        "- 90 dan ortiq turi",
+        "- 100 dan ortiq turi",
+        "- 70 dan ortiq turi"
       ],
       [
-        "- Uch bo`g`in",
-        "- To`rt bo`gin",
-        "- Olti bo`g`in",
-        "- Besh bo`g`in"
+        "- L.Fayziyev",
+        "- А.Qobulov",
+        "- M.Аbzalov",
+        "- L.Fayziyev"
       ],
       [
-        "- -Men- ikkinchi bo`g`inda",
-        "- -Li- to`rtinchi bo`g`inga",
-        "- -Ga-uchinchi bo`g`inga",
-        "- -Tum- birinchi bo`g`inda"
+        "- “Mehrjon”",
+        "- “Navbahor”",
+        "- “Qizil karvon”",
+        "- “Paxta bayrami”"
       ],
       [
-        "- -AE- ikkinchi bo`g`inga",
-        "- To`rtinchi bo`g`inga",
-        "- -Di-uchinchi bo`g`inga",
-        "- -Ta-birinchi bo`g`inga"
+        "- Abdurauf Fitrat",
+        "- Abdulla Avloniy",
+        "- M.Behbudiy",
+        "- Munavvar Qori"
       ],
       [
-        "- Omne principium difficile est.",
-        "- Alit lectio ingenium.",
-        "- Non scholae, sed vitae discimus.",
-        "- Qui scribit, bis legit."
+        "- 1991-yil",
+        "- 1995-yil",
+        "- 1989-yil",
+        "- 1993yil"
       ],
       [
-        "- To`rtta turda bo`linadi",
-        "- Ikkita turda bo`linadi",
-        "- Oltita turda bo`linadi",
-        "- Uchta turda bo`linadi"
+        "- Boshlash",
+        "- Yangi",
+        "- O`zgartirish",
+        "- Eski"
       ],
       [
-        "- Ere -qo`shimchasi",
-        "- Are – qo`shimchasi",
-        "- Re -qoshimchasi",
-        "- Ire- qo`shimchasi"
+        "- Oliy Majlis",
+        "- Vazirlar mahkamasi",
+        "- Prokuratura",
+        "- Konstitutsiyaviy sud"
       ],
       [
-        "- Uchinchi tuslanishga",
-        "- Ikkinchi tuslanishga",
-        "- Birinchi tuslanishga",
-        "- To`rtinchi tuslanishga"
+        "- Al-Farobiy",
+        "- Al-Beruniy",
+        "- Al-Farg`oniy",
+        "- Al-Xorazmiy"
       ],
       [
-        "- Ikkinchi tuslanishga",
-        "- Birinchi tuslanishga",
-        "- Uchinchi tuslanishga",
-        "- To`rtinchi tuslanishga"
+        "- Dinga e`tiqot qilish",
+        "- Dinga e`tiqot qilmaslik",
+        "- Dinlararo totuvlik",
+        "- Xohlagan diniga e`tiqot qilish yoki qilmaslik"
       ],
       [
-        "- Signo, are – I tuslanish",
-        "- Solvere, re -III tuslanish",
-        "- Are – Dare -I tuslanish",
-        "- Audire, ire -II tuslanish"
+        "- Abduqodir Shukuriy",
+        "- Hamid Olimjon",
+        "- Hamza",
+        "- Abdulla Avloniy"
       ],
       [
-        "- Shart va buyruq mayli",
-        "- Majhullik nisbati",
-        "- Aniqlik nisbati",
-        "- Sabab mayli"
+        "- Integratsiya",
+        "- Konvertizatsiya",
+        "- Emissiya",
+        "- Inflyatsiya"
       ],
       [
-        "- Beshta turlanishga",
-        "- Ikkita turlanishga",
-        "- Uchta turlanishga",
-        "- To`rta turlanishga"
+        "- Afg`oniston",
+        "- Qirg`iziston",
+        "- Eron",
+        "- Turkmaniston"
       ],
       [
-        "- Mediana us um",
-        "- Asthma atis",
-        "- Stroma atis",
-        "- Gutta, ae f"
+        "- Navoiy",
+        "- Samarqand",
+        "- Buxoro",
+        "- Qashqadaryo"
       ],
       [
-        "- Glandula alveolaris",
-        "- Ligament umtores",
-        "- Ductus major",
-        "- Tinctura Valerianae"
+        "- 38-modda",
+        "- 12-modda",
+        "- 50-modda",
+        "- 41-modda"
       ],
       [
-        "- dativus",
-        "- ablatuvus",
-        "- genetivus",
-        "- nominativus"
+        "- 30 yoshgacha",
+        "- 18 yoshgacha",
+        "- 13 yoshgacha",
+        "- 25 yoshgacha"
       ],
       [
-        "- Superfecies",
-        "- Brevi",
-        "- Tussis",
-        "- Posteriors"
+        "- 8-dekabr",
+        "- 30-iyun",
+        "- 1-yanvar",
+        "- 2-iyul"
       ],
       [
-        "- Species",
-        "- Floris",
-        "- Corporis",
-        "- Crus, cruris"
+        "- Samarqand",
+        "- Namangan",
+        "- Andijon",
+        "- Buxoro"
       ],
       [
-        "- Facies, is m",
-        "- Ductus, i n",
-        "- Zygoma, ua f",
-        "- Remedium, i m"
+        "- Bobur",
+        "- Alisher Navoiy",
+        "- Amir Temur",
+        "- Mirzo Ulug`bek"
       ],
       [
-        "- Musculus",
-        "- Nasus",
-        "- Oculus",
-        "- ductus"
+        "- 2019-yil yanvarda",
+        "- 2017-yil fevralda",
+        "- 2013-yil mayda",
+        "- 2018-yil oktabrda"
       ],
       [
-        "- Alit lectio ingenium.",
-        "- Labor corpus firmat.",
-        "- Citius, altius, fortius.",
-        "- Amat victoria curam."
-      ],
-      [
-        "- Musculus",
-        "- Aortae",
-        "- Apex",
-        "- Tuberculum"
-      ],
-      [
-        "- 3-turlanishga",
-        "- 5-turlanishga",
-        "- 4-turlanishga",
-        "- 2-turlanishga"
-      ],
-      [
-        "- Os longum",
-        "- Vena longa",
-        "- Musculus longus",
-        "- Os cranii"
-      ],
-      [
-        "- Niger, gra, grum",
-        "- Niger, tra,trum",
-        "- Niger, era, erum",
-        "- Niger, gera, gerum"
-      ],
-      [
-        "- Simplex, icis",
-        "- Ala, ae, f",
-        "- Major,jus",
-        "- Albus, a, um"
-      ],
-      [
-        "- 5-turlanish",
-        "- 2-turlanish",
-        "- 4-turlanish",
-        "- 3-turlanish"
-      ],
-      [
-        "- Pia mater",
-        "- Venter musculi",
-        "- Ala vomeris",
-        "- Tuber maxillae"
-      ],
-      [
-        "- Adductor",
-        "- Dilatator",
-        "- Extensor",
-        "- Abductor"
-      ],
-      [
-        "- Pericardia lis, e",
-        "- Paravaginalis, e",
-        "- Intramuscularis, e",
-        "- Postcentralis, e"
-      ],
-      [
-        "- Endoscopia",
-        "- Submandibularis, e",
-        "- Praesanillis,e",
-        "- Supraacromialis, e"
-      ],
-      [
-        "- Ostium cavumnas",
-        "- Apertura thoracis inferioris",
-        "- Apertura thoracis inferior",
-        "- Apertura thoracis posterior"
-      ],
-      [
-        "- Pia mater encephali",
-        "- Dura mater thoracis",
-        "- Dura mater spinalis",
-        "- Pia mater gastri"
-      ],
-      [
-        "- Signare",
-        "- Addere",
-        "- Repetere",
-        "- Audire"
-      ],
-      [
-        "- Rosa alba",
-        "- caput fibulae",
-        "- arcus vertebrae",
-        "- os pubis"
-      ],
-      [
-        "- Minor, us",
-        "- Brevior ius",
-        "- Anterior, ius",
-        "- Magnus, a, um"
-      ],
-      [
-        "- Misce, fiat unguentum",
-        "- Misce, fiat linimentum",
-        "- Misce, fiat pasta",
-        "- Misce, fiat suppositorium"
-      ],
-      [
-        "- Osteomyelitis",
-        "- Osteoarthritis",
-        "- Osteoma",
-        "- Osteomalacia"
-      ],
-      [
-        "- Encephalon",
-        "- Encephalopathia",
-        "- Encephamyelitis",
-        "- Encephalitis"
-      ],
-      [
-        "- mandibula-genio",
-        "- somato-corpus",
-        "- lingua-glosso",
-        "- stomato-oris"
-      ],
-      [
-        "- Therapia – curatio",
-        "- Toxo – venenum",
-        "- Neuro – nervus",
-        "- Angio- vas, vasis"
-      ],
-      [
-        "- Psorias",
-        "- Helminthosis",
-        "- Lithiasis",
-        "- Amoebiasis"
-      ],
-      [
-        "- Suasor",
-        "- Sulcus",
-        "- Submucosus",
-        "- Sulphus"
-      ],
-      [
-        "- Mixtio",
-        "- Articulatio",
-        "- Ostium",
-        "- Tibia"
-      ],
-      [
-        "- Pro die",
-        "- Pro infantibus",
-        "- Pro dosi",
-        "- Pro rectum"
-      ],
-      [
-        "- Ko`rsatkich barmoq",
-        "- Bosh barmoq",
-        "- Jimjiloq",
-        "- O`rta barmoq"
-      ],
-      [
-        "- Barcha san`atlar ichida eng sharaflisi tibbiyotdir",
-        "- Barcha sohalar ichida eng sharafli kasb egasidir",
-        "- Intilganga tole yor",
-        "- Mehnat tanani chiniqtiradi"
-      ],
-      [
-        "- limon kislota",
-        "- askorbin kislota",
-        "- sirka kislota",
-        "- yog` kislota"
-      ],
-      [
-        "- Purmus, a, um",
-        "- Purus, a, um",
-        "- Purimus, a, um",
-        "- Purissimus, a,um"
-      ],
-      [
-        "- Intestinalis",
-        "- Dentalis",
-        "- Sacralis",
-        "- Alaris"
-      ],
-      [
-        "- Inferior",
-        "- Posterior",
-        "- Anterior",
-        "- Superior"
-      ],
-      [
-        "- sifat va sifat",
-        "- ot va sifat",
-        "- ot va ot",
-        "- sifat va ot"
-      ],
-      [
-        "- Os costalis",
-        "- Apex cordis",
-        "- Pars pulmonis",
-        "- Apex pulmonis."
-      ],
-      [
-        "- ot va sifat",
-        "- son va ot",
-        "- ot va ot",
-        "- ot va son"
-      ],
-      [
-        "- Hemotologia",
-        "- Cytologia",
-        "- Histologia",
-        "- Embryologia"
-      ],
-      [
-        "- Cholelithiasis",
-        "- Cholecystomia",
-        "- Cholestasis",
-        "- Cholaemia"
-      ],
-      [
-        "- Urologia",
-        "- Urolithiasis",
-        "- Urethra",
-        "- Uroposis"
-      ],
-      [
-        "- Atonia",
-        "- Hypotonia",
-        "- Dystonia",
-        "- Hypertonia"
-      ],
-      [
-        "- Oraliq, o`rta",
-        "- Yaqinlashtiruvchi va uzoqlashtiruvchi",
-        "- Tashqaridan ichkariga",
-        "- Yuqorigi, ustgi"
-      ],
-      [
-        "- gingiva-ulo",
-        "- uro – urina",
-        "- maxilla-gnatho",
-        "- dens-odonto"
-      ],
-      [
-        "- Psychologia",
-        "- Gerontologia",
-        "- Cardiologia",
-        "- Paediatria"
-      ],
-      [
-        "- Hypertonia",
-        "- Hypotonia",
-        "- Atonia",
-        "- Dystonia"
-      ],
-      [
-        "- Saccharum",
-        "- Sanus",
-        "- Sal",
-        "- Solutio"
-      ],
-      [
-        "- Myoma",
-        "- Adenoma",
-        "- Hydradenoma",
-        "- Hidradenoma"
-      ],
-      [
-        "- a, an",
-        "- hypo",
-        "- hyper",
-        "- dys"
-      ],
-      [
-        "- Hydrogenium",
-        "- Zincum",
-        "- Cuprum",
-        "- Carbo"
-      ],
-      [
-        "- Oleum",
-        "- Mentha",
-        "- Kalanchoe",
-        "- Aloe"
-      ],
-      [
-        "- Olivarum",
-        "- Oleum",
-        "- Kalanchoe",
-        "- Mentha"
-      ],
-      [
-        "- histo-/textus",
-        "- derma/cutis",
-        "- angio/vas",
-        "- hydro-/ aqua"
-      ],
-      [
-        "- Cele/hernia",
-        "- Hidro-/sudor",
-        "- Chole-/bilis",
-        "- Oto-/auris"
-      ],
-      [
-        "- Onco/tumor",
-        "- Geri-/senex",
-        "- Tricho-/papillus",
-        "- Dacrio-/lacrima"
-      ],
-      [
-        "- Onco/tumor",
-        "- Geri-/senex",
-        "- Rhino-/nasus",
-        "- Tricho-/papillus"
-      ],
-      [
-        "- Masto",
-        "- Scopia",
-        "- Logus",
-        "- Mamma"
-      ],
-      [
-        "- Burunni qayta tiklash operatsiyasi",
-        "- Jag`ni qayta tiklash operatsiyasi",
-        "- Jigar operatsiyasi",
-        "- Bo`g`im operatsiyasi"
-      ],
-      [
-        "- Tishni asbob yordamida tekshirish",
-        "- Og`izni asbob yordamida tekshirish",
-        "- Xalqumni asbob yordamida tekshirish",
-        "- Tanani asbob yordamida tekshirish"
-      ],
-      [
-        "- kapsulada",
-        "- qutida",
-        "- ampulada",
-        "- shishada"
-      ],
-      [
-        "- Unguenti Rici 30,0",
-        "- Unguenti Cupri 30,0",
-        "- Unguenti Anisi30,0",
-        "- Unguenti Zinci30,0"
-      ],
-      [
-        "- Glyukoza eritmasi",
-        "- Yodning spirtli eritmasi",
-        "- Vodorod peroksid eritmasi",
-        "- Analgin eritmasi"
-      ],
-      [
-        "- “Shunday dozalarda ber”",
-        "- “Tomchilab ber”",
-        "- “O`limgacha olib keladi`",
-        "- “Bir martalik doza”"
-      ],
-      [
-        "- O`z, xususiy",
-        "- Bir xil",
-        "- Boshqa",
-        "- Hayvonniki"
-      ],
-      [
-        "- Oleum Persicorum",
-        "- Oleum Eucalypti",
-        "- Oleum Aethereum",
-        "- Oleum Anisi"
-      ],
-      [
-        "- Lingua",
-        "- Angulus",
-        "- Frangula",
-        "- Lingula"
-      ],
-      [
-        "- Qonda o`sma",
-        "- Qon tomiri zichlanishi",
-        "- Qon tomirlarida xavfsiz o`sma",
-        "- Qon tomirini kengayishi"
-      ],
-      [
-        "- Qui scribit, bis legit.",
-        "- In observatione",
-        "- Una hirunda non facit ver.",
-        "- Dori bilan emas, aql bilan davola."
-      ],
-      [
-        "- Umr qisqa, san`at abadiydir.",
-        "- Tinchlik eng yaxshi davodir.",
-        "- Avvalo zarar keltirma.",
-        "- Xasisni qorni to`ysa ham ko`zi to`ymas."
-      ],
-      [
-        "- Infusum Valirianae",
-        "- Rosa alba",
-        "- Os cranii",
-        "- Tincturae Convalariae"
-      ],
-      [
-        "- Aqua pura",
-        "- Tabuletta Analgini",
-        "- Infusum Valirianae",
-        "- Tabuletta Codeini"
-      ],
-      [
-        "- Nominativus",
-        "- Genetivus",
-        "- Accusativus",
-        "- Dativus"
-      ],
-      [
-        "- Pasta",
-        "- Capsula",
-        "- Tinctura",
-        "- Gutta"
-      ],
-      [
-        "- Pasta",
-        "- Suppository um",
-        "- Unguentum",
-        "- Pulvis"
-      ],
-      [
-        "- surt Tarkibida 20-25% dan ortiq kukun holidagi moddalar bo`lgan surtma",
-        "- Suyuq surtma",
-        "- Sirtdan ishlatishga mo`ljallan gan yopishqoq konsistensiyali yumshoq dori",
-        "- Ichish, sirtdan ishlatish yoki in`yeksiya qilish uchun mo`ljallangan, dorivor moddalarni presslab olingan, dozalangan qattiq dori turi"
-      ],
-      [
-        "- –barb-, -mycin, -cyclin, -cort-",
-        "- -oestr, -chol, -sed-, -andr-",
-        "- –myko, -test-, -vas, -angi-",
-        "- –dol, -mycin, -cillin, card"
-      ],
-      [
-        "- Qisqartirish",
-        "- Ko`paytirish",
-        "- Olib tashlash",
-        "- Kengaytirish"
-      ],
-      [
-        "- 3 xil : ilmiy, shakliy va trivial",
-        "- 2 xil: ilmiy va trivial",
-        "- 2 xil: ilmiy va shakliy",
-        "- 2 xil: ilmiy va adabiy"
-      ],
-      [
-        "- Decoctum rhizomatis Tormentille",
-        "- folium Sennae",
-        "- Infusum foliorum Sennae",
-        "- Infusum radices Valerianae"
-      ],
-      [
-        "- 3 ta",
-        "- 4 ta",
-        "- 2 ta",
-        "- 5 ta"
-      ],
-      [
-        "- Extractum Crataegi",
-        "- Oleum Helianti",
-        "- Decoctum herbae Hyperici",
-        "- Folium Saennae"
-      ],
-      [
-        "- 3 ta",
-        "- 4 ta",
-        "- 1 ta",
-        "- 2ta"
-      ],
-      [
-        "- sirupus Glycyrrhizae",
-        "- sirupus Glycyrrhize",
-        "- sirupus Glycyrrhizatis",
-        "- sirupus Glycyrrhizi"
-      ],
-      [
-        "- extractum Crataegum",
-        "- extractum Crataegi",
-        "- extractum Crataegus",
-        "- extractum Crataegae"
-      ],
-      [
-        "- Sodda",
-        "- Murakkab",
-        "- Juft",
-        "- O`xshah"
-      ],
-      [
-        "- tinctura Valeriana",
-        "- tinctura Valerianae",
-        "- tinctura Valerianum",
-        "- tincture Valeriani"
-      ],
-      [
-        "- 4 ta",
-        "- 3 ta",
-        "- 7 ta",
-        "- 5 ta"
-      ],
-      [
-        "- XXI asrdagi dorivor vositalaring nomlari",
-        "- to`g`ri javob yo`q",
-        "- hozirgi davrda ham qo`llanilayotgan dorivor vositalar nomlarining yig`indisidir",
-        "- XXI asrdagi dorivor vositalaring nomlari"
-      ],
-      [
-        "- Angiopathia",
-        "- Angiostenosis",
-        "- Angiosclerosis",
-        "- Angiosis"
-      ],
-      [
-        "- Terining qatiqlashi shi",
-        "- Terini kesish",
-        "- Terining zamburug`li kasalligi",
-        "- Teri kasalligi"
-      ],
-      [
-        "- Osteoma",
-        "- Osteoparo sis",
-        "- Osteomyelitis",
-        "- Osteosis"
-      ],
-      [
-        "- Gastropa tia",
-        "- Gastritis",
-        "- Gastrosis",
-        "- Gastrorha gia"
-      ],
-      [
-        "- Boshqa odamning organ yoki to`qimalari dan foydalanish.",
-        "- Organism ning o`zidagi organ yoki to`qimalari dan foydalanish",
-        "- Odam organizmi o`zgarishi",
-        "- Hayvon organlari yoki to`qimala ridan foydala nish"
-      ],
-      [
-        "- Organism ning o`zidagi organ yoki to`qimalari dan foydalanish",
-        "- Hayvon organlari yoki to`qimalari dan foydalanish",
-        "- Boshqa odamning organ yoki to`qimalari dan foydalanish",
-        "- Organizmning qismlari o`zgarishi"
-      ],
-      [
-        "- Siydik pufagiga tosh hosil bo`lishi",
-        "- Siydik pufagini tekshirish",
-        "- Siydik pufagini olib tashlash",
-        "- Siydik pufagi yallig`lanishi"
-      ],
-      [
-        "- Oq galdarmoq guli",
-        "- Belladonna moyi",
-        "- Zaytun moyi",
-        "- Yalpiz bargi"
-      ],
-      [
-        "- Ichaklarni funksiyasini buzilishi",
-        "- Ichaklarini olib tashlanishi",
-        "- Ichaklar ning yallig`lanishi",
-        "- Ichaklarni tekshirish"
-      ],
-      [
-        "- Tinctura Convallariae",
-        "- Infisum Valerianae",
-        "- Tinctura Schizandrae",
-        "- Mentha Piperita"
-      ],
-      [
-        "- Pneumo / pulmo",
-        "- Abdomen/ laparo",
-        "- Laparo / abdomen",
-        "- Procto / anus"
-      ],
-      [
-        "- To`k zichligi",
-        "- Asbob bilan davolash",
-        "- Tekshirish asbobi",
-        "- To`k bilan davolash"
-      ],
-      [
-        "- Quloq, burun, hiqqildoq haqidagi fan",
-        "- Og`iz bo`shlig`ini o`rganuvchi fan",
-        "- Burun soxasini o`rganuvchi fan",
-        "- Ko`z soxasini urganuvchi fan"
-      ],
-      [
-        "- O`t pufagining yallig`lanishi",
-        "- O`t pufagida tosh bo`lishi",
-        "- Buyrak kasalligi",
-        "- O`t pufagini olib tashlash"
-      ],
-      [
-        "- Pyocytosis",
-        "- Pyocrinia",
-        "- Pyorrhagia",
-        "- Empyema"
-      ],
-      [
-        "- albus-leuco",
-        "- flavus-xantho",
-        "- cinereus-cyano",
-        "- niger-melano"
-      ],
-      [
-        "- per os",
-        "- pro narcosi",
-        "- per rectum",
-        "- pro infantibus"
-      ],
-      [
-        "- Qorin kasalligi",
-        "- Qorinni kesib ochish",
-        "- Qorinni ochib ko`rish",
-        "- Qorinni tekshirish"
-      ],
-      [
-        "- genus nominativum",
-        "- genus neutrum",
-        "- genus masculinum",
-        "- genus femininum"
-      ],
-      [
-        "- genus masculinum",
-        "- genus genetivum",
-        "- genus neutrum",
-        "- genus femininum"
-      ],
-      [
-        "- myelitis",
-        "- osteo",
-        "- myeli",
-        "- itis"
-      ],
-      [
-        "- Barba non facit philossophum",
-        "- Mala herba cito crescit.",
-        "- Una hirunda non facit ver.",
-        "- Homo locum ornate, non hominem locus."
-      ],
-      [
-        "- Ilmning ildizi achchiq, mevasi esa shirin.",
-        "- Xasisni qorni to`ysa ham ko`zi to`ymas.",
-        "- Lotin tilisiz tibbiyotga yo`l yo`q.",
-        "- Avvalo zarar keltirma."
-      ],
-      [
-        "- genus femininum",
-        "- genus masculinum",
-        "- genus dativum",
-        "- genus neutrum"
-      ],
-      [
-        "- cinereus-polio",
-        "- viridis-chloro",
-        "- niger-melano",
-        "- albus-leuco"
-      ],
-      [
-        "- Tab",
-        "- Ung",
-        "- Tinct",
-        "- Sol"
-      ],
-      [
-        "- Addo,ere",
-        "- Do, dare",
-        "- Signo,are",
-        "- Habeo,re"
-      ],
-      [
-        "- endocrinologia",
-        "- oncologia",
-        "- stomatologia",
-        "- dermatologia"
-      ],
-      [
-        "- Radix Valerianae",
-        "- Rhizoma Valerianae",
-        "- Infusum Valerianae",
-        "- Tinctura Valerianae"
-      ],
-      [
-        "- Phosphorus",
-        "- Zincum",
-        "- Xlor",
-        "- Oxygenium"
-      ],
-      [
-        "- Empl",
-        "- Emul",
-        "- Ung",
-        "- Sol"
-      ],
-      [
-        "- Sol",
-        "- Tab",
-        "- Decoc",
-        "- Pul"
-      ],
-      [
-        "- Emul",
-        "- Ext",
-        "- Gran",
-        "- Supp"
-      ],
-      [
-        "- Pro inject",
-        "- Aut tab",
-        "- Gel",
-        "- Per inf"
-      ],
-      [
-        "- Acidi sulfurior",
-        "- Acidi sulforosum",
-        "- Acidum sulfuricum",
-        "- Acidum sulfurosa"
-      ],
-      [
-        "- Acidum citricum",
-        "- Acidum lacticum",
-        "- Acidi citrici",
-        "- Acidi boricum"
-      ],
-      [
-        "- In vitro",
-        "- In ampullis",
-        "- In capsullis",
-        "- In vivo"
-      ],
-      [
-        "- Bromum",
-        "- Magnium",
-        "- Argentum",
-        "- Cuprum"
-      ],
-      [
-        "- Oxygenium",
-        "- Cilicium",
-        "- Oxydum",
-        "- Peroxydum"
-      ],
-      [
-        "- signo, are",
-        "- audio, ire",
-        "- misceo, ere",
-        "- repeto, ere"
-      ],
-      [
-        "- Post",
-        "- Sub lineguae",
-        "- Contra",
-        "- Comku"
-      ],
-      [
-        "- Misce, fiat pulvis",
-        "- Misce, fiat pasta",
-        "- Misce, fiat pililae",
-        "- Misce, fiat emulsum"
-      ],
-      [
-        "- Repete",
-        "- Dare",
-        "- Recipe",
-        "- Cito va Statim"
-      ],
-      [
-        "- Miscere 1",
-        "- Addo, ere, 3",
-        "- Do, are, 2",
-        "- Addere 1"
-      ],
-      [
-        "- Vilici 0,008",
-        "- Tanini 30",
-        "- Oleum Vaselini 30 ml(30,0)",
-        "- Tabuletta 5ml"
-      ],
-      [
-        "- -andr-",
-        "- -gen-",
-        "- -o-",
-        "- -and-"
-      ],
-      [
-        "- Pro inholationus",
-        "- Pro infantibus",
-        "- Pro injectionibus",
-        "- Pro reatgena"
-      ],
-      [
-        "- Sterilizo, are",
-        "- Finio, ire",
-        "- Misseo ,ere",
-        "- Recepio ,ere"
-      ],
-      [
-        "- Signetur",
-        "- Signa",
-        "- Misce",
-        "- Addo"
-      ],
-      [
-        "- Misceatur",
-        "- Signetur",
-        "- Audi",
-        "- Recipio"
-      ],
-      [
-        "- Tinctura ae f",
-        "- Decoctum i n",
-        "- Pilula",
-        "- Infusum i n"
-      ],
-      [
-        "- Gutta ae f",
-        "- Solutio",
-        "- Unguentum i n",
-        "- Pilula ae f"
-      ],
-      [
-        "- Pro intantibus",
-        "- Per rectum",
-        "- Per os",
-        "- Pro narcosi"
-      ],
-      [
-        "- Tomchi",
-        "- Pasta",
-        "- Granula",
-        "- Kapsula"
-      ],
-      [
-        "- Oshqozon ning yallig`lani shi",
-        "- Jigarning yallig`lanishi",
-        "- Jigarni operatsia qilish",
-        "- Buyrakning yallig`lanishi"
-      ],
-      [
-        "- Derto",
-        "- Textus",
-        "- Adeno",
-        "- Cele"
-      ],
-      [
-        "- Diarrea",
-        "- Diathrosis",
-        "- Diapedisis",
-        "- Diostema"
-      ],
-      [
-        "- Angiopathia",
-        "- Stenocardia",
-        "- Gastroptosis",
-        "- Enteroectomia"
-      ],
-      [
-        "- Enteroscopia",
-        "- Rhomboscopia",
-        "- Otoscopia",
-        "- Somatoscopia"
-      ],
-      [
-        "- Splanchnologia",
-        "- Gastroenterologia",
-        "- Neurologia",
-        "- Biologia"
-      ],
-      [
-        "- bradycardia",
-        "- platycardia",
-        "- brachycardia",
-        "- tachycardia"
-      ],
-      [
-        "- Zaytun moyi",
-        "- Do`lana ekstrakti",
-        "- Qalampir yalpiz moyi",
-        "- Arpabodiyon suvi"
-      ],
-      [
-        "- Qattiqlanish",
-        "- Surunkali kasallik",
-        "- O`sma",
-        "- Yallig`lanish"
-      ],
-      [
-        "- Gastrostomia",
-        "- Angiopathia",
-        "- Gastroectosia",
-        "- Cystogra phia"
-      ],
-      [
-        "- Pharmacalo gia",
-        "- Pharmocolo gia",
-        "- Pharmacothe rapia",
-        "- Pharmacognosis"
-      ],
-      [
-        "- Diagnostica",
-        "- Diapedisis",
-        "- Diarthrosis",
-        "- Diagnosis"
-      ],
-      [
-        "- M. serratos",
-        "- M. pectorales major",
-        "- M. brachialis",
-        "- M.pectorales minor"
-      ],
-      [
-        "- Contra",
-        "- Per",
-        "- Post",
-        "- Sub"
-      ],
-      [
-        "- Corpus fibulae",
-        "- Caput fibulae",
-        "- Caput tibea",
-        "- Corpus tibea"
-      ],
-      [
-        "- Medico",
-        "- Diacta",
-        "- Oculus",
-        "- Trauma"
-      ],
-      [
-        "- m. thoracis",
-        "- m.vaginalis",
-        "- m. adductor",
-        "- m.obdemena lis"
-      ],
-      [
-        "- Vertebrae sacrales",
-        "- Ossa metacarpi",
-        "- Vertebrae coccygeae",
-        "- Vertebrae thoracicae"
-      ],
-      [
-        "- Stetoscopia",
-        "- Stethologia",
-        "- Stetographia",
-        "- Stethometria"
-      ],
-      [
-        "- Processum transverso rum",
-        "- Processus tranversus",
-        "- Processus transverso rum",
-        "- Processi transverse"
-      ],
-      [
-        "- Signetur",
-        "- Repetat",
-        "- Signent",
-        "- Audist"
-      ],
-      [
-        "- Arpabodiyon suvi 20,0",
-        "- Suyuq do`lana ekstrakti 20,0",
-        "- Do`lana ekstrakti 20,0",
-        "- Zaytun moyi 20,0"
-      ],
-      [
-        "- Habdori yoki kukunda",
-        "- Suyuq yoki quruq",
-        "- Kapsula yoki ampulada",
-        "- Achiq va quruq"
-      ],
-      [
-        "- Solv",
-        "- Pulv",
-        "- Tinc",
-        "- Ung"
-      ],
-      [
-        "- Melo",
-        "- Somato",
-        "- Patho",
-        "- Glosso"
-      ],
-      [
-        "- Rp.",
-        "- D.",
-        "- M.",
-        "- S."
-      ],
-      [
-        "- Sir",
-        "- Simple",
-        "- Spec",
-        "- Sol"
-      ],
-      [
-        "- Rhinalgia",
-        "- Encephalopathia",
-        "- Otorhagia",
-        "- Cardiotransplantatio"
-      ],
-      [
-        "- Per",
-        "- Repet",
-        "- Past",
-        "- Rp"
-      ],
-      [
-        "- Zincum",
-        "- Phosphorus",
-        "- Sulfur",
-        "- Silicium"
-      ],
-      [
-        "- Gingivitis",
-        "- Laryngitis",
-        "- Nephritis",
-        "- Mastitis"
-      ],
-      [
-        "- Eu",
-        "- Dys",
-        "- dis",
-        "- Ana"
-      ],
-      [
-        "- Per fater",
-        "- Pigritio mater",
-        "- Per sciantiam",
-        "- Repititio est mater studiorum"
-      ],
-      [
-        "- Spes vana",
-        "- Stotus communis",
-        "- Scientia potestasest",
-        "- Scientia potentia est"
-      ],
-      [
-        "- Dystrophia",
-        "- Dysuria",
-        "- Dyspnoe",
-        "- Dyspepsia"
-      ],
-      [
-        "- Dyspnoe",
-        "- Tachypnoe",
-        "- Hypopnoe",
-        "- Apnoe"
-      ],
-      [
-        "- Jigarni olib tashlash",
-        "- Buyrakning pastga tushishi",
-        "- Buyrakning kengayishi.",
-        "- Buyrakni olib tashlash"
-      ],
-      [
-        "- Pneumonecto mia",
-        "- Pneumosclerosis",
-        "- Pneumolitis",
-        "- Pneumonia"
-      ],
-      [
-        "- Infusum Valirianae",
-        "- Extractum siccum",
-        "- Tabuletta Analgini",
-        "- Os cranii"
+        "- Senat raisi",
+        "- Bosh vazir",
+        "- Spiker",
+        "- Oliy Majlis raisi"
       ]
     ],
     "correctAnswers": [
@@ -1819,156 +776,7 @@ const ALL_QUESTIONS = {
       1,
       2,
       1,
-      2,
-      4,
-      2,
-      2,
-      3,
-      1,
-      1,
-      3,
-      1,
-      2,
-      2,
-      2,
-      4,
-      2,
-      1,
-      3,
-      4,
-      4,
-      1,
-      2,
-      2,
-      3,
-      3,
-      3,
-      3,
-      4,
-      1,
-      4,
-      4,
-      4,
-      3,
-      1,
-      1,
-      2,
-      1,
-      3,
-      4,
-      2,
-      2,
-      1,
-      2,
-      1,
-      3,
-      4,
-      1,
-      1,
-      2,
-      3,
-      1,
-      3,
-      4,
-      1,
-      2,
-      2,
-      2,
-      3,
-      3,
-      1,
-      3,
-      3,
-      4,
-      4,
-      3,
-      2,
-      4,
-      1,
-      1,
-      1,
-      4,
-      1,
-      2,
-      3,
-      1,
-      1,
-      2,
-      3,
-      4,
-      4,
-      4,
-      3,
-      4,
-      2,
-      2,
-      1,
-      3,
-      3,
-      4,
-      1,
-      1,
-      4,
-      1,
-      3,
-      1,
-      3,
-      1,
-      4,
-      1,
-      1,
-      1,
-      4,
-      2,
-      3,
-      1,
-      1,
-      1,
-      1,
-      3,
-      3,
-      3,
-      2,
-      1,
-      2,
-      2,
-      1,
-      4,
-      1,
-      1,
-      4,
-      3,
-      4,
-      2,
-      3,
-      4,
-      2,
-      3,
-      2,
-      4,
-      1,
-      4,
-      4,
-      2,
-      3,
-      2,
-      3,
-      2,
-      3,
-      4,
-      2,
-      1,
-      4,
-      1,
-      1,
-      2,
-      4,
-      4,
-      3,
-      4,
-      4,
-      4,
       2
     ]
-  },
+  }
 }
