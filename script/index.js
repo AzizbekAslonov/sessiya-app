@@ -4,6 +4,7 @@ const btnCollection = [
    // { data: 'Dasturlash', classes: 'btn scale btn-primary' },
    // { data: 'Pedagogika', classes: 'btn scale btn-secondary' },
    { data: 'Tarix', classes: 'btn scale btn-primary' },
+   { data: 'Dinshunoslik', classes: 'btn scale btn-secondary' },
 ]
 const nameInput = document.getElementById("nameInput")
 const localName = localStorage.getItem('name');

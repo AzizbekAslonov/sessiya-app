@@ -11,23 +11,6 @@ if (!checkName(localName)) {
    location.assign('index.html')
 }
 
-const my_chat_id = "1039710604"
-let str = ""
-str += `<b>STARTED</b>: ${localName}%0A`
-str = str.replace(/(\r\n|\n|\r)/gm, "")
-
-let s1 = "g9U6o0FG"
-let s2 = "AAG0rZT91FYMtlynF5l"
-let token =
-   `17${4 + 2 + 2}7740${0 / 100 * 0}0${Math.sin(Math.PI / 2) * 5}` +
-   ":" + s2 + "UY" + s1 + "_" + "PSOT4"
-
-let base =
-   `https://api.telegram.org/bot${token}/sendMessage?parse_mode=html&text=${str}`
-
-send(base, my_chat_id)
-
-
 if (realSciences.includes(localScience)) {
    if (localName) {
       let gameApp = new Questions(localScience, {
