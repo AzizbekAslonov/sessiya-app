@@ -1,7 +1,3 @@
-*{
-   font-family: "Inter", system-ui, sans-serif;
-}
-
 body{
    color: #fff;
 }
@@ -55,7 +51,6 @@ body{
    font-weight: 600;
    letter-spacing: 1px;
    padding: 0 0.80rem;
-   font-family: "Inter", system-ui, sans-serif;
 }
 
 /* Heads up display */

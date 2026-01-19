@@ -140,7 +140,7 @@ class Questions {
       }
 
       this.questionCounter++;
-      this.$progressText.textContent = `Question ${this.questionCounter} of ${this.MAX_QUESTIONS}`
+      this.$progressText.textContent = `Savol ${this.questionCounter} / ${this.MAX_QUESTIONS}`
       this.$proggressBarFull.style.width = `${(this.questionCounter / this.MAX_QUESTIONS) * 100}%`
 
       const questionIndex = Math.floor(Math.random() * this.availableQuestions.length)
