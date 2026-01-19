@@ -1,4 +1,7 @@
-*{font-family: 'Nova Square', cursive;}
+*{
+   font-family: "Inter", system-ui, sans-serif;
+}
+
 body{
    color: #fff;
 }
@@ -50,9 +53,9 @@ body{
 .choice-text {
    font-size: 20px;
    font-weight: 600;
-   letter-spacing: 1.4px;
+   letter-spacing: 1px;
    padding: 0 0.80rem;
-   font-family: 'Quicksand', sans-serif;
+   font-family: "Inter", system-ui, sans-serif;
 }
 
 /* Heads up display */
