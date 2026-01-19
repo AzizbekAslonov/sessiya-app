@@ -1,784 +1,4 @@
-const realSciences = [
-   'Tarix', 'Dinshunoslik'
-]
-
 const ALL_QUESTIONS = {
-  'Tarix': {
-    "questions": [
-      "Toshkent-Samarqandni bog`lovchi tezyurar poyezd?",
-      "BMTning Bosh kotibi kim?",
-      "O`zbekiston Respublikasi Konstitutsiyasi va qonunlarda necha yoshga to`lgan fuqarolarning saylash huquqiga ega ekanligi belgilab qo`yilgan?",
-      "O`zbekiston Respublikasi Parlamentining quyi palatasi qanday nomlanadi?",
-      "Jamiyatda ikki yoki undan ortiq partiyaning faoliyat yuritishi nima deyiladi?",
-      "Oʻzbekiston Respublikasi Davlat madhiyasi matni kim tomonidan yozilgan?",
-      "Toshkentda birinchi bo`lib qaysi davlatning elchixonasi ochildi?",
-      "Vakolatli davlat organiga saylangan kishi, vakil qanday ataladi?",
-      "Toshkent islom instituti kimning nomiga qo`yilgan?",
-      "Ta`lim, fan va madaniyat masalalari bo`yicha Xalqaro islom tashkiloti qanday nomlanadi?",
-      "Necha yoshdan kam bo`lmagan fuqarolar Prezidentlikka saylanishi mumkin?",
-      "SH.M.Mirziyoyev O`zbekistonda harbiy ta`lim maktablariga qanday nom berishni taklif qilgan?",
-      "Konstitutsiyaga muvofiq o`zbekiston Respublikasining davlat boshlig`i kim?",
-      "Yuneskoning qarorgohi qaysi davlatda joylashgan?",
-      "O`zbekistonning eng yangi tarixi fani qaysi davrni o`rganadi?",
-      "Oliy Majlisning yuqori palatasi qanday nomlanadi?",
-      "Mustaqillik davrida tashkil topgan ilk siyosiy partiya bu qaysi partiya edi?",
-      "Taraqqiyotning “o`zbek modeli” ning asoschisi kim?",
-      "O`zbekiston Respublikasi Oliy Kengashining X sessiyasida 1992 yil 2 iyulda qaysi davlat ramzi qabul qilindi?",
-      "Viloyat va Toshkent shahar hokimi kim tomonidan qonunga muvofiq tayinlanadi hamda lavozimidan ozod etiladi?",
-      "O`zbekiston Respublikasining Davlat gerbida quyidagi qaysi rang mavjud emas?",
-      "Quyidagi qaysi rang qonun ustuvorligi va or nomuslilik ramzi?",
-      "1993 yil 1-noyabrda O`zbekistonda qanday pul muomalaga kiritildi?",
-      "Uzoqqa boruvchi ta`sir vositalari va uslublari; maqsadni istiqbolli dinamik aniqlab olish bu—…?",
-      "Bugungi kunda O`zbekistonda fuqarolarni qamoqqa olishga sanksiya berish huquqi …… o`tkazildi?",
-      "Tuman va shaharlarning hokimlari kim tomonidan tayinlanadi va lavozimidan ozod qilinadi?",
-      "1999-yil — „Alpomish“ dostonining necha yilligi o`tkazildi?",
-      "Innovatsiya- atamasini izohlang.?",
-      "O`zbekistonda favqulodda sudlar tuzishga …….",
-      "BMT homiyligidagi ta`lim, fan va madaniyat bilan shug`ullanuvchi xalqaro tashkilot –bu…",
-      "Mang`itlar sulolasining eng oxirgi vakili?",
-      "O`zbekiston SSRning birinchi poytaxti ni aniqlang",
-      "O`rta Osiyo tarixi haqida ma`lumot beruvchi eng qadimgi manba?",
-      "YUNESKO tomonidan qaysi kun “Xalqaro bag`rikenglik kuni” deb e`lon qilingan?",
-      "O`zbekiston Respublikasining aholisi mustaqillik e`lon qilingan paytda necha kishini tashkil etgan?",
-      "O`zbekistonda so`m valyutasi qachondan muomalaga kiritildi?",
-      "Toshkent xalqaro aeroportiga qachon O`zbekiston Respublikasi birinchi prezidenti I.Karimov nomi berildi?",
-      "Ro`za hayiti qachondan dam olish kuni deb e`lon qilindi?",
-      "Taraqqiyot strategiyasi nechanchi yillarni o`z ichiga oladi?",
-      "Demokratiya so`zining ma`nosi nima?",
-      "“Al Jome` as-Sahih “asari kimning qalamiga mansub?",
-      "“Fikrga qarshi fikr,g`oyaga qarshi g`oya, jaholatga qarshi ….bilan kurashmoq kerak.",
-      "1996 yilda qaysi shaharlar “Amir Temur” ordeni bilan mukofotlandi?",
-      "BMTning doimiy ish oʻrni (shtab kvartirasi) qaysi shaharda joylashgan?",
-      "Yer yuzida tinchlikni mustahkamlash va xavfsizlikni ta`minlash, davlatlarning oʻzaro hamkorligini rivojlantirish maqsadida tashkil etilgan xalqaro tashkilotni aniqlang",
-      "YUNESKO qaroriga binoan qaysi shaharda Markaziy Osiyo tadqiqotlari xalqaro instituti tashkil etilgan?",
-      "O`zbekiston Respublikasi Prezidentining iqtidorli yoshlarning chet ellarga o`qishini qo`llab quvvatlash bo`yicha tashkil etilgan jamg`arma nomini aniqlang.",
-      "Toshkent xalqaro aeroportiga qachon I.Karimov nomi berildi?",
-      "Qachon “O`zDAEWOavto” qo`shma korxonasi ochildi?",
-      "Qachon ”GM-Uzbekistan” qo`shma korxonasi tashkil etildi?",
-      "“Tarix” so`zi qaysi tildan olinib “o`tmish, o`tgan voqealar haqida hikoya qilish” degan manoni beradi?",
-      "Ittifoqdosh respublikalar o`rtasida birinchi bo`lib qaysi birida prezidentlik boshqaruvi joriy qilingan?",
-      "O`zbekiston Respublikasi  Prezidenti saylovi tog`risida”gi qonuni qachon qabul qilingan?",
-      "Qachongacha parlamentimiz Oliy Kengash nomi bilan atalgan?",
-      "2003 -2016- yillarda O`zbekiston respublikasida kim Bosh vazir bo`lgan?",
-      "O`zbekiston Respublikasi parlamenti necha palatadan iborat?",
-      "Buxoro shahri qachon YUNESKO ro`yxatiga kiradi?",
-      "“Buxoro tarixi” asarining muallifi kim?",
-      "O`zbekistonni dengiz yo`liga olib chiqadigan eng yaqin yo`l qaysi davlat orqali o`tgan?",
-      "Mamlakat Prezidenti 1996-yilni ... deb atash to`g`risida farmon qabul qildi",
-      "1994-yilni hukumat qarori bilan mamlakatimizda .... deb e`lon qilindi",
-      "BMT ning Toshkentdagi vakolatxonasi qachon ochilgan?",
-      "O`zbekis-ton qaysi tashkilotga 1991-yilning dekabr oyida a`zo bo`lgan?",
-      "Mustaqil O`zbekistonda ilk bor “Ta`lim to`g`risida”gi qonun qachon qabul qilindi?",
-      "Qachondan 9 may – “Xotira va qadrlash kuni” sifatida nishonlanadigan bo`ldi?",
-      "2023 yilning 30-aprel sanasida referendum o`tkazilib,O`zbekiston Respublikasi Konstitutsiyasiga o`zgartirishlar kiritilishi natijasida,Konstitutsiyamizninig tarkibi...",
-      "1993 yil yanvar oyida Toshkentda tashkil etilgan uchrashuvda qaysi tashkilot tuzildi?",
-      "O`zbekiston maktablari uchun darsliklar necha tilda chop etiladi?",
-      "Toshkentda Temuriylar tarixi davlat muzeyi qachon ochildi?",
-      "Muqaddas kitob-Qur`oni Karim 1992-yilda ilk bor kim tomonidan o`zbek tiliga tarjima qilindi?",
-      "Davlat hokimiyati necha bo`g`inga bo`linadi?",
-      "O`zbekistonda 1996-yida qaysi turdagi mashinalar ishlab chiqildi?",
-      "Shimoliy alyans harbiy bloki (NATO) ga qachon asos solingan?",
-      "Qaysi buyuk bobokalonimiz Humo qushini barcha tirik mavjudotlar ichida eng saxovatlisi deb ta`riflagan?",
-      "O`zbekistonning Birinchi Prezidenti qaysi yilga qadar o`z lavozimida bo`lgan?",
-      "2017-yilgi Harakatlar strategiyasi nechta ustuvor yo`nalishni o`z ichiga oladi?",
-      "1970-1980-yillarda Paxta maydonlariga sepilayotgan zaharli kimyoviy moddalar va defoliantlarning necha turi qo`llanildi?",
-      "“Suyunchi”, “Kelinlar qo`zg`oloni” kabi filmlar rejissori kim edi?",
-      "1980-yillar oxirida Navro`z bayrami, aprel oyining o`rtalaridan sun`iy o`ylab topilgan, qanday nomlangan bayram bilan almashtirilgan?",
-      "Quyidagi arboblardan qaysi biri “O`rta Osiyo jadidlarining otasi” deb tan olingan?",
-      "SSSR qachon parchalandi?",
-      "Jadid so`zinig ma`nosi nima?",
-      "O`zbekistonda qonun chiqaruvchi organ bu qaysi organ?",
-      "O`rta asrning qaysi olimi algebra fani asoschisi hisoblanadi?",
-      "Vijdon erkinligi- bu nima degani ?",
-      "Quyidagi shaxslardan qaysi biri jadid namoyondasi bo`lmagan?",
-      "Mamlakat iqtisodiyotida narx-navoning ko`tarilib, pulning qadrsizlanishi qanday nomlanadi?",
-      "O`zbekiston quyidagi qaysi davlat bilan chegaradosh emas?",
-      "O`zbekistonning qaysi viloyati hududi jihatdan eng katta?",
-      "“Har kim ta`lim olish huquqiga ega. Davlat bepul umumiy o`rta ta`lim va boshlang`ich professional ta`lim olishni kafolatlaydi. Umumiy o`rta ta`lim majburiydir”. Ushbu qoida yangi tahrirdagi Konstitutsiyamizning nechanchi moddasida belgilab qо`yilgan?",
-      "Mamlakatimizda aholining necha yoshgacha bо`lgan qismi yoshlar toifasiga kiritiladi?",
-      "Qaysi sana о`zbekistonda “Yoshlar kuni” sifatida nishonlanadi?",
-      "O`zbekistonda an`anaviy “Sharq taronalari” xalqaro musiqa festivali qaysi shaharda o`tkazib kelinmoqda?",
-      "1991-yilda yurtimizda qaysi allomaning 550 yilligi nishonlangan edi?",
-      "О`zbekiston Ekologik partiyasi qachon tashkil etildi?",
-      "O`zbekiston Respublikasida ijroiya hokimiyat rahbari kim?"
-    ],
-    "answers": [
-      [
-        "- Afrosiyob",
-        "- Marokand",
-        "- Nasaf",
-        "- Lokomotiv"
-      ],
-      [
-        "- Rumen Pudev",
-        "- Si Szinpin",
-        "- Antonio Guterrish",
-        "- Kristin Lagard"
-      ],
-      [
-        "- 18",
-        "- 19",
-        "- 25",
-        "- 21"
-      ],
-      [
-        "- Sotsial",
-        "- Senat",
-        "- Qonunchilik",
-        "- Mulkdorlar"
-      ],
-      [
-        "- Ko`p partiyaviylik",
-        "- Kuchli fuqarolik jamiyati",
-        "- Mahalliy o`zo`zini boshqarish",
-        "- Huquqiy Demokratik tamoyil"
-      ],
-      [
-        "- Alisher Navoiy",
-        "- Muhammad Yusuf",
-        "- Erkin Vohidov",
-        "- Abdulla Oripov"
-      ],
-      [
-        "- Fransiya",
-        "- Turkiya",
-        "- AQSH",
-        "- Rossiya"
-      ],
-      [
-        "- Deputat",
-        "- Delegate",
-        "- Elchi",
-        "- Vazir"
-      ],
-      [
-        "- Al Moturidiy",
-        "- Iso Termiziy",
-        "- Imom Buxoriy",
-        "- Mahmud Zamaxshariy"
-      ],
-      [
-        "- YUNISEF",
-        "- OIK",
-        "- ISESCO",
-        "- YUNESCO"
-      ],
-      [
-        "- 21 yoshdan",
-        "- 35 yoshdan",
-        "- 18 yoshdan",
-        "- 25 yoshdan"
-      ],
-      [
-        "- Temurbeklar maktabi",
-        "- Vatan himoyachilari",
-        "- Yosh vatanparvarlar",
-        "- Manguberdi o`g`lonlari"
-      ],
-      [
-        "- Vazirlar Mahkamasi rahbari",
-        "- Bosh vazir",
-        "- Prezident",
-        "- Oliy Majlis raisi"
-      ],
-      [
-        "- Shvetsariya",
-        "- AQSH",
-        "- Rossiya",
-        "- Fransiyada"
-      ],
-      [
-        "- Sovetlar davrini",
-        "- Mustamlakachilik davrini",
-        "- Milliy istqlol davrini",
-        "- O`rta asrlar davrini"
-      ],
-      [
-        "- Qonunchilik palatasi",
-        "- Prezident administratsiyasi",
-        "- Hukumat kotibiyati",
-        "- Senat"
-      ],
-      [
-        "- O`zbekiston Xalq demokratik partiyasi",
-        "- Fidokorlar milliydemokratik partiyasi",
-        "- Vatan taraqqiyoti partiyasi",
-        "- Erk demokratik partiyasi"
-      ],
-      [
-        "- M.S.Gorbachev",
-        "- I.A.Karimov",
-        "- V.Elsin",
-        "- R.Nishonov"
-      ],
-      [
-        "- O`zbekiston Respublikasining Davlat valyutasi",
-        "- O`zbekiston Respublikasining Davlat madhiyasi",
-        "- O`zbekistonning Davlat gerbi",
-        "- O`zbekiston Respublikasining Davlat bayrog`i"
-      ],
-      [
-        "- O`zbekiston Respublikasi prezidenti",
-        "- Xalq tomonidan",
-        "- Oliy Majlis",
-        "- Vazirlar Mahkamasi"
-      ],
-      [
-        "- Qora",
-        "- Qirmizi",
-        "- Kumush",
-        "- Yashil"
-      ],
-      [
-        "- Moviy havorang",
-        "- Siyoh rang",
-        "- Oq rang",
-        "- Tilla rang"
-      ],
-      [
-        "- so`m-kupon",
-        "- so`m",
-        "- Manat",
-        "- rubl"
-      ],
-      [
-        "- Sanksiya",
-        "- Konversiya",
-        "- Konsepsiya",
-        "- Strategiya"
-      ],
-      [
-        "- Prezidentga",
-        "- Hokimga",
-        "- Sudga",
-        "- Proukrorga"
-      ],
-      [
-        "- O`zbekiston Respublikasi Prezidenti",
-        "- Xalq deputatlari",
-        "- Tegishli viloyat hokimlari",
-        "- Xalq tomonidan"
-      ],
-      [
-        "- 1200 yilligi",
-        "- 1000 yilligi",
-        "- 1700 yilligi",
-        "- 500 yilligi"
-      ],
-      [
-        "- (yun. — tushuncha, ta`limot) Organizmning kimyoviy xususiyatlari, uning immuniteti haqidagi fan",
-        "- – (ingl.— kiritilgan yangilik, ixtiro)",
-        "- – (lot. o`xshatmoq, tenglashtirmoq, baravarlamoq) monandlik. Siyosiy identifikatsiya - u yoki bu siyosiy guruhga o`zini boshqalardan ajratish imkonini beruvchi barqaror belgilar",
-        "- lot.-cōnfessio dinlar va uning shaxobchalari, tarmoqlari, mazhab, oqim va yo`nalishlarini ifodalovchi umumiy tushuncha"
-      ],
-      [
-        "- zarurat sababchi bo`lishi mumkin",
-        "- faqat poytaxtda ruxsat bor",
-        "- yo`l qo`yilmaydi",
-        "- majbur qilinadi"
-      ],
-      [
-        "- UNISEF",
-        "- JST",
-        "- YUNES KO",
-        "- MOQ"
-      ],
-      [
-        "- Amir Olimxon",
-        "- Tuvaxon",
-        "- Xudoyorxon",
-        "- Sherg`ozixon"
-      ],
-      [
-        "- Toshkent",
-        "- Buxoro",
-        "- Samarqand",
-        "- Qo`qon"
-      ],
-      [
-        "- Marhumlar kitobi",
-        "- Rigveda",
-        "- Avesto",
-        "- Videvdat"
-      ],
-      [
-        "- 21 dekabr",
-        "- 16 noyabr",
-        "- 21 fevral",
-        "- 9 may"
-      ],
-      [
-        "- 19,5 mln kishini",
-        "- 21,5 mln kishini",
-        "- 20 mln kishini",
-        "- 31,5 mln kishini"
-      ],
-      [
-        "- 1995 yil noyabrda",
-        "- 1994 yil 1 iyul",
-        "- 1995yil iyunda",
-        "- 1995 yil martda"
-      ],
-      [
-        "- 2017 yil",
-        "- 2018yil",
-        "- 2015 yil",
-        "- 2016 yil"
-      ],
-      [
-        "- 1992 yil 27 martda",
-        "- 1990 yil 27 martda",
-        "- 1991 yil 2 martda",
-        "- 1990 yil 5 avgust"
-      ],
-      [
-        "- 2020-2024 yillar",
-        "- 2022-2026 yillar",
-        "- 2021-2025 yillar",
-        "- 2018-2024 yillar"
-      ],
-      [
-        "- Tasdiqlayman",
-        "- Xalq hokimiyati",
-        "- Oldinda o`tiruvchi",
-        "- Yakka hokimlik"
-      ],
-      [
-        "- Imom al Buxoriy",
-        "- Xoja Ahror Valiy",
-        "- B.Naqshband",
-        "- Burhoniddin al Marg`inoniy"
-      ],
-      [
-        "- madaniyat",
-        "- Tarbiya",
-        "- So`z",
-        "- Ma`rifat"
-      ],
-      [
-        "- Toshkent va Samarqand.",
-        "- Samarqand va Shahrisabz.",
-        "- Qarshi va Shahrisabz.",
-        "- Toshkent va Buxoro."
-      ],
-      [
-        "- Nyu-York",
-        "- Vashington",
-        "- Parij",
-        "- Chikago"
-      ],
-      [
-        "- BMT",
-        "- YUNESKO",
-        "- NATO",
-        "- SHHT"
-      ],
-      [
-        "- Samarqand",
-        "- Buxoro",
-        "- Xiva",
-        "- Toshkent"
-      ],
-      [
-        "- Fitrat",
-        "- Kamolot",
-        "- Umid",
-        "- Ulug`bek"
-      ],
-      [
-        "- 2013-yil",
-        "- 2014-yil",
-        "- 2018-yil",
-        "- 2017 -yil"
-      ],
-      [
-        "- 1995- yil avgust",
-        "- 1994 - yil sentabr",
-        "- 1993 - yil avgust",
-        "- 1996- yil iyul"
-      ],
-      [
-        "- 2009-yil",
-        "- 2007-yil",
-        "- 2003-yil",
-        "- 2008-yil"
-      ],
-      [
-        "- Fors",
-        "- Arab",
-        "- lotin",
-        "- Ingliz"
-      ],
-      [
-        "- O`zbekiston",
-        "- Tojikiston",
-        "- Turkmaniston",
-        "- Qozog`iston"
-      ],
-      [
-        "- 1991-yil 18-noyabr",
-        "- 1991-yil 29-dekabr",
-        "- 1992- yil 10-dekabr",
-        "- 1992 –yil 5-dekabr"
-      ],
-      [
-        "- 1998yil",
-        "- 1997-yil",
-        "- 1999-yil",
-        "- 1995-yil"
-      ],
-      [
-        "- Shavkat Mirziyoyev",
-        "- Shukrullo Mirsaidov",
-        "- Abdulhoshim Mutalibov",
-        "- O`tkir Sultonov"
-      ],
-      [
-        "- 3",
-        "- 2",
-        "- 1",
-        "- 4"
-      ],
-      [
-        "- 1998 yil",
-        "- 1993yil",
-        "- 1995 yil",
-        "- 1999 yil"
-      ],
-      [
-        "- Beruniy",
-        "- Farg`oniy",
-        "- Xorazmiy",
-        "- Narshaxiy"
-      ],
-      [
-        "- Afg`oniston",
-        "- Turkmaniston",
-        "- Hindiston",
-        "- Xitoy"
-      ],
-      [
-        "- “Amir Temur yili”",
-        "- Ibn Sino",
-        "- “Navoiy yili”",
-        "- “Ulug`bek yili”"
-      ],
-      [
-        "- “Ulug`bek yili”",
-        "- “Ibn Sino yili”",
-        "- “Amir Temur yili”",
-        "- “Navoiy yili”"
-      ],
-      [
-        "- 1999-yil 2-avgust",
-        "- 1998-yil 4-avgust",
-        "- 1995-yil 24-avgust",
-        "- 1993-yil 24-avgust"
-      ],
-      [
-        "- BMT",
-        "- Yunesko",
-        "- Yunisef",
-        "- MDH"
-      ],
-      [
-        "- 1994-yil 31-avgustda",
-        "- 2000-yil 15-sentyabrda",
-        "- 1997-yil 27-avgustda",
-        "- 1992-yil 2-iyulda"
-      ],
-      [
-        "- 1998-yil",
-        "- 2001-yil",
-        "- 1999-yil",
-        "- 1997-yil"
-      ],
-      [
-        "- Muqaddi-ma,6 bo`lim,27 bob 155 moddadan iborat bo`ldi",
-        "- Muqadddima,6 bo`lim,28 bob 160 moddadan iborat bo`ldi",
-        "- Muqadddima,6 bo`lim,27 bob 158moddadan iborat bo`ldi",
-        "- Muqadddima,4 bo`lim,30 bob 130 moddadan iborat bo`ldi"
-      ],
-      [
-        "- Mintaqaviy xavfsizlik tashkiloti",
-        "- Kollektiv xavfsizlik kengashi",
-        "- Mustaqil davlatlar Hamdo`stligi",
-        "- Markaziy Osiyo Hamdo`stligi"
-      ],
-      [
-        "- 8 tilda",
-        "- 9 tilda",
-        "- 6 tilda",
-        "- 7 tilda"
-      ],
-      [
-        "- 1994-yilda",
-        "- 1996-yilda",
-        "- 1999-yilda",
-        "- 1998-yilda"
-      ],
-      [
-        "- Sams Tabriziy tomonidan",
-        "- Alouddin Mansur tomonidan",
-        "- Shamsiddin Toshkandiy tomonidan",
-        "- Abdulaziz Samarqandiy tomonidan"
-      ],
-      [
-        "- 4",
-        "- 2",
-        "- 3",
-        "- 1"
-      ],
-      [
-        "- Nexia,Chevrolet Spark",
-        "- Matiz,yangilangan Damas",
-        "- Matiz, Nexia Donc",
-        "- Damas, Tico, Nexia"
-      ],
-      [
-        "- 1949 yil 4 aprel",
-        "- 2005 yil 19 dekabr",
-        "- 2001 yil 14 iyun",
-        "- 1945 yil 24 oktyabr"
-      ],
-      [
-        "- Amir Temur",
-        "- Mirzo Ulug`bek",
-        "- Bobur",
-        "- Аlisher Navoiy"
-      ],
-      [
-        "- 2023-yil 30-mart",
-        "- 1992-yil",
-        "- 1993-yil 26-sentabrda",
-        "- 2016-yil"
-      ],
-      [
-        "- 5",
-        "- 2",
-        "- 12",
-        "- 6"
-      ],
-      [
-        "- 80 dan ortiq turi",
-        "- 90 dan ortiq turi",
-        "- 100 dan ortiq turi",
-        "- 70 dan ortiq turi"
-      ],
-      [
-        "- L.Fayziyev",
-        "- А.Qobulov",
-        "- M.Аbzalov",
-        "- L.Fayziyev"
-      ],
-      [
-        "- “Mehrjon”",
-        "- “Navbahor”",
-        "- “Qizil karvon”",
-        "- “Paxta bayrami”"
-      ],
-      [
-        "- Abdurauf Fitrat",
-        "- Abdulla Avloniy",
-        "- M.Behbudiy",
-        "- Munavvar Qori"
-      ],
-      [
-        "- 1991-yil",
-        "- 1995-yil",
-        "- 1989-yil",
-        "- 1993yil"
-      ],
-      [
-        "- Boshlash",
-        "- Yangi",
-        "- O`zgartirish",
-        "- Eski"
-      ],
-      [
-        "- Oliy Majlis",
-        "- Vazirlar mahkamasi",
-        "- Prokuratura",
-        "- Konstitutsiyaviy sud"
-      ],
-      [
-        "- Al-Farobiy",
-        "- Al-Beruniy",
-        "- Al-Farg`oniy",
-        "- Al-Xorazmiy"
-      ],
-      [
-        "- Dinga e`tiqot qilish",
-        "- Dinga e`tiqot qilmaslik",
-        "- Dinlararo totuvlik",
-        "- Xohlagan diniga e`tiqot qilish yoki qilmaslik"
-      ],
-      [
-        "- Abduqodir Shukuriy",
-        "- Hamid Olimjon",
-        "- Hamza",
-        "- Abdulla Avloniy"
-      ],
-      [
-        "- Integratsiya",
-        "- Konvertizatsiya",
-        "- Emissiya",
-        "- Inflyatsiya"
-      ],
-      [
-        "- Afg`oniston",
-        "- Qirg`iziston",
-        "- Eron",
-        "- Turkmaniston"
-      ],
-      [
-        "- Navoiy",
-        "- Samarqand",
-        "- Buxoro",
-        "- Qashqadaryo"
-      ],
-      [
-        "- 38-modda",
-        "- 12-modda",
-        "- 50-modda",
-        "- 41-modda"
-      ],
-      [
-        "- 30 yoshgacha",
-        "- 18 yoshgacha",
-        "- 13 yoshgacha",
-        "- 25 yoshgacha"
-      ],
-      [
-        "- 8-dekabr",
-        "- 30-iyun",
-        "- 1-yanvar",
-        "- 2-iyul"
-      ],
-      [
-        "- Samarqand",
-        "- Namangan",
-        "- Andijon",
-        "- Buxoro"
-      ],
-      [
-        "- Bobur",
-        "- Alisher Navoiy",
-        "- Amir Temur",
-        "- Mirzo Ulug`bek"
-      ],
-      [
-        "- 2019-yil yanvarda",
-        "- 2017-yil fevralda",
-        "- 2013-yil mayda",
-        "- 2018-yil oktabrda"
-      ],
-      [
-        "- Senat raisi",
-        "- Bosh vazir",
-        "- Spiker",
-        "- Oliy Majlis raisi"
-      ]
-    ],
-    "correctAnswers": [
-      1,
-      3,
-      1,
-      3,
-      1,
-      4,
-      3,
-      1,
-      3,
-      3,
-      2,
-      1,
-      3,
-      4,
-      3,
-      4,
-      1,
-      2,
-      3,
-      1,
-      2,
-      2,
-      1,
-      4,
-      3,
-      3,
-      2,
-      2,
-      3,
-      3,
-      1,
-      2,
-      3,
-      2,
-      2,
-      2,
-      1,
-      1,
-      2,
-      2,
-      1,
-      4,
-      2,
-      1,
-      1,
-      1,
-      3,
-      4,
-      4,
-      2,
-      2,
-      1,
-      1,
-      4,
-      1,
-      2,
-      2,
-      4,
-      1,
-      1,
-      1,
-      4,
-      4,
-      4,
-      3,
-      1,
-      4,
-      4,
-      2,
-      2,
-      3,
-      4,
-      1,
-      4,
-      4,
-      1,
-      1,
-      3,
-      2,
-      3,
-      1,
-      2,
-      1,
-      4,
-      4,
-      2,
-      4,
-      3,
-      1,
-      3,
-      1,
-      2,
-      1,
-      2,
-      1,
-      2
-    ]
-  },
   'Dinshunoslik': {
     "questions": [
       "Zardushtiylik ta`limotiga ko`ra, Zardusht necha yoshga yetganida unga payg`ambarlik vazifasi berilgan?",
@@ -1577,6 +797,2414 @@ const ALL_QUESTIONS = {
       4,
       2,
       2
+    ]
+  },
+  'Rus Tili': {
+    "questions": [
+      "Что означает имя существительное?",
+      "На какие вопросы отвечают слова: птица, девочка, отец?",
+      "Слова солнце, звезда, яблоко отвечают на вопрос…",
+      "Одушевлённые существительные- это…",
+      "На какие вопросы отвечает имя существительное?",
+      "Выберите вариант ответа, где указаны существительные только мужского рода",
+      "Сколько падежей в русском языке?",
+      "Подберите правильный вариант ответа: … студент",
+      "В каком варианте есть только существительные?",
+      "Какого рода существительные школа, звезда, мама?",
+      "Какого рода слова небо, лицо, поле?",
+      "Выберите вариант ответа, где указан существительное мужского рода",
+      "В каком варианте есть существительное единственного числа?",
+      "Травы, корзины, города, деревни – это существительные…",
+      "В каком ряду слова отвечают на вопрос что?",
+      "В каком ряду все слова отвечают на вопрос кто?",
+      "Определите род слова окно",
+      "Укажите правильный перевод слова ухо",
+      "Укажите правильный перевод слова печень",
+      "Укажите правильный перевод слова здоровье",
+      "Когда Узбекистан отмечает праздник День независимости?",
+      "Выберите вариант с правильным переводом слова Родина",
+      "Сколько областей в Узбекистане?",
+      "Когда была принята конституция Узбекистана?",
+      "Сколько лет исполнилось Независимости Узбекистана в этом году?",
+      "Какой город является столицей Узбекистана?",
+      "Найдите правильный вариант ответа",
+      "Имя прилагательное отвечает на вопросы…",
+      "Прилагательное обозначает",
+      "Вместо точек вставьте слова в нужной форме В центре города находится…школа.",
+      "Определите ряд, в котором даны профессии людей",
+      "Дополните предложение Азиз хочет стать…",
+      "Найдите правильный вариант ответа",
+      "Найдите правильный вариант ответа",
+      "Какое прилагательное отвечает на вопрос чей?",
+      "Найдите главные члены предложения. Я учусь на фармацевтическом факультете",
+      "Найдите сказуемое в предложении Студент учится хорошо.",
+      "В каком ряду даны главные члены предложения?",
+      "Подберите правильный вариант ответа… студент",
+      "Найдите правильный вариант ответа Мы в субботу ... в музее",
+      "Второстепенные члены предложения- это …",
+      "Дополнение отвечает на вопросы…",
+      "Определение отвечает на вопросы…",
+      "Ответьте на вопрос Чем мы гордимся?",
+      "Подберите прилагательное к слову … сок",
+      "Подберите прилагательное к слову … человек",
+      "Описание цвета предмета в варианте…",
+      "Выберите правильное окончание прилагательного Красн… роза",
+      "Сколько у человека всего зубов?",
+      "Укажите размер предмета",
+      "Как переводится слово yurak?",
+      "Как переводится слово qorin?",
+      "На какой вопрос отвечает слово здоровый?",
+      "Укажите форму предмета.",
+      "Укажите стоматологическое заболевание",
+      "В каком ряду даны собственные имена существительные?",
+      "Как переводится слово желудок?",
+      "Полость рта – это",
+      "Сколько раз нужно чистить зубы в день?",
+      "Найдите правильный вариант ответа У меня болит горло. Я иду к …",
+      "Найдите правильный вариант ответа: У меня есть … шарф",
+      "Напишите правильное окончание прилагательного: здоров… орган",
+      "Выберите вариант с существительным множественного числа",
+      "Укажите одушевлённое существительное",
+      "Укажите порядковое числительное.",
+      "Врач-стоматолог лечит …",
+      "Подберите подходящее слово … желудок",
+      "Укажите формулу прощания",
+      "Имя числительное отвечает на вопросы…",
+      "Найдите правильный перевод слова лечить",
+      "Где находится университет Азия?",
+      "Найдите правильный перевод слова больные зубы",
+      "Напишите правильное окончание прилагательного: холодн… зима",
+      "Анвар учится … университете.",
+      "Мне … профессия врача",
+      "Врач … больных",
+      "… болею",
+      "Врачи леч… больных",
+      "На какие вопросы отвечает глагол?",
+      "Вместо точек вставьте глаголы в нужной форме Я … интересную книгу",
+      "Вместо точек вставьте глаголы в нужной формеЯ…. профессию",
+      "Вставьте подходящее слово … учишься в университете",
+      "Сейчас зима. На улице …",
+      "Вставьте пропущенные окончания Нов… год",
+      "Когда идёт снег?",
+      "Вставьте пропущенные окончания Я любл… Родину",
+      "… зовут Малика",
+      "Вставьте пропущенные окончания Азиз чист.. зубы",
+      "Вставьте подходящее слово Я люблю …",
+      "Вставьте пропущенные окончания Зима холодн…",
+      "Укажите глагол в настоящем времени",
+      "Напишите слово в нужной форме. Я подарил … телефон",
+      "Дополните предложение. Наргиза хочет стать…",
+      "Найдите глагол будущего времени",
+      "Найдите правильный вариант ответа Мама купила…Торт",
+      "Укажите существительное женского рода",
+      "Укажите существительное мужского рода",
+      "Укажите существительное среднего рода",
+      "Как переводится слово заболевание?",
+      "Укажите правильный перевод слова здоровый",
+      "Больных зубов нужно вовремя …",
+      "Вставьте вместо точек слово в нужной форме … ноги болят",
+      "Где родился Абу Али ибн Сина?",
+      "Как переводится словосочетание og`iz bo`shlig`i?",
+      "Вставьте вместо точек подходящее слово Врач-стоматолог лечит …",
+      "Вставьте вместо точек слово в нужной форме. У меня болит…",
+      "Вставьте вместо точек слово в нужной форме. Мама купила в аптеке…",
+      "Вставьте вместо точек нужное слово Я люблю холодную погоду, мне нравится…",
+      "Когда отмечаем праздник Навруз?",
+      "Вставьте вместо точек правильный вариант слова … семья небольшая.",
+      "Вставьте вместо точек правильный вариант слова Я … свою семью",
+      "Вставьте вместо точек правильный вариант слова Моя Родина-…",
+      "Вставьте вместо точек подходящее слово У меня есть брат. … учится в университете",
+      "Это ручка…",
+      "Как переводятся слова болезнь, заболевание, недуг?",
+      "Какой снег?",
+      "Вставьте вместо точек подходящее слово Мой брат окулист. Он лечит …",
+      "Как называется работник аптеки?",
+      "Специалист с высшим фармацевтическим образованием",
+      "Специалист со средним фармацевтическим образованием",
+      "Как называется лечебное применение температурного фактора?",
+      "Это направление медицины, где лечение проводятся при помощи рук врача",
+      "Вид лечения, в котором качестве лекарственных средств используются растения",
+      "Это мануальная терапия, направленная на правильное выравнивание позвоночника, уменьшение боли и улучшение подвижности",
+      "Это часть речи, которая употребляется вместо существительного, прилагательного и числительного.",
+      "Я, ты, он, она…Какие это местоимения?",
+      "Этот, тот. Какие это местоимения?",
+      "Себя. Какое это местоимение?",
+      "Кто? что? какой? Какие это местоимения?",
+      "Никто, ничто, нигде. Какие это местоимения?",
+      "Кто-то, что-то, где-то. Какие это местоимения?",
+      "Мой, твой, наш. Какие это местоимения?",
+      "Он не любит …",
+      "Кто это с … ?",
+      "Аптекарь. Определите род слова",
+      "Новость, старость, молодость. Определите род слов.",
+      "Учитель, строитель. Определите род слов.",
+      "Определите время глагола. Я читаю книги.",
+      "Определите время глагола. Я прочитал книги.",
+      "Определите время глагола. Я буду читать книги.",
+      "Вставьте нужный глагол. Я … ужин.",
+      "Вставьте нужный глагол. Они …в университете",
+      "Новогодн…подарки",
+      "Кардиолог лечит…",
+      "Ревматолог лечит…",
+      "Педиатр лечит …",
+      "Гинеколог лечит …",
+      "Это наука о строении человека, его органов и тканей",
+      "Это наука, изучающая процессы жизнедеятельности человека, его органов и тканей.",
+      "Укажите собственное существительное",
+      "Укажите собственное существительное",
+      "Укажите собственное существительное",
+      "Укажите собственное существительное",
+      "Укажите нарицательное существительное",
+      "Укажите нарицательное существительное",
+      "Укажите собственное существительное",
+      "Укажите собственное существительное",
+      "Укажите одушевлённое существительное",
+      "Укажите одушевлённое существительное",
+      "Укажите одушевлённое существительное",
+      "Укажите одушевлённое существительное",
+      "Укажите неодушевлённое существительное",
+      "Укажите неодушевлённое существительное",
+      "Укажите неодушевлённое существительное",
+      "Укажите неодушевлённое существительное",
+      "Укажите неодушевлённое существительное",
+      "Сколько родов в русском языке?",
+      "Сколько чисел в русском языке?",
+      "Он-мой слово-помощник какого рода?",
+      "Она-моя слово-помощник какого рода?",
+      "Оно-моё слово-помощник какого рода?",
+      "Они-мои слово-помощник какого числа?",
+      "Найдите лишнее слово",
+      "Найдите лишнее слово",
+      "Найдите лишнее слово",
+      "Найдите лишнее слово",
+      "Найдите лишнее слово",
+      "Найдите лишнее слово",
+      "Найдите лишнее слово",
+      "Сколько систем органов у человека?",
+      "Сколько видов тканей есть в организме человека?",
+      "Наука о клетке называется…",
+      "Члены предложения делятся на …",
+      "Главные члены – это…",
+      "Второстепенные члены предложения-?",
+      "Эпителиальная, мышечная …это?",
+      "Дарю цветы …",
+      "Глазное ….",
+      "Грудная …",
+      "Турецкое …",
+      "Слепая …",
+      "Солнечный …",
+      "Щитовидная …",
+      "Переведите на русский язык ko`krak bo`shlig`i",
+      "Переведите на русский язык to`sh",
+      "Переведите на русский язык qovurg`a",
+      "Переведите на русский язык orqa miya",
+      "Переведите на русский язык taloq",
+      "Переведите на русский язык siydik pufagi",
+      "Переведите на русский язык o`t qopi",
+      "Из скольких частей состоит позвоночный столб?",
+      "Какую систему образуют сердце, сосуды?",
+      "Кто доказал, что сердце работает как насос?",
+      "Кровь, богатая кислородом называется …",
+      "Мельчайший сосуд называется…",
+      "Какая кровь алая?",
+      "Какая кровь тёмная?",
+      "Диаметр чего 50 раз меньше волоса?",
+      "Какие клетки защищает организм от болезней?",
+      "Какие клетки остановливают кровь?",
+      "Какие клетки переносят кислород по телу?",
+      "Вставьте нужное слово. Вкусное …",
+      "Вставьте нужное слово. Вкусное …",
+      "Вставьте нужное слово. Сильный …",
+      "Вставьте нужное слово….роза",
+      "Вставьте нужное слово. ….дом",
+      "Вставьте нужное слово…куртка",
+      "Вставьте нужное слово…кишка",
+      "Вставьте нужное слово …кольцо",
+      "Вставьте нужное слово Отцов …",
+      "Найдите прилагательное",
+      "Найдите существительное",
+      "Книга какая?",
+      "Самый тяжёлый орган?",
+      "Укажите простое числительное",
+      "Укажите простое числительное",
+      "Укажите простое числительное",
+      "Какой орган внешне состоит из коронки, шейки и корня?",
+      "Самая сильная мышца?",
+      "Длина этого органа от 6 до 7 метров",
+      "Какой орган производит инсулин?",
+      "Укажите наречие",
+      "Укажите наречие",
+      "Укажите наречие",
+      "Укажите наречие",
+      "Укажите наречие",
+      "Вставьте нужное слово. Ходить…",
+      "Что такое hansirash?",
+      "Что такое ko`ngil aynishi?",
+      "Что такое qusish?",
+      "Что такое holsizlik?",
+      "Что такое balg`am?",
+      "Это история развития настоящего заболевания.",
+      "Найдите существительное",
+      "Красный. Это какой признак?",
+      "Круглый. Это какой признак?",
+      "Солёный. Это какой признак?",
+      "Это какой признак? Ароматный",
+      "Это какой признак? Огромный",
+      "Это какой признак? Чёрный",
+      "Найдите правильный перевод слова bosh",
+      "Найдите правильный перевод слова ko`z",
+      "Найдите правильный перевод слова bel",
+      "Найдите правильный перевод слова orqa",
+      "Найдите правильный перевод слова buyrak",
+      "Найдите правильный перевод слова son",
+      "Найдите правильный перевод слова boldir",
+      "Найдите правильный перевод слова tizza",
+      "Найдите правильный перевод слова oshqozon",
+      "Найдите правильный перевод слова peshana",
+      "Найдите правильный перевод слова chakka",
+      "Найдите правильный перевод слова ensa",
+      "Найдите правильный перевод слова boshning tepa qismi",
+      "Найдите правильный перевод слова umurtqa",
+      "Найдите правильный перевод слова bo`yin",
+      "Найдите правильный перевод слова yelka",
+      "Найдите правильный перевод слова bilak",
+      "Найдите правильный перевод слова kaft",
+      "Найдите правильный перевод слова teri",
+      "Найдите правильный перевод слова barmoq",
+      "Лечение подобного подобным. Как называется такой метод лечения?",
+      "Это метод традиционной китайской медицины, при котором тонкие иглы вводятся в определенные точки на теле",
+      "Как называется мужское начало?",
+      "Как называется женское начало?",
+      "Когда родился Абу Али ибн Сино?",
+      "Когда умер Абу Али ибн Сино?",
+      "Сколько лет прожил Абу Али ибн Сино?",
+      "Кто является автором книги «Канун врачебной науки»?",
+      "Что собирают врачи, прежде чем приступить к лечению пациента?",
+      "У какого из этих медицинских специалистов самые молодые пациенты?",
+      "Кто в госпитале погружает пациента в глубокий сон перед операцией?",
+      "Что окулист подбирает пациенту?",
+      "К кому обращаются с заболеваниями почек?",
+      "Кто из этих специалистов является главным борцом с вредными привычками человека?",
+      "В какой театр ходят только медики?",
+      "Как в народе называют автомобиль «Скорой помощи»?",
+      "Какая из перечисленных всемирных организаций является медицинской?",
+      "…. называются вещества, применяемые с целью лечения заболевания",
+      "Найдите синоним слова врач.",
+      "Укажите жидкое лекарство",
+      "Укажите твёрдое лекарство",
+      "Укажите мягкое лекарство",
+      "Укажите газообразное лекарство",
+      "Укажите лекарство микробного характера",
+      "Укажите лекарства растительного происхождения",
+      "Укажите лекарства минерального происхождения",
+      "Укажите лекарства животного происхождения",
+      "Кого Абу Али ибн Сино считал своим 1-учителем?",
+      "Кого Абу Али ибн Сино считал своим 2-учителем?",
+      "Что такое апитерапия?"
+    ],
+    "answers": [
+      [
+        "предмет",
+        "Число",
+        "признак",
+        "действие"
+      ],
+      [
+        "какой?",
+        "что?",
+        "кто?",
+        "как?"
+      ],
+      [
+        "что?",
+        "где?",
+        "какой?",
+        "кто?"
+      ],
+      [
+        "девочка, дерево, чайник",
+        "стол, книга, дерево,",
+        "мальчик, белка, слон",
+        "папа, чашка, школа"
+      ],
+      [
+        "кто? что?",
+        "сколько?",
+        "какой? какая?",
+        "что делать?"
+      ],
+      [
+        "Труд, группа",
+        "Труд, дело",
+        "Школа, природа",
+        "Человек, студент"
+      ],
+      [
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      [
+        "умный",
+        "умное",
+        "умные",
+        "умная"
+      ],
+      [
+        "Хорошо, красиво",
+        "Идёт, прийти",
+        "Человек, студент",
+        "Трудовой, групповой"
+      ],
+      [
+        "общего",
+        "среднего",
+        "женского",
+        "мужского"
+      ],
+      [
+        "женского",
+        "среднего",
+        "общего",
+        "мужского"
+      ],
+      [
+        "стадион",
+        "сестра",
+        "птица",
+        "поле"
+      ],
+      [
+        "парты",
+        "ложки",
+        "компьютер",
+        "ножи"
+      ],
+      [
+        "Женского рода",
+        "Единственного числа",
+        "Мужского рода",
+        "Множественного числа"
+      ],
+      [
+        "мощный, быстрый, ловкий",
+        "бежит, лежать, прыгать",
+        "яблоко, забор, туча",
+        "красное, вкусное, сильное"
+      ],
+      [
+        "класс, заяц, собака",
+        "черепаха, водитель, машина",
+        "дерево, лес, чайник",
+        "моряк, повар, дедушка."
+      ],
+      [
+        "средний род",
+        "множественное число",
+        "женский род",
+        "мужской род"
+      ],
+      [
+        "oyoq",
+        "quloq",
+        "tomoq",
+        "tanglay"
+      ],
+      [
+        "milk",
+        "til",
+        "jigar",
+        "buyrak"
+      ],
+      [
+        "sog`lik",
+        "sog`lom",
+        "bemor",
+        "kasallik"
+      ],
+      [
+        "1-декабря",
+        "1-сентября",
+        "1-августа",
+        "1-мая"
+      ],
+      [
+        "viloyat",
+        "vatan",
+        "tuman",
+        "buloq"
+      ],
+      [
+        "12",
+        "13",
+        "15",
+        "14"
+      ],
+      [
+        "2-октября",
+        "1-декабря",
+        "1-января",
+        "8-декабря"
+      ],
+      [
+        "45",
+        "50",
+        "34",
+        "40"
+      ],
+      [
+        "Бухара",
+        "Хива",
+        "Ташкент",
+        "Самарканд"
+      ],
+      [
+        "старая город",
+        "старый город",
+        "старое город",
+        "старые город"
+      ],
+      [
+        "кто? что?",
+        "какой? чей?",
+        "как? что?",
+        "сколько? где?"
+      ],
+      [
+        "предмет",
+        "количество",
+        "признак",
+        "действие"
+      ],
+      [
+        "старый",
+        "старое",
+        "старая",
+        "старые"
+      ],
+      [
+        "Учитель, врач",
+        "Молодой, умный",
+        "История, химия",
+        "Школьник, ученик"
+      ],
+      [
+        "фармацевту",
+        "фармацевтом",
+        "фармацевта",
+        "фармацевте"
+      ],
+      [
+        "вкусные яблоко",
+        "вкусный яблоко",
+        "вкусное яблоко",
+        "вкусная яблоко"
+      ],
+      [
+        "сладкий груша",
+        "сладкая груша",
+        "сладкие груша",
+        "сладкое груша"
+      ],
+      [
+        "сладкая груша",
+        "бабушкин дом",
+        "старый друг",
+        "вкусное яблоко"
+      ],
+      [
+        "на фармацевтическом факультете",
+        "я учусь",
+        "учусь на факультете",
+        "учусь на фармацевтическом"
+      ],
+      [
+        "учится",
+        "нет сказуемого",
+        "хорошо",
+        "студент"
+      ],
+      [
+        "Подлежащее, сказуемое",
+        "Сказуемое, определение",
+        "Подлежащее,дополнение",
+        "Обстоятельство, подлежащее"
+      ],
+      [
+        "здоровые",
+        "здоровый",
+        "здоровая",
+        "здоровое"
+      ],
+      [
+        "была",
+        "были",
+        "был",
+        "было"
+      ],
+      [
+        "дополнение, определение, обстоятельство",
+        "определение, обстоятельство",
+        "подлежащее, сказуемое,",
+        "дополнение, определение"
+      ],
+      [
+        "правильных падежей",
+        "почему? зачем?",
+        "кто? что?",
+        "косвенных падежей"
+      ],
+      [
+        "где? что?",
+        "какой? чей?",
+        "косвенных падежей",
+        "какой? чей?"
+      ],
+      [
+        "Родиной",
+        "Родина",
+        "Родину",
+        "о Родине"
+      ],
+      [
+        "сладкий",
+        "узкий",
+        "солёный",
+        "железный"
+      ],
+      [
+        "здоровый",
+        "здоровая",
+        "здоровое",
+        "здоровые"
+      ],
+      [
+        "вкусный суп",
+        "длинная лента",
+        "белый снег",
+        "холодный день"
+      ],
+      [
+        "ый",
+        "ое",
+        "ые",
+        "ая"
+      ],
+      [
+        "45",
+        "35",
+        "40",
+        "32"
+      ],
+      [
+        "круглый стол",
+        "большой стол",
+        "красный цветок",
+        "вкусный плов"
+      ],
+      [
+        "печень",
+        "сердце",
+        "почка",
+        "грудь"
+      ],
+      [
+        "живот",
+        "плечо",
+        "сердце",
+        "почка"
+      ],
+      [
+        "какой?",
+        "какие?",
+        "какое?",
+        "какая?"
+      ],
+      [
+        "вкусный торт",
+        "белые цветы",
+        "зелёный карандаш",
+        "круглый стол"
+      ],
+      [
+        "кариес",
+        "простуда",
+        "ревматизм",
+        "ангина"
+      ],
+      [
+        "Дорога, аэропорт",
+        "Бухара, Москва",
+        "Город, дедушка",
+        "Январь, друг"
+      ],
+      [
+        "bel",
+        "oshqozon",
+        "yurak",
+        "ichak"
+      ],
+      [
+        "jigar",
+        "buyrak",
+        "oshqozon",
+        "og`iz bo`shlig`i"
+      ],
+      [
+        "2 раза",
+        "5 раз",
+        "3 раза",
+        "не нужно чистить"
+      ],
+      [
+        "отоларингологу",
+        "дерматологу",
+        "психологу",
+        "окулисту"
+      ],
+      [
+        "красивый",
+        "красивая",
+        "красивые",
+        "красивое"
+      ],
+      [
+        "-ые",
+        "-ое",
+        "-ая",
+        "-ый"
+      ],
+      [
+        "школа",
+        "университет",
+        "студент",
+        "врачи"
+      ],
+      [
+        "книга",
+        "машина",
+        "самолёт",
+        "брат"
+      ],
+      [
+        "один",
+        "шесть",
+        "первый",
+        "восемь"
+      ],
+      [
+        "зубы",
+        "ноги",
+        "печень",
+        "сердце"
+      ],
+      [
+        "больное",
+        "больная",
+        "больные",
+        "больной"
+      ],
+      [
+        "спасибо",
+        "привет!",
+        "здравствуй!",
+        "до встречи!"
+      ],
+      [
+        "кто? что?",
+        "какой? сколько?",
+        "где? откуда?",
+        "что делать? что сделать?"
+      ],
+      [
+        "uxlamoq",
+        "davolamoq",
+        "yugurmoq",
+        "chizmoq"
+      ],
+      [
+        "в Джиззаке",
+        "в Наваи",
+        "в Бухаре",
+        "в Карши"
+      ],
+      [
+        "tortilgan tishlar",
+        "davolangantishlar",
+        "soglom tishlar",
+        "кasal tishlar"
+      ],
+      [
+        "-ая",
+        "-ое",
+        "-ые",
+        "-ый"
+      ],
+      [
+        "с",
+        "до",
+        "на",
+        "в"
+      ],
+      [
+        "думать",
+        "читать",
+        "рассказать",
+        "нравится"
+      ],
+      [
+        "лечит",
+        "лечишь",
+        "лечите",
+        "лечу"
+      ],
+      [
+        "я",
+        "мы",
+        "он",
+        "ты"
+      ],
+      [
+        "-еют",
+        "-ишь",
+        "-ат",
+        "-ите"
+      ],
+      [
+        "сколько? как?",
+        "что делать? что сделать?",
+        "кто? что?",
+        "какой? какая?"
+      ],
+      [
+        "читают",
+        "прочитает",
+        "читаю",
+        "читаешь"
+      ],
+      [
+        "люблю",
+        "любите",
+        "любишь",
+        "любим"
+      ],
+      [
+        "они",
+        "ты",
+        "мы",
+        "я"
+      ],
+      [
+        "холодно",
+        "холодные",
+        "холодный",
+        "холодное"
+      ],
+      [
+        "-ыми",
+        "-ое",
+        "-ая",
+        "-ый"
+      ],
+      [
+        "летом",
+        "осенью",
+        "весной",
+        "зимой"
+      ],
+      [
+        "-ёшь",
+        "-ю",
+        "-ют",
+        "-ите"
+      ],
+      [
+        "он",
+        "мы",
+        "вы",
+        "меня"
+      ],
+      [
+        "-у",
+        "-ят",
+        "-ит",
+        "-ёшь"
+      ],
+      [
+        "маму",
+        "о маме",
+        "мамой",
+        "мамы"
+      ],
+      [
+        "-ое",
+        "-ый",
+        "-ая",
+        "-ые"
+      ],
+      [
+        "читаю",
+        "читал",
+        "прочитал",
+        "читать"
+      ],
+      [
+        "о брате",
+        "брату",
+        "братой",
+        "брат"
+      ],
+      [
+        "врачом",
+        "врач",
+        "врачу",
+        "о враче"
+      ],
+      [
+        "лечишь",
+        "буду лечить",
+        "лечат",
+        "лечу"
+      ],
+      [
+        "вкусный",
+        "вкусное",
+        "вкусная",
+        "вкусные"
+      ],
+      [
+        "университет",
+        "анатомия",
+        "океан",
+        "здание"
+      ],
+      [
+        "профессия",
+        "стекло",
+        "фабрика",
+        "завод"
+      ],
+      [
+        "зуб",
+        "плечо",
+        "глаза",
+        "нога"
+      ],
+      [
+        "kasal",
+        "kasallik",
+        "davolanmoq",
+        "tuzalmoq"
+      ],
+      [
+        "tuzalmoq",
+        "kasal",
+        "sog`, sog`lom",
+        "sog`aymoq"
+      ],
+      [
+        "лечить",
+        "лечишь",
+        "лечу",
+        "лечат"
+      ],
+      [
+        "мои",
+        "ваш",
+        "твоя",
+        "наша"
+      ],
+      [
+        "в Ташкенте",
+        "в Самарканде",
+        "в Бухаре",
+        "в Наваи"
+      ],
+      [
+        "ротовая полость",
+        "зубы",
+        "нёбо",
+        "желудок"
+      ],
+      [
+        "Почки",
+        "Зубы",
+        "Печень",
+        "Лёгкие"
+      ],
+      [
+        "пальцы",
+        "горло",
+        "руки",
+        "ноги"
+      ],
+      [
+        "телефон",
+        "лекарства",
+        "хлеб",
+        "газету"
+      ],
+      [
+        "лето",
+        "весна",
+        "осень",
+        "зима"
+      ],
+      [
+        "зимой",
+        "весной",
+        "осенью",
+        "летом"
+      ],
+      [
+        "моя",
+        "мой",
+        "мои",
+        "моё"
+      ],
+      [
+        "любите",
+        "любит",
+        "люблю",
+        "любят"
+      ],
+      [
+        "об Узбекистане",
+        "Узбекистану",
+        "Узбекистаном",
+        "Узбекистан"
+      ],
+      [
+        "она",
+        "они",
+        "оно",
+        "он"
+      ],
+      [
+        "моя",
+        "моё",
+        "мой",
+        "мои"
+      ],
+      [
+        "davolash",
+        "kasallik",
+        "sog`",
+        "sog`lik"
+      ],
+      [
+        "белая",
+        "белый",
+        "белые",
+        "белое"
+      ],
+      [
+        "зубы",
+        "почки",
+        "глаза",
+        "сердце"
+      ],
+      [
+        "стоматолог",
+        "токарь",
+        "фармацевт",
+        "маляр"
+      ],
+      [
+        "фармацевт",
+        "хирург",
+        "провизор",
+        "терапевт"
+      ],
+      [
+        "хирург",
+        "терапевт",
+        "фармацевт",
+        "провизор"
+      ],
+      [
+        "хиропрактика",
+        "акупунктура",
+        "натуротерапия",
+        "термотерапия"
+      ],
+      [
+        "остеопатия",
+        "натуротерапия",
+        "термотерапия",
+        "акупунктура"
+      ],
+      [
+        "термотерапия",
+        "остеопатия",
+        "акупунктура",
+        "фитотерапия"
+      ],
+      [
+        "термотерапия",
+        "акупунктура",
+        "натуротерапия",
+        "хиропрактика"
+      ],
+      [
+        "наречие",
+        "глагол",
+        "прилагательное",
+        "местоимение"
+      ],
+      [
+        "возвратные",
+        "указательные",
+        "личные",
+        "вопросительные"
+      ],
+      [
+        "указательные",
+        "вопросительные",
+        "возвратные",
+        "личные"
+      ],
+      [
+        "возвратные",
+        "личные",
+        "вопросительные",
+        "указательные"
+      ],
+      [
+        "указательные",
+        "вопросительные",
+        "личные",
+        "возвратные"
+      ],
+      [
+        "отрицательные",
+        "личные",
+        "указательные",
+        "вопросительные"
+      ],
+      [
+        "указательные",
+        "возвратные",
+        "неопределённые",
+        "личные"
+      ],
+      [
+        "указательные",
+        "неопределённые",
+        "личные",
+        "притяжательные"
+      ],
+      [
+        "ты",
+        "меня",
+        "я",
+        "наш"
+      ],
+      [
+        "мой",
+        "вами",
+        "вы",
+        "ваш"
+      ],
+      [
+        "мужской",
+        "средний",
+        "не имеет рода",
+        "женский"
+      ],
+      [
+        "средний",
+        "женский",
+        "не имеет рода",
+        "мужской"
+      ],
+      [
+        "мужской",
+        "женский",
+        "не имеет рода",
+        "средний"
+      ],
+      [
+        "прошедшее",
+        "не имеет времени",
+        "настоящее",
+        "будущее"
+      ],
+      [
+        "будущее",
+        "не имеет времени",
+        "настоящее",
+        "прошедшее"
+      ],
+      [
+        "будущее",
+        "настоящее",
+        "прошедшее",
+        "не имеет времени"
+      ],
+      [
+        "готовил",
+        "готовили",
+        "готовим",
+        "готовишь"
+      ],
+      [
+        "учусь",
+        "учатся",
+        "учишься",
+        "учится"
+      ],
+      [
+        "ое",
+        "яя",
+        "ие",
+        "ыя"
+      ],
+      [
+        "сердце",
+        "ухо",
+        "печень",
+        "почки"
+      ],
+      [
+        "уши",
+        "живот",
+        "суставы",
+        "зубы"
+      ],
+      [
+        "женщин",
+        "мужчин",
+        "стариков",
+        "детей"
+      ],
+      [
+        "женщин",
+        "детей",
+        "мужчин",
+        "стариков"
+      ],
+      [
+        "гистология",
+        "анатомия",
+        "цитология",
+        "физиология"
+      ],
+      [
+        "гистология",
+        "физиология",
+        "цитология",
+        "анатомия"
+      ],
+      [
+        "город",
+        "Бухара",
+        "район",
+        "университет"
+      ],
+      [
+        "столица",
+        "девушка",
+        "Маргарита",
+        "родина"
+      ],
+      [
+        "царь",
+        "дочь",
+        "Москва",
+        "князь"
+      ],
+      [
+        "Азия",
+        "девушка",
+        "столица",
+        "университет"
+      ],
+      [
+        "Азия",
+        "Фергана",
+        "карандаш",
+        "Бухара"
+      ],
+      [
+        "Ташкент",
+        "Андижан",
+        "университет",
+        "Москва"
+      ],
+      [
+        "девочка",
+        "мальчик",
+        "дети",
+        "Собир"
+      ],
+      [
+        "дочь",
+        "сын",
+        "отец",
+        "Малика"
+      ],
+      [
+        "стол",
+        "дерево",
+        "отец",
+        "университет"
+      ],
+      [
+        "доска",
+        "бабочка",
+        "стул",
+        "книга"
+      ],
+      [
+        "компьютер",
+        "дерево",
+        "дом",
+        "кошка"
+      ],
+      [
+        "собака",
+        "альбом",
+        "тетрадь",
+        "карандаш"
+      ],
+      [
+        "машина",
+        "отец",
+        "собака",
+        "кошка"
+      ],
+      [
+        "автомобиль",
+        "мышь",
+        "коза",
+        "паук"
+      ],
+      [
+        "кошка",
+        "лошадь",
+        "паук",
+        "компьютер"
+      ],
+      [
+        "телефон",
+        "отец",
+        "собака",
+        "коза"
+      ],
+      [
+        "курица",
+        "лекарство",
+        "свинья",
+        "гусь"
+      ],
+      [
+        "9",
+        "7",
+        "3",
+        "5"
+      ],
+      [
+        "2",
+        "5",
+        "9",
+        "4"
+      ],
+      [
+        "мужской",
+        "не имеет рода",
+        "средний",
+        "женский"
+      ],
+      [
+        "средний",
+        "женский",
+        "не имеет рода",
+        "мужской"
+      ],
+      [
+        "женский",
+        "мужской",
+        "средний",
+        "не имеет рода"
+      ],
+      [
+        "единственного числа",
+        "женский",
+        "мужской",
+        "множественного числа"
+      ],
+      [
+        "снег",
+        "грач",
+        "зайчик",
+        "гнездо"
+      ],
+      [
+        "корова",
+        "фиалка",
+        "зима",
+        "берег"
+      ],
+      [
+        "озеро",
+        "солнце",
+        "книга",
+        "пальто"
+      ],
+      [
+        "помидор",
+        "ветер",
+        "стол",
+        "утро"
+      ],
+      [
+        "нога",
+        "глаза",
+        "губа",
+        "рука"
+      ],
+      [
+        "лицо",
+        "ноги",
+        "нос",
+        "рот"
+      ],
+      [
+        "палец",
+        "зубы",
+        "руки",
+        "ноги"
+      ],
+      [
+        "5",
+        "8",
+        "9",
+        "7"
+      ],
+      [
+        "5",
+        "2",
+        "4",
+        "7"
+      ],
+      [
+        "гистология",
+        "анатомия",
+        "физиология",
+        "цитология"
+      ],
+      [
+        "2",
+        "9",
+        "6",
+        "8"
+      ],
+      [
+        "подлежащее, сказуемое",
+        "определение",
+        "обстоятельство",
+        "дополнение"
+      ],
+      [
+        "главные члены",
+        "подлежащее, сказуемое",
+        "дополнениеопределение",
+        "дополнение, определение, обстоятельство"
+      ],
+      [
+        "ткань",
+        "орган",
+        "клетка",
+        "организм"
+      ],
+      [
+        "мама",
+        "мамы",
+        "маме",
+        "мамой"
+      ],
+      [
+        "яблоко",
+        "цвет",
+        "покров",
+        "кожа"
+      ],
+      [
+        "небо",
+        "чашка",
+        "жаба",
+        "бокал"
+      ],
+      [
+        "седло",
+        "окно",
+        "обувь",
+        "одежда"
+      ],
+      [
+        "лента",
+        "машина",
+        "кружка",
+        "кишка"
+      ],
+      [
+        "удар",
+        "мост",
+        "небо",
+        "звезда"
+      ],
+      [
+        "железа",
+        "железо",
+        "железы",
+        "желез"
+      ],
+      [
+        "грудная полость",
+        "ребро",
+        "туловище",
+        "позвонок"
+      ],
+      [
+        "туловище",
+        "ребро",
+        "грудная полость",
+        "грудина"
+      ],
+      [
+        "грудина",
+        "ребро",
+        "туловище",
+        "грудная полость"
+      ],
+      [
+        "ребро",
+        "грудная полость",
+        "спинной мозг",
+        "туловище"
+      ],
+      [
+        "селезёнка",
+        "кишка",
+        "печень",
+        "ноги"
+      ],
+      [
+        "мочевой пузырь",
+        "ребро",
+        "грудная полость",
+        "туловище"
+      ],
+      [
+        "жёлчный пузырь",
+        "грудная полость",
+        "туловище",
+        "грудина"
+      ],
+      [
+        "5",
+        "2",
+        "3",
+        "7"
+      ],
+      [
+        "покровную",
+        "нервную",
+        "кровеносную",
+        "половую"
+      ],
+      [
+        "Аристотель",
+        "Фараби",
+        "У. Гарвей",
+        "Ибн сино"
+      ],
+      [
+        "неизвестно",
+        "вена",
+        "артерия",
+        "капилляр"
+      ],
+      [
+        "вена",
+        "капилляр",
+        "неизвестно",
+        "артерия"
+      ],
+      [
+        "артерия",
+        "капилляр",
+        "неизвестно",
+        "вена"
+      ],
+      [
+        "неизвестно",
+        "вена",
+        "артерия",
+        "капилляр"
+      ],
+      [
+        "артерия",
+        "капилляр",
+        "неизвестно",
+        "вена"
+      ],
+      [
+        "лейкоциты",
+        "эритроциты",
+        "тромбоциты",
+        "неизвестно"
+      ],
+      [
+        "эритроциты",
+        "неизвестно",
+        "лейкоциты",
+        "тромбоциты"
+      ],
+      [
+        "эритроциты",
+        "тромбоциты",
+        "лейкоциты",
+        "неизвестно"
+      ],
+      [
+        "яблоко",
+        "груша",
+        "яблок",
+        "яблоки"
+      ],
+      [
+        "суп",
+        "груша",
+        "каша",
+        "пюре"
+      ],
+      [
+        "дом",
+        "роза",
+        "спортсмен",
+        "комната"
+      ],
+      [
+        "домашний",
+        "сильный",
+        "белое",
+        "красная"
+      ],
+      [
+        "красная",
+        "огромный",
+        "белое",
+        "сильный"
+      ],
+      [
+        "домашний",
+        "сильный",
+        "кожаная",
+        "белое"
+      ],
+      [
+        "сильный",
+        "домашний",
+        "белое",
+        "слепая"
+      ],
+      [
+        "красная",
+        "золотое",
+        "сильный",
+        "огромный"
+      ],
+      [
+        "горло",
+        "книги",
+        "дом",
+        "квартира"
+      ],
+      [
+        "хорошо",
+        "хороший",
+        "быстро",
+        "хорошеет"
+      ],
+      [
+        "длинный",
+        "удлинить",
+        "укоротить",
+        "длина"
+      ],
+      [
+        "интересная",
+        "интересные",
+        "интересное",
+        "интересный"
+      ],
+      [
+        "мозг",
+        "печень",
+        "глаза",
+        "кожа"
+      ],
+      [
+        "сто один",
+        "пятьсот",
+        "пятьдесят",
+        "пять"
+      ],
+      [
+        "шестьсот",
+        "сто",
+        "шестьдесят",
+        "семьсот"
+      ],
+      [
+        "пятьдесят",
+        "пятьсот",
+        "десять",
+        "сто один"
+      ],
+      [
+        "глаза",
+        "зуб",
+        "нос",
+        "нога"
+      ],
+      [
+        "зуб",
+        "нога",
+        "язык",
+        "глаза"
+      ],
+      [
+        "слепая кишка",
+        "тонкая кишка",
+        "прямая кишка",
+        "толстая кишка"
+      ],
+      [
+        "печень",
+        "почки",
+        "поджелудочная железа",
+        "желудок"
+      ],
+      [
+        "быстрый",
+        "быстрое",
+        "быстрая",
+        "быстро"
+      ],
+      [
+        "хорошее",
+        "хорошо",
+        "хорошая",
+        "хорошие"
+      ],
+      [
+        "красиво",
+        "красивые",
+        "красивая",
+        "красивое"
+      ],
+      [
+        "звонкая",
+        "звонкие",
+        "звонкое",
+        "звонко"
+      ],
+      [
+        "сильно",
+        "сильные",
+        "сильное",
+        "сильная"
+      ],
+      [
+        "быстро",
+        "быстрая",
+        "быстрое",
+        "быстрые"
+      ],
+      [
+        "ноги",
+        "одышка",
+        "мокрота",
+        "голова"
+      ],
+      [
+        "одышка",
+        "почки",
+        "рвота",
+        "тошнота"
+      ],
+      [
+        "одышка",
+        "печень",
+        "мокрота",
+        "рвота"
+      ],
+      [
+        "сердце",
+        "тошнота",
+        "слабость",
+        "сильный"
+      ],
+      [
+        "рвота",
+        "позвоночник",
+        "горло",
+        "мокрота"
+      ],
+      [
+        "мокрота",
+        "грудь",
+        "тошнота",
+        "анамнез"
+      ],
+      [
+        "сильный",
+        "красивый",
+        "настольный",
+        "стол"
+      ],
+      [
+        "запах",
+        "цвет",
+        "форма",
+        "размер"
+      ],
+      [
+        "вкус",
+        "размер",
+        "цвет",
+        "форма"
+      ],
+      [
+        "размер",
+        "вкус",
+        "цвет",
+        "форма"
+      ],
+      [
+        "запах",
+        "цвет",
+        "форма",
+        "размер"
+      ],
+      [
+        "размер",
+        "запах",
+        "вкус",
+        "цвет"
+      ],
+      [
+        "запах",
+        "цвет",
+        "размер",
+        "вкус"
+      ],
+      [
+        "голова",
+        "икра",
+        "почка",
+        "бедро"
+      ],
+      [
+        "икра",
+        "почка",
+        "бедро",
+        "глаз"
+      ],
+      [
+        "икра",
+        "почка",
+        "бедро",
+        "поясница"
+      ],
+      [
+        "икра",
+        "почка",
+        "бедро",
+        "спина"
+      ],
+      [
+        "икра",
+        "спина",
+        "почка",
+        "бедро"
+      ],
+      [
+        "спина",
+        "икра",
+        "бедро",
+        "почка"
+      ],
+      [
+        "колено",
+        "почка",
+        "бедро",
+        "икра"
+      ],
+      [
+        "почка",
+        "икра",
+        "колено",
+        "бедро"
+      ],
+      [
+        "бедро",
+        "почка",
+        "голова",
+        "желудок"
+      ],
+      [
+        "бедро",
+        "почка",
+        "нога",
+        "лоб"
+      ],
+      [
+        "висок",
+        "глаза",
+        "икра",
+        "желудок"
+      ],
+      [
+        "бедро",
+        "лоб",
+        "почка",
+        "затылок"
+      ],
+      [
+        "темя",
+        "висок",
+        "желудок",
+        "почка"
+      ],
+      [
+        "желудок",
+        "висок",
+        "позвоночник",
+        "темя"
+      ],
+      [
+        "темя",
+        "висок",
+        "шея",
+        "позвоночник"
+      ],
+      [
+        "темя",
+        "шея",
+        "позвоночник",
+        "плечо"
+      ],
+      [
+        "запястье",
+        "плечо",
+        "глаза",
+        "позвоночник"
+      ],
+      [
+        "шея",
+        "ладонь",
+        "плечо",
+        "запястье"
+      ],
+      [
+        "кожа",
+        "ладонь",
+        "запястье",
+        "плечо"
+      ],
+      [
+        "кожа",
+        "палец",
+        "запястье",
+        "ладонь"
+      ],
+      [
+        "натуропатия",
+        "апитерапия",
+        "акупунктура",
+        "гомеопатия"
+      ],
+      [
+        "фитотерапия",
+        "натуропатия",
+        "гомеопатия",
+        "акупунктура"
+      ],
+      [
+        "Ян",
+        "Ан",
+        "Инь",
+        "Пин"
+      ],
+      [
+        "Ян",
+        "Инь",
+        "Ан",
+        "Пин"
+      ],
+      [
+        "880",
+        "1080",
+        "980",
+        "1000"
+      ],
+      [
+        "1037",
+        "1050",
+        "1020",
+        "1040"
+      ],
+      [
+        "57",
+        "77",
+        "67",
+        "87"
+      ],
+      [
+        "Абу Али ибн Сино",
+        "Аль-Фараби",
+        "Аристотель",
+        "Беруни"
+      ],
+      [
+        "портфолио",
+        "резюме",
+        "кворум",
+        "анамнез"
+      ],
+      [
+        "кардиолог",
+        "терапевт",
+        "педиатр",
+        "хирург"
+      ],
+      [
+        "анестезиолог",
+        "гипнотизёр",
+        "рентгенолог",
+        "физиотерапевт"
+      ],
+      [
+        "костыли",
+        "очки",
+        "зубные протезы",
+        "слуховой аппарат"
+      ],
+      [
+        "к иммунологу",
+        "к неврологу",
+        "к гастроэнтерологу",
+        "к нефрологу"
+      ],
+      [
+        "травматолог",
+        "нарколог",
+        "гинеколог",
+        "уролог"
+      ],
+      [
+        "анатомический",
+        "оперный",
+        "музыкальный",
+        "кукольный"
+      ],
+      [
+        "черепашка",
+        "торопыжка",
+        "неотложка",
+        "пташка"
+      ],
+      [
+        "ВОЗ",
+        "МОК",
+        "ЮНЕСКО",
+        "МОТ"
+      ],
+      [
+        "травами",
+        "минералами",
+        "спиртом",
+        "лекарствами"
+      ],
+      [
+        "качество",
+        "целитель",
+        "строитель",
+        "отчизна"
+      ],
+      [
+        "отвары",
+        "мази",
+        "аэрозоли",
+        "таблетки"
+      ],
+      [
+        "настои",
+        "мази",
+        "аэрозоли",
+        "таблетки"
+      ],
+      [
+        "мази",
+        "аэрозоли",
+        "настои",
+        "таблетки"
+      ],
+      [
+        "мази",
+        "таблетки",
+        "настои",
+        "аэрозоли"
+      ],
+      [
+        "вазелин",
+        "пенициллин",
+        "аспирин",
+        "гормоны"
+      ],
+      [
+        "аспирин",
+        "вазелин",
+        "пенициллин",
+        "валериана"
+      ],
+      [
+        "валериана",
+        "пенициллин",
+        "вазелин",
+        "гормоны"
+      ],
+      [
+        "пенициллин",
+        "валериана",
+        "гормоны",
+        "вазелин"
+      ],
+      [
+        "Беруни",
+        "Наваи",
+        "Ал-Фараби",
+        "Аристотеля"
+      ],
+      [
+        "Ал-Фараби",
+        "Жоми",
+        "Беруни",
+        "Наваи"
+      ],
+      [
+        "лечение продуктами пчеловодства",
+        "лечение камнями",
+        "лечение музыкой",
+        "траволечение"
+      ]
+    ],
+    "correctAnswers": [
+      1,
+      3,
+      1,
+      3,
+      1,
+      4,
+      3,
+      1,
+      3,
+      3,
+      2,
+      1,
+      3,
+      4,
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      2,
+      1,
+      1,
+      1,
+      3,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1,
+      4,
+      1,
+      2,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1,
+      4,
+      4,
+      2,
+      2,
+      3,
+      4,
+      1,
+      4,
+      4,
+      1,
+      1,
+      3,
+      2,
+      3,
+      1,
+      2,
+      1,
+      4,
+      4,
+      2,
+      4,
+      3,
+      1,
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      4,
+      2,
+      2,
+      3,
+      1,
+      1,
+      3,
+      1,
+      2,
+      2,
+      2,
+      4,
+      2,
+      1,
+      3,
+      4,
+      4,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1,
+      1,
+      2,
+      1,
+      3,
+      4,
+      2,
+      2,
+      1,
+      2,
+      1,
+      3,
+      4,
+      1,
+      1,
+      2,
+      3,
+      1,
+      3,
+      4,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      1,
+      3,
+      3,
+      4,
+      4,
+      3,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      1,
+      2,
+      3,
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      2,
+      2,
+      1,
+      3,
+      3,
+      4,
+      1,
+      1,
+      4,
+      1,
+      3,
+      1,
+      3,
+      1,
+      4,
+      1,
+      1,
+      1,
+      4,
+      2,
+      3,
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      2,
+      1,
+      2,
+      2,
+      1,
+      4,
+      1,
+      1,
+      4,
+      3,
+      4,
+      2,
+      3,
+      4,
+      2,
+      3,
+      2,
+      4,
+      1,
+      4,
+      4,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      4,
+      2,
+      1,
+      4,
+      1,
+      1,
+      2,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      2,
+      4,
+      2,
+      1,
+      1,
+      2,
+      1,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      1,
+      4,
+      1,
+      3,
+      3,
+      4,
+      1,
+      2,
+      1,
+      2,
+      4,
+      4,
+      1,
+      2,
+      3,
+      1,
+      1,
+      1,
+      4,
+      3,
+      1,
+      2,
+      4,
+      2,
+      1,
+      3,
+      1,
+      4,
+      2,
+      1,
+      4,
+      1,
+      4,
+      2,
+      4,
+      3,
+      3,
+      4,
+      1,
+      1
     ]
   }
 }

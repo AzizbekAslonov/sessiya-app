@@ -1,11 +1,10 @@
 let buttons = document.querySelector('.buttons');
 
-const btnCollection = [
-   // { data: 'Dasturlash', classes: 'btn scale btn-primary' },
-   // { data: 'Pedagogika', classes: 'btn scale btn-secondary' },
-   { data: 'Tarix', classes: 'btn scale btn-primary' },
-   { data: 'Dinshunoslik', classes: 'btn scale btn-secondary' },
-]
+const btnCollection = Object.keys(ALL_QUESTIONS).map((name, index) => ({
+   data: name, classes: `btn scale ${index % 2 === 0 ? 'btn-primary' : 'btn-secondary'}`
+}))
+   
+
 const nameInput = document.getElementById("nameInput")
 const localName = localStorage.getItem('name');
 

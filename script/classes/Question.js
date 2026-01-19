@@ -1,45 +1,33 @@
 class Questions {
-   findQuestions(science) {
-      for (const key in ALL_QUESTIONS) {
-         if (key === science) return ALL_QUESTIONS[key]
-      }
-      return {}
-   }
-
    constructor(scienceName, options) {
       this.localScience = scienceName
-      if (realSciences.includes(scienceName)) {
-         const { eachAddingScore, variants, count = 0 } = options
-         // Set test resources
-         this.questions = []
-         this.answers = []
-         this.correctAnswers = []
-         const testProgram = this.findQuestions(scienceName)
-         if (count) {
-            for (let i = 0; i < count; i++) {
-               const randomIndex = Math.floor(Math.random() * testProgram.questions.length)
-               this.questions.push(testProgram.questions[randomIndex])
-               this.answers.push(testProgram.answers[randomIndex])
-               this.correctAnswers.push(testProgram.correctAnswers[randomIndex])
+      const { eachAddingScore, variants, count = 0, testProgram } = options
+      // Set test resources
+      this.questions = []
+      this.answers = []
+      this.correctAnswers = []
 
-               testProgram.questions.splice(randomIndex, 1)
-               testProgram.answers.splice(randomIndex, 1)
-               testProgram.correctAnswers.splice(randomIndex, 1)
-            }
-         } else {
-            this.questions = testProgram.questions
-            this.answers = testProgram.answers
-            this.correctAnswers = testProgram.correctAnswers
+      if (count) {
+         for (let i = 0; i < count; i++) {
+            const randomIndex = Math.floor(Math.random() * testProgram.questions.length)
+            this.questions.push(testProgram.questions[randomIndex])
+            this.answers.push(testProgram.answers[randomIndex])
+            this.correctAnswers.push(testProgram.correctAnswers[randomIndex])
+
+            testProgram.questions.splice(randomIndex, 1)
+            testProgram.answers.splice(randomIndex, 1)
+            testProgram.correctAnswers.splice(randomIndex, 1)
          }
-
-         this.setProperties(eachAddingScore, variants)
-         this.setDOMElements()
-         this.setClicksToChoices()
-         this.setHelperProperties()
       } else {
-         alert('404, questionss is not defined!');
-         location.assign('index.html');
+         this.questions = testProgram.questions
+         this.answers = testProgram.answers
+         this.correctAnswers = testProgram.correctAnswers
       }
+
+      this.setProperties(eachAddingScore, variants)
+      this.setDOMElements()
+      this.setClicksToChoices()
+      this.setHelperProperties()
    }
 
    // Getters
