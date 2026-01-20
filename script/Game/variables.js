@@ -3206,5 +3206,2109 @@ const ALL_QUESTIONS = {
       1,
       1
     ]
+  },
+  'English': {
+    "questions": [
+      "I ___ a doctor.",
+      "She ___ a nurse.",
+      "He is ___ honest man.",
+      "This is ___ hospital.",
+      "They ___ in the room now.",
+      "I ___ not tired.",
+      "It ___ a good idea.",
+      "She ___ my friend.",
+      "We ___ happy today.",
+      "You ___ late.",
+      "He ___ very kind.",
+      "This ___ an apple.",
+      "I ___ a teacher.",
+      "They ___ doctors.",
+      "She ___ an engineer.",
+      "It ___ a big problem.",
+      "He ___ not here.",
+      "I ___ ready.",
+      "He ___ to work every day.",
+      "They ___ in a clinic on mondays.",
+      "The baby ___ a lot.",
+      "She ___ English well.",
+      "My father ___ a car.",
+      "I ___ breakfast at 7.",
+      "She ___ coffee every morning.",
+      "We ___ to school by bus.",
+      "He ___ very fast.",
+      "The nurse ___ the patients.",
+      "My mother ___ the kitchen everyday.",
+      "The doctor ___ patients daily.",
+      "I ___ water every day.",
+      "They ___ books at the library.",
+      "He ___ his homework.",
+      "We ___ English lessons.",
+      "She ___ music every evening.",
+      "The children ___ in the park.",
+      "I ___ my homework now.",
+      "She ___ a patient at the clinic.",
+      "They ___ in the park at the moment.",
+      "He ___ breakfast now.",
+      "We ___ a meeting now.",
+      "The doctor ___ a patient now.",
+      "I ___ coffee.",
+      "She ___ English at the moment.",
+      "They ___ a test now.",
+      "He ___ TV right now.",
+      "We ___ for the bus.",
+      "The children ___ in the classroom now.",
+      "I ___ a book at this moment.",
+      "She ___ the patient at the moment.",
+      "They ___ lunch now.",
+      "He ___ on the computer.",
+      "We ___ English now.",
+      "The nurse ___ medicine at this moment.",
+      "Which word is uncountable?",
+      "Choose the uncountable noun.",
+      "Select uncountable: ___",
+      "Which is uncountable?",
+      "Choose uncountable:",
+      "I need some ___ for the recipe.",
+      "There is a lot of ___ in the bottle.",
+      "She gave me some ___",
+      "Do you have any ___?",
+      "There is ___ on the table.",
+      "We need some ___",
+      "There isn`t ___ in the fridge.",
+      "How much ___ do you need?",
+      "He drank some ___",
+      "They need ___",
+      "I bought some ___",
+      "Can I have some ___?",
+      "Choose the plural of `child`.",
+      "Plural of `person` is ___.",
+      "Plural of `leaf` is ___.",
+      "Plural of `knife` is ___.",
+      "Plural of `wife` is ___.",
+      "Plural of `child` is ___.",
+      "Plural of `city` is ___.",
+      "Plural of `baby` is ___.",
+      "Plural of `man` is ___.",
+      "Plural of `woman` is ___.",
+      "Plural of `tooth` is ___.",
+      "Plural of `mouse` is ___.",
+      "Plural of `foot` is ___.",
+      "Is there ___ milk?",
+      "There are ___ apples on the table.",
+      "There is ___ doctor in the room.",
+      "Are there ___ students in class?",
+      "There is ___ milk left.",
+      "I need ___ sugar.",
+      "Do you have ___ pens?",
+      "There is ___ book on the desk.",
+      "There are ___ chairs in the room.",
+      "Is there ___ water in the bottle?",
+      "There is ___ hospital near here.",
+      "I bought ___ oranges.",
+      "There are ___ patients waiting.",
+      "Do you have ___ information?",
+      "There is ___ apple on the table.",
+      "I need ___ medicine.",
+      "Are there ___ doctors in the clinic?",
+      "There is ___ problem with the machine.",
+      "Yesterday I ___ the exam.",
+      "She ___ to school yesterday.",
+      "They ___ a movie last night.",
+      "He ___ sick yesterday.",
+      "We ___ dinner early.",
+      "I ___ my homework last night.",
+      "She ___ a book yesterday.",
+      "They ___ very tired after the game.",
+      "He ___ happy yesterday.",
+      "We ___ a lot of fun at the party.",
+      "I ___ my keys yesterday.",
+      "She ___ very busy yesterday.",
+      "They ___ to the park yesterday.",
+      "He ___ his leg last week.",
+      "We ___ a meeting yesterday.",
+      "I ___ a letter yesterday.",
+      "She ___ a doctor last year.",
+      "They ___ late yesterday.",
+      "Past form of `go` is ___.",
+      "Past form of `see` is ___.",
+      "Past form of `take` is ___.",
+      "Past form of `give` is ___.",
+      "Past form of `come` is ___.",
+      "Past form of `write` is ___.",
+      "Past form of `read` is ___.",
+      "Past form of `eat` is ___.",
+      "Past form of `drink` is ___.",
+      "Past form of `sleep` is ___.",
+      "Past form of `run` is ___.",
+      "Past form of `buy` is ___.",
+      "Past form of `teach` is ___.",
+      "Past form of `catch` is ___.",
+      "Past form of `feel` is ___.",
+      "Past form of `bring` is ___.",
+      "Past form of `stand` is ___.",
+      "Past form of `meet` is ___.",
+      "She ___ swim well.",
+      "I ___ lift 20 kg.",
+      "He ___ speak French, cuz he is from Russia.",
+      "They ___ help you.",
+      "You ___ enter here.",
+      "She ___ play the piano.",
+      "I ___ run fast.",
+      "He ___ drive a car.",
+      "They ___ go out now.",
+      "You ___ touch this.",
+      "I ___ understand this.",
+      "She ___ lift heavy box.",
+      "He ___ help me.",
+      "They ___ answer the question.",
+      "You ___ leave now.",
+      "I ___ speak English.",
+      "She ___ come tomorrow.",
+      "He ___ open the door.",
+      "Tomorrow I ___ to the hospital.",
+      "She ___ visit the doctor next week.",
+      "They ___ travel next week.",
+      "He ___ start work tomorrow.",
+      "We ___ call you this evening.",
+      "I ___ see him tomorrow.",
+      "She ___ take the medicine soon.",
+      "They ___ come here tomorrow.",
+      "He ___ finish the work after 2 hours.",
+      "We ___ meet at 5 p.m.",
+      "I ___ buy new medicine soon.",
+      "She ___ prepare the report on monday.",
+      "They ___ help us.",
+      "He ___ write a letter.",
+      "We ___ attend the seminar.",
+      "I ___ go to clinic tomorrow.",
+      "She ___ call the patient.",
+      "They ___ bring the equipment.",
+      "This medicine is ___ than the other.",
+      "She feels ___ today.",
+      "He is the ___ patient in the ward.",
+      "The room is ___ than yesterday.",
+      "This hospital is ___ than the clinic.",
+      "The patient is ___ now.",
+      "This test is ___ than the last one.",
+      "His fever is ___ than before.",
+      "She feels ___ after the treatment.",
+      "This medication is the ___ effective.",
+      "The doctor is ___ experienced than the nurse.",
+      "The pain is ___ today.",
+      "The patient is ___ than yesterday.",
+      "The wound is ___ healed.",
+      "He is the ___ sick patient.",
+      "This drug is ___ for children.",
+      "She is feeling ___ today.",
+      "The equipment is ___ than before.",
+      "___ is your doctor?",
+      "___ is the medicine for?",
+      "___ did the patient arrive?",
+      "___ many tablets should I take?",
+      "___ room is the patient in?",
+      "___ is calling the nurse?",
+      "___ temperature do you have?",
+      "___ did you take the medicine?",
+      "___ patient needs the doctor?",
+      "___ are you feeling today?",
+      "___ is your appointment?",
+      "___ doctor checked the patient?",
+      "___ medication do I need?",
+      "___ is in charge of the ward?",
+      "___ time is the surgery?",
+      "___ nurse is on duty today?",
+      "___ procedure is required?",
+      "___ are the symptoms?",
+      "You ___ wash your hands before surgery.",
+      "Visitors ___ wait outside.",
+      "You ___ follow the rules.",
+      "I ___ take this medicine.",
+      "You ___ drink water.",
+      "Doctors ___ check patients regularly.",
+      "Nurses ___ wear uniforms.",
+      "You ___ rest after the operation.",
+      "You ___ attend the seminar.",
+      "Patients ___ inform doctor if symptoms worsen.",
+      "You ___ leave the room now.",
+      "We ___ follow hygiene rules.",
+      "Staff ___ report any errors.",
+      "You ___ take medicine before meal.",
+      "Visitors ___ bring flowers.",
+      "Doctors ___ write prescriptions carefully.",
+      "Nurses ___ clean the equipment.",
+      "Patients ___ avoid junk food.",
+      "She ___ the vaccine twice.",
+      "I ___ visited this clinic before.",
+      "They ___ finished the work.",
+      "He ___ never tried this pill.",
+      "The doctor ___ checked the patient.",
+      "We ___ seen that patient before.",
+      "She ___ taken the medicine.",
+      "I ___ learned a lot from this case.",
+      "They ___ completed the report.",
+      "He ___ already eaten.",
+      "We ___ met before.",
+      "She ___ worked here for 5 years.",
+      "I ___ checked the patient.",
+      "They ___ received the results.",
+      "He ___ already left the clinic.",
+      "We ___ discussed the case.",
+      "She ___ prescribed the medicine.",
+      "I ___ helped the patient.",
+      "The nurse ___ the patient`s temperature carefully.",
+      "He ___ never missed a shift in three months.",
+      "They ___ bring new equipment to the ward yesterday.",
+      "___ you take the medicine before meals?",
+      "The doctor said the patient ___ stay in bed.",
+      "I ___ see the lab results yet.",
+      "She ___ to the pharmacy to buy medicine every week.",
+      "There ___ many patients waiting for consultation.",
+      "He ___ feeling better after the treatment.",
+      "We ___ already prepared the operation room.",
+      "The patient ___ not allowed visitors today.",
+      "The doctor ___ examine all patients before noon.",
+      "They ___ not eat before surgery.",
+      "I ___ finished reading the medical report.",
+      "___ there any nurses on duty tonight?",
+      "She ___ prescribe the correct dosage carefully."
+    ],
+    "answers": [
+      [
+        "am",
+        "are",
+        "is",
+        "be"
+      ],
+      [
+        "be",
+        "am",
+        "is",
+        "are"
+      ],
+      [
+        "an",
+        "the",
+        "no article",
+        "a"
+      ],
+      [
+        "no article",
+        "an",
+        "a",
+        "the"
+      ],
+      [
+        "are",
+        "be",
+        "is",
+        "am"
+      ],
+      [
+        "is",
+        "be",
+        "are",
+        "am"
+      ],
+      [
+        "am",
+        "are",
+        "is",
+        "be"
+      ],
+      [
+        "is",
+        "are",
+        "be",
+        "am"
+      ],
+      [
+        "be",
+        "am",
+        "are",
+        "is"
+      ],
+      [
+        "be",
+        "is",
+        "are",
+        "am"
+      ],
+      [
+        "are",
+        "is",
+        "be",
+        "am"
+      ],
+      [
+        "is",
+        "be",
+        "am",
+        "are"
+      ],
+      [
+        "be",
+        "is",
+        "am",
+        "are"
+      ],
+      [
+        "be",
+        "is",
+        "am",
+        "are"
+      ],
+      [
+        "be",
+        "are",
+        "is",
+        "am"
+      ],
+      [
+        "am",
+        "are",
+        "be",
+        "is"
+      ],
+      [
+        "is",
+        "be",
+        "am",
+        "are"
+      ],
+      [
+        "be",
+        "am",
+        "is",
+        "are"
+      ],
+      [
+        "going",
+        "go",
+        "goes",
+        "gone"
+      ],
+      [
+        "work",
+        "worked",
+        "working",
+        "works"
+      ],
+      [
+        "sleep",
+        "sleeps",
+        "slept",
+        "sleeping"
+      ],
+      [
+        "speaking",
+        "speaks",
+        "spoked",
+        "speak"
+      ],
+      [
+        "has",
+        "have",
+        "haves",
+        "had"
+      ],
+      [
+        "eats",
+        "eated",
+        "eating",
+        "eat"
+      ],
+      [
+        "drank",
+        "drinking",
+        "drinks",
+        "drink"
+      ],
+      [
+        "goes",
+        "went",
+        "go",
+        "going"
+      ],
+      [
+        "running",
+        "runs",
+        "ran",
+        "run"
+      ],
+      [
+        "help",
+        "helps",
+        "helped",
+        "helping"
+      ],
+      [
+        "cleaned",
+        "cleaning",
+        "cleans",
+        "clean"
+      ],
+      [
+        "see",
+        "saw",
+        "sees",
+        "seeing"
+      ],
+      [
+        "drink",
+        "drinking",
+        "drinks",
+        "drank"
+      ],
+      [
+        "reading",
+        "read",
+        "reads",
+        "readed"
+      ],
+      [
+        "did",
+        "do",
+        "does",
+        "doing"
+      ],
+      [
+        "having",
+        "have",
+        "has",
+        "had"
+      ],
+      [
+        "listening",
+        "listens",
+        "listened",
+        "listen"
+      ],
+      [
+        "played",
+        "play",
+        "plays",
+        "playing"
+      ],
+      [
+        "am doing",
+        "doing",
+        "do",
+        "did"
+      ],
+      [
+        "is examining",
+        "examined",
+        "examines",
+        "examine"
+      ],
+      [
+        "played",
+        "are playing",
+        "playing",
+        "play"
+      ],
+      [
+        "eat",
+        "is eating",
+        "ate",
+        "eats"
+      ],
+      [
+        "are having",
+        "having",
+        "have",
+        "had"
+      ],
+      [
+        "checks",
+        "check",
+        "checked",
+        "is checking"
+      ],
+      [
+        "drink",
+        "am drinking",
+        "drank",
+        "drinking"
+      ],
+      [
+        "is speaking",
+        "speaks",
+        "speaking",
+        "spoke"
+      ],
+      [
+        "are taking",
+        "take",
+        "took",
+        "taking"
+      ],
+      [
+        "is watching",
+        "watches",
+        "watched",
+        "watch"
+      ],
+      [
+        "waited",
+        "waiting",
+        "are waiting",
+        "wait"
+      ],
+      [
+        "learned",
+        "learning",
+        "learn",
+        "are learning"
+      ],
+      [
+        "reading",
+        "readed",
+        "read",
+        "am reading"
+      ],
+      [
+        "help",
+        "is helping",
+        "helps",
+        "helped"
+      ],
+      [
+        "have",
+        "are having",
+        "had",
+        "having"
+      ],
+      [
+        "is working",
+        "worked",
+        "work",
+        "works"
+      ],
+      [
+        "are studying",
+        "studying",
+        "studied",
+        "study"
+      ],
+      [
+        "gave",
+        "gives",
+        "giving",
+        "is giving"
+      ],
+      [
+        "water",
+        "doctor",
+        "pencil",
+        "bottle"
+      ],
+      [
+        "apple",
+        "rice",
+        "chair",
+        "stethoscope"
+      ],
+      [
+        "pen",
+        "milk",
+        "table",
+        "nurse"
+      ],
+      [
+        "apple",
+        "patient",
+        "book",
+        "sugar"
+      ],
+      [
+        "information",
+        "bed",
+        "lamp",
+        "desk"
+      ],
+      [
+        "flour",
+        "knife",
+        "spoon",
+        "egg"
+      ],
+      [
+        "juice",
+        "plate",
+        "cup",
+        "syringe"
+      ],
+      [
+        "nurse",
+        "hospital",
+        "doctor",
+        "advice"
+      ],
+      [
+        "pencils",
+        "chairs",
+        "pens",
+        "water"
+      ],
+      [
+        "bottle",
+        "notebook",
+        "pen",
+        "milk"
+      ],
+      [
+        "chair",
+        "medicine",
+        "sugar",
+        "patient"
+      ],
+      [
+        "meat",
+        "apple",
+        "bag",
+        "spoon"
+      ],
+      [
+        "paper",
+        "lamp",
+        "chair",
+        "water"
+      ],
+      [
+        "pencil",
+        "table",
+        "bag",
+        "juice"
+      ],
+      [
+        "milk",
+        "furniture",
+        "egg",
+        "bread"
+      ],
+      [
+        "chair",
+        "cheese",
+        "lamp",
+        "table"
+      ],
+      [
+        "stethoscope",
+        "book",
+        "oil",
+        "notebook"
+      ],
+      [
+        "child",
+        "childes",
+        "childs",
+        "children"
+      ],
+      [
+        "people",
+        "person",
+        "peopls",
+        "persons"
+      ],
+      [
+        "leaf",
+        "leafes",
+        "leafs",
+        "leaves"
+      ],
+      [
+        "knife",
+        "knifes",
+        "knifes",
+        "knives"
+      ],
+      [
+        "wives",
+        "wifes",
+        "wife",
+        "wifes"
+      ],
+      [
+        "children",
+        "child",
+        "childes",
+        "childs"
+      ],
+      [
+        "city",
+        "citys",
+        "cities",
+        "citis"
+      ],
+      [
+        "babys",
+        "babies",
+        "baby",
+        "babyes"
+      ],
+      [
+        "man",
+        "mans",
+        "men",
+        "manes"
+      ],
+      [
+        "women",
+        "womans",
+        "womanes",
+        "woman"
+      ],
+      [
+        "toothes",
+        "teeth",
+        "tooths",
+        "tooth"
+      ],
+      [
+        "mice",
+        "mouse",
+        "mouses",
+        "mous"
+      ],
+      [
+        "footes",
+        "foos",
+        "foots",
+        "feet"
+      ],
+      [
+        "some",
+        "many",
+        "a",
+        "any"
+      ],
+      [
+        "no",
+        "some",
+        "one",
+        "any"
+      ],
+      [
+        "an",
+        "some",
+        "the",
+        "a"
+      ],
+      [
+        "some",
+        "a",
+        "any",
+        "one"
+      ],
+      [
+        "some",
+        "one",
+        "any",
+        "no"
+      ],
+      [
+        "a",
+        "the",
+        "some",
+        "any"
+      ],
+      [
+        "any",
+        "a",
+        "the",
+        "some"
+      ],
+      [
+        "an",
+        "a",
+        "any",
+        "some"
+      ],
+      [
+        "some",
+        "the",
+        "any",
+        "a"
+      ],
+      [
+        "some",
+        "any",
+        "the",
+        "a"
+      ],
+      [
+        "a",
+        "the",
+        "an",
+        "some"
+      ],
+      [
+        "any",
+        "some",
+        "the",
+        "a"
+      ],
+      [
+        "the",
+        "a",
+        "any",
+        "some"
+      ],
+      [
+        "some",
+        "any",
+        "a",
+        "the"
+      ],
+      [
+        "a",
+        "an",
+        "some",
+        "any"
+      ],
+      [
+        "the",
+        "any",
+        "some",
+        "a"
+      ],
+      [
+        "any",
+        "the",
+        "some",
+        "a"
+      ],
+      [
+        "a",
+        "any",
+        "an",
+        "some"
+      ],
+      [
+        "pass",
+        "passes",
+        "passed",
+        "passing"
+      ],
+      [
+        "went",
+        "goes",
+        "go",
+        "going"
+      ],
+      [
+        "watches",
+        "watched",
+        "watch",
+        "watching"
+      ],
+      [
+        "feeling",
+        "felt",
+        "feels",
+        "feel"
+      ],
+      [
+        "having",
+        "had",
+        "has",
+        "have"
+      ],
+      [
+        "do",
+        "doing",
+        "does",
+        "did"
+      ],
+      [
+        "reads",
+        "read",
+        "reading",
+        "readed"
+      ],
+      [
+        "were",
+        "are",
+        "be",
+        "is"
+      ],
+      [
+        "are",
+        "is",
+        "was",
+        "am"
+      ],
+      [
+        "having",
+        "have",
+        "has",
+        "had"
+      ],
+      [
+        "lose",
+        "losing",
+        "loses",
+        "lost"
+      ],
+      [
+        "was",
+        "are",
+        "is",
+        "am"
+      ],
+      [
+        "going",
+        "went",
+        "goes",
+        "go"
+      ],
+      [
+        "break",
+        "broke",
+        "breaks",
+        "breaking"
+      ],
+      [
+        "having",
+        "has",
+        "had",
+        "have"
+      ],
+      [
+        "writing",
+        "writes",
+        "wrote",
+        "write"
+      ],
+      [
+        "becoming",
+        "becomes",
+        "became",
+        "become"
+      ],
+      [
+        "be",
+        "is",
+        "were",
+        "are"
+      ],
+      [
+        "going",
+        "goed",
+        "goes",
+        "went"
+      ],
+      [
+        "saw",
+        "seeing",
+        "seed",
+        "sees"
+      ],
+      [
+        "takes",
+        "taked",
+        "taking",
+        "took"
+      ],
+      [
+        "gived",
+        "gives",
+        "giving",
+        "gave"
+      ],
+      [
+        "comed",
+        "comes",
+        "coming",
+        "came"
+      ],
+      [
+        "writes",
+        "writed",
+        "wrote",
+        "writing"
+      ],
+      [
+        "read",
+        "reading",
+        "reads",
+        "readed"
+      ],
+      [
+        "ate",
+        "eats",
+        "eated",
+        "eating"
+      ],
+      [
+        "drinks",
+        "drank",
+        "drinked",
+        "drinking"
+      ],
+      [
+        "slept",
+        "sleeps",
+        "sleeping",
+        "sleeped"
+      ],
+      [
+        "runs",
+        "running",
+        "ran",
+        "runed"
+      ],
+      [
+        "buying",
+        "buyed",
+        "buys",
+        "bought"
+      ],
+      [
+        "teaches",
+        "taught",
+        "teached",
+        "teaching"
+      ],
+      [
+        "catching",
+        "caught",
+        "catched",
+        "catches"
+      ],
+      [
+        "felt",
+        "feels",
+        "feeling",
+        "feeled"
+      ],
+      [
+        "bringed",
+        "brought",
+        "brings",
+        "bringing"
+      ],
+      [
+        "stood",
+        "standed",
+        "standing",
+        "stands"
+      ],
+      [
+        "meets",
+        "meeting",
+        "met",
+        "meeted"
+      ],
+      [
+        "should to",
+        "may to",
+        "must to",
+        "can"
+      ],
+      [
+        "can",
+        "should to",
+        "may to",
+        "must to"
+      ],
+      [
+        "cannot",
+        "may to",
+        "must to",
+        "can to"
+      ],
+      [
+        "might",
+        "can",
+        "mustn`t",
+        "should to"
+      ],
+      [
+        "Will to",
+        "ought",
+        "cannot",
+        "may to"
+      ],
+      [
+        "can",
+        "cannot to",
+        "may to",
+        "must to"
+      ],
+      [
+        "cannot to",
+        "must to",
+        "can",
+        "may to"
+      ],
+      [
+        "must to",
+        "may to",
+        "cannot to",
+        "can"
+      ],
+      [
+        "cannot",
+        "may to",
+        "must to",
+        "cans"
+      ],
+      [
+        "may to",
+        "cannot",
+        "must to",
+        "can to"
+      ],
+      [
+        "may to",
+        "can",
+        "must to",
+        "cannot to"
+      ],
+      [
+        "may to",
+        "can",
+        "must to",
+        "cannot to"
+      ],
+      [
+        "must to",
+        "may to",
+        "can",
+        "cannot to"
+      ],
+      [
+        "may to",
+        "cannot to",
+        "can",
+        "musts"
+      ],
+      [
+        "cannot",
+        "may to",
+        "musts",
+        "cans"
+      ],
+      [
+        "must to",
+        "cannot to",
+        "can",
+        "may to"
+      ],
+      [
+        "cannot to",
+        "must to",
+        "can",
+        "mays"
+      ],
+      [
+        "musts",
+        "may to",
+        "cannot to",
+        "can"
+      ],
+      [
+        "go",
+        "goes",
+        "going",
+        "will go"
+      ],
+      [
+        "is going",
+        "goes",
+        "will",
+        "went"
+      ],
+      [
+        "goes",
+        "will",
+        "go",
+        "went"
+      ],
+      [
+        "starts",
+        "start",
+        "started",
+        "will"
+      ],
+      [
+        "will",
+        "calls",
+        "call",
+        "calling"
+      ],
+      [
+        "will",
+        "seeing",
+        "see",
+        "sees"
+      ],
+      [
+        "will",
+        "took",
+        "take",
+        "takes"
+      ],
+      [
+        "comes",
+        "come",
+        "came",
+        "will"
+      ],
+      [
+        "will",
+        "finished",
+        "finishes",
+        "finish"
+      ],
+      [
+        "meet",
+        "will",
+        "meets",
+        "met"
+      ],
+      [
+        "buys",
+        "bought",
+        "will",
+        "buy"
+      ],
+      [
+        "will",
+        "prepare",
+        "prepared",
+        "prepares"
+      ],
+      [
+        "will",
+        "helped",
+        "helps",
+        "help"
+      ],
+      [
+        "writes",
+        "will",
+        "write",
+        "wrote"
+      ],
+      [
+        "attended",
+        "attends",
+        "will",
+        "attend"
+      ],
+      [
+        "go",
+        "went",
+        "goes",
+        "will"
+      ],
+      [
+        "calls",
+        "call",
+        "called",
+        "will"
+      ],
+      [
+        "brought",
+        "bring",
+        "brings",
+        "will"
+      ],
+      [
+        "effectiver",
+        "most effective",
+        "more effective",
+        "effectiveest"
+      ],
+      [
+        "gooder",
+        "best",
+        "goodest",
+        "better"
+      ],
+      [
+        "more bad",
+        "worst",
+        "badder",
+        "baddest"
+      ],
+      [
+        "most clean",
+        "cleaner",
+        "cleanier",
+        "cleanest"
+      ],
+      [
+        "bigger",
+        "biggest",
+        "bigest",
+        "more big"
+      ],
+      [
+        "most healthy",
+        "more healthy",
+        "healthier",
+        "healthierest"
+      ],
+      [
+        "more easy",
+        "easyer",
+        "easier",
+        "easiest"
+      ],
+      [
+        "low",
+        "lowest",
+        "more low",
+        "lower"
+      ],
+      [
+        "stronger",
+        "strongest",
+        "more strong",
+        "strongier"
+      ],
+      [
+        "most",
+        "effective",
+        "better",
+        "more"
+      ],
+      [
+        "much",
+        "most",
+        "better",
+        "more"
+      ],
+      [
+        "less",
+        "little",
+        "least",
+        "lesser"
+      ],
+      [
+        "more calm",
+        "calmest",
+        "calmer",
+        "calmier"
+      ],
+      [
+        "better",
+        "gooder",
+        "goodest",
+        "best"
+      ],
+      [
+        "less",
+        "more",
+        "most",
+        "very"
+      ],
+      [
+        "safer",
+        "more safe",
+        "safeer",
+        "safest"
+      ],
+      [
+        "worst",
+        "more bad",
+        "badder",
+        "worse"
+      ],
+      [
+        "newer",
+        "newier",
+        "more new",
+        "newest"
+      ],
+      [
+        "Who",
+        "What",
+        "Where",
+        "When"
+      ],
+      [
+        "What",
+        "Who",
+        "Where",
+        "When"
+      ],
+      [
+        "How",
+        "Which",
+        "Who",
+        "When"
+      ],
+      [
+        "What",
+        "How",
+        "Who",
+        "When"
+      ],
+      [
+        "Who",
+        "What",
+        "Which",
+        "When"
+      ],
+      [
+        "Who",
+        "What",
+        "Where",
+        "When"
+      ],
+      [
+        "What",
+        "How",
+        "Who",
+        "When"
+      ],
+      [
+        "When",
+        "How",
+        "Where",
+        "What"
+      ],
+      [
+        "Which",
+        "Who",
+        "What",
+        "Where"
+      ],
+      [
+        "Who",
+        "When",
+        "How",
+        "What"
+      ],
+      [
+        "How",
+        "What",
+        "When",
+        "Where"
+      ],
+      [
+        "When",
+        "Who",
+        "Which",
+        "What"
+      ],
+      [
+        "When",
+        "What",
+        "Who",
+        "Which"
+      ],
+      [
+        "Who",
+        "Which",
+        "When",
+        "What"
+      ],
+      [
+        "When",
+        "What",
+        "Where",
+        "Who"
+      ],
+      [
+        "Who",
+        "Which",
+        "What",
+        "Where"
+      ],
+      [
+        "What",
+        "Who",
+        "Which",
+        "When"
+      ],
+      [
+        "Who",
+        "Which",
+        "How",
+        "What"
+      ],
+      [
+        "must",
+        "should",
+        "may",
+        "can"
+      ],
+      [
+        "must",
+        "should",
+        "may",
+        "can"
+      ],
+      [
+        "can",
+        "should",
+        "may",
+        "have to"
+      ],
+      [
+        "mays",
+        "can to",
+        "have to",
+        "must to"
+      ],
+      [
+        "has to",
+        "musts",
+        "can to",
+        "may"
+      ],
+      [
+        "cans",
+        "must",
+        "should to",
+        "has to"
+      ],
+      [
+        "mays",
+        "cans",
+        "must",
+        "shoulds"
+      ],
+      [
+        "cans",
+        "mays",
+        "shoulds",
+        "must"
+      ],
+      [
+        "may to",
+        "have to",
+        "cans",
+        "musts"
+      ],
+      [
+        "mays",
+        "should to",
+        "must",
+        "can to"
+      ],
+      [
+        "must to",
+        "may",
+        "has to",
+        "cans"
+      ],
+      [
+        "cans",
+        "may to",
+        "should to",
+        "must"
+      ],
+      [
+        "must",
+        "mays",
+        "shoulds",
+        "cans"
+      ],
+      [
+        "cans",
+        "may",
+        "must to",
+        "have to"
+      ],
+      [
+        "has to",
+        "must to",
+        "cans",
+        "may"
+      ],
+      [
+        "can to",
+        "must",
+        "mays",
+        "should to"
+      ],
+      [
+        "should",
+        "can",
+        "must",
+        "may"
+      ],
+      [
+        "should to",
+        "must",
+        "can",
+        "may"
+      ],
+      [
+        "received",
+        "receive",
+        "has received",
+        "had receive"
+      ],
+      [
+        "will",
+        "have",
+        "had",
+        "did"
+      ],
+      [
+        "did",
+        "will",
+        "have",
+        "had"
+      ],
+      [
+        "had",
+        "will",
+        "did",
+        "has"
+      ],
+      [
+        "did",
+        "has",
+        "had",
+        "will"
+      ],
+      [
+        "have",
+        "will",
+        "had",
+        "did"
+      ],
+      [
+        "had",
+        "will",
+        "did",
+        "has"
+      ],
+      [
+        "have",
+        "will",
+        "did",
+        "had"
+      ],
+      [
+        "have",
+        "had",
+        "will",
+        "did"
+      ],
+      [
+        "did",
+        "has",
+        "will",
+        "had"
+      ],
+      [
+        "will",
+        "did",
+        "had",
+        "have"
+      ],
+      [
+        "will",
+        "did",
+        "had",
+        "has"
+      ],
+      [
+        "will",
+        "did",
+        "have",
+        "had"
+      ],
+      [
+        "will",
+        "had",
+        "did",
+        "have"
+      ],
+      [
+        "had",
+        "did",
+        "will",
+        "has"
+      ],
+      [
+        "did",
+        "will",
+        "had",
+        "have"
+      ],
+      [
+        "will",
+        "has",
+        "did",
+        "had"
+      ],
+      [
+        "will",
+        "had",
+        "did",
+        "have"
+      ],
+      [
+        "checked",
+        "checks",
+        "checking",
+        "check"
+      ],
+      [
+        "has",
+        "do",
+        "had",
+        "will"
+      ],
+      [
+        "did",
+        "will",
+        "have",
+        "do"
+      ],
+      [
+        "Have",
+        "Did",
+        "Will",
+        "Do"
+      ],
+      [
+        "must",
+        "may",
+        "can",
+        "should"
+      ],
+      [
+        "don`t",
+        "didn`t",
+        "won`t",
+        "haven`t"
+      ],
+      [
+        "went",
+        "go",
+        "gone",
+        "goes"
+      ],
+      [
+        "was",
+        "is",
+        "be",
+        "are"
+      ],
+      [
+        "are",
+        "am",
+        "is",
+        "be"
+      ],
+      [
+        "will",
+        "did",
+        "have",
+        "had"
+      ],
+      [
+        "be",
+        "are",
+        "am",
+        "is"
+      ],
+      [
+        "can",
+        "may",
+        "must",
+        "should"
+      ],
+      [
+        "should",
+        "can",
+        "may",
+        "must"
+      ],
+      [
+        "had",
+        "did",
+        "will",
+        "have"
+      ],
+      [
+        "Are",
+        "Was",
+        "Were",
+        "Is"
+      ],
+      [
+        "may",
+        "can",
+        "should",
+        "must"
+      ]
+    ],
+    "correctAnswers": [
+      1,
+      3,
+      1,
+      3,
+      1,
+      4,
+      3,
+      1,
+      3,
+      3,
+      2,
+      1,
+      3,
+      4,
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      2,
+      1,
+      1,
+      1,
+      3,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1,
+      4,
+      1,
+      2,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1,
+      4,
+      4,
+      2,
+      2,
+      3,
+      4,
+      1,
+      4,
+      4,
+      1,
+      1,
+      3,
+      2,
+      3,
+      1,
+      2,
+      1,
+      4,
+      4,
+      2,
+      4,
+      3,
+      1,
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      4,
+      2,
+      2,
+      3,
+      1,
+      1,
+      3,
+      1,
+      2,
+      2,
+      2,
+      4,
+      2,
+      1,
+      3,
+      4,
+      4,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1,
+      1,
+      2,
+      1,
+      3,
+      4,
+      2,
+      2,
+      1,
+      2,
+      1,
+      3,
+      4,
+      1,
+      1,
+      2,
+      3,
+      1,
+      3,
+      4,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      1,
+      3,
+      3,
+      4,
+      4,
+      3,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      1,
+      2,
+      3,
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      2,
+      2,
+      1,
+      3,
+      3,
+      4,
+      1,
+      1,
+      4,
+      1,
+      3,
+      1,
+      3,
+      1,
+      4,
+      1,
+      1,
+      1,
+      4,
+      2,
+      3,
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      2,
+      1,
+      2,
+      2,
+      1,
+      4,
+      1,
+      1,
+      4,
+      3,
+      4,
+      2,
+      3,
+      4,
+      2,
+      3,
+      2,
+      4,
+      1,
+      4,
+      4,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      4,
+      2,
+      1,
+      4,
+      1,
+      1,
+      2,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      2,
+      4,
+      2,
+      1,
+      1,
+      2,
+      1,
+      4,
+      4,
+      4,
+      3,
+      3,
+      4,
+      3,
+      4,
+      4,
+      1,
+      4
+    ]
   }
 }

@@ -10,11 +10,13 @@ if (result) {
   const chat_id = "-1003449818507"     // group
   const my_chat_id = "1039710604"     // you
   const shouldSend = localStorage.getItem("competition")
+  const quizesTotal = Object.keys(ALL_QUESTIONS)
 
+  let scienceName = quizesTotal.length > 1 ? ` - ${result.science}` : ''
   let str = ""
-  str += `${localStorage.getItem("name")}%0A`
-  str += `${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100) + "%"}%0A`
-  str += `${result.time + "s"}%0A`
+  str += `${localStorage.getItem("name")}${scienceName}%0A`
+  str += `Natija: ${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100) + "%"}%0A`
+  str += `Vaqt: ${result.time + "s"}%0A`
   str = str.replace(/(\r\n|\n|\r)/gm, "")
 
   let s1 = "g9U6o0FG"
