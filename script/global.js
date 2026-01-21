@@ -65,4 +65,5 @@ const BANNED_USERS = [
    'Farmi',
    ' ......',
    'Islombekk',
+   'Alisaa',
 ]
