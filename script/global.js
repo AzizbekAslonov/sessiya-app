@@ -61,8 +61,5 @@ function send(base, chatId) {
 }
 
 const BANNED_USERS = [
-   'Farmacia',
-   'Farmi',
-   ' ......',
-   'Islombekk',
+   'Aldaysanku Sardor',
 ]
