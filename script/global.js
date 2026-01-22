@@ -48,7 +48,7 @@ function checkArrLength(arr = [], min = 0) {
 
 function checkName(localName) {
    const trimmed = localName?.trim();
-   return trimmed &&
+   return trimmed && trimmed !== 'Aldaysanku Sardor' &&
    trimmed.length >= 4 &&
    /^[a-zA-Z']+(\s[a-zA-Z']+)*$/.test(trimmed) &&  // single space between words only
    /[a-zA-Z]/.test(trimmed)  // ensure at least one letter
@@ -61,5 +61,5 @@ function send(base, chatId) {
 }
 
 const BANNED_USERS = [
-   'Aldaysanku Sardor',
+   // 'Aldaysanku Sardor',
 ]
