@@ -799,1703 +799,1703 @@ const ALL_QUESTIONS = {
       2
     ]
   },
-  'English': {
+  'Axborot Texnologiyalari': {
     "questions": [
-      "Translate the word (tarjima qiling ) patient",
-      "Translate the word (tarjima qiling ) dentist",
-      "Translate the word (tarjima qiling ) brace",
-      "Translate the word (tarjima qiling ) jaw",
-      "Translate the word (tarjima qiling ) toothpaste",
-      "Translate the word (tarjima qiling ) hospital",
-      "Translate the word (tarjima qiling ) gum",
-      "Translate the word (tarjima qiling ) health",
-      "Translate the word (tarjima qiling ) medicine",
-      "Translate the word (tarjima qiling ) disease",
-      "Translate the word (tarjima qiling ) polish",
-      "Translate the word (tarjima qiling ) dental x-ray",
-      "Translate the word (tarjima qiling ) retainer",
-      "Translate the word (tarjima qiling ) alignment",
-      "Translate the word (tarjima qiling ) orthodontist",
-      "Translate the word (tarjima qiling ) ambulance",
-      "Translate the word (tarjima qiling ) blood",
-      "Translate the word (tarjima qiling ) disease",
-      "Translate the word (tarjima qiling ) injection",
-      "Translate the word (tarjima qiling ) operation",
-      "……you live in a flat?",
-      "……it rain a lot in Africa?",
-      "……they know the answers ?",
-      ". ...... she take her dog for a walk ?",
-      "… you go to the coast in summer?",
-      "……. you doing your homework every day?",
-      "……. she work hard?",
-      "Are you …. TV a lot?",
-      "……. you going to the cinema?",
-      "…….your father working?",
-      "My classmate is … to class right now",
-      "We … swimming , jogging , and playing sports",
-      "He …….in Rio de Janeiro",
-      "I …. in a small apartment near my college",
-      "She … three languages",
-      "My friend doesn`t … English",
-      "My mother …. English at a high school.",
-      "I …. my job.",
-      "I usually … very early in the morning",
-      "My brother ….. his favorite TV program every evening.",
-      "There ….. two bags in the room",
-      "There …. a mouse in the box",
-      "There … a flower in the garden",
-      "There …. some milk in the bottle",
-      "There ….. pencils in the pencilcase.",
-      "There ….. a pen in my bag",
-      "There ….. many tigers in the garden",
-      "There …… a tiger",
-      "There ….. books on the shelf",
-      "There ….. a book on the desk",
-      "Translate the word (tarjima qiling ) Present simple tense",
-      "Translate the word (tarjima qiling ) Verbs",
-      "Translate the word (tarjima qiling ) Nouns",
-      "Translate the word (tarjima qiling ) Uncountable",
-      "Translate the word (tarjima qiling ) Countable",
-      "Find plural form of the given word (ko`plik shaklini toping ?) Tomato",
-      "Find plural form of the given word (ko`plik shaklini toping ?) Potato",
-      "Find plural form of the given word (ko`plik shaklini toping ?) Foot",
-      "Find plural form of the given word (ko`plik shaklini toping ?) Mouse",
-      "Find plural form of the given word (ko`plik shaklini toping ?) Child",
-      "These books ….. beautiful.",
-      "We … friends.",
-      "Ahmed … a football player",
-      "My sisters … English teachers.",
-      "A cat … a dangerous animal.",
-      "The chairs … old.",
-      "Susan … a good singer.",
-      "Betty .... at home.",
-      "We .... interested in music.",
-      "The books .... on the desk.",
-      "It ……my book.",
-      "The weather … hot today.",
-      "We… French",
-      "She …….a teacher.",
-      "Our family is not big. We …. four people.",
-      "Mahmud and I ... friends.",
-      "An online lesson ... more helpful than offline one.",
-      "There are ……. apples on the table.",
-      "There is ……milk in the cup.",
-      "There are not ……..students in the room",
-      "There are not ….. cookies left.",
-      "There aren`t ….. cars in the street.",
-      "There is ……honey in the cup.",
-      "There is ……. salt in my soup.",
-      "There aren`t ……. eggs in the fridge.",
-      "There are ….. bananas in my cake.",
-      "There is …. salad on the table.",
-      "There are ……coconuts in the cookies.",
-      "There aren`t …..dogs in the zoo.",
-      "There are ……videos in my phone.",
-      "There are not ….. teachers in the school.",
-      "There are …..onions in the fridge.",
-      "There is …..sugar in the coffee.",
-      "There aren`t …… computers in the classroom.",
-      "Ann and I … very good friends.",
-      "It … 10 o`clock.",
-      "You … late again.",
-      "John … afraid of dogs.",
-      "He … very tall.",
-      "My sister .… 29 years old.",
-      "I …. 32 years old.",
-      "… you speak French?",
-      "… she play the guitar?",
-      "I … dance very well.",
-      "… your brother ride a bike?",
-      "No, I … play the piano.",
-      "… they cook Chinese food?",
-      "… we watch TV in the living room?",
-      "-Can they play basketball? -No, they … play basketball.",
-      "… she ride a horse?",
-      "… they swim in the lake?",
-      "-… you draw pictures? -Yes, I can.",
-      "… I have a glass of water?",
-      "-… she ride a bike? -Yes, She can.",
-      "I … cook spaghetti.",
-      "… you sing? – Yes, I can",
-      "You … cook dinner tonight",
-      "... you play the guitar?",
-      "Choose countable noun:",
-      "Choose countable noun:",
-      "Choose uncountable noun:",
-      "Choose uncountable noun:",
-      "Choose countable noun:",
-      "Choose uncountable noun:",
-      "Choose uncountable noun:",
-      "Choose countable noun",
-      "Choose countable noun:",
-      "Choose uncountable noun:",
-      "Choose uncountable noun",
-      "Choose countable noun:",
-      "Choose countable noun:",
-      "Choose countable noun:",
-      "Choose uncountable noun:",
-      "I don`t have … friends",
-      "She has … things to do",
-      "Mary has … cats",
-      "I don`t have … money",
-      "Sorry but I don`t have … time",
-      "He has … money. He is a millionaire.",
-      "I have … time to have dinner",
-      "Tom has … friends in his town. He is not a newcomer",
-      "Choose the right answer.",
-      "Choose the right answer.",
-      "Choose the correct answer",
-      "Choose. the correct answer.",
-      "Choose the correct answer.",
-      "I … working now.",
-      "She … doing her homework now.",
-      "They …writing a letter.",
-      "What are you doing? I am … my homework.",
-      "What is she doing? She is …",
-      "Children … going to school.",
-      "The boys … playing in the park.",
-      "The baby … crying out loud.",
-      "It … raining now.",
-      "I am … pasta for lunch.",
-      "Miss Peters is _____ the class.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja siftani toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Qiyosiy daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "Orttirma daraja sifatini toping.",
-      "He _____ the flowers yesterday.",
-      "I _____ In Portugal last year.",
-      "She ____ as a teacher last month.",
-      "We ______to a new music yesterday.",
-      "It ______ yesterday.",
-      "They _____ football with friends last week.",
-      "We _____ tennis every day in August.",
-      "We _____at my grandparents` house last summer.",
-      "I _______ how to play the guitar five months ago.",
-      "My brother _______ for us yesterday.",
-      "Ritz ______ to his mom last month.",
-      "I ______ tennis when I was young.",
-      "They ______ those dishes.",
-      "•\tI ______ abroad for ten years.",
-      "They always ______ visiting their friends.",
-      "•\tThe rain _______ an hour ago.",
-      "He _____ plov yesterday.",
-      "We ______ a museum last month.",
-      "I ______ TV very late last night.",
-      "I will _____ to the store.",
-      "She ____ help you tomorrow.",
-      "I _____ call you soon",
-      "I will _____ you with your homework.",
-      "I _____ go to the party tomorrow.",
-      "I will _____ the test.",
-      "We _____ have dinner at 6 pm.",
-      "He _____ finish the project On Sunday.",
-      "We _____ meet at the park.",
-      "They _____ arrive at noon.",
-      "I ____ go to the cinema.",
-      "I will ____ to the school.",
-      "We will _____ him later.",
-      "They will____ dinner later.",
-      "I ____ write the letter tomorrow.",
-      "The baby will _____ all night.",
-      "William will ____ the cake later.",
-      "Penny will _____ tomorrow morning.",
-      "She will ______ her dog for a walk.",
-      "I will ____ my mom to cook.",
-      "Sam will _____ with us tomorrow.",
-      "You don`t look well. I think, you ____ go to the doctor.",
-      "You are constantly sneezing. I think you ______ consult your doctor",
-      "You ________ read English books every day.",
-      "We … finished our homework"
+      "Informatikaning asosiy tushunchasi nima?",
+      "Excelda ma`lumotlarni qaysi ko`rinishda saqlash qulay?",
+      "Excelda o`rtacha qiymatni hisoblash uchun qaysi funksiya ishlatiladi?",
+      "Microsoft Excelda ildizdan chiqarish funksiyasini aniqlang",
+      "Qaysi funksiyani moliyaviy hisobotlar uchun ishlatish tavsiya etiladi?",
+      "Jadval ichida qaysi vosita eng katta qiymatni topishga yordam beradi?",
+      "Axborotni doimiy saqlovchi qurilmani ko`rsating",
+      "Axborotni vizual tasvirlash uchun mo`ljallangan qurilma qanday nomlanadi ?",
+      "Axborotning eng kichik o`lchov birligi",
+      "B1=0, B2=1, B3=2. B1:B3 yacheyka bo`yicha jami hisob natijasini (yig`indi) belgilang.",
+      "Bir bayt nеcha bitga tеng?",
+      "Bir Gigabayt bu-",
+      "Bloknot muxarririda hosil qilingan fayllar qanday kеngaytmaga ega bo`ladi?",
+      "Chiqarish qurilmasi -bu . . .",
+      "Chop etish qurilmasining turlari nеcha xil bo`ladi.",
+      "Ctrl-C tugmalar birikmasi nimani anglatadi? (Windows)",
+      "Ctrl-P tugmalar birikmasi nimani anglatadi?",
+      "Ctrl-X tugmalar birikmasi nimani anglatadi? (Windows)",
+      "Ctrl-Z tugmalar birikmasi vazifasi qanday?",
+      "Ekran tasvirini olish uchun klaviaturaning qaysi klavisha ishlatiladi?",
+      "Elektron hukumat xizmatlarini ko`satuvchi portal qaysi",
+      "Elektron jadvalda A1:B3 yacheykalar diapazoni ajratilgan. Ajratilgan yacheykalar soni nechta?",
+      "Elektron manzilni belgilovchi maxsus belgini ko`rsating?",
+      "Elektron pochta manzili to`g`ri keltirilgan javobni ko`rsating",
+      "Excel dasturi nima uchun mo`ljallangan?",
+      "Excel ish kitobida kamida nechta varoq (list) bo`lishi mumkin",
+      "Excel: Yachеyka nomi xosil bo`ladi:",
+      "Foydalanuvchiga buyruqlar va belgilarni kiritish imkonini beradigan qurilma?",
+      "Informatika -so`zda nеchta bit mavjud",
+      "Internet qaysi tarmoq turiga kiradi?",
+      "Kiritish qurilmasi keltirilgan javobni ko`rsating?",
+      "Klaviatura Delete tugmasi vazifasi",
+      "Kompyuter asosida qaysi sanoq tizimi yotadi?",
+      "Kompyuter grafikasi qanday turlarga bo`linadi?",
+      "Kompyuter kiritish qurilmasini aniqlang?",
+      "Kompyuter klaviaturasi – bu …",
+      "Kompyuter monitori – bu …",
+      "Matn klaviatura qaysi klavishsini bosish orqali doimiy katta harflarda terish rejimiga o`tiladi?",
+      "Microsoft Excel dasturi bu -",
+      "Microsoft Excel dasturi jadvalida formulalarni yozish qaysi belgidan boshlanadi?",
+      "Microsoft Excel dasturi qanday fayl kеngaytmalarini ochish imkoniyatiga ega?",
+      "Microsoft Excel dasturi qanday ishga tushiriladi?",
+      "Microsoft Excel dasturida diagramma qo`yish uchun qanday amallar bajariladi.",
+      "Microsoft Excel dasturida hujjatni yopish uchun qanday amal bajariladi?",
+      "Microsoft Excel dasturida ish kitobini ochish mumkin bo`lgan to`g`ri variantni ko`rsating:",
+      "Microsoft Excel dasturida quyida keltirilgan ma`lumotlar turining qaysi birini yacheyka ichda joylashtirish mumkin emas?",
+      "Microsoft Excel dasturida ustunlar qanday nomlangan?",
+      "Microsoft Excel dasturida yaratiladigan hujjatlar qanday nomlanadi?",
+      "Microsoft Excel dasturida yangi hujjat yaratish tartibi to`g`ri ko`rsatilgan variantni tanlang:",
+      "Microsoft Excel dasturida yaratilgan ish kitobini saqlash mumkin bo`lgan to`g`ri variantni ko`rsating:",
+      "Microsoft Excel dasturiy muhitida ma`lumotdan nusxa ko`chirish uchun qaysi tugmalarni birgalikda bosish kerak?",
+      "Microsoft Excel dasturiy muhitida nusxa olingan ma`lumotni qo`yish uchun qaysi tugmalarni birgalikda bosish kerak?",
+      "Microsoft Excel dasturiy muhitida yangi fayl yaratish uchun qaysi tugmalarni birgalikda bosish kerak?",
+      "Microsoft Excel elektron jadvalida A1:D3 yacheykalar guruhi tanlangan. Bu diapazonga nechta yacheyka kiradi?",
+      "Microsoft Excelda har bir yacheyka nimaga ega",
+      "Microsoft Excelda tanlangan yacheykasiga o`tish uchun manzil qanday ko`rsatiladi",
+      "Microsoft PowerPoint dasturida yangi hujjat yaratilganda, odatda dastur tomonidan unga qanday nom beriladi?",
+      "Microsoft Word dasturi yordamida yaratiladigan hujjatlar qanday nomlanadi?",
+      "Microsoft Word dasturida klaviaturaning strelkali tugmalari yordamida matnlarni belgilash uchun qo`shimcha ravishda qaysi tugmadan foydalaniladi?",
+      "Microsoft Word dasturida kursordan chapdagi bеlgilarni o`chirish uchun qaysi tugmadan foydalaniladi ?",
+      "Microsoft Word dasturida kursordan o`ngdagi belgilarni o`chirish uchun qaysi tugmadan foydalaniladi?",
+      "Microsoft Word dasturiga yuklangan joriy hujjatda «Ctrl+Home» tugmalar birikmasi bosilsa nima sodir bo`ladi?",
+      "Microsoft Word dasturiga yuklangan joriy xujjatda «Ctrl+End» tugmalar birikmasi bosilsa nima sodir bo`ladi?",
+      "Modеm nima?",
+      "MS Excel: Funktsiya СУММ(A1:A11) nimani anglatadi –",
+      "MS Word dasturida yangi hujjat yaratish tartibi to`g`ri keltirilgan javoblarni ko`rsating.",
+      "Noto`g`ri yozilgan formulani ko`rsating:",
+      "O`chirilgan fayllar vaqtinchalik qaysi papkada saqlanadi",
+      "Power Point da ALT+F4 tugmalari bosilsa nima sodir bo`ladi?",
+      "Microsoft Excel da Ctrl +S tugmalari bosilsa nima sodir bo`ladi?",
+      "Power Point da Ctrl+S tugmalari bosilsa nima sodir bo`ladi?",
+      "Power Point da faylni xotiraga yozib qo`yish qanday amalga oshiriladi?",
+      "Power Point dasturida Ctrl + M tugmalar juftligi qanday vazifani bajaradi?",
+      "Power Point dasturida slaydlarni prezentasiya ko`rinishida ko`rsatish qaysi tugmacha yordamida amalga oshiriladi.",
+      "Power Point dasturining asosiy vazifasi nimalardan iborat ?",
+      "Power Point yordamida mavjud faylni ochish qanday amalga oshiriladi?",
+      "PowerPoint da Ctrl+N nima vazifa bajaradi",
+      "PowerPoint da slaydlarga animatsiya qo`shish uchun menyuning qaysi bo`limi ishlatiladi",
+      "PowerPoint dasturida diagramma qo`yish qaysi bo`lim orqali amalga oshiriladi",
+      "Printerning vazifasi?",
+      "Proyektor qurilmasining vazifasi nima?",
+      "Qattiq disk bu?",
+      "Qaysi multimediali texnologiya tasvirni harakatlanganligini ketma- ket xosil qiladi.",
+      "Skaner – bu …",
+      "Skanerning vazifasi nima?",
+      "Taqdimotlar yaratishga mo`ljallangan dastur bu?",
+      "Windows operatsion tizimining bosh menyusiga qaysi tugma (knopka) orqali murojat qilinadi.",
+      "Word asosiy obеkti (hujjati) qanday kеngaytmali faylda saqlanadi ?",
+      "Word da Ctrl+O tugmasi qanday vazifani bajaradi?",
+      "Word da Ctrl+P tugmasi qanday vazifani bajaradi?",
+      "Word da Ctrl+Z tugmasi qanday vazifani bajaradi?",
+      "Word da hujjatning to`la matnini belgilash uchun qaysi tugmalar bosiladi?",
+      "Word da qaysi tugmalar bosilsa matnning nusxasi olingan bo`lagi zarur joyga qo`yiladi?",
+      "Word dasturi nima uchun mo`ljallangan?",
+      "Word matn muxarriri qaysi firma tomonidan ishlab chiqilgan?",
+      "Word matn muxarriri yordamida mavjud faylni ochish qanday amalga oshiriladi?",
+      "Word matn muxarririda WordArt ob`ekt dasturi nima vazifani bajaradi?",
+      "WWW nima?",
+      "Yacheyka manzili to`g`ri yozilganini toping",
+      "Yacheyka manzili to`g`ri yozilgan javobni ko`rsating:",
+      "Yacheykada ### belgi nimani bildiradi? (MS Excel)",
+      "\"Kорзина\" yorlig`ining vazifasi nima?",
+      "*.jpg kеngaytmali fayl qanday axborotni saqlaydi?",
+      ".=a1*25% ma`nosi nima ?",
+      ".jpg kengaytmali fayl qanday axborotni saqlaydi?",
+      "“=” tenglik belgisi Excel da nima vazifani bildiradi?",
+      "«.xlsx» kengaytmaga ega bo`lgan faylni sichqonchaning chap tugmasi bilan ikki marta bosilsa nima sodir bo`ladi?",
+      "1Kbayt bu:",
+      "2 bayt nеcha bitga tеng?",
+      "A1=0, A2=15. A1:A2 yacheyka bo`yicha jami hisob natijasini (yig`indi) ko`rsating.",
+      "A1=1, A2=2, A3=3. A1:A3 yacheyka bo`yicha jami hisob natijasini (yig`indi) ko`rsating.",
+      "Animatsiya nima?",
+      "Kompyuterning asosiy qurilmalari qaysi javobda keltirilgan?",
+      "Qattiq disk vazifasi nima?",
+      "Klaviatura nima uchun ishlatiladi?",
+      "Skaner qanday qurilma?",
+      "piktogrammaning vazifasi nima?",
+      "piktogrammaning vazifasi nima?",
+      "piktogrammaning vazifasi nima?",
+      "piktogrammaning vazifasi nima?",
+      "piktogrammaning vazifasi nima?",
+      "tugmasining vazifasi to`g`ri berilgan atorni belgilang",
+      "tugmasining vazifasi to`g`ri berilgan atorni belgilang",
+      "tugmasining vazifasi to`g`ri berilgan atorni belgilang",
+      "piktogrammaning vazifasi nima?",
+      "piktogrammaning vazifasi nima?",
+      "=СЦЕПИТЬ(A1; B1) funksiyasi nima qiladi?",
+      "A1 = 9, A2 = 3, =СУММ(A1; A2)/2 natijasi qanday bo`ladi?",
+      "A1 = 10, A2 = 4, =МИН(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 4, A2 = 2, =МАКС(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 9, A2 = 2, =СТЕПЕНЬ(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 50, A2 = 100, A3 = 150, =СРЗНАЧ(A1:A3) natijasi qanday bo`ladi?",
+      "A1 = 3, A2 = 7, =МАКС(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 18, A2 = 24, =МИН(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 2, A2 = 3, =СУММ(A1; A2) + 5 natijasi qanday bo`ladi?",
+      "A1 = 56, A2 = 98, A3 = 112, =НОД(A2; A3) natijasi qanday bo`ladi?",
+      "A1 = 6, A2 = 2, A3 = 8, =СТЕПЕНЬ(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 7, A2 = 3, =ПРОИЗВЕД(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 50, A2 = 25, A3=75 =СУММ(A1:A3) natijasi qanday bo`ladi?",
+      "102=x10 ni hisoblang.",
+      "A1 = 16, =КОРЕНЬ(A1) natijasi qanday bo`ladi?",
+      "=КОРЕНЬ(9) natijasi qanday bo`ladi?",
+      "=КОРЕНЬ(4) natijasi qanday bo`ladi?",
+      "=КОРЕНЬ(1) natijasi qanday bo`ladi?",
+      "A1 = 3, A2 = 4, =СТЕПЕНЬ(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 0.5, A2 = 2, =СТЕПЕНЬ(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 5, =ЦЕЛОЕ(A1) natijasi qanday bo`ladi?",
+      "A1 = \"12345\", =ДЛСТР(A1) natijasi qanday bo`ladi?",
+      "A1 = \"alpha\", A2 = \"beta\", A3 = \"gamma\", A4 = \"delta\", A5 = \"epsilon\", =НАЙТИ(\"a\"; A1) + НАЙТИ(\"a\"; A2) natijasi qanday bo`ladi?",
+      "A1 = \"Dars\", =ПРАВСИМВ(A1;2) natijasi qanday bo`ladi?",
+      "A1 = \"Dars\", A2 = \"Boshlandi\", =СЦЕПИТЬ(A1; \" \"; A2) natijasi qanday bo`ladi?",
+      "A1 = \"Dunyo\", =ЛЕВСИМВ(A1;2) natijasi qanday bo`ladi?",
+      "A1 = \"Excel\", =ЛЕВСИМВ(A1;3) natijasi qanday bo`ladi?",
+      "A1 = \"Excel\", =ПРАВСИМВ(A1;3) funksiyasi nima natija beradi?",
+      "A1 = \"Excel\", =ПСТР(A1;2;2) natijasi qanday bo`ladi?",
+      "A1 = \"Hello\", A2 = \"World\", A3 = \"Excel\", A4 = \"Test\", A5 = \"Data\", =ДЛСТР(ПРАВСИМВ(A1; 3)) natijasi qanday bo`ladi?",
+      "A1 = \"Ilm\", A2 = \"Fan\", =СЦЕПИТЬ(A1;A2) natijasi qanday bo`ladi?",
+      "A1 = \"Java\", =ПРАВСИМВ(A1;2) natijasi qanday bo`ladi?",
+      "A1 = \"Matematika\", =ЛЕВСИМВ(A1;4) natijasi qanday bo`ladi?",
+      "A1 = \"TEXT\", =ДЛСТР(A1) natijasi qanday bo`ladi?",
+      "A1 = \"Vatan\", =ПРАВСИМВ(A1;1) natijasi qanday bo`ladi?",
+      "A1 = \"vatan\", A2 = 45 bo`lsa, =ДЛСТР(A1)+ДЛСТР(A2) natijasi qanday bo`ladi?",
+      "A1 = 10, A2 = 2, =МИН(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 10, A2 = 20, =СРЗНАЧ(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 10, A2 = 5, A3 = 15, A4 = 20, A5 = 25, =СУММ(МИН(A1; A2); МАКС(A3; A4)) natijasi qanday bo`ladi?",
+      "A1 = 12, A2 = 5, =СУММ(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 123, =ДЛСТР(A1) natijasi qanday bo`ladi?",
+      "A1 = 14, A2 = 28, =НОД(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 2, A2 = 3, =СТЕПЕНЬ(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 20, A2 = 15, =МАКС(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 25, A2 = 10, =МАКС(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 25, A2 = 10, =МИН(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 3, A2 = 2, =ПРОИЗВЕД(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 4, A2 = 9, A3 = 16, A4 = 25, A5 = 36, =КОРЕНЬ(СУММ(A2; A3)) natijasi qanday bo`ladi?",
+      "A1 = 4567, =ПРАВСИМВ(A1;2) natijasi qanday bo`ladi?",
+      "A1 = 50, A2 = 25, A3=75 =СУММ(A1;A3) natijasi qanday bo`ladi?",
+      "A1 = 8, A2 = 4, A3 = 9, =СРЗНАЧ(A1; A2; A3) natijasi qanday bo`ladi?",
+      "A1 = 8, A2 = 16, A3 = 4, A4 = 64, A5 = 36, =КОРЕНЬ(МАКС(A1; A2; A3)) natijasi qanday bo`ladi?",
+      "A1 = 8, A2 = 2, =СТЕПЕНЬ(A1; A2) natijasi qanday bo`ladi?",
+      "Agar A1 yacheykada 5 bo`lsa, =ЕСЛИ(A1>3,\"Ha\",\"Yo`q\") funksiyasi natijasi qanday bo`ladi?",
+      "Apparat ta`minoti to`g`ri berilgan ma`lumotlarni belgilang",
+      "Axborotning eng kichik o`lchov birligi …?",
+      "Birinchi shaxsiy kompyuter nechanchi yil va kim tomonidan yaratildi?",
+      "Chiqarish qurilmalari to`g`ri berilgan qatorni toping?",
+      "Dasturiy ta`minot to`g`ri berilgan qatorni toping",
+      "Haqiqiyligiga ko`ra axborot turlari",
+      "Hardware nima?",
+      "Kiritish qurilmalari to`g`ri berilgan qatorni toping?",
+      "Kompyuter ta`minoti to`g`ri berilgan qatorni toping",
+      "Qaysi funksiya berilgan sonlarning o`rtacha qiymatini hisoblaydi?",
+      "Qaysi funksiya eng katta qiymatni topadi?",
+      "Qaysi funksiya eng kichik qiymatni qaytaradi?",
+      "Qaysi funksiya mantiqiy “va” holatini tekshiradi?",
+      "Qaysi funksiya matn uzunligini hisoblaydi?",
+      "Qaysi funksiya matndan ma`lum bir belgilarni chapdan ajratib oladi?",
+      "Shaxsiy komyuterning aparat ta`minoti qaysilar",
+      "Shrift bo`limi qaysi menyuda joylashgan?",
+      "Software nima?",
+      "Word dasturida turli xil shakllar yaratish qaysi bo`lim yordamida bajariladi?",
+      "Word dasturini ishga tushurish tartibi to`g`ri ko`rsatilgan qatorni toping",
+      "x2 tugmasining vazifasi to`g`ri berilgan atorni belgilang",
+      "x2 tugmasining vazifasi to`g`ri berilgan qatorni belgilang",
+      "Quyidagi qaysi funksiya sonlar yig`indisini hisoblaydi?",
+      "Qaysi funksiya keltirilgan sonlarning ko`paytmasini hisoblaydi?",
+      "Sonning ildizini hisoblovchi funksiya:",
+      "Raqamning eng yaqin kichik butun qiymatiga tushiruvchi funksiya:",
+      "Belgilangan argumentlar ichida eng katta qiymatni qaytaradi:",
+      "Belgilangan qiymatlar orasidan eng kichigini qaytaradi:",
+      "O`rtacha qiymatni hisoblaydi:",
+      "Shartlardan hech bo`lmaganda bittasi bajarilsa TRUE qaytaradi:",
+      "Aytaylik, A1 katakda raqam 10 bo`lsa, =ЕСЛИ(A1>5;\"Katta\";\"Kichik\") natijasi qanday bo`ladi?",
+      "=ЕСЛИ(5>3;\"Ha\";\"Yo`q\") formulasi natijasi:",
+      "Sonni 2 ga bo`lish formulasi:",
+      "5, 10 va 15 sonlarining o`rtacha qiymatini topuvchi formula:",
+      "A1 = 8, A2 = 2 =СУММ(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 6, A2 = 3 =СУММ(A1; A2)/3 natijasi qanday bo`ladi?",
+      "A1 = 7, A2 = 10 =МИН(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 15, A2 = 25 =МАКС(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 4, A2 = 5 =ПРОИЗВЕД(A1; A2) natijasi qanday bo`ladi?",
+      "A1 = 100, A2 = 4 =A1/A2 natijasi qanday bo`ladi?",
+      "A1 = \"salom\", A2 = 123 =ДЛСТР(A1) natijasi qanday bo`ladi?",
+      "A1 = \"kitob\", A2 = \"qalam\" =ДЛСТР(A1)+ДЛСТР(A2) natijasi qanday bo`ladi?",
+      "A1 = 5, A2 = 0 =ЕСЛИ(A2=0;\"Bo`linmaydi\";A1/A2) natijasi qanday bo`ladi?",
+      "A1 = 4, A2 = 5 bo`lsa quyidagi formula natijasini hisoblang: =A1 + A2",
+      "A1 = 12, A2 = 7, bo`lsa quyidagi formula natijasini hisoblang: =A1 - A2",
+      "A1 = 3, A2 = 6, bo`lsa quyidagi formula natijasini hisoblang: =A1 * A2",
+      "A1 = 20, A2 = 4, bo`lsa quyidagi formula natijasini hisoblang: =A1 / A2",
+      "A1 = 10, A2 = 5, A3 = 2, bo`lsa quyidagi formula natijasini hisoblang: =A1 - A2 + A3",
+      "A1 = 6, A2 = 3, A3 = 2, bo`lsa quyidagi formula natijasini hisoblang: =A1 * A2 / A3",
+      "A1 = 8, A2 = 2, bo`lsa quyidagi formula natijasini hisoblang: =A1 / A2 + 2",
+      "A1 = 5, A2 = 2, bo`lsa quyidagi formula natijasini hisoblang: =A1 ^ A2 + 1",
+      "A1 = 3, A2 = 4, A3 = 2, bo`lsa quyidagi formula natijasini hisoblang: =A1 + A2 * A3",
+      "A1 = 15, A2 = 5, bo`lsa quyidagi formula natijasini hisoblang: =A1 / A2 - 1",
+      "A1 = 2, A2 = 2, A3 = 3, bo`lsa quyidagi formula natijasini hisoblang: =A1 + A2 + A3",
+      "A1 = 6, A2 = 2, bo`lsa quyidagi formula natijasini hisoblang: =(A1 + A2) * 2",
+      "A1 = 9, A2 = 3, A3 = 2, bo`lsa quyidagi formula natijasini hisoblang: =A1 - A2 * A3",
+      "A1 = 7, A2 = 4, bo`lsa quyidagi formula natijasini hisoblang: =A1 + A2 - 2",
+      "A1 = 10, A2 = 2, bo`lsa quyidagi formula natijasini hisoblang: =(A1 - A2)^2",
+      "A1 = 4, A2 = 2, bo`lsa quyidagi formula natijasini hisoblang: =A1 * A1 - A2",
+      "A1 = 3, A2 = 2, bo`lsa quyidagi formula natijasini hisoblang: =(A1 + A2)^2",
+      "A1 = 16, A2 = 4, A3 = 2, bo`lsa quyidagi formula natijasini hisoblang: =A1 / A2 / A3",
+      "A1 = 2, A2 = 3, A3 = 4, bo`lsa quyidagi formula natijasini hisoblang: =A1 + A2 + A3 * A1"
     ],
     "answers": [
       [
-        "bemor",
-        "breket",
-        "tish doktori",
-        "jag`"
+        "Axborot",
+        "Algoritm",
+        "Kompyuter",
+        "Kodlash"
       ],
       [
-        "bemor",
-        "breket",
-        "tish doktori",
-        "jag`"
+        "Rasmlar orqali",
+        "Diagramma",
+        "Jadval",
+        "Matnli fayl"
       ],
       [
-        "breket",
-        "bemor",
-        "jag`",
-        "tish doktori"
+        "СРЗНАЧ",
+        "MIN",
+        "MAX",
+        "СУММ"
       ],
       [
-        "bemor",
-        "breket",
-        "jag`",
-        "tish doktori"
+        "СУММ funksiyasi",
+        "MAX funksiyasi",
+        "КОРЕНЬ funksiyasi",
+        "КОРЕЛЬ funksiyasi"
       ],
       [
-        "tish pastasi",
-        "tish doktori",
-        "breket",
-        "jag`"
+        "СУММ",
+        "MIN",
+        "СРЗНАЧ",
+        "MAX"
       ],
       [
-        "jag`",
-        "tish doktori",
-        "milk",
-        "kasalxona"
+        "СРЗНАЧ",
+        "СУММ",
+        "MIN",
+        "MAX"
       ],
       [
-        "jag`",
-        "tish",
-        "milk",
-        "qon"
+        "Klaviatura",
+        "Opеrativ xotira",
+        "Qattiq disk",
+        "Monitor"
       ],
       [
-        "sog`lik",
-        "kasalxona",
-        "qon",
-        "jag`"
+        "Displеy (Monitor)",
+        "Yoritkichli klaviatura",
+        "Ko`rgazmali stеnd",
+        "Planshеt kompyutеr"
       ],
       [
-        "tish doktori",
-        "breket",
-        "dori-darmon",
-        "qon"
+        "Gb",
+        "Mb",
+        "Bit",
+        "Kb"
       ],
       [
-        "kasalxona",
-        "sog`lik",
-        "kasallik",
-        "milk"
+        "6",
+        "4",
+        "3",
+        "5"
       ],
       [
-        "mik",
-        "polirovka qilmoq",
-        "qon",
-        "kasalxona"
+        "4",
+        "8",
+        "16",
+        "2"
       ],
       [
-        "tish rentgeni",
-        "tish pastasi",
-        "jag`",
-        "breket"
+        "1024 Mbayt",
+        "528 Kbayt",
+        "1024 Kbayt",
+        "1024 Bayt"
       ],
       [
-        "ortodont",
-        "tekislash",
-        "tish saqlagich",
-        "kasalxona"
+        "exe",
+        "doc",
+        "txt",
+        "rtf"
       ],
       [
-        "breket",
-        "kasalxona",
-        "ortodont",
-        "tekislash"
+        "skaner",
+        "klaviatura",
+        "sichqoncha",
+        "displey va printer"
       ],
       [
-        "kasalxona",
-        "qon",
-        "ortodont",
-        "tekislash"
+        "purkagichli, ignali",
+        "rangli, oq-qora",
+        "matritsali, purkagichli, lazеrli",
+        "purkagichli, lazеrli"
       ],
       [
-        "ortodont",
-        "tish saqlagich",
-        "tekislash",
-        "tez yordam"
+        "Belgilangan matnlar nusxasini olish",
+        "Belgilangan qismni o`chirish",
+        "Nusxa ko`chirish",
+        "Belgilangan fayllar nusxasini olish"
       ],
       [
-        "qon",
-        "tish rentgeni",
-        "tekislash",
-        "tish saqlagich"
+        "faylni chop etish",
+        "nusxa olish",
+        "amallarni qaytarish",
+        "belgilangan kismlarni uchirish"
       ],
       [
-        "tish saqlagich",
-        "kasallik",
-        "tish rentgeni",
-        "tekislash"
+        "nusxa ko`chirish",
+        "belgilangan fayllarni qirqib olish",
+        "belgilangan qismni nusxa olish",
+        "belgilangan qismni o`chirish"
       ],
       [
-        "tekislash",
-        "tish rentgeni",
-        "ukol",
-        "tish saqlagich"
+        "chop etish",
+        "so`nggi harakatni takrorlash",
+        "so`nggi harakatni bekor qilish",
+        "o`lchamni o`zgartirish"
       ],
       [
-        "operatsiya",
-        "tish rentgeni",
-        "tekislash",
-        "kasalxona"
+        "Print Screen klavishasi",
+        "Power klavishasi",
+        "F1 klavishasi",
+        "Scroll Lock klavishasi"
       ],
       [
-        "done",
-        "do",
-        "doing",
-        "does"
+        "Google chrome",
+        "my.gov.uz",
+        "kun.uz",
+        "www.uz"
       ],
       [
-        "do",
-        "does",
-        "done",
-        "doing"
+        "8",
+        "6",
+        "9",
+        "7"
       ],
       [
-        "do",
-        "doing",
-        "done",
-        "does"
+        "@",
+        "*",
+        "+",
+        "-"
       ],
       [
-        "doing",
-        "done",
-        "do",
-        "does"
+        "admin @mail@.uz",
+        "mail.ru.@ admin",
+        "@ admin mail.ru",
+        "admin@mail.ru"
       ],
       [
-        "does",
-        "doing",
-        "do",
-        "done"
+        "prezentatsiya bilan ishlaydigan dastur",
+        "multimedia fayllar ustida ishlaydigan dastur",
+        "jadvalli ma`lumotlarni qayta ishlaydigan dastur",
+        "matnli ma`lumotlarni qayta ishlaydigan dastur"
       ],
       [
-        "had",
-        "done",
-        "are",
-        "does"
+        "2 ta",
+        "5 ta",
+        "1 ta",
+        "3 ta"
       ],
       [
-        "do",
-        "does",
-        "doing",
-        "done"
+        "ustun nomidan",
+        "ustun va qator nomidan",
+        "ixtiyoriy",
+        "qator nomidan"
       ],
       [
-        "done",
-        "watching",
-        "is",
-        "does"
+        "Monitor",
+        "Klaviatura",
+        "Protsessor",
+        "Ekran"
       ],
       [
-        "have",
-        "had",
-        "are",
-        "done"
+        "89",
+        "90",
+        "88",
+        "87"
       ],
       [
-        "being",
-        "done",
-        "is",
-        "do"
+        "lokal",
+        "mintaqaviy",
+        "global",
+        "regional"
       ],
       [
-        "going",
-        "do",
-        "done",
-        "go"
+        "klaviatura",
+        "proyektor",
+        "monitor",
+        "printer"
       ],
       [
-        "done",
-        "like",
-        "known",
-        "having"
+        "kursorni turgan joyidan bir pozitsiya chapga o`tkazish",
+        "kursor turgan joydan o`ngdagi simvollarni uchirish",
+        "kursor turgan joydan chapdagi simvollarni uchirish",
+        "kursorni turgan joyidan bir pozitsiya o`ngga o`tkazish"
       ],
       [
-        "live",
-        "living",
-        "lives",
-        "doing"
+        "sakkizlik",
+        "o`nlik",
+        "ikkilik",
+        "o`n oltilik"
       ],
       [
-        "living",
-        "live",
-        "doing",
-        "lives"
+        "fraktal va rastrli grafika",
+        "rastrli, vektorli va fraktal grafika",
+        "vektorli, kriptografik va fraktal grafika",
+        "vektorli va rastrli grafika"
       ],
       [
-        "speaked",
-        "speaks",
-        "speaking",
-        "spoken"
+        "diskеta",
+        "skaner",
+        "faksmodеm",
+        "strimеr"
       ],
       [
-        "am",
-        "know",
-        "are",
-        "had"
+        "alfavit-raqamli ma`lumotlarni chop etish qurilmasi;",
+        "alfavit-raqamli ma`lumotlarni kiritish qurilmasi;",
+        "alfavit-raqamli ma`lumotlarni chiqarish qurilmasi;",
+        "alfavit-raqamli ma`lumotlarni saralash qurilmasi;"
       ],
       [
-        "teaches",
-        "teachem",
-        "teaching",
-        "teach"
+        "alfavit-raqamli va grafik ma`lumotlarni chiqarish qurilmasi;",
+        "alfavit-raqamli ma`lumotlarni chop etish qurilmasi;",
+        "alfavit-raqamli ma`lumotlarni kiritish qurilmasi;",
+        "Kiritish qurilmasi"
       ],
       [
-        "love",
-        "loves",
-        "loving",
-        "lovely"
+        "Caps Lock",
+        "Alt",
+        "Delete",
+        "Ctrl"
       ],
       [
-        "getting up",
-        "get up",
-        "sleeping",
-        "sleep"
+        "prezentatsiya yaratish dasturi",
+        "elektron jadval muharriri",
+        "WEB sayt yaratish dasturi",
+        "matn muxariri"
       ],
       [
-        "did",
-        "watches",
-        "done",
-        "didn`t"
+        "-",
+        "=",
+        "*",
+        "_"
       ],
       [
-        "are",
-        "be",
-        "were",
-        "was"
+        ".xlsx, .xls kеngaytmalarga ega fayllarni",
+        ".ppt, .pptx kеngaytmalarga ega fayllarni",
+        ".bmp, .rar kеngaytmalarga ega fayllarni",
+        ".doc, .docx kеngaytmalarga ega fayllarni"
       ],
       [
-        "am",
-        "have",
-        "are",
-        "is"
+        "\"Пуск\" - \"Adobe \" - \"Microsoft Excel\";",
+        "\"Пуск\" -\"Eset Antivirus\" - \"Microsoft Excel\";",
+        "\"Пуск\" - \"Finy Reader\" - \"Microsoft Excel\";",
+        "\"Пуск\" - \"Программы\" - \"Microsoft Excel\";"
       ],
       [
-        "were",
-        "is",
-        "am",
-        "do"
+        "Вид - Диаграмма",
+        "Вставка -Диаграмма",
+        "Меню - Гистограмма",
+        "Меню - Рассылка - Диаграмма"
       ],
       [
-        "is",
-        "are",
-        "be",
-        "am"
+        "«Файл -Закрыть» menyu amalini bajarish",
+        "«Файл -Открыть» menyu amalini bajarish",
+        "«Файл - Развернуть» menyu amalini bajarish",
+        "«Файл Переименовать» menyu amalini bajarish"
       ],
       [
-        "are",
-        "is",
-        "be",
-        "do"
+        "«Файл -Открыть»",
+        "«Файл -Сохранить»",
+        "\"Файл -Закрыть\"",
+        "\"Файл -Печать\""
       ],
       [
-        "is",
-        "am",
-        "be",
-        "do"
+        "grafik",
+        "matn",
+        "formula",
+        "sonlar"
       ],
       [
-        "am",
-        "do",
-        "are",
-        "is"
+        "faqat grek xarflari bilan",
+        "faqat ispan xarflari bilan",
+        "faqat lotin xarflari bilan",
+        "faqat kirill xarflari bilan"
       ],
       [
-        "do",
-        "be",
-        "are",
-        "is"
+        "\"Презентация\"",
+        "\"Лист\"",
+        "\"Документ1\"",
+        "“Книга”"
       ],
       [
-        "do",
-        "be",
-        "is",
-        "are"
+        "\"Файл - Печать\"",
+        "\"Файл - Переименовать\"",
+        "\"Файл - Закрыть\"",
+        "\"Файл - Создать\""
       ],
       [
-        "be",
-        "is",
-        "am",
-        "are"
+        "\"Файл - Закрыть\"",
+        "«Файл - Сохранить»",
+        "\"Файл - Создать\"",
+        "\"Файл - Печать\""
       ],
       [
-        "o`tgan zamon",
-        "hozirgi oddiy zamon",
-        "davomli zamon",
-        "kelajak zamon"
+        "CTRL+V",
+        "CTRL+C",
+        "CTRL+R",
+        "CTRL+P"
       ],
       [
-        "fellar",
-        "egalar",
-        "birlik",
-        "otlar"
+        "CTRL+V",
+        "CTRL+X",
+        "CTRL+R",
+        "CTRL+C"
       ],
       [
-        "otlar",
-        "ko`plik",
-        "sifatlar",
-        "fellar"
+        "CTRL+N",
+        "SHIFT+F12",
+        "SHIFT+N",
+        "CTRL+F12"
       ],
       [
-        "sanalish",
-        "sanaladigan",
-        "sanash",
-        "sanalmaydigan"
+        "4",
+        "5",
+        "3",
+        "12"
       ],
       [
-        "sanaladigan",
-        "sanalish",
-        "sanash",
-        "sanalmaydigan"
+        "manzilga",
+        "tasvirga",
+        "ovozga",
+        "hajmga"
       ],
       [
-        "potatoes",
-        "tomatoes",
-        "tomatoing",
-        "tomat"
+        "Satr nom iva formulalar orqali",
+        "Ustun nomi va satr nomeri orqali",
+        "Ustun nom iva xarflari",
+        "Buyruq erdamida"
       ],
       [
-        "potatoed",
-        "potatoes",
-        "tomatoes",
-        "potato"
+        "\"Книга 1\"",
+        "“Презентация 1”",
+        "\"Документ1\"",
+        "\"База данных1\""
       ],
       [
-        "foots",
-        "footing",
-        "fet",
-        "feet"
+        "“Презентация”",
+        "“Лист”",
+        "“Книга”",
+        "“Документ”"
       ],
       [
-        "mice",
-        "mousing",
-        "mouse",
-        "mices"
+        "Shift",
+        "Alt",
+        "Tab",
+        "Ctrl"
       ],
       [
-        "children",
-        "child",
-        "childing",
-        "childrens"
+        "Backspace",
+        "Delete",
+        "F8",
+        "Insert"
       ],
       [
-        "are",
-        "am",
-        "is",
-        "be"
+        "Delete",
+        "Backspace",
+        "Insert",
+        "F8"
       ],
       [
-        "is",
-        "am",
-        "do",
-        "are"
+        "hujjatning oldingi saxifasiga o`tish",
+        "hujjatning keyingi saxifasiga o`tish",
+        "hujjatning oxiriga o`tish",
+        "hujjatning boshiga o`tish"
       ],
       [
-        "have",
-        "are",
-        "were",
-        "is"
+        "hujjatning boshiga o`tish",
+        "hujjat saxifasining o`rtasiga o`tish",
+        "hujjat saxifasining boshiga o`tish",
+        "hujjatning oxiriga o`tish"
       ],
       [
-        "be",
-        "am",
-        "is",
-        "are"
+        "Intеrnеt sеrvеri",
+        "Tarmoq protokoli",
+        "Elektromagnit to`lqinlarni o`zgartirishga mo`ljallangan tеxnik qurilma",
+        "Analogli signallarni diskrеt signallarga o`tkazib bеruvchi va aksincha amal bajaruvchi tеxnik qurilma"
       ],
       [
-        "am",
-        "have",
-        "is not",
-        "do"
+        "A1 dan A11 yacheykalardagi qiymatlarni ko`paytiradi",
+        "A1 yacheykadagi qiymatni A11 yacheykadagiga qo`shadi",
+        "A1 dan A11 yacheykalardagi qiymatlarni qo`shadi(yig`indisi)",
+        "A1 yacheykadagi qiymatni A11 ga bo`ladi"
       ],
       [
-        "are",
-        "is",
-        "done",
-        "am"
+        "Файл - Создать (CTRL+N).",
+        "Меню Файл – Сохранить.",
+        "Меню Файл – Открыть.",
+        "Файл – Сохранить как..."
       ],
       [
-        "been",
-        "are",
-        "am",
-        "is"
+        "=(A1+B4)/5",
+        "=A1+B4-А2",
+        "=A1+B4",
+        "=A1+4B"
       ],
       [
-        "do",
-        "are",
-        "am",
-        "is"
+        "Мои документы",
+        "Мой компьютер",
+        "Сетевое окружение",
+        "Корзина"
       ],
       [
-        "is",
-        "are",
-        "do",
-        "be"
+        "Oldingi oynaga o`tish",
+        "Dasturdan chiqish",
+        "Fayldagi o`zgarishni saqlash",
+        "Kеyingi oynaga o`tish"
       ],
       [
-        "am",
-        "are",
-        "do",
-        "has"
+        "faylni chop etish",
+        "faylni saqlash",
+        "faylni ochish",
+        "fayldan nusxa kuchirish"
       ],
       [
-        "be",
-        "do",
-        "is",
-        "am"
+        "Faylni bosmaga chiqarish",
+        "Faylni ochish",
+        "Faylni saqlash",
+        "Yangi hujjat yaratish"
       ],
       [
-        "are",
-        "done",
-        "be",
-        "is"
+        "Файл, Open [fayl nomi], Oк.",
+        "Файл, Exit, [fayl nomi], Oк.",
+        "Файл, Печать (Print), [fayl nomi], Oк.",
+        "Файл, Сохранить (Save), [fayl nomi], Oк."
       ],
       [
-        "are",
-        "am",
-        "be",
-        "is"
+        "yangi slayd yaratish",
+        "yangi png fayl yaratish",
+        "yangi txt fayl yaratish",
+        "yangi word fayl yaratish"
       ],
       [
-        "be",
-        "are",
-        "am",
-        "is"
+        "F7",
+        "F8",
+        "F6",
+        "F5"
       ],
       [
-        "be",
-        "am",
-        "is",
-        "are"
+        "Shakllar ustida amallar bajarish",
+        "Ma`lumotlar bazalari ustida amallar bajarish",
+        "Rasmlar ustida amallar bajarish",
+        "Prеzеntatsiya (taqdimot) yaratish"
       ],
       [
-        "are",
-        "is",
-        "am",
-        "be"
+        "Файл (File), Открыть (Open), [fayl nomi], Oк",
+        "Файл (File), Save (Open), [файл номи], Oк.",
+        "Файл, Exit, [fayl nomi], Oк.",
+        "Файл, Print, [файл номи], Oк."
       ],
       [
-        "is",
-        "do",
-        "am",
-        "are"
+        "Yangi taqdimot faylini yaratadi",
+        "Taqdimotni namoyish etadi",
+        "Mavjud taqdimot ochadi",
+        "Taqdimot faylini arxivdan ochadi"
       ],
       [
-        "a",
-        "any",
-        "some",
-        "an"
+        "Glavnaya",
+        "Dizayn",
+        "Animatsiya",
+        "Stavka"
       ],
       [
-        "a",
-        "some",
-        "any",
-        "an"
+        "Fayl diagramma",
+        "Vstavka diagramma",
+        "Fayl figuri",
+        "Vid diagramma"
       ],
       [
-        "an",
-        "a",
-        "any",
-        "some"
+        "Skanerdan monitorga o`tkazuvchi qurilma",
+        "Kompyuterdagi malumotlarni monitorga chiqaruvchi qurilma",
+        "Kompyuterdagi malumotlarni qog`ozga chop etish qurilmasi",
+        "Kompyuterdagi malumotlarni diskka o`tkazuvchi qurilma"
       ],
       [
-        "any",
-        "an",
-        "some",
-        "a"
+        "Kompyuter ekranidagi malumotlarni katta ekranlarga chiqarish",
+        "Kichik xajmli tasvirlarni yoki rasmga olishga muljallangan",
+        "Kompyuterda tovushlarni, musiqalarni eshitish",
+        "Katta xajmli tasvirlarni yoki rasmga olishga muljallangan"
       ],
       [
-        "much",
-        "any",
-        "some",
-        "an"
+        "kompyuter sichqonchasi",
+        "kompyuterning bosh xotirasi",
+        "kompyuterning monitori",
+        "kog`ozga chiqaradigan qurilma"
       ],
       [
-        "some",
-        "an",
-        "any",
-        "a"
+        "animatsiya",
+        "audio ilova",
+        "video ilova",
+        "chat"
       ],
       [
-        "a",
-        "an",
-        "any",
-        "some"
+        "ma`lumotlarni o`chiradi",
+        "videotasvirlarni kayta ishlash kurilmasi",
+        "malumotlarni kogozga chikarish kurilmasi",
+        "grafik ma`lumotlarni kiritish qurilmasi;"
       ],
       [
-        "some",
-        "a",
-        "an",
-        "any"
+        "Kompyuterdagi malumotlarni kog`ozga chop etish",
+        "Internet tarmog`iga ulanish",
+        "Telefon signallarini kompyuterga etkazish",
+        "Qog`ozdagi malumotlarni kompyuter xotirasiga o`tkazish"
       ],
       [
-        "an",
-        "some",
-        "a",
-        "any"
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Paint",
+        "Microsoft Word"
       ],
       [
-        "an",
-        "a",
-        "any",
-        "some"
+        "SHIFT",
+        "CTRL",
+        "TAB",
+        "Пуск"
       ],
       [
-        "any",
-        "a",
-        "some",
-        "an"
+        ".BMP",
+        ".XLS",
+        ".DOC",
+        ".PPT"
       ],
       [
-        "any",
-        "a",
-        "some",
-        "an"
+        "faylni ochadi",
+        "fayldan nusxa ko`chirish",
+        "fayl saqlanadi",
+        "faylni chop etish"
       ],
       [
-        "an",
-        "a",
-        "some",
-        "any"
+        "fayl saqlanadi",
+        "fayldan nusxa ko`chirish",
+        "faylni chop etish uchun bosmaga chiqarish buyrug`ini beradi",
+        "faylni ochadi"
       ],
       [
-        "any",
-        "an",
-        "this",
-        "some"
+        "bajarilgan oxirgi amalni bekor qiladi",
+        "belgilangan jadval qo`yiladi",
+        "belgilangan matn qirqib olinadi",
+        "belgilangan jadval ranglanadi"
       ],
       [
-        "any",
-        "some",
-        "an",
-        "a"
+        "Ctrl+O",
+        "Ctrl+A",
+        "Ctrl+L",
+        "Ctrl+H"
       ],
       [
-        "some",
-        "a",
-        "any",
-        "an"
+        "Ctrl + V",
+        "Alt + Insert",
+        "Ctrl + Insert",
+        "Shift + CTRL"
       ],
       [
-        "some",
-        "any",
-        "a",
-        "an"
+        "sonlar ustida ishlaydigan dastur",
+        "matnli ma`lumotlarni qayta ishlaydigan dastur",
+        "prezentatsiya bilan ishlaydigan dastur",
+        "multimedia fayllar ustida ishlaydigan dastur"
       ],
       [
-        "are",
-        "is",
-        "be",
-        "am"
+        "Microsoft",
+        "WWW",
+        "Apple",
+        "SkyNet"
       ],
       [
-        "are",
-        "is",
-        "am",
-        "do"
+        "Fayl, Save, [fayl nomi], Ok.",
+        "File, Open, [fayl nomi], Ok.",
+        "Fayl, Exit, [fayl nomi], Ok.",
+        "Fayl, Print, [fayl nomi], Ok."
       ],
       [
-        "am",
-        "be",
-        "is",
-        "are"
+        "ustun qo`shadi",
+        "jadval bilan ishlaydi",
+        "matnlarni qog`ozda chop etadi",
+        "matnlarni har xil ko`rinishda ifodalaydi"
       ],
       [
-        "am",
-        "is",
-        "are",
-        "be"
+        "qo`shimcha qurilma",
+        "internet xizmatining bir turi",
+        "asosiy qurilma",
+        "operatsion tizim"
       ],
       [
-        "are",
-        "is",
-        "am",
-        "do"
+        "12FC",
+        "F12",
+        "A2C",
+        "Ж2"
       ],
       [
-        "are",
-        "am",
-        "is",
-        "be"
+        "Ы5",
+        "Ж5",
+        "D7",
+        "Й8+л9"
       ],
       [
-        "am",
-        "be",
-        "is",
-        "are"
+        "raqamning yacheykaga sig`maganligini;",
+        "solar ketma ketliini",
+        "formulani",
+        "matnni"
       ],
       [
-        "can",
-        "am",
-        "are",
-        "is"
+        "o`chirilgan fayllarni vaqtincha saqlash",
+        "video dasturlar bilan ishalsh",
+        "hujjatlarni taxrirlash",
+        "sonlar bilan ishlash"
       ],
       [
-        "cans",
-        "are",
-        "can",
-        "is"
+        "faqat matnli",
+        "jadvallarni",
+        "grafik",
+        "sonli axborotlarni"
       ],
       [
-        "can",
-        "am",
-        "cans",
-        "is"
+        "a1 xonaning 25% hisoblash",
+        "a1 xonadan 25% ayirish",
+        "a1 xonaga 25% qo`shish",
+        "a1 xonaga 25 qo`shib 1% hisoblash"
       ],
       [
-        "is",
-        "can",
-        "cans",
-        "are"
+        "videoni",
+        "rasmlarni",
+        "matnni",
+        "musiqani"
       ],
       [
-        "are",
-        "cannot",
-        "is",
-        "cans"
+        "Berilgan ifodalarni bir biridan ajratib turadi.",
+        "Hamma vaqt formulaning dastlabki simvoli hisoblanadi",
+        "Matin kiritish",
+        "Arifmetik belgi hisoblanadi."
       ],
       [
-        "are not",
-        "can",
-        "are",
-        "cans"
+        "Microsoft Outlook Express dasturi ishga tushiriladi va unga tanlangan hujjat yuklanadi",
+        "Microsoft Excel dasturi ishga tushiriladi va unga tanlangan hujjat yuklanadi",
+        "Microsoft Word dasturi ishga tushiriladi va unga tanlangan hujjat yuklanadi",
+        "Microsoft PowerPoint dasturi ishga tushiriladi va unga tanlangan hujjat yuklanadi"
       ],
       [
-        "cans",
-        "are not",
-        "are",
-        "can"
+        "1000 bit",
+        "1024 bit",
+        "1000 bayt",
+        "1024 bayt"
       ],
       [
-        "are",
-        "cannot",
-        "is",
-        "were not"
+        "12",
+        "16",
+        "24",
+        "8"
       ],
       [
-        "can",
-        "cans",
-        "is",
-        "do"
+        "15",
+        "16",
+        "18",
+        "17"
       ],
       [
-        "does",
-        "cans",
-        "can",
-        "does not"
+        "5",
+        "4",
+        "6",
+        "8"
       ],
       [
-        "does",
-        "is",
-        "do",
-        "can"
+        "jadvalli ma`lumotlarni qayta ishlaydigan dastur.",
+        "axborotni bir ko`rinishdan ikkinchi,sifat jihatdan mutloq yangi ko`rinishga keltiruvchi, ma`lumotlarni to`plash, qaytaishlash va uzatishning vosita va usullari majmuasidan foydalanish jarayonidir.",
+        "matnli ma`lumotlarni qayta ishlaydigan dastur.",
+        "ekranda ob`ektlarning ko`rinishini formasi va o`lchamlari, hamda joylashishini multiplikatsion ko`rinishda o`zgarishi."
       ],
       [
-        "cans",
-        "is",
-        "does",
-        "can"
+        "Monitor, sichqoncha, printer",
+        "Protsessor, printer, scanner",
+        "Klaviatura, disk, modem",
+        "Sistemali blok, monitor, sichqoncha, klaviatura"
       ],
       [
-        "can",
-        "do",
-        "cans",
-        "do not"
+        "Ma`lumotlarni doimiy saqlash",
+        "Dasturlarni yuklash",
+        "Faqat video fayllarni saqlash",
+        "Axborotni klaviaturadan qabul qilish"
       ],
       [
-        "does",
-        "can",
-        "does not",
-        "cans"
+        "Axborotni tarmoqqa uzatish",
+        "Ma`lumotlarni va boshqaruv buyruqlarini kiritish",
+        "Ekrandagi tasvirlarni boshqarish",
+        "Ma`lumotlarni printerga yuborish"
       ],
       [
-        "does",
-        "can",
-        "is",
-        "are"
+        "Diskdan ma`lumotni o`qish qurilmasi",
+        "Kompyuterga matnli yoki tasvirli ma`lumotni kirituvchi qurilma",
+        "Axborotni printerga yuboruvchi qurilma",
+        "Kompyuter tarmog`iga ulanish uchun qurilma"
       ],
       [
-        "are",
-        "is",
-        "can",
-        "does"
+        "Chop etish",
+        "Xotiraga yozish",
+        "Yangi hujjat yaratish",
+        "Mavjud hujjatni ochish"
       ],
       [
-        "are",
-        "is",
-        "can",
-        "does"
+        "Yangi hujjat yaratish",
+        "Chop etish",
+        "Mavjud hujjatni ochish",
+        "Xotiraga yozish"
       ],
       [
-        "love",
-        "rice",
-        "oranges",
-        "water"
+        "Xotiraga yozish",
+        "Yangi hujjat yaratish",
+        "Ma`lumotlarni qirqib olish va almashinuv buferda saqlash.",
+        "Mavjud hujjatni ochish"
       ],
       [
-        "love",
-        "rice",
-        "mother",
-        "water"
+        "Xotiraga yozish",
+        "Yangi hujjat yaratish",
+        "Nusxa olish va xotirada saqlash.",
+        "Mavjud hujjatni ochish"
       ],
       [
-        "pens",
-        "oranges",
-        "apples",
-        "rain"
+        "Xotiraga yozish",
+        "Mavjud hujjatni ochish",
+        "Yangi hujjat yaratish",
+        "Xotiradagi ma`lumotni qo`yish."
       ],
       [
-        "snow",
-        "pens",
-        "oranges",
-        "apples"
+        "Shrift o`lchamini bir darajaga kattalashtiradi",
+        "Dizayn loyihasi qilish",
+        "Indeksli ifodalarni yozishda qo`llaniladi",
+        "Darajali ifodalarni yozishda qo`llaniladi"
       ],
       [
-        "sugar",
-        "milk",
-        "love",
-        "relatives"
+        "Darajali ifodalarni yozishda qo`llaniladi",
+        "Indeksli ifodalarni yozishda qo`llaniladi",
+        "Dizayn loyihasi qilish",
+        "Shrift o`lchamini bir darajaga kichiklashtiradi"
       ],
       [
-        "boys",
-        "toys",
-        "keys",
-        "water"
+        "Indeksli ifodalarni yozishda qo`llaniladi",
+        "Darajali ifodalarni yozishda qo`llaniladi",
+        "Dizayn loyihasi qilish",
+        "Shrift rangini o`rnatadi"
       ],
       [
-        "books",
-        "keys",
-        "house",
-        "beauty"
+        "Chop etish",
+        "Yangi hujjat yaratish",
+        "Mavjud hujjatni ochish",
+        "Xotiraga yozish"
       ],
       [
-        "milk",
-        "water",
-        "books",
-        "love"
+        "Yangi hujjat yaratish",
+        "Mavjud hujjatni ochish",
+        "Chop etish",
+        "Xotiraga yozish"
       ],
       [
-        "boys",
-        "water",
-        "rice",
-        "air"
+        "A1 va B1 ni birlashtiradi",
+        "A1 va B1 ni solishtiradi",
+        "A1 dan B1 ni ayiradi",
+        "A1 va B1 o`rtasidagi farqni topadi"
       ],
       [
-        "milk",
-        "park",
-        "toys",
-        "an apple"
+        "6",
+        "12",
+        "4",
+        "8"
       ],
       [
-        "girls",
-        "money",
-        "boys",
-        "people"
+        "6",
+        "4",
+        "10",
+        "7"
       ],
       [
-        "rooms",
-        "rice",
-        "love",
-        "water"
+        "4",
+        "6",
+        "10",
+        "2"
       ],
       [
-        "water",
-        "rice",
-        "pencils",
-        "milk"
+        "9",
+        "729",
+        "81",
+        "27"
       ],
       [
-        "sugar",
-        "courage",
-        "oil",
-        "pens"
+        "250",
+        "150",
+        "200",
+        "100"
       ],
       [
-        "apples",
-        "salt",
-        "oranges",
-        "pens"
+        "10",
+        "7",
+        "3",
+        "5"
       ],
       [
-        "lots",
-        "many",
-        "so",
-        "a little"
+        "22",
+        "18",
+        "24",
+        "30"
       ],
       [
-        "many",
-        "such",
-        "little",
-        "so"
+        "10",
+        "6",
+        "7",
+        "8"
       ],
       [
-        "so",
-        "many",
-        "a little",
-        "such"
+        "7",
+        "14",
+        "28",
+        "56"
       ],
       [
-        "much",
-        "such",
-        "an",
-        "a"
+        "36",
+        "1296",
+        "64",
+        "16"
       ],
       [
-        "a",
-        "fall",
-        "much",
-        "such"
+        "9",
+        "4",
+        "21",
+        "10"
       ],
       [
-        "an",
-        "so",
-        "a lot",
-        "much"
+        "100",
+        "50",
+        "25",
+        "150"
       ],
       [
-        "much",
-        "a",
-        "so",
-        "not"
+        "2",
+        "0",
+        "3",
+        "1"
       ],
       [
-        "many",
-        "a",
-        "not",
-        "such"
+        "4",
+        "2",
+        "16",
+        "8"
       ],
       [
-        "such friends",
-        "many friends",
-        "friends",
-        "a friends"
+        "4",
+        "3",
+        "8",
+        "16"
       ],
       [
-        "watering",
-        "too water",
-        "much water",
-        "a water"
+        "4",
+        "8",
+        "2",
+        "16"
       ],
       [
-        "many books",
-        "a books",
-        "such books",
-        "too books"
+        "1",
+        "16",
+        "4",
+        "8"
       ],
       [
-        "a books",
-        "such books",
-        "much milk",
-        "so milk"
+        "64",
+        "7",
+        "81",
+        "12"
       ],
       [
-        "such people",
-        "a people",
-        "too people",
-        "many people"
+        "1",
+        "0.5",
+        "2",
+        "0.25"
       ],
       [
-        "am",
-        "are",
-        "were",
-        "is"
+        "5",
+        "6",
+        "10",
+        "4"
       ],
       [
-        "are",
-        "is",
-        "were",
-        "am"
+        "4",
+        "5",
+        "3",
+        "6"
       ],
       [
-        "is",
-        "are",
-        "am",
-        "was"
+        "4",
+        "5",
+        "6",
+        "3"
       ],
       [
-        "does",
-        "doing",
-        "am",
-        "did"
+        "ar",
+        "rs",
+        "da",
+        "as"
       ],
       [
-        "cooked",
-        "cook",
-        "cooking",
-        "cooks"
+        "Dars tugadi",
+        "Boshlandi Dars",
+        "Dars Boshlandi",
+        "Dars"
       ],
       [
-        "is",
-        "done",
-        "are",
-        "has"
+        "yo",
+        "no",
+        "Du",
+        "Dy"
       ],
       [
-        "are",
-        "is not",
-        "was",
-        "is"
+        "Exc",
+        "Exce",
+        "Excel",
+        "Ex"
       ],
       [
-        "had",
-        "haves",
-        "is",
-        "are"
+        "Exc",
+        "cel",
+        "Cel",
+        "Exe"
       ],
       [
-        "are",
-        "am",
-        "is",
-        "had"
+        "xL",
+        "xe",
+        "xc",
+        "ce"
       ],
       [
-        "cooks",
-        "cooked",
-        "cook",
-        "cooking"
+        "4",
+        "5",
+        "6",
+        "3"
       ],
       [
-        "teaches",
-        "teach",
-        "are teach",
-        "teaching"
+        "Ilman",
+        "FanIlm",
+        "imfan",
+        "IlmFan"
       ],
       [
-        "boring",
-        "the most beautiful",
-        "more dangerous",
-        "beautiful"
+        "J",
+        "av",
+        "va",
+        "Ja"
       ],
       [
-        "the newest",
-        "stronger",
-        "smart",
-        "must"
+        "Mat",
+        "Mate",
+        "M",
+        "Matem"
       ],
       [
-        "the most beautiful",
-        "beautiful",
-        "the youngest",
-        "more helpful"
+        "3",
+        "5",
+        "6",
+        "4"
       ],
       [
-        "more difficult",
-        "difficult",
-        "the most difficult",
-        "difficultest"
+        "n",
+        "at",
+        "ta",
+        "Vat"
       ],
       [
-        "younger",
-        "old",
-        "young",
-        "the youngest"
+        "7",
+        "5",
+        "6",
+        "8"
       ],
       [
-        "more exciting",
-        "strong",
-        "healthiest",
-        "healthy"
+        "2",
+        "12",
+        "5",
+        "10"
       ],
       [
-        "much",
-        "exciting",
-        "the most comfortable",
-        "more comfortable"
+        "10",
+        "30",
+        "25",
+        "15"
       ],
       [
-        "more beautiful",
-        "youngest",
-        "beautiful",
-        "the most beautiful"
+        "25",
+        "45",
+        "40",
+        "35"
       ],
       [
-        "wonderful",
-        "more wonderful",
-        "the most wonderful",
-        "the wonderfulest"
+        "7",
+        "17",
+        "60",
+        "2"
       ],
       [
-        "the most interesting",
-        "most",
-        "more interesting",
-        "interesting"
+        "2",
+        "5",
+        "3",
+        "4"
       ],
       [
-        "more stressful",
-        "stressful",
-        "the most stressful",
-        "stress"
+        "14",
+        "7",
+        "21",
+        "28"
       ],
       [
-        "safer",
-        "the safe",
-        "the safest",
-        "safe"
+        "8",
+        "4",
+        "5",
+        "6"
       ],
       [
-        "clean",
-        "cleaner",
-        "the cleanest",
-        "the most clean"
+        "15",
+        "20",
+        "30",
+        "18"
       ],
       [
-        "the most",
-        "slow",
-        "slower",
-        "slowest"
+        "35",
+        "15",
+        "25",
+        "10"
       ],
       [
-        "hot",
-        "much",
-        "the hottest",
-        "hotter"
+        "25",
+        "5",
+        "15",
+        "10"
       ],
       [
-        "biggest",
-        "the most",
-        "big",
-        "bigger"
+        "1",
+        "5",
+        "1.5",
+        "6"
       ],
       [
-        "most",
-        "the nicest",
-        "nice",
-        "nicer"
+        "25",
+        "20",
+        "15",
+        "5"
       ],
       [
-        "the smallest",
-        "most",
-        "smaller",
-        "small"
+        "45",
+        "57",
+        "67",
+        "46"
       ],
       [
-        "smart",
-        "the most interesting",
-        "smartest",
-        "smarter"
+        "50",
+        "25",
+        "100",
+        "125"
       ],
       [
-        "tiring",
-        "more tired",
-        "tired",
-        "the most beautiful"
+        "6",
+        "7",
+        "5",
+        "10"
       ],
       [
-        "most large",
-        "larger",
-        "large",
-        "hot"
+        "6",
+        "4",
+        "16",
+        "8"
       ],
       [
-        "the highest",
-        "easy",
-        "small",
-        "smart"
+        "64",
+        "16",
+        "4",
+        "6"
       ],
       [
-        "swimming",
-        "easy",
-        "the best",
-        "hot"
+        "A1",
+        "Yo`q",
+        "Ha",
+        "3"
       ],
       [
-        "kind",
-        "nice",
-        "the smartest",
-        "king"
+        "Printer, klaviatura, windows",
+        "windows, word, excel",
+        "Printer, klaviatura, tizim bloki",
+        "klaviatura, windows, word"
       ],
       [
-        "large",
-        "even",
-        "can",
-        "the largest"
+        "Bayt (bayt) - inglizcha “binary digit” so`zlarining qisqartmasi, ikkilik raqam degan ma`noni anglatadi.",
+        "kilobayt - inglizcha “binary digit” so`zlarining qisqartmasi, ikkilik raqam degan ma`noni anglatadi.",
+        "megabayt - inglizcha “binary digit” so`zlarining qisqartmasi, ikkilik raqam degan ma`noni anglatadi.",
+        "bit (bit) - inglizcha “binary digit” so`zlarining qisqartmasi, ikkilik raqam degan ma`noni anglatadi."
       ],
       [
-        "the fastest",
-        "hot",
-        "fast",
-        "hotter"
+        "1973 – yil Nruohg Trohg Ti",
+        "1981 – yil IBM firmasi tomonidan",
+        "1946 – yil Nruohg Trohg Ti",
+        "1975 – yil Stiv Jobs"
       ],
       [
-        "the smallest",
-        "kind",
-        "swimming",
-        "hot"
+        "Monitor, printer, proyektor",
+        "Monitor, proyektor, klaviatura",
+        "Monitor, printer, proyektor, tizim bloki",
+        "Monitor, printer, skaner"
       ],
       [
-        "clean",
-        "big",
-        "cleaner",
-        "the biggest"
+        "Printer, klaviatura, windows",
+        "Printer, klaviatura, tizim bloki",
+        "klaviatura, windows, word",
+        "windows, word, excel"
       ],
       [
-        "the shortest",
-        "clean",
-        "short",
-        "cleaning"
+        "Chin Yolg`on",
+        "Ommaviy Maxsus Maxfiy Shaxsiy",
+        "Matnli Sonli Grafik Tovush Videoaxborot",
+        "Aktual Ishonchli Tushunarli To`liq Foydali"
       ],
       [
-        "hard",
-        "hot",
-        "the cleanest",
-        "king"
+        "Kompyuterning dasturiy ta`minoti",
+        "Amaliy dasturlar paketi",
+        "Kompyuterning aparat ta`minoti",
+        "Sun`iy intelekt"
       ],
       [
-        "the hottest",
-        "small",
-        "sport",
-        "skin"
+        "Skaner, klaviatura",
+        "Monitor, printer",
+        "Proyektor, klaviatura",
+        "Printer, skaner"
       ],
       [
-        "call",
-        "kind",
-        "the most exciting",
-        "nice"
+        "Tizimli va dasturiy",
+        "Aparat va Hardware",
+        "Aparat va dasturiy",
+        "Dasturiy va Software"
       ],
       [
-        "the most important",
-        "important",
-        "much",
-        "must"
+        "СРЗНАЧ (AVERAGE)",
+        "МАКС (MAX)",
+        "МОДА (MODE)",
+        "СУММ (SUM)"
       ],
       [
-        "more",
-        "hot",
-        "interesting",
-        "the most interesting"
+        "БОЛЬШОЙ (BIG)",
+        "ВЫСОКИЙ (HIGH)",
+        "НАИБОЛЬШИЙ (LARGE)",
+        "МАКС (MAX)"
       ],
       [
-        "the most fantastic",
-        "hot",
-        "fantastic",
-        "kind"
+        "МИН (MIN)",
+        "МАЛЕНЬКИЙ (LEAST)",
+        "НИЗКИЙ (LOW)",
+        "НАИМЕНЬШИЙ (SMALL)"
       ],
       [
-        "the most expensive",
-        "swing",
-        "expensive",
-        "hard"
+        "И (AND)",
+        "ИЛИ (OR)",
+        "ЕСЛИ (IF)",
+        "НЕ (NOT)"
       ],
       [
-        "the saddest",
-        "hard",
-        "hate",
-        "high"
+        "ДЛСТР (LEN)",
+        "ЛЕВСИМВ (LEFT)",
+        "ТЕКСТ (TEXT)",
+        "НАЙТИ (FIND)"
       ],
       [
-        "small",
-        "swim",
-        "strong",
-        "the strongest"
+        "НАЙТИ (FIND)",
+        "ПРАВСИМВ (RIGHT)",
+        "ПСТР (MID)",
+        "ЛЕВСИМВ (LEFT)"
       ],
       [
-        "excite",
-        "the most exhausting",
-        "exit",
-        "more"
+        "Dasturiy va Software",
+        "Asosiy va qo`shimcha qurilmalar",
+        "Hardware va Software",
+        "Tizimli va dasturiy"
       ],
       [
-        "small",
-        "politics",
-        "the most polite",
-        "police"
+        "Дизайн",
+        "Вставка",
+        "Главная",
+        "Ссилка"
       ],
       [
-        "the most pleasant",
-        "white",
-        "hard",
-        "small"
+        "Kompyuterning dasturiy ta`minoti",
+        "Amaliy dasturlar paketi",
+        "Sun`iy intelekt",
+        "Kompyuterning aparat ta`minoti"
       ],
       [
-        "planted",
-        "plant",
-        "is plant",
-        "have plan"
+        "Фигури",
+        "Таблитса",
+        "Smart art",
+        "Тeкст"
       ],
       [
-        "lived",
-        "can",
-        "lives",
-        "does"
+        "«Пуск»  «Все приложения»  Word",
+        "Indeksli ifodalarni yozishda qo`llaniladi",
+        "Yangi list qo`shish",
+        "Dizayn loyihasi qilish"
       ],
       [
-        "worked",
-        "work",
-        "have work",
-        "cloud"
+        "Darajali ifodalarni yozishda qo`llaniladi",
+        "Dizayn loyihasi qilish",
+        "Yangi list qo`shish",
+        "Indeksli ifodalarni yozishda qo`llaniladi"
       ],
       [
-        "has listen",
-        "listens",
-        "listened",
-        "does"
+        "Darajali ifodalarni yozishda qo`llaniladi",
+        "Yangi list qo`shish",
+        "Indeksli ifodalarni yozishda qo`llaniladi",
+        "Dizayn loyihasi qilish"
       ],
       [
-        "hottest",
-        "many",
-        "rained",
-        "small"
+        "СРЗНАЧ (AVERAGE)",
+        "ПРОИЗВЕД (PRODUCT)",
+        "СУММ (SUM)",
+        "СЧЁТ (COUNT)"
       ],
       [
-        "has",
-        "are",
-        "played",
-        "am playing"
+        "МОД (MOD)",
+        "СУММ (SUM)",
+        "ПРОИЗВЕД (PRODUCT)",
+        "МАКС (MAX)"
       ],
       [
-        "can",
-        "played",
-        "am",
-        "is"
+        "MOD",
+        "КОРЕНЬ (SQRT)",
+        "СУММ (SUM)",
+        "INT"
       ],
       [
-        "stayed",
-        "has",
-        "is",
-        "can"
+        "ЦЕЛОЕ (INT)",
+        "MOD",
+        "ABS",
+        "ROUNDUP"
       ],
       [
-        "learns",
-        "learned",
-        "is",
-        "can"
+        "СРЗНАЧ (AVERAGE)",
+        "МАКС (MAX)",
+        "МОД (MOD)",
+        "МИН (MIN)"
       ],
       [
-        "waiting",
-        "waited",
-        "am",
-        "can"
+        "СРЗНАЧ (AVERAGE)",
+        "МИН (MIN)",
+        "МАКС (MAX)",
+        "ROUND"
       ],
       [
-        "talked",
-        "am",
-        "talking",
-        "can"
+        "СРЗНАЧ (AVERAGE)",
+        "МАКС (MAX)",
+        "СУММ (SUM)",
+        "COUNT"
       ],
       [
-        "are",
-        "can",
-        "still",
-        "played"
+        "И (AND)",
+        "ЕСЛИ (IF)",
+        "НЕ (NOT)",
+        "ИЛИ (OR)"
       ],
       [
-        "used",
-        "has",
-        "cans",
-        "be use"
+        "Katta",
+        "TRUE",
+        "FALSE",
+        "Kichik"
       ],
       [
-        "lived",
-        "are live",
-        "be",
-        "enjoy"
+        "Ha",
+        "TRUE",
+        "FALSE",
+        "Yo`q"
       ],
       [
-        "like",
-        "is",
-        "enjoy",
-        "enjoyed"
+        "=A1:2",
+        "=A1^2",
+        "=A1\\2",
+        "=A1/2"
       ],
       [
-        "stopping",
-        "am",
-        "stopped",
-        "having"
+        "=MAX(5;10;15)",
+        "=SUM(5;10;15)",
+        "= СРЗНАЧ(5;10;15)",
+        "= СЧЁТ(5;10;15)"
       ],
       [
-        "are",
-        "and",
-        "an",
-        "cooked"
+        "16",
+        "6",
+        "5",
+        "10"
       ],
       [
-        "visit",
-        "visited",
-        "am",
-        "be visited"
+        "2",
+        "3",
+        "6",
+        "1"
       ],
       [
-        "watches",
-        "can",
-        "watched",
-        "still"
+        "0",
+        "10",
+        "7",
+        "17"
       ],
       [
-        "went",
-        "gone",
-        "has",
-        "go"
+        "15",
+        "40",
+        "0",
+        "25"
       ],
       [
-        "gone",
-        "will",
-        "went",
-        "cans"
+        "1",
+        "20",
+        "45",
+        "9"
       ],
       [
-        "traffic",
-        "is",
-        "will",
-        "be"
+        "4",
+        "100",
+        "25",
+        "20"
       ],
       [
-        "you",
-        "help",
-        "me",
-        "our"
+        "4",
+        "5",
+        "6",
+        "3"
       ],
       [
-        "be",
-        "is",
-        "her",
-        "will"
+        "5",
+        "9",
+        "11",
+        "10"
       ],
       [
-        "do",
-        "has",
-        "done",
-        "be do"
+        "Bo`linmaydi",
+        "0",
+        "#DIV/0!",
+        "5"
       ],
       [
-        "am",
-        "my",
-        "is",
-        "will"
+        "1",
+        "45",
+        "20",
+        "9"
       ],
       [
-        "done",
-        "can be",
-        "am",
-        "will"
+        "19",
+        "-5",
+        "84",
+        "5"
       ],
       [
-        "win",
-        "will",
-        "want",
-        "be done"
+        "9",
+        "18",
+        "36",
+        "3"
       ],
       [
-        "am",
-        "warn",
-        "will",
-        "be"
+        "80",
+        "24",
+        "5",
+        "4"
       ],
       [
-        "my",
-        "will",
-        "be can",
-        "has"
+        "5",
+        "7",
+        "3",
+        "13"
       ],
       [
-        "going",
-        "went",
-        "go",
-        "is"
+        "1",
+        "3",
+        "9",
+        "6"
       ],
       [
-        "were",
-        "meet",
-        "be met",
-        "was"
+        "2",
+        "6",
+        "4",
+        "10"
       ],
       [
-        "cooking",
-        "was",
-        "cook",
-        "cooked"
+        "10",
+        "7",
+        "26",
+        "25"
       ],
       [
-        "was",
-        "were",
-        "won",
-        "will"
+        "14",
+        "7",
+        "10",
+        "11"
       ],
       [
-        "has played",
-        "play",
-        "be play",
-        "playing"
+        "4",
+        "2",
+        "3",
+        "1"
       ],
       [
-        "eat",
-        "be can",
-        "be ate",
-        "has eaten"
+        "7",
+        "9",
+        "6",
+        "5"
       ],
       [
-        "be run",
-        "was run",
-        "has run",
-        "run"
+        "12",
+        "20",
+        "8",
+        "16"
       ],
       [
-        "take",
-        "be taken",
-        "taken",
-        "took"
+        "3",
+        "0",
+        "-3",
+        "12"
       ],
       [
-        "help",
-        "helped",
-        "helping",
-        "be helped"
+        "9",
+        "11",
+        "13",
+        "7"
       ],
       [
-        "be staying",
-        "stay",
-        "helps",
-        "stayed"
+        "8",
+        "64",
+        "36",
+        "16"
       ],
       [
-        "Is",
-        "do",
-        "like",
-        "should"
+        "10",
+        "2",
+        "8",
+        "14"
       ],
       [
-        "are not",
-        "do not",
-        "cannot",
-        "should"
+        "20",
+        "16",
+        "9",
+        "25"
       ],
       [
-        "is",
-        "do not",
-        "should",
-        "should not"
+        "4",
+        "1",
+        "2",
+        "8"
       ],
       [
-        "do",
-        "has",
-        "did",
-        "have"
+        "18",
+        "20",
+        "16",
+        "13"
       ]
     ],
     "correctAnswers": [
