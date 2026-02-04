@@ -48,7 +48,7 @@ function checkArrLength(arr = [], min = 0) {
 
 function checkName(localName) {
    const trimmed = localName?.trim();
-   return trimmed && trimmed !== 'Aldaysanku Sardor' &&
+   return trimmed &&
    trimmed.length >= 4 &&
    /^[a-zA-Z']+(\s[a-zA-Z']+)*$/.test(trimmed) &&  // single space between words only
    /[a-zA-Z]/.test(trimmed)  // ensure at least one letter
