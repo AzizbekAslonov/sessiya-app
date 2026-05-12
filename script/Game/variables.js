@@ -2007,6 +2007,7 @@ const ALL_QUESTIONS = {
       2
     ]
   },
+  /* 
   "Noorganik kimyo": {
     "questions": [
       "Qaysi elementning elektr manfiyligi eng katta?",
@@ -4023,6 +4024,10 @@ const ALL_QUESTIONS = {
       1
     ]
   },
+  */
+
+
+  
   // 'Rus Tili': {
   //   "questions": [
   //     "Что означает имя существительное?",

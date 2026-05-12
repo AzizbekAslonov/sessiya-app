@@ -6,7 +6,7 @@ const btnCollection = Object.keys(ALL_QUESTIONS).map((name, index) => ({
 
 // Send something to the group
 // const chat_id = "-1003449818507"
-// let str = "Axborot Texnologiyalari uchun testlar qo'shildi"
+// let str = "Lotin tili testlari qo'shildi"
 // let s1 = "g9U6o0FG"
 // let s2 = "AAG0rZT91FYMtlynF5l"
 // let token =
@@ -15,7 +15,7 @@ const btnCollection = Object.keys(ALL_QUESTIONS).map((name, index) => ({
 // let base =
 // `https://api.telegram.org/bot${token}/sendMessage?parse_mode=html&text=${str}`
 // send(base, chat_id)
-   
+
 
 const nameInput = document.getElementById("nameInput")
 const localName = localStorage.getItem('name');
