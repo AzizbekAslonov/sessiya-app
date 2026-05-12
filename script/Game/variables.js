@@ -1,4 +1,2012 @@
 const ALL_QUESTIONS = {
+  "Lotin tili": {
+    "questions": [
+      "“Musculus biceps brachii”terminida qaysi so’z moslashgan aniqlovchi?",
+      "“Os frontale” anatomik terminida asosiy so’z nima?",
+      "Quyidagi terminlarning qaysi birida moslashgan aniqlovchi so‘nggi o‘rinda kelgan?",
+      "Murakkab anatomik termin tarkibidagi aniqlovchilar qanday tartibda joylashadi?",
+      "“Nervus vagus sinister” terminidagi asosiy so‘zni toping.",
+      "Moslashgan aniqlovchilar morfologik jihatdan qanday belgiga ega?",
+      "Quyidagi terminlardan qaysi biri moslashgan aniqlovchilar orqali joylashuvni, shaklni va yo‘nalishni bildiradi?",
+      "Quyidagi terminlardan qaysi birida ko‘plikdagi moslashgan aniqlovchi ishtirok etadi?",
+      "\"Articulatio\" so‘zining lug‘at shakli to‘g‘ri ko‘rsatilgan variantni toping:",
+      "Femininum rodidagi 3-turlanishga mansub otlarning genitivus yakka shakli qanday tugaydi?",
+      "“Glandula, ae f.” otining turlanishi va rodini aniqlang:",
+      "“Pars” so‘zining genitivus birlik shaklini ko‘rsating:",
+      "“Appendix” otining lug‘at shakli va o‘zagini toping:",
+      "“Clavicula” femininum rodiga kiradi. U nechanchi turlanishga mansub?",
+      "“Os, ossis n.” – bu so‘z qaysi turlanishga kiradi?",
+      "“Articulatio acromialis” iborasida qaysi so‘z 3-turlanish, femininum rodiga mansub?",
+      "3-turlanish femininum rod otlarda lug‘at shaklining maqsadi nima?",
+      "“Corpus” so‘zining lug‘at shaklini toping:",
+      "“Os, ossis n.” so‘zida o‘zak qaysi?",
+      "Quyidagi otlardan qaysi biri neutrum rodiga kiradi?",
+      "“Foramen, foraminis n.” so‘zining genitivus shakli to‘g‘ri ko‘rsatilgan variantni toping:",
+      "“Caput, capitis n.” so‘zining nominativus pluralis shakli qanday?",
+      "Neutrum rodli 3-turlanish otlar genitivus pluralisda qanday tugaydi?",
+      "“Os temporale” iborasidagi “os” qaysi turlanishga mansub?",
+      "“Caput humeri” iborasidagi “caput” so‘zining vazifasi nima?",
+      "“Corpus callosum” iborasida “callosum” qanday so‘z turkumiga kiradi?",
+      "Neutrum rodda 3-turlanishga tegishli lug‘at shakli qanday tartibda yoziladi?",
+      "“Tuberculum” so‘zi qanday rod va turlanishga kiradi?",
+      "“Os frontale” iborasidagi “frontale” so‘zi nimani bildiradi?",
+      "“Os, ossis n.” so‘zida -s bilan tugagan bo‘lsa ham, nima uchun 3-turlanishga kiradi?",
+      "“Rete, retis n.” otida qanday o‘zagi mavjud?",
+      "“Vena jugularis” so‘z birikmasida sifatning tugashi qanday?",
+      "“Corpus callosum” iborasida “callosum” sifat qanday rodda?",
+      "“Vena cava inferior” iborasida sifatlar qanday ketma-ketlikda turadi?",
+      "“Musculus obliquus externus” iborasida nechta sifat mavjud?",
+      "“Nervus opticus” iborasida “opticus” qanday otga moslashgan?",
+      "“Cornu posterius” iborasidagi sifat qanday rodga moslashadi?",
+      "“Cavitas abdominalis” iborasida sifat “abdominalis” qaysi otga moslashgan?",
+      "“Fractura claviculae sinistrae” iborasida “sinistrae” qaysi kelishikda turibdi?",
+      "“Arteria profunda” iborasida “profunda” qanday tugaydi va nima bildiradi?",
+      "“Venae cerebri” tarjimasi to‘g‘ri ko‘rsatilgan variantni tanlang:",
+      "“Arteriae pulmonales” tarjimasi qanday?",
+      "“Partes corporis humani” iborasining tarjimasini tanlang:",
+      "“Cavitates nasales” iborasi qanday tarjima qilinadi?",
+      "“Articulationes manus” iborasining tarjimasi:",
+      "“Organa sensuum” qanday tarjima qilinadi?",
+      "“Musculi abdominis” deganda nima tushuniladi?",
+      "“Arteriae renales dextrae et sinistrae” deganda nima tushuniladi?",
+      "“Musculi extensores digitorum manus” iborasida nechta so‘z Gen. Plur. da?",
+      "Lotincha “caput” so‘zining yunoncha dubleti:",
+      "Yunoncha “nephro” dubletining lotincha mos ekvivalenti:",
+      "“Lingua” so‘zining yunoncha dubleti:",
+      "“Os” (suyak) uchun mos yunoncha dublet:",
+      "“Pulmo” ning yunoncha dubleti:",
+      "“Cerebrum” so‘zining yunoncha dubleti:",
+      "“Vesica urinaria” ga mos yunoncha dublet:",
+      "“Nasus” (burun) ning yunoncha dubleti:",
+      "“Cor” (yurak) ning yunoncha dubleti:",
+      "“Vena” (tomir) uchun mos yunoncha dublet:",
+      "“Cutis” (teriga oid) ning yunoncha dubleti:",
+      "“Os longum” (uzun suyak) uchun to‘g‘ri yunoncha kombinatsiyani tanlang:",
+      "“Lacrima” (ko‘z yoshlari) uchun mos yunoncha dublet:",
+      "“Sanguis” (qon) ning yunoncha dubleti:",
+      "“Tuba uterina” (bachadon naychasi) ga mos yunoncha dublet:",
+      "“Os zygomaticum” (yonoq suyagi) uchun mos yunoncha dublet:",
+      "“Encephalomyelitis” tibbiy atamasining komponentlarini tahlil qiling:",
+      "“Hepatosplenomegalia” tibbiy holat nimani bildiradi?",
+      "Lotincha “febris” so‘zining ma’nosi:",
+      "“Fractura” so‘zi nima anglatadi?",
+      "“Tumor” lotin tilida nimani anglatadi?",
+      "“Myalgia” atamasining tarjimasi:",
+      "“Hyperthermia” atamasi nimani bildiradi?",
+      "“Bronchitis acuta” qanday kasallikni bildiradi?",
+      "“Cardiomyopathia” qanday holat?",
+      "“Diabetes mellitus” deganda nima tushuniladi?",
+      "“Ulcus ventriculi” nimani anglatadi?",
+      "“Anaemia” qanday holat?",
+      "“Nephritis chronica” qanday kasallik?",
+      "“Hepatitis viralis” atamasi nimani anglatadi?",
+      "“Sclerosis multiplex” kasalligi nimani anglatadi?",
+      "“Meningoencephalitis” qanday holatni bildiradi?",
+      "“Panencephalitis sclerotica” qanday kasallik?",
+      "“Polymyositis” qanday holatni bildiradi?",
+      "“Tabuletta” qanday dori shakli?",
+      "“Unguentum” so‘zining ma’nosi nima?",
+      "“Guttae” nima?",
+      "“Solutio” qanday dori shakli?",
+      "“Pulvis” so‘zining ma’nosi:",
+      "“Capsula” qanday dori shakli?",
+      "“Emulsum” qanday xususiyatga ega?",
+      "“Linimentum” qanday dori?",
+      "“Tinctura” dori shakli nima asosida tayyorlanadi?",
+      "Ko‘z uchun mo‘ljallangan dori shakli:",
+      "“Extractum” qanday dori turi?",
+      "“Sirupus” qanday maqsadda ishlatiladi?",
+      "“Solutio pro injectionibus” qanday dori shakli?",
+      "“Lamellae ophthalmicae” qanday ishlatiladi?",
+      "“Guttae auriculares” qanday dori?",
+      "“Mixtura” dori shakli qanday?",
+      "“Suppositorium anale” va “Suppositorium vaginale” orasidagi farq nimada?",
+      "“Oculoguttae” va “Oculolamellae” o‘rtasidagi asosiy farq nima?",
+      "Qaysi dori shakli ichga qabul qilishda tez so‘riladi?",
+      "“Tinctura Valerianae” qanday dori shakli va nima uchun ishlatiladi?",
+      "Botanika nomlarida sifat qaysi holatda keladi?",
+      "“Belladonna folium” birikmasida belladonna so‘zi qanday vazifani bajaradi?",
+      "Sifatlar odatda qaysi o‘simlik qismlari bilan ishlatiladi?",
+      "“Valeriana officinalis” nomida officinalis so‘zining vazifasi nima?",
+      "“Plantago major” nomida major qanday so‘z turkumiga kiradi?",
+      "“Digitalis purpurea” nomida purpurea qanday ma’no beradi?",
+      "Botanika nomlarida sifatlar qanday qo‘llaniladi?",
+      "“Achillea millefolium” o‘simligi qanday xususiyat bilan ajralib turadi?",
+      "Qaysi sifat “dorivor” ma’nosini beradi?",
+      "“Officinalis, vulgaris, major, minor” — bu so‘zlarning umumiy xususiyati:",
+      "“Calendula officinalis” va “Chamomilla recutita” nomlarida sifatlar qanday holatda kelgan?",
+      "Lotin tilida fe’l qanday atama bilan yuritiladi?",
+      "Lotin fe’lida zamon qanday ifodalanadi?",
+      "\"Curat\" fe’li qanday tarjima qilinadi?",
+      "Quyidagilardan qaysi biri 1-konjugatsiya fe’lidir?",
+      "\"Videre\" fe’li qaysi konjugatsiyaga kiradi?",
+      "\"Curare\" fe’lini hozirgi zamonda aniqlik mayli, birlikda yasalgan shakl:",
+      "Lotin tilida fe’lning infinitiv shakli qanday tugaydi? (1-konjugatsiya uchun)",
+      "Quyidagilardan qaysi biri 4-konjugatsiya fe’li?",
+      "“Audi” shakli qaysi maylga kiradi?",
+      "“Scribere” fe’li qanday ma’noni anglatadi?",
+      "Lotin tilida predlog nima?",
+      "Lotin tilidagi “in” predlogi qanday ma’noni bildiradi?",
+      "\"Cum\" predlogi qaysi ma’nolarda ishlatiladi?",
+      "“Inter” predlogi qaysi kelishik bilan ishlaydi?",
+      "“Cum” predlogi va uning qanday ma’nosi mavjud?",
+      "“Per” predlogi qanday ma’noni bildiradi?",
+      "“Post” predlogi qanday ma’noni bildiradi?",
+      "“Ut” bog‘lovchisi qanday ishlatiladi?",
+      "“Autem” bog‘lovchisi qanday ma’noni bildiradi?",
+      "Retsept yozishda \"Dosis\" so‘zi qanday ma’noni bildiradi?",
+      "Retsept yozishda qanday formulalar ishlatiladi?",
+      "“Signa” so‘zi retseptda nimani anglatadi?",
+      "Retsept yozishda ko‘makchi moddalar qanday kiritiladi?",
+      "“Fiat” so‘zi retseptda qanday ma’noni anglatadi?",
+      "Retseptda \"Quantum satis\" qanday ma’noni bildiradi?",
+      "“Misce” so‘zi retseptda qanday ma’noni bildiradi?",
+      "Retseptda \"Da\" so‘zi qanday ishlatiladi?",
+      "Retseptda \"Signa\" qanday ko‘rsatmalarni anglatadi?",
+      "Retseptda \"Fiat mixture\" degan yozuv nimani anglatadi?",
+      "Retseptda \"Divide in partes aequales\" nimani anglatadi?",
+      "“Pulvis” so‘zi retseptda qanday ma’noga ega?",
+      "Retseptda \"Tinctura\" qanday dori shaklini anglatadi?",
+      "\"Adde\" so‘zi retseptda qaysi maylda ishlatiladi?",
+      "Retseptda \"Capsula\" so‘zi qanday shaklni bildiradi?",
+      "Retseptda “Misce ut fiat solutio” degan yozuv nima uchun yoziladi?",
+      "“Dispense” so‘zi retseptda qanday ishlatiladi?",
+      "\"Fiat\" va \"Fiant\" orasidagi farq nima?",
+      "Retseptda qo‘shimcha yozuvlar qayerda yoziladi?",
+      "Retseptda tabletka, shamcha va ko‘z plyonkalarini yozishda tushum kelishigining ahamiyati nima?",
+      "Retseptda \"shamcha\" so‘zini yozishda kelishikning to‘g‘ri shakli qanday?",
+      "Ko‘z plyonkalarini yozishda Akkuzativ kelishigini qo‘llashning maqsadi nima?",
+      "Retseptda \"shamcha\" va \"tabletka\" so‘zlarining yozilishidagi farq nima?",
+      "Retseptda \"tabletka\" yozishda kelishikni to‘g‘ri qo‘llash nima uchun zarur?",
+      "Retseptda “Rp.” qisqartmasidan keyin qanday malumot yoziladi?",
+      "Lotincha \"unguentum\" so‘zining ma’nosi nima?",
+      "Guttae — bu:",
+      "“Aerosolum” dori shakli qanday qo‘llaniladi?",
+      "“Oculoguttae” qanday doridir?",
+      "Lotin retseptida “Da tales doses” ifodasi nimani anglatadi?",
+      "“Pilulae” qanday dori shaklidir?",
+      "“Injectio intramuscularis” qanday qo‘llaniladi?",
+      "“Aqua pro injectionibus” nimani bildiradi?",
+      "Lotin tilida Hydrogenium elementining belgisi nima?",
+      "Lotin tilida Oxygenium elementining belgisi qanday bo‘ladi?",
+      "Chlorum elementining belgisi qanday?",
+      "Nitrogenium so‘zining belgisini toping:",
+      "Kislorod lotin tilida qanday yoziladi?",
+      "Quyidagi kislotalardan qaysi biri kislorodli kislota hisoblanadi?",
+      "Natrium elementi qaysi kimyoviy belgiga ega?",
+      "Hydroiodicum kislota tarkibida qaysi element bor?",
+      "Acidum nitricum kislota qaysi elementdan hosil bo‘lgan?",
+      "Lotin tilida “kislorodli kislotalar” qanday belgilar bilan tugaydi?",
+      "Quyidagi elementlardan yakka harfli belgiga ega bo‘lganini belgilang:",
+      "“Acidum hydrochloricum” qaysi turdagi kislotalarga kiradi?",
+      "“Fe” belgisi qaysi lotincha nomga tegishli?",
+      "“Kislotalar” lotin tilida odatda qanday birlik so‘z turkumi bilan yoziladi?",
+      "Unus, una, unum — bu qanday son turkumiga kiradi?",
+      "Primus, prima, primum — bu qanday son?",
+      "Duo, duae, duo lotin tilida qanday son ifodalaydi?",
+      "“Ikkinchi” degan so‘zning lotincha tarjimasini toping:",
+      "Bis bu qanday son turkumiga kiradi?",
+      "Terni, -ae, -a qanday sonni bildiradi?",
+      "Decimus so‘zining tarjimasini toping:",
+      "Bi- prefiksi qanday sonni bildiradi?",
+      "Centum bu qanday son?",
+      "Quadriceps so‘zida necha bo‘lim yoki bosh ishtirok etadi?",
+      "Unilateral tibbiy atamasi qanday ma’noni bildiradi?",
+      "Semel degani nima?",
+      "Duplex so‘zida qanday ma’no mavjud?",
+      "Quini, -ae, -a qanday sonni bildiradi?",
+      "Tibbiyotdagi biceps brachii atamasidagi “bi-” prefiksi nimani bildiradi?",
+      "Lotin tilida kislotaning nomi qanday boshlanadi?",
+      "“Hydrogenii peroxidum” qanday modda?",
+      "Oksidlar qanday ikki elementdan tashkil topadi?",
+      "Quyidagi birikmalardan qaysi biri kislorodli birikma hisoblanadi?",
+      "Karbon dioksidning lotincha nomi nima?",
+      "“Zinci oxidum” qaysi elementning oksidi?",
+      "CO₂ qanday oksid turiga kiradi?",
+      "Kislotali oksidlar qanday modda bilan birikib kislota hosil qiladi?",
+      "Oksidlar retsepturada odatda qanday kelishikda yoziladi?",
+      "Tuzlar qanday birikmalardir?",
+      "Tuzning lotincha nomi odatda qanday tugaydi?",
+      "“Kalii bromidum” bu qanday modda?",
+      "Tuzlarning farmatsevtik nomi odatda qanday holatda yoziladi?",
+      "“Natrii sulfas” nomida “sulfas” nimani bildiradi?",
+      "“Natrii nitras” qaysi kislotaning tuzi?",
+      "Tuzlar tibbiyotda asosan qanday maqsadda qo‘llaniladi?",
+      "Tuzlar tarkibida vodorod atomlari saqlovchi shakli nima deb ataladi?",
+      "“M.D.S.” qisqartmasining to‘liq yozilishi qanday?",
+      "“D.t.d.” qisqartmasi qanday tarjima qilinadi?",
+      "“gtt.” qisqartmasi nimani bildiradi?",
+      "“pulv.” qisqartmasi qanday dori shaklini bildiradi?",
+      "“sol.” qisqartmasining to‘g‘ri tarjimasi nima?",
+      "“extr.” qisqartmasi qanday dori shaklini bildiradi?",
+      "“linim.” qisqartmasining ochilishi nima?",
+      "“ung.” qisqartmasi nimani bildiradi?",
+      "“aq. purif.” qisqartmasining to‘liq shakli qanday?",
+      "“tinct.” qisqartmasi qanday dori shakliga tegishli?",
+      "“in amp.” qisqartmasining to‘g‘ri tarjimasi nima?",
+      "“aq. dest.” qisqartmasi qanday suvni bildiradi?",
+      "“inj.” qisqartmasi qanday ma’noni beradi?",
+      "“vit.” qisqartmasi nimani bildiradi?",
+      "“ad.” qisqartmasi qanday ma’noga ega?",
+      "“coch. ampl.” qisqartmasining to‘g‘ri tarjimasi nima?",
+      "“pro infantibus” iborasi qayerda ishlatiladi?",
+      "“statim” deganda qanday ma’no tushuniladi?",
+      "“in aqua” qisqartmasi nima uchun ishlatiladi?",
+      "“ac. acetic.” qisqartmasi nimani bildiradi?",
+      "“ad us. ext.” qisqartmasining to‘g‘ri tarjimasi qanday?",
+      "“Pulv. a. tr.” qisqartmasi nimani anglatadi?",
+      "Retsept qaysi tilda yoziladi?",
+      "Retseptning boshlanish qismi qanday so’z bilan boshlanadi?",
+      "Retseptda dori shakli qaysi kelishikda yoziladi?",
+      "“Da” so’zi retseptda nimani bildiradi ?",
+      "Retseptda bemorga qo’llash usuli qaysi so’z bilan boshlanadi ?",
+      "Retseptda dorining shakli qayerda ko’rsatilgan?",
+      "« o’t, safro »",
+      "“soch”",
+      "“tirnoq”",
+      "“mammologus” atamasi tarkibidagi lotincha atama elementni aniqlang.",
+      "« pulmonologus » atamasi tarkibida grekcha atama elementini toping.",
+      "Izoh bering : ”Rhinoplastica”",
+      "“Somatoscopia”",
+      "“Metrectomia”",
+      "“Haematuria”",
+      "Quyidagi atamaga kerakli elementni o’zbekcha tarjimasiga qarab qo’ying: “qon to’xtashi” haemo…."
+    ],
+    "answers": [
+      [
+        "brachii",
+        "biceps",
+        "musculus",
+        "musculus brachii"
+      ],
+      [
+        "Ikkalasi ham",
+        "frontale",
+        "os",
+        "os frontale"
+      ],
+      [
+        "Musculus gluteus maximus",
+        "Arteria profunda femoris",
+        "Vena jugularis interna",
+        "Nervus trigeminus"
+      ],
+      [
+        "Qo‘shimcha qoidalar asosida",
+        "Alfavit tartibida",
+        "Ma’no bo‘yicha tartibli",
+        "Erkin"
+      ],
+      [
+        "nervus",
+        "nervus vagus",
+        "sinister",
+        "vagus"
+      ],
+      [
+        "Katta harf bilan yoziladi",
+        "Yozilmaydi",
+        "Tushum kelishigida bo‘ladi",
+        "Ot bilan kelishikda moslashadi"
+      ],
+      [
+        "Musculus deltoideus",
+        "Nervus opticus",
+        "Arteria cerebri anterior",
+        "Ligamentum capitis femoris"
+      ],
+      [
+        "Musculi interossei dorsales",
+        "Arteria cerebri posterior",
+        "Ligamentum collaterale radiale",
+        "Nervus intercostalis"
+      ],
+      [
+        "articulatio, articulus m.",
+        "articulatio, articulationum f.",
+        "articulatio, articulationis f.",
+        "articulatio, articulationes"
+      ],
+      [
+        "-um",
+        "-ae",
+        "-is",
+        "-i"
+      ],
+      [
+        "3-turlanish, femininum",
+        "1-turlanish, femininum",
+        "3-turlanish, neutrum",
+        "2-turlanish, masculinum"
+      ],
+      [
+        "partis",
+        "partum",
+        "partus",
+        "partei"
+      ],
+      [
+        "appendix, appendicum m. o‘zagi: appendix",
+        "appendix, appendicum f. o‘zagi: append",
+        "appendix, appendicis f. o‘zagi: appendic",
+        "appendix, appendicis m. o‘zagi: appen"
+      ],
+      [
+        "5-turnalish",
+        "2-turnalish",
+        "4-turnalish",
+        "1-turlanish"
+      ],
+      [
+        "4-turnalish",
+        "1-turnalish",
+        "3-turnalish",
+        "2- turnalish"
+      ],
+      [
+        "acromialis",
+        "articulatio va acromialis",
+        "acro va articulatio",
+        "articulatio"
+      ],
+      [
+        "O‘zagini topish",
+        "Turlanishni o‘zgartirish",
+        "Plural shaklini aniqlash",
+        "So‘z turkumini aniqlash"
+      ],
+      [
+        "corpus, corpore n.",
+        "corpus, corporis n.",
+        "corpus, corporum m.",
+        "corpus, corporei m."
+      ],
+      [
+        "ossis-",
+        "os-",
+        "oss-",
+        "o-"
+      ],
+      [
+        "caput",
+        "nervus",
+        "musculus",
+        "vertebra"
+      ],
+      [
+        "forami",
+        "foraminis",
+        "foramen",
+        "foramina"
+      ],
+      [
+        "capiti",
+        "capita",
+        "capitae",
+        "caputes"
+      ],
+      [
+        "-um / -ium",
+        "-arum",
+        "-is",
+        "-orum"
+      ],
+      [
+        "1-turlanishga",
+        "2-turlanishga",
+        "4-turlanishga",
+        "3-turlanishga"
+      ],
+      [
+        "egalik",
+        "predlogli ibora",
+        "aniqlovchi ot",
+        "sifat"
+      ],
+      [
+        "predlog",
+        "ot",
+        "sifat",
+        "fe’l"
+      ],
+      [
+        "Nom. sing.+ rod",
+        "Nom. + Gen. + rod",
+        "Plural + Gen.",
+        "Gen. sing. + rod"
+      ],
+      [
+        "1-turlanish, femininum",
+        "2-turlanish, neutrum",
+        "3-turlanish, neutrum",
+        "4-turlanish, masculinum"
+      ],
+      [
+        "predlog",
+        "fe’l",
+        "sifat",
+        "ot"
+      ],
+      [
+        "chunki u i-stemga kiradi",
+        "konsonant-stemga mansub",
+        "genitivus -is bilan tugaydi",
+        "-us bilan tugamagani uchun"
+      ],
+      [
+        "ret",
+        "re",
+        "reti",
+        "rete"
+      ],
+      [
+        "a",
+        "is",
+        "us",
+        "e"
+      ],
+      [
+        "femininum",
+        "masculinum",
+        "neutrum",
+        "pluralis"
+      ],
+      [
+        "Katta → kichik",
+        "Ot → sifat → sifat",
+        "Sifat → ot",
+        "Asosiy → aniqlovchi"
+      ],
+      [
+        "Sifat + ot",
+        "2 ta",
+        "3ta",
+        "1 ta"
+      ],
+      [
+        "vena",
+        "nervus",
+        "arteria",
+        "oculus"
+      ],
+      [
+        "neutrum",
+        "pluralis",
+        "masculinum",
+        "femininum"
+      ],
+      [
+        "cavitas",
+        "vena",
+        "abdomen",
+        "musculus"
+      ],
+      [
+        "Nom. pl.",
+        "Gen. sing.",
+        "Gen. pl.",
+        "Nom. sing."
+      ],
+      [
+        "-is, tashqi",
+        "-a, chuqur",
+        "-um, markaziy",
+        "-us, tashqi"
+      ],
+      [
+        "Bosh miya venalari",
+        "Bosh miyada joylashgan vena",
+        "Bosh miya bilan bog‘liq vena",
+        "Bosh miya venasi"
+      ],
+      [
+        "O‘pka arteriyasi",
+        "Yurak arteriyalari",
+        "O‘pka venalari",
+        "O‘pkaga ketuvchi arteriyalar"
+      ],
+      [
+        "Odam tana a’zosi",
+        "Inson tana qismlari",
+        "Inson muskullari",
+        "Inson a’zolari"
+      ],
+      [
+        "Burun bo‘shliqlari",
+        "Burun ichidagi sohalar",
+        "Burun mushaklari",
+        "Burun bo‘shlig‘i"
+      ],
+      [
+        "Qo‘l bo‘g‘imlari",
+        "Qo‘l barmoqlari",
+        "Qo‘l mushaklari",
+        "Qo‘l venalari"
+      ],
+      [
+        "Sezgi a’zolari",
+        "Bosh miya qismlari",
+        "Yurak tuzilmalari",
+        "Tanadagi suyaklar"
+      ],
+      [
+        "Qorin bo‘shlig‘i bo‘g‘imlari",
+        "Qorin ustidagi suyaklar",
+        "Qorin bo‘shlig‘i mushaklari",
+        "Qorin sohasi arteriyalari"
+      ],
+      [
+        "O‘ng va chap yurak arteriyalari",
+        "O‘ng va chap qovuq arteriyalari",
+        "O‘ng va chap buyrak venalari",
+        "O‘ng va chap buyrak arteriyalari"
+      ],
+      [
+        "1ta",
+        "4ta",
+        "3ta",
+        "2 ta"
+      ],
+      [
+        "gastro",
+        "cephalo",
+        "cardio",
+        "neuro"
+      ],
+      [
+        "vesica",
+        "ren",
+        "urina",
+        "cortex"
+      ],
+      [
+        "glosso",
+        "stoma",
+        "gnatho",
+        "odonto"
+      ],
+      [
+        "osteo",
+        "arthro",
+        "chondro",
+        "myelo"
+      ],
+      [
+        "thoraco",
+        "pleuro",
+        "broncho",
+        "pneumo"
+      ],
+      [
+        "encephalo",
+        "cephalo",
+        "crani",
+        "neuro"
+      ],
+      [
+        "entero",
+        "cysto",
+        "nephro",
+        "pyelo"
+      ],
+      [
+        "pharyngo",
+        "rhino",
+        "oto",
+        "pneumo"
+      ],
+      [
+        "neuro",
+        "myo",
+        "gastro",
+        "cardio"
+      ],
+      [
+        "phlebo",
+        "cardio",
+        "aorto",
+        "angio"
+      ],
+      [
+        "dermo",
+        "cyto",
+        "histo",
+        "onco"
+      ],
+      [
+        "dolichoosteo",
+        "dolichosternum",
+        "macrocephalus",
+        "brachyosteo"
+      ],
+      [
+        "cheilo",
+        "glosso",
+        "lipo",
+        "dacryo"
+      ],
+      [
+        "pyelo",
+        "dermo",
+        "uro",
+        "hemo"
+      ],
+      [
+        "colpo",
+        "metro",
+        "hystero",
+        "salpingo"
+      ],
+      [
+        "gnatho",
+        "mastoido",
+        "zygomato",
+        "maxillo"
+      ],
+      [
+        "Bosh miya + orqa miya + yallig‘lanish",
+        "Yurak + qon + og‘riq",
+        "Miya + suyak + shish",
+        "Qon tomiri + teri + yallig‘lanish"
+      ],
+      [
+        "Miya va jigar atrofiyasi",
+        "Buyrak va qovuq o‘smasi",
+        "Oshqozon va yurak yallig‘lanishi",
+        "Jigar va taloq shishi"
+      ],
+      [
+        "Tana harorati",
+        "Bezovtalik",
+        "Sovuq",
+        "Isitma"
+      ],
+      [
+        "Bo‘g‘im",
+        "Singan joy",
+        "Zahar",
+        "To‘qima"
+      ],
+      [
+        "Isitma",
+        "Shish",
+        "Jarohat",
+        "Bo‘g‘im"
+      ],
+      [
+        "Bo‘g‘im yallig‘lanishi",
+        "Suv to‘planishi",
+        "Mushak og‘rig‘i",
+        "Mushak shishi"
+      ],
+      [
+        "Teri qurishi",
+        "Yurak urishining kamayishi",
+        "Sovuq urishi",
+        "Tana haroratining oshishi"
+      ],
+      [
+        "O‘tkir bronx yallig‘lanishi",
+        "O‘pka so‘lishi",
+        "Qon ketishi",
+        "Yallig‘langan yurak mushagi"
+      ],
+      [
+        "Yurakning siqilishi",
+        "Yurak o‘rtasidagi to‘siq",
+        "Yurak to‘xtashi",
+        "Yurak mushagining kasalligi"
+      ],
+      [
+        "Ich ketish",
+        "Jigar shikastlanishi",
+        "Asab buzilishi",
+        "Qandli diabet"
+      ],
+      [
+        "Oshqozon yarasi",
+        "Qon bosimi oshishi",
+        "To‘qima o‘sishi",
+        "Qon ketishi"
+      ],
+      [
+        "Qon yetishmovchiligi",
+        "Qonning quyuqligi",
+        "Yurakdagi infarkt",
+        "Qon bosimi yuqoriligi"
+      ],
+      [
+        "Qovuq infektsiyasi",
+        "Buyrak shishi",
+        "Surunkali buyrak yallig‘lanishi",
+        "Buyrak toshlari"
+      ],
+      [
+        "Ichak yallig‘lanishi",
+        "Virusli jigar yallig‘lanishi",
+        "Yurak og‘rig‘i",
+        "Oshqozon yarasi"
+      ],
+      [
+        "Og‘ir suyak sindromi",
+        "Mushak shishi",
+        "Asab tolalarining zararlanishi",
+        "Yurak yetishmovchiligi"
+      ],
+      [
+        "Miya va pardalarning yallig‘lanishi",
+        "Miya va orqa miya yarasi",
+        "Yurakning yuqori qismining zararlanishi",
+        "Ko‘rish nervi yallig‘lanishi"
+      ],
+      [
+        "Qon tomir yorilishi",
+        "Diffuz miya yallig‘lanishi va skleroz",
+        "Miya o‘smasi",
+        "Miya suyagining sindromi"
+      ],
+      [
+        "Ko‘p mushaklar yallig‘lanishi",
+        "Mushak kuchsizligi",
+        "Bir mushakdagi yallig‘lanish",
+        "Asab sohasidagi shish"
+      ],
+      [
+        "Inyeksiya uchun eritma",
+        "Chang dori",
+        "Suyuq dori",
+        "Qattiq, og‘iz orqali qabul qilinadigan dori"
+      ],
+      [
+        "Erigan dori",
+        "Damlama",
+        "Kukun",
+        "Maz (yog‘li surtma)"
+      ],
+      [
+        "Kapsula",
+        "Tomchi",
+        "Kukun",
+        "Tabletka"
+      ],
+      [
+        "Spirtli dori",
+        "Chang dori",
+        "Ko‘zga surtma",
+        "Eritma"
+      ],
+      [
+        "Damlama",
+        "Eritma",
+        "Kukun",
+        "Yog‘li surtma"
+      ],
+      [
+        "Tabletkaga o‘xshash, ichidagi dori qobiq ichida",
+        "Tomchilab yuboriladi",
+        "Ichki og‘riqni yo‘qotadi",
+        "Spirt asosida"
+      ],
+      [
+        "Tashqi surtma",
+        "Tomchi dori",
+        "Bir-birida erimaydigan suyuqliklar aralashmasi",
+        "Kukun"
+      ],
+      [
+        "Suyuq surtma",
+        "Sprey",
+        "Qattiq modda",
+        "Ko‘z tomchisi"
+      ],
+      [
+        "Suv",
+        "Spirt",
+        "Aerozol",
+        "Yog‘"
+      ],
+      [
+        "Guttae ophthalmicae",
+        "Linimentum",
+        "Unguentum",
+        "Suppositorium"
+      ],
+      [
+        "Eritma",
+        "Ajratilgan faollashtirilgan modda",
+        "Kukun",
+        "Suyultirilgan aralashma"
+      ],
+      [
+        "Og‘iz orqali ichish uchun, odatda bolalar uchun",
+        "Tashqi yara uchun",
+        "Tashqi foydalanish",
+        "Inyeksiya uchun"
+      ],
+      [
+        "Tabletkaga o‘xshash",
+        "Inyeksiya uchun eritma",
+        "Surtma",
+        "Og‘iz orqali qabul qilinadi"
+      ],
+      [
+        "Og‘iz orqali",
+        "Burunga",
+        "Quloqqa",
+        "Ko‘zga joylanadigan plyonka"
+      ],
+      [
+        "Ko‘zga tomchi",
+        "Quloqqa tomchi",
+        "Burunga tomchi",
+        "Oyoqqa surtma"
+      ],
+      [
+        "Eritilgan kukun",
+        "Suvli yoki spirtli aralashma",
+        "Spirtli eritma",
+        "Aerozol"
+      ],
+      [
+        "Tayyorlanish texnologiyasida",
+        "Kimyoviy tarkibida",
+        "Qo‘llash joyida",
+        "Dori shaklida"
+      ],
+      [
+        "Dori yuborish shaklida",
+        "O‘lchamda",
+        "Ta’sir kuchida",
+        "Konsistensiyada"
+      ],
+      [
+        "Eritma",
+        "Kapsula",
+        "Tabuletta",
+        "Suppositorium"
+      ],
+      [
+        "Suvli eritma, isitmaga",
+        "Kukun, og‘riqni yo‘qotuvchi",
+        "Spirtli eritma, tinchlantiruvchi sifatida",
+        "Aerozol, yurakni mustahkamlovchi"
+      ],
+      [
+        "Nom. Sing., rod, son va holatga mos holda",
+        "Gen. Sing",
+        "Nom. Sing",
+        "Har doim ravish shaklida"
+      ],
+      [
+        "Sifatlovchi sifat sifatida ishlatilgan",
+        "O‘simlik turi",
+        "O‘simlik sifatini bildiradi",
+        "Fe’l bo‘lagi"
+      ],
+      [
+        "Faqat ko‘zga ko‘rinadigan qismlar bilan",
+        "O‘simlik qismlarini aniqlash uchun",
+        "Faqat tuber (ildizmeva) bilan",
+        "Har qanday fe’llar bilan"
+      ],
+      [
+        "Barg tuzilishini bildiradi",
+        "Dorivorlikka oid sifat",
+        "Sanoatda ishlatilish xususiyati",
+        "O‘simlikning ajralib turuvchi belgisi"
+      ],
+      [
+        "Ravish",
+        "Ot",
+        "Fe’l",
+        "Sifat"
+      ],
+      [
+        "Moviy",
+        "Binafsha rangli",
+        "Qizil",
+        "Oq rangli"
+      ],
+      [
+        "Tegishli otga rod, son va holatda moslanadi",
+        "Fe’l bilan uyg‘unlashtiriladi",
+        "Har doim mujskoy rodda",
+        "Har doim o‘zgarishsiz qoladi"
+      ],
+      [
+        "Binafsha gullar",
+        "Ko‘p ildizli",
+        "Barglari ming bo‘lakka bo‘lingan",
+        "Yurakdagi og‘riqqa qarshi"
+      ],
+      [
+        "Longifolia",
+        "Purpureus",
+        "Cordatus",
+        "Officinalis"
+      ],
+      [
+        "Hammasi rodga ko‘ra fe’l",
+        "Anatomik terminlar",
+        "O‘simlik qismlari nomlari",
+        "Sifatlar"
+      ],
+      [
+        "Nom. Sing., femininum",
+        "Gen. Sing.",
+        "Nom. Plur., masculinum",
+        "Ablativ"
+      ],
+      [
+        "Praepositio",
+        "Verbum",
+        "Substantivum",
+        "Adjectivum"
+      ],
+      [
+        "Ot birikmasi bilan",
+        "So‘z oxiridagi qo‘shimcha orqali",
+        "Kelishik orqali",
+        "Har doim mustaqil ot yordamida"
+      ],
+      [
+        "yozadi",
+        "o’tiradi",
+        "davolayapti",
+        "sog’ayadi"
+      ],
+      [
+        "Audire",
+        "Dicere",
+        "Laudare",
+        "Videre"
+      ],
+      [
+        "4-tus",
+        "1-tus",
+        "2-tus",
+        "3-tus"
+      ],
+      [
+        "Cura",
+        "Curant",
+        "Curat",
+        "Curamus"
+      ],
+      [
+        "-ari",
+        "-ere",
+        "-ire",
+        "-are"
+      ],
+      [
+        "Dormire",
+        "Capere",
+        "Curare",
+        "Videre"
+      ],
+      [
+        "Passiv shakl",
+        "Infinitiv",
+        "Harakat ot shakli",
+        "Buyruq birlik"
+      ],
+      [
+        "O‘qimoq",
+        "Bo‘lishmoq",
+        "Yurmoq",
+        "Yozmoq"
+      ],
+      [
+        "Fe’lning holati",
+        "So‘zning o‘zgartirilgan shakli",
+        "Ot yoki zamonning belgilanishi",
+        "Ot va otlar orasidagi munosabatni bildiruvchi so‘z"
+      ],
+      [
+        "Oldida",
+        "Quyida",
+        "Ustida, ichida",
+        "Orqasida"
+      ],
+      [
+        "Shaxslar orasidagi munosabatni bildiradi",
+        "Holat bildiradi",
+        "Maqsad bildiradi",
+        "Vaqt bildiradi"
+      ],
+      [
+        "Akkuzativ",
+        "Ablativ",
+        "Genetiv",
+        "Nominativ"
+      ],
+      [
+        "Yopiq, ichida",
+        "Bilan, birga",
+        "Keng, ochiq",
+        "Yaqin, o‘sha"
+      ],
+      [
+        "orqali",
+        "oldida",
+        "boshqa",
+        "ichida"
+      ],
+      [
+        "ichida",
+        "o’rta",
+        "keyin",
+        "o’rta"
+      ],
+      [
+        "Vaqt bildiradi",
+        "O‘zaro aloqani ko‘rsatadi",
+        "Shart bildiradi",
+        "Maqsad bildiradi"
+      ],
+      [
+        "Shunday qilib",
+        "Ammo",
+        "Bundan tashqari",
+        "Chunki"
+      ],
+      [
+        "Ruxsat etilgan miqdor",
+        "Doza",
+        "Preparatning nomi",
+        "Qo‘llanilishi"
+      ],
+      [
+        "Faol moddalar va ularning miqdori",
+        "Xususiy ishlab chiqaruvchilar",
+        "O‘simliklar faqat",
+        "Faqat faollik darajasi"
+      ],
+      [
+        "Tibbiy xususiyatlar",
+        "Qanday ishlatilishi kerakligini ko‘rsatuvchi yozuv",
+        "O‘simlik tarkibi",
+        "Preparatning miqdori"
+      ],
+      [
+        "Avvalo, ularning nomi va miqdori",
+        "Faqat faollik ko‘rsatkichi",
+        "Yalpi miqdorini kiritish",
+        "Qo‘shimcha narxini belgilash"
+      ],
+      [
+        "Tarqatilsin",
+        "Qabul qilindi",
+        "Hosil bo’lsin",
+        "Qayta ishlanishi kerak"
+      ],
+      [
+        "Faol moddaning miqdorini bildiradi",
+        "Ruxsat etilgan dozani bildiradi",
+        "Takrorlanadigan miqdor",
+        "Yetarli miqdor"
+      ],
+      [
+        "Aralashtirish kerak",
+        "Qabul qilindi",
+        "O‘zgartirish kerak",
+        "Yaratish kerak"
+      ],
+      [
+        "Moddalarni miqdorda berishni bildiradi",
+        "Tayyorlangan preparatni olishni bildiradi",
+        "Preparatni yozishga yordam beradi",
+        "Preparatning sifatini ko‘rsatadi"
+      ],
+      [
+        "Preparatni qanday saqlash kerakligini",
+        "Preparatni qanday qo‘llashni",
+        "Faol moddaning dozasi",
+        "Preparatning ishlab chiqarilish joyi"
+      ],
+      [
+        "Ta’minlangan dori shakli",
+        "O‘zgartirish kerak",
+        "Aralashtirilgan preparatni tayyorlash",
+        "To‘liq dori ishlab chiqarish"
+      ],
+      [
+        "Bir xil qismga bo‘lish",
+        "Tayyorlash kerak",
+        "Preparatni qayta ishlash",
+        "Preparatni qo‘llash"
+      ],
+      [
+        "Sharbati",
+        "Kapsulalar",
+        "Kukun",
+        "Tabletkalar"
+      ],
+      [
+        "Eritma",
+        "Tabletka",
+        "Infuzi",
+        "Tinktur"
+      ],
+      [
+        "Qo’sh, buyruq mayli birlikda",
+        "O‘zgartirishni bildiradi",
+        "Almashtirish kerakligini bildiradi",
+        "Aralashtirish kerakligini bildiradi"
+      ],
+      [
+        "Tabletkalar",
+        "Kapsulalar",
+        "Sirop",
+        "Inyeksiya"
+      ],
+      [
+        "Aralashtiring va shakllantiring",
+        "Aralashtiring va eriydigan dori tayyorlang",
+        "Miqdorni ko‘rsating",
+        "Tayyorlang va saqlang"
+      ],
+      [
+        "Preparatni qabul qilishni bildiradi",
+        "Tayyorlangan preparatni tarqatishni bildiradi",
+        "Moddaning miqdorini ko‘rsatadi",
+        "Moddalarni aralashtirishni bildiradi"
+      ],
+      [
+        "Ikkinchisi doimiy holatni bildiradi",
+        "Birinchi fe’l passive, ikkinchisi aktiv",
+        "\"Fiat\" - yakka shakl, \"Fiant\" - ko‘plik shakl",
+        "Ularning farqi yo‘q"
+      ],
+      [
+        "Retseptning o’rta qismida",
+        "Retseptning orqa tomonida",
+        "Retseptning o‘ng tomonida yuqori qismida",
+        "Retseptning chap tomonida"
+      ],
+      [
+        "Preparatning dozasi va shaklini ko‘rsatadi",
+        "Preparatni saqlashni ko‘rsatadi",
+        "Preparatni qabul qilish usulini ko‘rsatadi",
+        "Preparatning turini ko‘rsatadi"
+      ],
+      [
+        "Nom. Sing",
+        "Dat. Sing",
+        "Akkuzativ",
+        "Gen. Sing"
+      ],
+      [
+        "Preparatni saqlashni ko‘rsatadi",
+        "Preparatning miqdorini ko‘rsatadi",
+        "Preparat shaklini ko‘rsatadi",
+        "Preparatni qanday qo‘llash kerakligini ko‘rsatadi"
+      ],
+      [
+        "Shamcha Gen. Singda, tabletka esa Akkuzativda yoziladi",
+        "Shamcha Akkuzativda, tabletka esa Gen. Singda yoziladi",
+        "Shamcha va tabletka ikkala holatda bir xil kelishikda yoziladi",
+        "Shamcha Akkuzativda, tabletka esa Nom. Singda yoziladi"
+      ],
+      [
+        "Preparatni saqlashni bildiradi",
+        "Preparatni saqlash muddatini ko‘rsatadi",
+        "Preparatning nomini ko‘rsatadi",
+        "Preparatning shaklini aniq ko‘rsatadi"
+      ],
+      [
+        "Tushum kelishigi",
+        "Retsept yozuvchi shaxs ma’lumoti",
+        "Dori nomi va miqdori",
+        "Kichik dozalar"
+      ],
+      [
+        "Kapsula",
+        "Malham",
+        "Eritma",
+        "Shamcha"
+      ],
+      [
+        "Tabletkalar",
+        "Aerosollar",
+        "Malhamlar",
+        "Tomchilar"
+      ],
+      [
+        "Nafas yo‘llari orqali",
+        "Teri ostiga",
+        "Mushak ichiga",
+        "Tomchi sifatida"
+      ],
+      [
+        "Ko‘z uchun tomchilar",
+        "Quvvatlantiruvchi tabletkalar",
+        "Oyoqqa surtiladigan krem",
+        "Og‘iz orqali tomiziladigan dori"
+      ],
+      [
+        "Shunday dozada berilsin",
+        "Suyuqlik bilan ichilsin",
+        "Eritma tayyorlansin",
+        "Har kuni qabul qilinsin"
+      ],
+      [
+        "Sprey",
+        "Kukun",
+        "Surtiladigan krem",
+        "Tabletkaga o‘xshash dumaloq dori"
+      ],
+      [
+        "Mushakka",
+        "Qon tomirga",
+        "Teri ustiga",
+        "Nafas yo‘liga"
+      ],
+      [
+        "Ichimlik suvi",
+        "Inyeksiya uchun suv",
+        "Yuvish uchun suv",
+        "Og‘iz bo‘shlig‘i uchun eritma"
+      ],
+      [
+        "Hg",
+        "Hy",
+        "H",
+        "Hm"
+      ],
+      [
+        "O",
+        "Ox",
+        "Oy",
+        "Og"
+      ],
+      [
+        "Cl",
+        "C",
+        "Cr",
+        "Ch"
+      ],
+      [
+        "Nt",
+        "N",
+        "No",
+        "Ng"
+      ],
+      [
+        "Oxium",
+        "Oxyda",
+        "Oxygenium",
+        "Oxidum"
+      ],
+      [
+        "Hydrochloricum",
+        "Hydrobromicum",
+        "Hydroiodicum",
+        "Sulfuricum"
+      ],
+      [
+        "Nt",
+        "Nm",
+        "Nu",
+        "Na"
+      ],
+      [
+        "Chlorum",
+        "Kalium",
+        "Oxygenium",
+        "Iodum"
+      ],
+      [
+        "Natrium",
+        "Hydrogenium",
+        "Nitrogenium",
+        "Ferrum"
+      ],
+      [
+        "-idum",
+        "-atum",
+        "-osum",
+        "-icum"
+      ],
+      [
+        "Ferrum",
+        "Hydrogenium",
+        "Cuprum",
+        "Kalium"
+      ],
+      [
+        "Asoslar",
+        "Oksidsiz kislota",
+        "Tuzlar",
+        "Oksokislota"
+      ],
+      [
+        "Ferrum",
+        "Fluorum",
+        "Ferrosum",
+        "Frangium"
+      ],
+      [
+        "Ravish",
+        "Fe’l",
+        "Ot",
+        "Sifat"
+      ],
+      [
+        "Tartib son",
+        "Ravish son",
+        "Sanoq son",
+        "Taqsim son"
+      ],
+      [
+        "Sanoq",
+        "Taqsim",
+        "Ravish",
+        "Tartib"
+      ],
+      [
+        "2",
+        "4",
+        "1",
+        "3"
+      ],
+      [
+        "Secundus",
+        "Bis",
+        "Alter",
+        "Duo"
+      ],
+      [
+        "Sanoq son",
+        "Tartib son",
+        "Taqsim son",
+        "Ravish son"
+      ],
+      [
+        "3 tadan",
+        "5 tadan",
+        "2 tadan",
+        "6 tadan"
+      ],
+      [
+        "12-chi",
+        "8-chi",
+        "10-chi",
+        "6-chi"
+      ],
+      [
+        "2",
+        "4",
+        "6",
+        "1"
+      ],
+      [
+        "11000",
+        "1000",
+        "100",
+        "100000"
+      ],
+      [
+        "4",
+        "5",
+        "6",
+        "3"
+      ],
+      [
+        "Uchtalik",
+        "Yuz tomondan",
+        "Ikkita tomondan",
+        "Bir tomondan"
+      ],
+      [
+        "Bir marta",
+        "Har uchinchi",
+        "Ikki marta",
+        "Har biri"
+      ],
+      [
+        "2 barobarli",
+        "3 bo‘lakli",
+        "1 tomonlama",
+        "4 ga bo‘lingan"
+      ],
+      [
+        "5 tadan",
+        "3 tadan",
+        "4 tadan",
+        "6 tadan"
+      ],
+      [
+        "To‘rt bosh",
+        "Uch bosh",
+        "Yagona bosh",
+        "Ikki bosh"
+      ],
+      [
+        "Formula bilan",
+        "Acidum bilan",
+        "Element nomi bilan",
+        "Tuz nomi bilan"
+      ],
+      [
+        "Vodorod karbonat",
+        "Suyuq kislorod",
+        "Vodorod peroksid",
+        "Kislorod sulfidi"
+      ],
+      [
+        "Element va kislorod",
+        "Metall va suv",
+        "Vodorod va kislorod",
+        "Azot va vodorod"
+      ],
+      [
+        "CO₂",
+        "NH₃",
+        "NaCl",
+        "HCl"
+      ],
+      [
+        "Carbonis dioxidum",
+        "Carbonum acidum",
+        "Dioxidum carbonicum",
+        "Dioxidum oxydatum"
+      ],
+      [
+        "Rux",
+        "Alyuminiy",
+        "Kaltsiy",
+        "Kaliy"
+      ],
+      [
+        "Bazaviy",
+        "Amfoter",
+        "Kislotali",
+        "Neytral"
+      ],
+      [
+        "Kislorod",
+        "Oksid",
+        "Suv",
+        "Tuz"
+      ],
+      [
+        "Dativus",
+        "Genitivus",
+        "Nominativus",
+        "Akkusativus"
+      ],
+      [
+        "Kislorod va vodorod",
+        "Asos va kislota o‘zaro ta’sirida hosil bo‘lgan birikmalar",
+        "Suv va oksid",
+        "Faqat metall va kislorod"
+      ],
+      [
+        "-atum",
+        "-idum",
+        "-aqua",
+        "-icum"
+      ],
+      [
+        "Oksid",
+        "Tuz",
+        "Eritma",
+        "Kislota"
+      ],
+      [
+        "Akkusativus",
+        "Nominativus",
+        "Genitivus",
+        "Ablativus"
+      ],
+      [
+        "Kislota qoldig‘i",
+        "Vodorod",
+        "Oksid",
+        "Kislota"
+      ],
+      [
+        "Xlorid kislotasi",
+        "Sulfat kislota",
+        "Bromid kislota",
+        "Azot kislotasi"
+      ],
+      [
+        "Antiseptik, laksatif, dori tashuvchi",
+        "Faqat vitamin sifatida",
+        "Faqat infuziya uchun",
+        "Faqat antiseptik"
+      ],
+      [
+        "Kislotali tuz",
+        "O‘ta asosli tuz",
+        "Asosli tuz",
+        "Neytral tuz"
+      ],
+      [
+        "Mixa, Dosa, Serve",
+        "Misce Da Statim",
+        "Misce Dilue Serve",
+        "Misce Da Signa"
+      ],
+      [
+        "Retsept yozilsin",
+        "Aralashtirilsin va berilsin",
+        "Shunday dozalarda berilsin",
+        "Boshqa shaklda tayyorlansin"
+      ],
+      [
+        "Millilitr",
+        "Tabletkalar",
+        "Qoplama",
+        "Tomchi"
+      ],
+      [
+        "Suv",
+        "Kukun",
+        "Eritma",
+        "Kapsula"
+      ],
+      [
+        "Qaynatma",
+        "Aralashma",
+        "Eritma",
+        "Suspenziya"
+      ],
+      [
+        "Infuziya",
+        "Eritma",
+        "Tomchi",
+        "Ekstrakt"
+      ],
+      [
+        "Lineum",
+        "Linimentum",
+        "Liquor",
+        "Liniament"
+      ],
+      [
+        "Qoplama",
+        "Kukun",
+        "Malham",
+        "Suvli eritma"
+      ],
+      [
+        "Aqua pro injectione",
+        "Aqua purificata",
+        "Aqua pura",
+        "Aqua pastelata"
+      ],
+      [
+        "Kukun",
+        "Aralashma",
+        "Surkama",
+        "Damlama"
+      ],
+      [
+        "Ampulada",
+        "Tabletkada",
+        "Flakonda",
+        "Kapsulada"
+      ],
+      [
+        "Toza suv",
+        "Steril suv",
+        "Qaynatilgan suv",
+        "Distillangan suv"
+      ],
+      [
+        "Yuvish uchun",
+        "Ichish uchun",
+        "Eritish uchun",
+        "Inyeksiya uchun"
+      ],
+      [
+        "Vena",
+        "Vitamin",
+        "Vaqt",
+        "Suv"
+      ],
+      [
+        "Uchun",
+        "Bilan",
+        "Gacha",
+        "Dan"
+      ],
+      [
+        "Qo‘lga siqiladigan",
+        "Katta qoshiq",
+        "Kichik qoshiq",
+        "Oddiy qoshiq"
+      ],
+      [
+        "Ayollar uchun",
+        "Qariyalar uchun",
+        "Bolalar uchun",
+        "Hayvonlar uchun"
+      ],
+      [
+        "Tushdan keyin",
+        "Zudlik bilan",
+        "Kechqurun",
+        "Kuniga bir marta"
+      ],
+      [
+        "Eritmalarni qo‘llash",
+        "Tomchida",
+        "Suvda tayyorlash",
+        "Tabletkada berish"
+      ],
+      [
+        "Xlor kislota",
+        "Azot kislotasi",
+        "Sulfat kislotasi",
+        "Sirka kislota"
+      ],
+      [
+        "Tayyorlashga",
+        "Ma’lum bir ishlatish uchun",
+        "Ekstrakt uchun",
+        "Ichish uchun"
+      ],
+      [
+        "Kukunli aralashma",
+        "Aralashma",
+        "Tishlangan kukun",
+        "O‘sish aralashmasi"
+      ],
+      [
+        "Fransuz tilida",
+        "Rus tilida",
+        "Ingliz tilida",
+        "Lotin tilida"
+      ],
+      [
+        "Recipe",
+        "Da",
+        "Misce",
+        "Signa"
+      ],
+      [
+        "Genetivus",
+        "Ablativus",
+        "Vocativus",
+        "Nominativus"
+      ],
+      [
+        "Belgila",
+        "Ber",
+        "Qo’sh",
+        "Aralashtir"
+      ],
+      [
+        "Audi",
+        "Adde",
+        "Misce",
+        "Signa"
+      ],
+      [
+        "Dorining nomidan keyin",
+        "O’rtasida",
+        "Oxirida",
+        "Dorining nomidan oldin"
+      ],
+      [
+        "Cele/hernia",
+        "Hidro-/sudor",
+        "Chole-/bilis",
+        "Oto-/auris"
+      ],
+      [
+        "Onco/tumor",
+        "Dacrio-/lacrima",
+        "Geri-/senex",
+        "Tricho-/papillus"
+      ],
+      [
+        "Tricho-/papillus",
+        "Geri-/senex",
+        "Onco/tumor",
+        "Onycho-/unguis"
+      ],
+      [
+        "Mastopathia",
+        "Masto",
+        "Logus",
+        "Mamma"
+      ],
+      [
+        "Pneumo",
+        "Logus",
+        "Pulmonis",
+        "Pulmo"
+      ],
+      [
+        "Jag’ni qayta tiklash operatsiyasi",
+        "Jigar operatsiyasi",
+        "Bo’g’im operatsiyasi",
+        "Burunni qayta tiklash operatsiyasi"
+      ],
+      [
+        "Tishni asbob yordamida tekshirish",
+        "Tanani asbob yordamida tekshirish",
+        "Xalqumni asbob yordamida tekshirish",
+        "Og’izni asbob yordamida tekshirish"
+      ],
+      [
+        "Bachadonni olib tashlash",
+        "Buyrakni olib tashlash",
+        "Jigarni olib tashlash",
+        "Oshqozonni olib tashlash"
+      ],
+      [
+        "Siydik tarkibida qonni bo’lishi",
+        "Qon tarkibida shakarni bo’lishi",
+        "Qon tarkibida siydikni bo’lishi",
+        "Siydik tarkibida oqsilni bo’lishi"
+      ],
+      [
+        "-lysia",
+        "-stasis",
+        "-therapia",
+        "-blastoma"
+      ]
+    ],
+    "correctAnswers": [
+      1,
+      3,
+      1,
+      3,
+      1,
+      4,
+      3,
+      1,
+      3,
+      3,
+      2,
+      1,
+      3,
+      4,
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      2,
+      1,
+      1,
+      1,
+      3,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1,
+      4,
+      1,
+      2,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1,
+      4,
+      4,
+      2,
+      2,
+      3,
+      4,
+      1,
+      4,
+      4,
+      1,
+      1,
+      3,
+      2,
+      3,
+      1,
+      2,
+      1,
+      4,
+      4,
+      2,
+      4,
+      3,
+      1,
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      4,
+      2,
+      2,
+      3,
+      1,
+      1,
+      3,
+      1,
+      2,
+      2,
+      2,
+      4,
+      2,
+      1,
+      3,
+      4,
+      4,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1,
+      1,
+      2,
+      1,
+      3,
+      4,
+      2,
+      2,
+      1,
+      2,
+      1,
+      3,
+      4,
+      1,
+      1,
+      2,
+      3,
+      1,
+      3,
+      4,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      1,
+      3,
+      3,
+      4,
+      4,
+      3,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      1,
+      2,
+      3,
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      2,
+      2,
+      1,
+      3,
+      3,
+      4,
+      1,
+      1,
+      4,
+      1,
+      3,
+      1,
+      3,
+      1,
+      4,
+      1,
+      1,
+      1,
+      4,
+      2,
+      3,
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      2,
+      1,
+      2,
+      2,
+      1,
+      4,
+      1,
+      1,
+      4,
+      3,
+      4,
+      2,
+      3,
+      4,
+      2,
+      3,
+      2,
+      4,
+      1,
+      4,
+      4,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      4,
+      2,
+      1,
+      4,
+      1,
+      1,
+      2,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      2,
+      4,
+      2,
+      1,
+      1,
+      2
+    ]
+  },
   "Noorganik kimyo": {
     "questions": [
       "Qaysi elementning elektr manfiyligi eng katta?",
@@ -2014,7 +4022,7 @@ const ALL_QUESTIONS = {
       2,
       1
     ]
-  }
+  },
   // 'Rus Tili': {
   //   "questions": [
   //     "Что означает имя существительное?",
