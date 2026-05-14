@@ -1,4 +1,980 @@
 const ALL_QUESTIONS = {
+  "Falsafa": {
+    "questions": [
+      "\"Etika\" atamasini birinchi bo‘lib muomalaga kiritgan faylasufni aniqlang",
+      "“Birinchi analitika” va “ikkinchi analitika” asarlarining muallifi kim?",
+      "“Men fikrlayapman, demak men mavjudman” iborasining muallifi kim?",
+      "“Metafizika” so‘zining ma’nosi?",
+      "“O‘zingga ravo ko’rmaganni o’zgaga ravo ko’rma” shiori kimning g’oyalarining markazida turadi?",
+      "“Olamni bilishi mumkin emas’’- degan g’oyani ilgari suruvchi oqimqanday ataladi?",
+      "“Shayx ur –Rais” maqomi qaysi allomaga berilgan?",
+      "«Avesto» ta’limoti bo‘yicha ijtimoiy taraqqiyot va uning mezoni nima deb olingan?",
+      "«Avesto» ta’limoti bo‘yicha olamning moxiyati nimada?",
+      "«Dil ba yoru dast ba kor» shiori kimga tegishli?",
+      "«Hindiston» asari bilan shuhrat qozongan o‘rta asr olimi qaysi javobda to`g`ri ko`rsatilgan?",
+      "Abu Nasr Forobiyning asarini belgilang",
+      "Aksiologiya nimani o’rganadi?",
+      "Aleksandr Baumpgardent birinchi bo’lib qaysi fanni ilmiy muomalaga kiritgan?",
+      "Antropologiyaning o’rganish ob’ekti nima hisoblanadi?",
+      "Bilish falsafasini qaysi fan o’rganadi?",
+      "Bilish obyektlari qanday bo’lishi mumkin?",
+      "Bir sifatdan ikkinchi sifatga o’tish mexanizmi …deyiladi",
+      "Demografik tizim bu-?",
+      "Dunyoqarash nima?",
+      "Dunyoqarashning tarixiy turlarini sanab bering",
+      "Estetika atamasini ilm-fan estetikasi sifatida, ilk bor qaysi faylasuf kiritgan?",
+      "Etika atamasini birinchi bo’lib kim muomalaga kiritgan?",
+      "Etika qadimda qanday nomlar bilan atalgan?",
+      "Falsafa atamasining lug‘aviy ma’nosini aniqlang",
+      "Falsafa qachon va qaerda fan bulib shakllangan?",
+      "Falsafada inson to‘g‘risidagi ta’limot qanday ataladi?",
+      "Falsafada tabiat «g‘oyalar dunyosining» xosilasi degan ta’limot dastlab kim tomonidan asoslangan?",
+      "Falsafiy dunyoqarash dunyoni nimalarga tayangan holda tushuntiradi?",
+      "Farobiyning eng yirik fundamental asarini aniqlang",
+      "Formal mantiq faninning asoschisi kim?",
+      "Forobiy borliqning birinchi sababi va harakat manbai sifatida nima mavjud deb hisoblagan?",
+      "Global tushunchasi fransuz tilidan tarjima qilinganda nima ma’noni bildiradi?",
+      "Globalizatsiya atamasini birinchi qaysi soha vakillari qo’llashgan?",
+      "Globallashuv lotincha so’z bo’lib globus....ma`nosini bildiradi",
+      "Globallashuv so‘zining ma’nosi?",
+      "Globusni birinchi bo‘lib yaratgan alloma kim ?",
+      "Go’zallik haqida bilim beruvchi fan qaysi?",
+      "Ibn Sino tug‘ilgan yil va joy nomi?",
+      "Ibn Sinoning falsafiy asari qaysi javobda to`g`ri berilgan?",
+      "Inson borlig’ining o’ziga xos xususiytalari qaysi?",
+      "Insonning uni qurshagan boshqa odamlar tomonidan qanday idrok etilishi, tavsiflanishi va baholanishini aks ettiruvchi ijtimoiy hodisa bu-?",
+      "Islom so’zining ma’nosi nima?",
+      "Jamiyat, zamon insoniyat tarixi uchun namuna bo‘la oladigan ijobiy hatti- harakatlar yig‘indisi qanday ataladi?",
+      "Kim o‘zining fikriga ko‘ra – “asl go‘zallik his etilguvchi narsalar dunyosida bo‘lmaydi, u g‘oyalar olamiga taaluqli” deya estetika ilmiga o‘z hissasini qo‘shgan?",
+      "Kishilarning tarixan tarkib topgan xulq-atvori bu-",
+      "Mahalliy muammoning ta’rifini toping",
+      "Mantiq arabcha so’zdan olingan bo’lib qanday ma’noni bildiradi?",
+      "Mantiq ilmi asoschisini ya’ni, mantiq qonunlarini ochgan birinchi faylasuf olimni aniqlang.",
+      "Mantiq ilmiga kim asos solgan?",
+      "Mantiq ilmining o’rganish ob’ektini nima tashkil etadi?",
+      "O‘tish harakatlariga ko‘ra sakrash qanday bo‘ladi?",
+      "Og’ir va murakkab vazifalarni yechishda insonga nima yordam beradi?",
+      "Olamni mushohada qilish shakli, ongli amalga oshirish sharti nima hisoblanadi?",
+      "Olamni tasavvur qilish, idrok etish va bilish nima deyiladi?",
+      "Ongning asosiy elementi nima?",
+      "Ongsizlik nima?",
+      "Ongsizlikka qaysi misol bo’ladi?",
+      "Ontologiya atamasi falsafada nechinchi asrdan beri qo’llanilib kelingan?",
+      "Ontologiya nimani o’rganadi?",
+      "Qadriyat atamasi kimlar tomonidan fanga kiritilgan?",
+      "Qaysi alloma mantiqni \"chin fikrni xato fikrdan ajratuvchi \" fan deb ta’riflagan?",
+      "Qaysi dinlar jahonda keng tarqalgan?",
+      "Qaysi dunyoqarashning doirasida bilishning g’oyibona shakli paydo bo’ladi?",
+      "Qaysi falsafada bilishning asosiy ob’ekti sifatida inson o’rganiladi ?",
+      "Qur’оndа hаmmаsi bo’lib nеchа surа bоr?",
+      "Quyidagi tushunchalardan qaysilari manfiy-salbiy tushuncha hisoblanadi?",
+      "Quyidagi tushunchalardan qaysilari mavhum tushuncha hisoblanadi?",
+      "Suqrot fikricha axloqsiz harakatning sababi nima?",
+      "Suqrot va Aflotun fikricha dialektika bu....?",
+      "Suqrot, Aflotun, Farobiy kabi qadimgi faylasuflar ichki go‘zallik deya nimaga ta’rif berishgan?",
+      "Tafakkur shakllari nechi xil?",
+      "Tushuncha hajmiga ko’ra necha xil bo’ladi?",
+      "Tushunchani hosil qilish usullari?",
+      "Yerning quyosh atrofida aylanishini faraz qiligan O‘rta asrlardagi olim kim?",
+      "Zardo`shtiylikda yaxshilikning insonda namoyon bo‘lishi nimalarda aks etadi?",
+      "Zardusht ta’limoti bo‘yicha dunyoning yaratilishi va xarakatida nechta substansiya mavjud deb qaralgan?",
+      "Zardusht ta’limoti va uning vatani qaerda?",
+      "Zardushtiylik dinida yomonlik illohi kim?",
+      "Zardushtiylik dinida yaxshilik illohi kim ?",
+      "Аristotelning asarini toping.",
+      "Falsafa atamasini birinchi bo’lib kim fanga kiritgan?",
+      "Korrupsiya nima?",
+      "Dialektika so’zining lug’aviy ma’nosi qanday ataladi?",
+      "“ Аxlоq- bu mа’nаviyаtning о‘zаgi” dеgаn fikrni kim аytgаn?",
+      "“Chor unsur”, ”Irfon” asarlarining muallifini aniqlang",
+      "“G’oyalar dunyosi va soyalar dunyosi” ta’limotining asoschisi",
+      "“Har qanday davlat tizimida – qonunlar va boshqa farmoyishlar orqali ishni shunday tashkil qilish kerakki, unda mansabdor shaxslsrni noqonuniy yo’l bilan boyishga yo’l qo’ymaslik lozim” degan qadimgi yunon faylasufini aniqlang",
+      "“Hech narsani bilmasligimni bildim” degan ibora qaysi muallif qalamiga mansub?",
+      "“Mantiq”so`zi yunon tilidagi qanday atamaning arabcha tarjimasidir?",
+      "“Men donishmand emasman, men donishmandlikni sevuvchi oddiy faylasufman”- degan hikmatli fikr muallifi kim?",
+      "“Metafizika” asarining muallifi kim?",
+      "“Mеn fikrlаyаpmаn dеmаk mеn mаvjudmаn” ibоrаsining muаllifi kim?",
+      "“Mеtаfizikа” sо‘zining mа’nоsi?",
+      "“O‘zingni bilsang, olamni bilasan” degan ibora qaysi faylasuf qalamiga mansub?",
+      "“Olamni eng umumiy tarzda tasavvur qilish, idrok etish va bilishdir” Ushbu mulohazada qaysi tushunchaga ta’rif berilgan?",
+      "“Ontologiya” terminini nemis faylasufi R.Gokleniusning nechanchi yilda shakllantirgan",
+      "“Ontologiya”atamasi ilk bor kimlar tomonidan ilmiy muomalaga kiritilgan?",
+      "“Ontologiya”ni mangu oʼzgarmas, yagona sof borliq haqidagi taʼlimot sifatida qoʼllashgan –olimlar…",
+      "“Qur’оn”sо‘zining mа’nоsi nimа?",
+      "“Temurxon naslidin Mirzo Ulug`bek, Ki dunyo ko`rmadi podshoh aningdek” misralarining muallfini aniqlang",
+      "“Аl-jоmе’ аs- sаhih” аsаri muаllifi kim?",
+      "“Аql tоrоzisidа о‘lchаb kо‘rilmаgаn hаr qаndаy ilm аsоssizdir, shu bоis mаntiq ilmini о‘rgаnmоq dаrkоr” dеgаn fаlsаfiy fikrni kim аytgаn?",
+      "« O‘z-o‘zingni yerga urish, tubanlashish nodonlikdan boshqa narsa emas, o‘zligingdan yuqori turish esa — faylasuflikdir». Ushbu fikr qaysi donishmandga tegishli?",
+      "«Do‘stim, sen hali yoshsan, umringni bekor o‘tkazmay desang, falsafani o‘rgan», de­ gan fikr muallifi qaysi faylasuf?",
+      "«Filosofiya» atamasini dastlab, matematika fani orqali yaxshi ma’lum bo‘lib dastlab bu atamani kim qo’llagan?",
+      "«Gnoseologiya» - sof falsafiy kategoriya bo’lib, lug’aviy qanday ma’no anglatadi?",
+      "«Hindistоn» аsаri bilаn shuhrаt qоzоngаn о‘rtа аsr оlimi?",
+      "«Madaniyat» tushunchasi nimani anglatadi?",
+      "……..jamiyatni boshqarish, tartibga solish, ijtimoiy barqarorlikni ta’minlashga qaratilgan alohida bir muassasadir. Nuqtalar o’rniga quyidagi qaysi atama mos keladi?",
+      "1018 yulduzni aniqlab, rasadxona qurdirgan alloma kim?",
+      "Agnostitsizm nima?",
+      "Antroposotsiogenez nima?",
+      "Aristotel Afinaga qaytgach, qaysi maktabni ochgan edi?",
+      "Aristotel falsafasidagi «moddiy olam to‘rtta unsurdan tarkib topadi» deganda nimalarni ko‘zda tutgan edi?",
+      "Aristotel fikricha moddiy olamni bilish nimadan boshlanadi?",
+      "Beruniy bilishda xaqiqatning mezoni deb nimani tushungan?",
+      "Bilishning «ob’ekti» deganda ...",
+      "Bilishning asoslari va maqsadi nima?",
+      "Bir vоqеаlikni kеltirib chiqаruvchi hоdisаlаr mаjmui nimа dеyilаdi?",
+      "Birinchi bo’lib R.Gokleniusning “falsafa lugʼati”da asarida qaysi termini ilgari"
+    ],
+    "answers": [
+      [
+        "Arastu",
+        "Aflotun",
+        "Demokrit",
+        "Suqrot"
+      ],
+      [
+        "Aflotun",
+        "Suqrot",
+        "Aristotel",
+        "Geraklit"
+      ],
+      [
+        "Dekart",
+        "Suqrot",
+        "Kant",
+        "Spinoza"
+      ],
+      [
+        "matematikadan keyin",
+        "biologiyadan keyin",
+        "fizikadan keyin",
+        "ximiyadan keyin"
+      ],
+      [
+        "Konfutsiy",
+        "Platon",
+        "Pifagor",
+        "Ibn Sino"
+      ],
+      [
+        "naqshbandizm",
+        "so’fizm",
+        "teizm",
+        "agnostizm"
+      ],
+      [
+        "Abu Nasr Farobiy",
+        "Abu Rayhon Beruniy",
+        "Abu Ali ibn Sino",
+        "Axmad al Farg‘oniy"
+      ],
+      [
+        "ezgulikka yo‘g‘rilgan axloq normalarga rioya qilish darajasi",
+        "ijtimoiy ongning u yoki bu konkret shaklining takomillik darajasi",
+        "buyuk shaxslarning aql idroki va shaxsiy faoliyatlari",
+        "ilm-ma’rifatning rivojlanish darajasi"
+      ],
+      [
+        "dunyo - doimo avj olib so‘nadigan olovdan iboratdir",
+        "dunyo - kishilarga sinov uchun ajratilgan vaqt va fazoning birligidir",
+        "dunyo - ezgulik va kaboxat kuchlariiing kurash maydonidir",
+        "dunyo - Axuramazda tomonidan yaratilgan qonun va qoidalarga amal qiluvchi narsa va xodisalar majmuasidir"
+      ],
+      [
+        "Abduxoliq G‘ijduvoniy",
+        "Yusuf Hamadoniy",
+        "Bahouddin Naqshband",
+        "Ahmad Yassaviy"
+      ],
+      [
+        "Farobiy",
+        "Beruniy",
+        "Ibn Sino",
+        "Xorazmiy"
+      ],
+      [
+        "“Fozil odamlar shahri”",
+        "“Mineralogiya’’",
+        "“ Metafizika”",
+        "“Kitob al- qonun fittib”"
+      ],
+      [
+        "Borliqni",
+        "Jamiyatni",
+        "Qadriyatni",
+        "Insonni"
+      ],
+      [
+        "Etika",
+        "Ontologiya",
+        "Aksiologiya",
+        "Estetika"
+      ],
+      [
+        "Borliq",
+        "Qadriyat",
+        "Inson",
+        "Tabiat"
+      ],
+      [
+        "Aksiologiya",
+        "Ontologiya",
+        "Antrapologiya",
+        "Gnoseologiya"
+      ],
+      [
+        "Moddiy va ma’naviy",
+        "Konkret va abstrak",
+        "Tabiiy va sun’iy",
+        "Tabiiy va texnik"
+      ],
+      [
+        "progress",
+        "dialektik sakrash",
+        "inqilob",
+        "evolyusiya"
+      ],
+      [
+        "Davlat va mintaqalarda aholining haddan tashqari kamayishi",
+        "Davlatlar va mintaqalarda aholining haddan tashqari ko’payishi",
+        "Davlatlar va mintaqalarda aholi haddan tashqari ko’payishiga sabab bo’layotgan aholining nazoratsiz o’sishi",
+        "Davlat va mintaqalarga aholining ko’chishi"
+      ],
+      [
+        "bu sezgilar, tuyg‘ular, obrazlar, kayfiyatlar yordami bilan olamni anglashdir",
+        "tushuncha, hukm, xulosa ko‘rinishida ifodalovchi nazariy bilimlar tizimi",
+        "bu bilimlar, baholar, prinsiplar majmuidir",
+        "bu insonning qadriyati, yo‘l-yo‘riq ko‘rsatadigan tizmidir"
+      ],
+      [
+        "ilmiy, noilmiy, diniy",
+        "afsonaviy, diniy, falsafiy",
+        "diniy, sinfiy, noilmiy",
+        "noilmiy, diniy, sinfiy"
+      ],
+      [
+        "Aflotun",
+        "Aleksandr Baumgarten",
+        "Jaloliddin Rumiy",
+        "Aristotel"
+      ],
+      [
+        "Arastu",
+        "Pifagor",
+        "Epikur",
+        "Fales"
+      ],
+      [
+        "\"Siyosat\",\"davlat\",\"Xulq\"",
+        "“Logika”, «Ilmi adab»",
+        "«Falsafa»,\" Ilmi odob\"",
+        "\"Ilmi ravish\", \"Ilmi axloq\", \"Odobnoma\""
+      ],
+      [
+        "hikmatni anglash",
+        "o‘z – o‘zini bilish",
+        "donishmandlikni sevish",
+        "dunyoni anglash"
+      ],
+      [
+        "er. oldingi 11-ming yillikning 2-yarmida Markaziy Osiyoda",
+        "er. oldingi VI-V asrlarda, Xindistonda",
+        "er. oldingi VI-V asrlarda, YUnonistonda",
+        "er. oldingi 11-ming yillik boshlarida Misrda"
+      ],
+      [
+        "aksiologiya",
+        "antropologiya",
+        "gnoseologiya",
+        "ontologiya"
+      ],
+      [
+        "Zardusht",
+        "Platon",
+        "Demokrit",
+        "Aristotel"
+      ],
+      [
+        "tuyg‘ularga",
+        "sezgilarga",
+        "aql va bilimlarga",
+        "e’tiqodga"
+      ],
+      [
+        "Falsafaning manbalari",
+        "Aql haqida risola",
+        "Fozil odamlar shahri haqida risola",
+        "Davlat haqida risola"
+      ],
+      [
+        "Aristotel",
+        "Suqrot",
+        "Pifagor",
+        "Fales"
+      ],
+      [
+        "Inson",
+        "Xudo",
+        "Olam",
+        "Yer"
+      ],
+      [
+        "Kurralashuv",
+        "Yer shari",
+        "Umumiy",
+        "Dumaloqlashuv"
+      ],
+      [
+        "Moliyachi",
+        "Iqtisodchi",
+        "Siyosatchi",
+        "Tarixchi"
+      ],
+      [
+        "Yer yuzi",
+        "Yer kurrasi",
+        "Yer maydoni",
+        "Yer shari"
+      ],
+      [
+        "umumiy, e’tiqodli",
+        "Yer kurrasi, dumaloq",
+        "madaniyat, ma’rifat",
+        "yangi, aylanan"
+      ],
+      [
+        "Abu Rayhon Beruniy",
+        "Axmad al Farg‘oniy",
+        "Abu Ali ibn Sino",
+        "Abu Nasr Farobiy"
+      ],
+      [
+        "Estetika",
+        "Ontologiya",
+        "Etika",
+        "Aksiologiya"
+      ],
+      [
+        "985-yil Shahrisabz",
+        "980-yil Afshona",
+        "990-yil Farob",
+        "982-yil Ko‘rg‘on"
+      ],
+      [
+        "Davolash kitobi",
+        "Donishnoma",
+        "Najot kitobi",
+        "Tib qonunlari"
+      ],
+      [
+        "Ijtimoiy ong borlig’i",
+        "Individual diqqat borlig’i",
+        "Individual tafakkur borlig’i",
+        "Inson borlig’ida xotira tabiati"
+      ],
+      [
+        "Individ",
+        "Fuqaro",
+        "Inson",
+        "Shaxs"
+      ],
+      [
+        "G’amxo’rlik qilish",
+        "Bo’ysunish, itoat etish",
+        "Bo’ysunmaslik, itoat etmaslik",
+        "Muruvvat ko’rsatish"
+      ],
+      [
+        "axloq",
+        "muomala",
+        "qonun",
+        "estetika"
+      ],
+      [
+        "Aflotun",
+        "Suqrot",
+        "Jaloliddin Rumiy",
+        "Demokrit"
+      ],
+      [
+        "Axloq",
+        "Odob",
+        "Xulq",
+        "Fe’l-atvor"
+      ],
+      [
+        "Butun sayyora nazarda tutiladi,uning eng yirik tarkibiy qismi mintaqah hisoblanadi",
+        "Muayyan davlat yoki milliy hamjamiyatning ma’lum qiyinchiliklari",
+        "Ayrim mamlakatlarga yoki yirik mamlakarlarning ancha katta hududlariga tegishli bo’lgan muammo",
+        "Ayrim qit’alar, dunyoning yirik ijtimoiy-iqtisodiy hududlarida yuzaga keladigan muhim masalalarni qamrab oladi"
+      ],
+      [
+        "Xulq-atvor, odat, fe’l",
+        "Odat, fe’l, fikr",
+        "Fikr, nutq, aql",
+        "Fikr, so’z, aql"
+      ],
+      [
+        "Diogen",
+        "Ibn Sino",
+        "Forobiy",
+        "Aristotel"
+      ],
+      [
+        "Epikur",
+        "Aristotel",
+        "Aflotun",
+        "Geraklit"
+      ],
+      [
+        "Mantiq",
+        "Tafakkur",
+        "Bilim",
+        "Tushuncha"
+      ],
+      [
+        "evolyutsion va revolyutsion",
+        "kerakli va keraksiz",
+        "yaxshi va yomon",
+        "integral va differensial"
+      ],
+      [
+        "Fan",
+        "Do’stlar",
+        "Ota-ona",
+        "orzu"
+      ],
+      [
+        "mafkura",
+        "fan",
+        "mehnat",
+        "falsafa"
+      ],
+      [
+        "dunyoqarash",
+        "fan",
+        "ilm",
+        "umr mazmuni"
+      ],
+      [
+        "sezgi",
+        "bilim",
+        "xotira",
+        "hissiyot"
+      ],
+      [
+        "Insonning fikrlash faoliyati amalga oshuvchi muhim shakli",
+        "Insonning ongli holatidagi ong bilan boshqarib bo’lmaydigan jarayon",
+        "Tilni rivojlantirmaydi va boyitmaydi",
+        "Insonning ongli holatidagi ong bilan boshqarib bo’ladigan jarayon"
+      ],
+      [
+        "Fikrlar",
+        "Illuziyalar",
+        "Xayollar",
+        "Tushlar"
+      ],
+      [
+        "XVII",
+        "XIV",
+        "XVIII",
+        "XVI"
+      ],
+      [
+        "Borliqni",
+        "Axloqni",
+        "Jamiyatni",
+        "Qadriyatni"
+      ],
+      [
+        "P.Lapi, Y.Gartman",
+        "P.Lapi, Aristotel",
+        "T.Gobbega, T.Morgan",
+        "Pifagor, Demokrit"
+      ],
+      [
+        "Demokrit",
+        "Suqrot",
+        "Platon",
+        "Aristotel"
+      ],
+      [
+        "Zardushtishlik, buddaviylik, ,islom",
+        "Moniylik, islom, yahudiylik",
+        "Buddaviylik, yahudiylik, xristianlik",
+        "Buddaviylik, islom, xristianlik"
+      ],
+      [
+        "Axloqiy",
+        "Falsafiy",
+        "Afsonaviy",
+        "Diniy"
+      ],
+      [
+        "G’arb",
+        "Janub",
+        "Sharq",
+        "Shimol"
+      ],
+      [
+        "114",
+        "100",
+        "130",
+        "124"
+      ],
+      [
+        "modda, ong",
+        "makon, zamon",
+        "kiyim, poyafzal",
+        "aqlsiz, be’mani"
+      ],
+      [
+        "buxoro shaxri, g‘ijduvon",
+        "kitob, ilmiy asar",
+        "tuman, viloyat",
+        "adolatsizlik, go‘zallik"
+      ],
+      [
+        "ong",
+        "bilimsizlik",
+        "siyosat",
+        "falsafa"
+      ],
+      [
+        "olamni ilmiy tushuntirishdir",
+        "bahs, munozara yordamida haqiqatga erishish",
+        "mif-afsona,kundalik ongda reallikning in’ikos etishidir",
+        "yolg‘on, soxta"
+      ],
+      [
+        "Huquqshunoslikka",
+        "Psixologiya",
+        "Axloqiylikka",
+        "Logika"
+      ],
+      [
+        "2 xil",
+        "5 xil",
+        "4 xil",
+        "3 xil"
+      ],
+      [
+        "2 xil yakka, umumiy",
+        "2 xil abstrak, konkret",
+        "1 xil ijobiy",
+        "2 xil ayiruvchi, to’plovchi"
+      ],
+      [
+        "induksiya, formallashtirish",
+        "o‘lchash, analiz, induksiya, formallashtirish",
+        "kuzatish, o‘lchash, eksperiment qilish",
+        "analiz, sintez, mavhumlashtirish, umumlashtirish, taqqoslash"
+      ],
+      [
+        "Ibn Sino",
+        "Farobiy",
+        "Xorazmiy",
+        "Beruniy"
+      ],
+      [
+        "ezgu fikr, ezgu so‘z, ezgu amal",
+        "dunyoni anglash",
+        "o‘z – o‘zini bilish",
+        "hikmatni anglash"
+      ],
+      [
+        "2 ta",
+        "xech bittasi",
+        "3 yoki undan ortiq",
+        "1 ta"
+      ],
+      [
+        "Margiyona",
+        "Baqtriya",
+        "Xorazm",
+        "Sugdiyona"
+      ],
+      [
+        "Axura-Mazda",
+        "Axriman",
+        "Seneka",
+        "Sidxarta Gautama"
+      ],
+      [
+        "Seneka",
+        "Axriman",
+        "Axura-Mazda",
+        "Sidxarta Gautama"
+      ],
+      [
+        "“Kategoriyalar”",
+        "“Fozil odamlar shahri”",
+        "“Mineralogiya”",
+        "“Tib qonunlari”"
+      ],
+      [
+        "Aristotel",
+        "Pifagor",
+        "Ptolomey",
+        "Suqrot"
+      ],
+      [
+        "Pora olish",
+        "Gul olish",
+        "Bilim olish",
+        "Ilm olish"
+      ],
+      [
+        "yun. diolekchika - bilish falsafasini o’rganuvchi soha",
+        "yun. diolek - inson falsafasi",
+        "ruscha - dialektika – atrof olam, borliq haqidagi ta’limot",
+        "yun. dialektike (techne) — suhbat olib borish, bahslashish sanʼati"
+      ],
+      [
+        "Аbu Аli Ibn Sinо",
+        "Bеrdаq",
+        "Аlishеr Nаvоiy",
+        "Islоm Kаrimоv"
+      ],
+      [
+        "A.Navoiy",
+        "Mirzo Bedil",
+        "Firdavsiy",
+        "A.Jomiy"
+      ],
+      [
+        "Arastu",
+        "Suqrot",
+        "Demokrit",
+        "Aflotun"
+      ],
+      [
+        "Fоrоbiy",
+        "Suqrоt",
+        "Aristotel",
+        "Ibn Sinо"
+      ],
+      [
+        "Suqrot",
+        "Demokrit",
+        "Arastu",
+        "Aflotun"
+      ],
+      [
+        "“Gnoseologiya”",
+        "“Ontologiya”",
+        "“Logika”",
+        "“Etnografiya”"
+      ],
+      [
+        "Pifagor",
+        "Suqrot",
+        "Arastu",
+        "Fales"
+      ],
+      [
+        "Pifagor",
+        "Aristotel",
+        "Fales",
+        "Gegel"
+      ],
+      [
+        "Dеkаrt",
+        "Kаnt",
+        "Spinоzа",
+        "Suqrоt"
+      ],
+      [
+        "аrаbchа “fаlsаfа hаqidаgi fаn",
+        "yunоnchа, “fizikаdаn kеyin”",
+        "yunоnchа “fizikа hаqidаgi fаn”",
+        "аrаbchа “fizikаdаn kеyin”"
+      ],
+      [
+        "Suqrot",
+        "Demokrit",
+        "Arastu",
+        "Aflotun"
+      ],
+      [
+        "Aql",
+        "Dunyoqarash",
+        "Ruh",
+        "Bilim"
+      ],
+      [
+        "1516 yilda,",
+        "1515 yilda,",
+        "1514 yilda,",
+        "1513 yilda,"
+      ],
+      [
+        "A.Toynbi CH.Pirs",
+        "R.Goklenius va I.Klauberg",
+        "Suqrot va Aflotun",
+        "I.Gerder va J.Dyui"
+      ],
+      [
+        "Oʼrta asr falsafasi namoyondalari",
+        "Eley maktabi namoyondalari",
+        "Sharq falsafasidagi namoyondalar",
+        "Hozirgi zamon falsafasi namoyondalar"
+      ],
+      [
+        "tushunmоq",
+        "аnglаmоq",
+        "о‘qimоq",
+        "his qilmоq"
+      ],
+      [
+        "A.Navoiy",
+        "Ali Qushchi",
+        "A.Jomiy",
+        "Firdavsiy"
+      ],
+      [
+        "Imоm аl- Buxоriy",
+        "Аbduxоliq G‘ijduvоniy",
+        "Аt- Tеrmiziy",
+        "Bаhоuddin Nаqshdаndiy"
+      ],
+      [
+        "Fоrоbiy",
+        "Suqrоt",
+        "Ibn Sinо",
+        "Аrаstu"
+      ],
+      [
+        "grek faylasufi Epikur",
+        "grek faylasufi Aristotel",
+        "yunon faylasufi Epiktet",
+        "Rim faylasufi Avgustin"
+      ],
+      [
+        "Yunon donishmandi Anaksagor",
+        "Grek mutafakkiri Geraklit",
+        "Yunon donishmandi Aflotun",
+        "Rim donishmandi Lukretsiy"
+      ],
+      [
+        "Suqrot",
+        "Pifagor",
+        "Aristotel",
+        "Pratogor"
+      ],
+      [
+        "axloq masalasini tadqiq etadi",
+        "yunoncha gnosis – bilim, ilm va logos – ta’limot, fan so‘zlaridan kelib chiqqan.",
+        "yunoncha qadriyatlar falsafani o’rganadi",
+        "yunoncha gnosis – borliq va logos – ta’limot, fan so‘zlaridan kelib chiqqan."
+      ],
+      [
+        "Fаrоbiy",
+        "Xоrаzmiy",
+        "Ibn Sinо",
+        "Bеruniy"
+      ],
+      [
+        "kishilar tomonidan yaratilgan ma’naviy qadriyatlar;",
+        "kishilar tomonidan ishlab chiqilgan, yaratilgan moddiy va ma’naviy boyliklarni.",
+        "kishilar tomonidan yaratilgan moddiy ne’matlar yig‘indicini;",
+        "kishilar tomonidan shakllantirilgan axloq normalari, xatti-xarakatlar, xulk-atvorlar majmuasini"
+      ],
+      [
+        "davlat",
+        "oila",
+        "uyushma",
+        "jamiyat"
+      ],
+      [
+        "Beruniy",
+        "Forobiy",
+        "Ulug‘bek",
+        "Ibn Sino"
+      ],
+      [
+        "insonning kelib chiqishida biologik omilning xal etuvchi axamiyatini e’tirof etuvchi ta’limot;",
+        "insonning kelib chiqishida tabiiy omilning xal qiluvchi axamiyatini inkor etuvchi ta’limot;",
+        "insonning kelib chiqishida ijtimoiy omilning xal etuvchi axamiyatini e’tirof etuvchi ta’limot;",
+        "dunyoni bilishni inkor etuvchi ta’limot;"
+      ],
+      [
+        "g‘oyaning shakllanish.",
+        "madaniyatning shakllanishi",
+        "jamiyatning shakllanishi",
+        "jamiyatda insonning shakllanishi"
+      ],
+      [
+        "“Likey”",
+        "“Donishmandlik uyi”",
+        "“Milet”",
+        "Fales maktabi"
+      ],
+      [
+        "jism, xarakat, fazo, vaqt",
+        "er, suv, olov, xavo",
+        "tosh, tuproq, suv, efir",
+        "er, quyosh, oy, yulduzlar"
+      ],
+      [
+        "Ko’rishdan",
+        "Sezgidan",
+        "Eshitishdan",
+        "Tasavvurdan"
+      ],
+      [
+        "iloxiy qobiliyat",
+        "aqliy bilish",
+        "xissiy bilish",
+        "xissiy va aqliy bilish"
+      ],
+      [
+        "sub’ekt ongidada mavjud bo‘lgan predmet va hodisalar yig‘indisi",
+        "biluvchi sub’ektga qarama-qarshi turgan barcha predmet va xodisalar yig‘indisi",
+        "sub’ektning bilish faoliyati doirasiga kiruvchi predmet va xodisalar majmuasi",
+        "sub’ekt ongidan tashqaridagi mavjud bo‘lgan predmet va xodisalar yig‘indisi"
+      ],
+      [
+        "ilmiy tadqiqotning nazariy asoslari",
+        "tabiiy xodisalarni ilmiy bayon qilish",
+        "kishilarning amaliy faoliyati",
+        "xaqiqatni ro‘yobga chiqarish;"
+      ],
+      [
+        "Оqibаt",
+        "Stimul",
+        "Sаbаb",
+        "Bаhоnа"
+      ],
+      [
+        "Akseologiya",
+        "Gnoseologiya",
+        "Antropologiya",
+        "Ontologiya"
+      ]
+    ],
+    "correctAnswers": [
+      1,
+      3,
+      1,
+      3,
+      1,
+      4,
+      3,
+      1,
+      3,
+      3,
+      2,
+      1,
+      3,
+      4,
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      2,
+      1,
+      1,
+      1,
+      3,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1,
+      4,
+      1,
+      2,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1,
+      4,
+      4,
+      2,
+      2,
+      3,
+      4,
+      1,
+      4,
+      4,
+      1,
+      1,
+      3,
+      2,
+      3,
+      1,
+      2,
+      1,
+      4,
+      4,
+      2,
+      4,
+      3,
+      1,
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      4,
+      2,
+      2,
+      3,
+      1,
+      1,
+      3,
+      1,
+      2,
+      2,
+      2,
+      4,
+      2,
+      1,
+      3,
+      4,
+      4,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4
+    ]
+  },
   "Lotin tili": {
     "questions": [
       "“Musculus biceps brachii”terminida qaysi so’z moslashgan aniqlovchi?",
