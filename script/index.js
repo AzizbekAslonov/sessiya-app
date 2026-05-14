@@ -21,7 +21,7 @@ const nameInput = document.getElementById("nameInput")
 const localName = localStorage.getItem('name');
 
 if (BANNED_USERS.includes(localName)) {
-   alert('Siz ismingizni kiritmaganingiz uchun bloklandingiz!')
+   alert(BANNED_MESSAGE)
    location.assign('index.html')
 }
 

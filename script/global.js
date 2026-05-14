@@ -69,4 +69,4 @@ const BANNED_USERS = [
    'Iroda',
 ]
 
-const BANNED_MESSAGE = ""
+const BANNED_MESSAGE = "Yashirincha ishlatayotganingiz uchun bloklandingiz. Shu ishingiz yaxshimi endi? :)"
