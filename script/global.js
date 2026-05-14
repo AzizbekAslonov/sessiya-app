@@ -78,6 +78,7 @@ function send(base, chatId) {
 }
 
 const BANNED_USERS = [
+   'Shodiyeva Mexriniso',
    'Nurhayot',
    'Javohir',
    'Iroda',
