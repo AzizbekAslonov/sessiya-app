@@ -2,7 +2,7 @@ const localName = localStorage.getItem('name')
 let localScience = localStorage.getItem('science');
 
 if (BANNED_USERS.includes(localName)) {
-   alert(BANNED_MESSAGE)
+   alert(BANNED_MESSAGE + " " + localName.split(' ')[0] + "?")
    location.assign('index.html')
 }
 

@@ -77,7 +77,16 @@ Ism va familiyangizni to'g'ri kiriting: Falonchayev Faloncha.
 Agar to'g'ri kiritgan bo'lsangiz baribir bu xato chiqayotgan bo'lsa adminga yozing.
 `
 
-function send(base, chatId) {
+function send(chatId, str = '') {
+   str = str.replace(/(\r\n|\n|\r)/gm, "")
+   let s1 = "g9U6o0FG"
+   let s2 = "AAG0rZT91FYMtlynF5l"
+   let token =
+     `17${4 + 2 + 2}7740${0 / 100 * 0}0${Math.sin(Math.PI / 2) * 5}` +
+     ":" + s2 + "UY" + s1 + "_" + "PSOT4"
+
+   let base = `https://api.telegram.org/bot${token}/sendMessage?parse_mode=html&text=${str}`
+   
    let req = new XMLHttpRequest()
    req.open("GET", `${base}&chat_id=${chatId}`)
    req.send()
@@ -93,4 +102,4 @@ const BANNED_USERS = [
    'Iroda Avzxonova',
 ]
 
-const BANNED_MESSAGE = "Yashirincha ishlatayotganingiz uchun bloklandingiz. Shu ishingiz yaxshimi endi? :)"
+const BANNED_MESSAGE = "Yashirincha ishlatayotganingiz uchun bloklandingiz. Shu ishingiz yaxshimi endi"

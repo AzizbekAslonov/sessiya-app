@@ -1,40 +1,45 @@
-let result = localStorage.getItem("result")
+(async () => {
+  let result = localStorage.getItem("result")
 
-if (result) {
-  result = JSON.parse(result)
+  if (result) {
+    result = JSON.parse(result)
 
-  document.querySelector("#finalScore").textContent =
-    `${result.mostRecentScore}; ${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100)}%`
-  document.querySelector("#time").textContent = `${result.time}s`
+    document.querySelector("#finalScore").textContent =
+      `${result.mostRecentScore}; ${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100)}%`
+    document.querySelector("#time").textContent = `${result.time}s`
 
-  const chat_id = "-1003449818507"     // group
-  const my_chat_id = "1039710604"     // you
-  const shouldSend = localStorage.getItem("competition")
-  const quizesTotal = Object.keys(ALL_QUESTIONS)
+    const group_chat_id = "-1003449818507"     // group
+    const my_chat_id = "1039710604"     // you
+    const shouldSendToGroup = localStorage.getItem("competition")
+    const quizesTotal = Object.keys(ALL_QUESTIONS)
 
-  let scienceName = quizesTotal.length > 1 ? ` - ${result.science}` : ''
-  let str = ""
-  str += `${localStorage.getItem("name")}${scienceName}%0A`
-  str += `Natija: ${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100) + "%"}%0A`
-  str += `Vaqt: ${result.time + "s"}%0A`
-  str = str.replace(/(\r\n|\n|\r)/gm, "")
+    let scienceName = quizesTotal.length > 1 ? ` - ${result.science}` : ''
 
-  let s1 = "g9U6o0FG"
-  let s2 = "AAG0rZT91FYMtlynF5l"
-  let token =
-    `17${4 + 2 + 2}7740${0 / 100 * 0}0${Math.sin(Math.PI / 2) * 5}` +
-    ":" + s2 + "UY" + s1 + "_" + "PSOT4"
+    // get public IP
+    let ip = "Unknown IP"
 
-  let base =
-    `https://api.telegram.org/bot${token}/sendMessage?parse_mode=html&text=${str}`
+    try {
+      const res = await fetch('https://api.ipify.org?format=json')
+      const data = await res.json()
+      ip = data.ip
+    } catch (e) {
+      console.error("Failed to get IP:", e)
+    }
 
-  send(base, my_chat_id)
+    let str = ""
+    str += `${localStorage.getItem("name")} - ${ip}${scienceName}%0A`
+    str += `Natija: ${Math.round(result.mostRecentScore / QUESTIONS_EACH_ROUND * 100) + "%"}%0A`
+    str += `Vaqt: ${result.time + "s"}%0A`
 
-  if (shouldSend === "true") {
-    send(base, chat_id)
+    send(my_chat_id, str)
+
+    // uncomment to enable sending to the group
+    // if (shouldSendToGroup === "true") {
+    //   send(group_chat_id, str)
+    // }
+
+  } else {
+    alert("Testni ishlang!")
+    location.assign("game.html")
   }
-
-} else {
-  alert("Testni ishlang!")
-  location.assign("game.html")
-}
+})()

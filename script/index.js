@@ -4,24 +4,12 @@ const btnCollection = Object.keys(ALL_QUESTIONS).map((name, index) => ({
    data: name, classes: `btn scale ${index % 2 === 0 ? 'btn-primary' : 'btn-secondary'}`
 }))
 
-// Send something to the group
-// const chat_id = "-1003449818507"
-// let str = "Lotin tili testlari qo'shildi"
-// let s1 = "g9U6o0FG"
-// let s2 = "AAG0rZT91FYMtlynF5l"
-// let token =
-//   `17${4 + 2 + 2}7740${0 / 100 * 0}0${Math.sin(Math.PI / 2) * 5}` +
-//   ":" + s2 + "UY" + s1 + "_" + "PSOT4"
-// let base =
-// `https://api.telegram.org/bot${token}/sendMessage?parse_mode=html&text=${str}`
-// send(base, chat_id)
-
 
 const nameInput = document.getElementById("nameInput")
 const localName = localStorage.getItem('name');
 
 if (BANNED_USERS.includes(localName)) {
-   alert(BANNED_MESSAGE)
+   alert(BANNED_MESSAGE + " " + localName.split(' ')[0] + "?")
    location.assign('index.html')
 }
 
