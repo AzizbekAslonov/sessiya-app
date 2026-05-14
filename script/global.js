@@ -47,7 +47,10 @@ function checkArrLength(arr = [], min = 0) {
 }
 
 function checkName(localName) {
-   const trimmed = localName?.trim();
+   // normalize Uzbek apostrophe variants
+   const normalized = localName?.replace(/[ʻ’‘`]/g, "'");
+ 
+   const trimmed = normalized?.trim();
  
    // Split by single spaces
    const parts = trimmed?.split(' ');
@@ -67,9 +70,12 @@ function checkName(localName) {
      parts.length === 2 &&
      parts.every(part => part.length > 0)
    );
-}
+ }
  
-const CHECK_NAME_MESSAGE = "Ism va familiyangizni to'g'ri kiriting: Falonchayev Faloncha"
+const CHECK_NAME_MESSAGE = `
+Ism va familiyangizni to'g'ri kiriting: Falonchayev Faloncha.
+Agar to'g'ri kiritgan bo'lsangiz baribir bu xato chiqayotgan bo'lsa adminga yozing.
+`
 
 function send(base, chatId) {
    let req = new XMLHttpRequest()
