@@ -50,6 +50,7 @@ function checkName(localName) {
    const trimmed = localName?.trim();
    return trimmed &&
    trimmed.length >= 4 &&
+   trimmed !== 'Muhayyoyo' &&
    /^[a-zA-Z']+(\s[a-zA-Z']+)*$/.test(trimmed) &&  // single space between words only
    /[a-zA-Z]/.test(trimmed)  // ensure at least one letter
 }
@@ -62,4 +63,10 @@ function send(base, chatId) {
 
 const BANNED_USERS = [
    'Hnvv',
+   'Avaz',
+   'Nurhayot',
+   'Javohir',
+   'Iroda',
 ]
+
+const BANNED_MESSAGE = ""
