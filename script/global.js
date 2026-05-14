@@ -61,5 +61,5 @@ function send(base, chatId) {
 }
 
 const BANNED_USERS = [
-   // 'Aldaysanku Sardor',
+   'Hnvv',
 ]

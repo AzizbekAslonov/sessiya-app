@@ -7,7 +7,7 @@ if (BANNED_USERS.includes(localName)) {
 }
 
 if (!checkName(localName)) {
-   alert(`Iltimos isminigizni to'g'ri kiriting, bu shaffoflik uchun muhim!`)
+   alert(`Iltimos ism familiyangizni to'g'ri kiriting, bu juda muhim!`)
    location.assign('index.html')
 }
 
