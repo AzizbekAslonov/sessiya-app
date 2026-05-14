@@ -88,6 +88,7 @@ const BANNED_USERS = [
    'Nurhayot',
    'Javohir',
    'Iroda',
+   'Avazxonova Iroda',
 ]
 
 const BANNED_MESSAGE = "Yashirincha ishlatayotganingiz uchun bloklandingiz. Shu ishingiz yaxshimi endi? :)"
