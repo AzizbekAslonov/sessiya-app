@@ -7,7 +7,7 @@ if (BANNED_USERS.includes(localName)) {
 }
 
 if (!checkName(localName)) {
-   alert(`Iltimos ism familiyangizni to'g'ri kiriting, bu juda muhim!`)
+   alert(CHECK_NAME_MESSAGE)
    location.assign('index.html')
 }
 

@@ -48,12 +48,28 @@ function checkArrLength(arr = [], min = 0) {
 
 function checkName(localName) {
    const trimmed = localName?.trim();
-   return trimmed &&
-   trimmed.length >= 4 &&
-   trimmed !== 'Muhayyoyo' &&
-   /^[a-zA-Z']+(\s[a-zA-Z']+)*$/.test(trimmed) &&  // single space between words only
-   /[a-zA-Z]/.test(trimmed)  // ensure at least one letter
+ 
+   // Split by single spaces
+   const parts = trimmed?.split(' ');
+ 
+   return (
+     trimmed &&
+     trimmed.length >= 4 &&
+     trimmed !== 'Muhayyoyo' &&
+ 
+     // only letters/apostrophes with single spaces between words
+     /^[a-zA-Z']+(\s[a-zA-Z']+)*$/.test(trimmed) &&
+ 
+     // ensure at least one letter
+     /[a-zA-Z]/.test(trimmed) &&
+ 
+     // must contain exactly first name + last name
+     parts.length === 2 &&
+     parts.every(part => part.length > 0)
+   );
 }
+ 
+const CHECK_NAME_MESSAGE = "Ism va familiyangizni to'g'ri kiriting: Falonchayev Faloncha"
 
 function send(base, chatId) {
    let req = new XMLHttpRequest()
