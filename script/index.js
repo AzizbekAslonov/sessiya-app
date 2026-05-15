@@ -9,8 +9,8 @@ const nameInput = document.getElementById("nameInput")
 const localName = localStorage.getItem('name');
 
 if (BANNED_USERS.includes(localName)) {
-   // alert(BANNED_MESSAGE + " " + localName.split(' ')[0] + "?")
-   // location.assign('index.html')
+   alert(BANNED_MESSAGE + " " + localName.split(' ')[0] + "?")
+   location.assign('index.html')
 } else {
    if (checkName(localName)) {
       nameInput.value = localName;
