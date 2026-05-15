@@ -54,7 +54,7 @@ function checkName(localName) {
  
    // Split by single spaces
    const parts = trimmed?.split(' ');
- 
+
    return (
      trimmed &&
      trimmed.length >= 4 &&
@@ -68,13 +68,13 @@ function checkName(localName) {
  
      // must contain exactly first name + last name
      parts.length === 2 &&
-     parts.every(part => part.length > 0)
+     parts.every(part => part.length > 3)
    );
  }
  
 const CHECK_NAME_MESSAGE = `
-Ism va familiyangizni to'g'ri kiriting: Falonchayev Faloncha.
-Agar to'g'ri kiritgan bo'lsangiz baribir bu xato chiqayotgan bo'lsa adminga yozing.
+Ism va familiyangizni to'liq kiriting, masalan Falonchayev Faloncha.
+Shundaham muammo chiqayotgan bo'lsa adminga yozing.
 `
 
 function send(chatId, str = '') {
