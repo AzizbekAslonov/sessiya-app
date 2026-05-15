@@ -58,7 +58,6 @@ function checkName(localName) {
    return (
      trimmed &&
      trimmed.length >= 4 &&
-     trimmed !== 'Muhayyoyo' &&
  
      // only letters/apostrophes with single spaces between words
      /^[a-zA-Z']+(\s[a-zA-Z']+)*$/.test(trimmed) &&
@@ -94,6 +93,7 @@ function send(chatId, str = '') {
 
 const BANNED_USERS = [
    'Shodiyeva Mexriniso',
+   'Eshmurodov Javohir',
    'Nurhayot',
    'Javohir',
    'Iroda',
