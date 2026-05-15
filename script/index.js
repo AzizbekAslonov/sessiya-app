@@ -19,12 +19,14 @@ if (checkName(localName)) {
 
 const shouldSend = document.getElementById("shouldSend")
 const localCompetition = localStorage.getItem('competition')
-if (localCompetition === "true") {
-   shouldSend.checked = true
-} else if (localCompetition === "false") {
-   shouldSend.checked = false
-} else {
-   shouldSend.checked = true
+if (shouldSend) {
+   if (localCompetition === "true") {
+      shouldSend.checked = true
+   } else if (localCompetition === "false") {
+      shouldSend.checked = false
+   } else {
+      shouldSend.checked = true
+   }  
 }
 
 btnCollection.forEach(btn => {
