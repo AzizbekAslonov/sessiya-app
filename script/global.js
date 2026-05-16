@@ -93,9 +93,12 @@ function send(chatId, str = '') {
 
 const BANNED_USERS = [
    'Shodiyeva Mexriniso',
-   'Eshmurodov Javohir',
+   
    'Nurhayot',
+
+   'Eshmurodov Javohir',
    'Javohir',
+
    'Iroda',
    'Iroda Avazxonova',
    'Avazxonova Iroda',
