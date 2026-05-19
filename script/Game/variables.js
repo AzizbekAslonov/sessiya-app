@@ -1,4 +1,2013 @@
 const ALL_QUESTIONS = {
+  "Fiziologiya": {
+    "questions": [
+      "Qo‘zg‘aluvchan to‘qimalarga qaysilar kiradi?",
+      "Tinch holatdagi membrana potensiali asosan qaysi ionlar taqsimoti bilan bog‘liq?",
+      "Tinch membrana potensiali qiymati nerv tolalarida o‘rtacha nechaga teng?",
+      "Harakat potensialining boshlang‘ich bosqichi nima deb ataladi?",
+      "“Bor yoki yo'q” qonuni nimani bildiradi?",
+      "Qo‘zg‘atuvchining eng kam kuchi qanday ataladi?",
+      "Refrakterlik davrida qo‘zg‘aluvchanlik qanday o‘zgaradi?",
+      "Absolyut refrakterlik davriga xos xususiyatni tanlang.",
+      "Nisbiy refraktorlik davriga xos xususiyatni tanlang",
+      "Ta’sirlashning optimal qonuni nimani bildiradi?",
+      "Nerv tolalarining asosiy vazifasi nima?",
+      "Miyelin qavati nerv tolalarida nima vazifa bajaradi?",
+      "Ranve tugunlari qayerda joylashgan?",
+      "Miyelinsiz nerv tolalarida impuls qanday o‘tadi?",
+      "Sinaps nima?",
+      "Kimyoviy sinapsda impuls qanday uzatiladi?",
+      "Sakrab o‘tuvchi (saltator) impuls o‘tish qaysi tolalarda kuzatiladi?",
+      "Sinapsda kechikish (sinaptik kechikish) asosan nimaga bog‘liq?",
+      "Tormozlovchi sinapslarda qaysi ionlar o‘tkazuvchanligi ortadi?",
+      "Sinapslarning fiziologik ahamiyati nimada?",
+      "Mushak qisqarishi qaysi filamentlarning siljishi bilan sodir bo‘ladi?",
+      "Nerv tolasi mushakka signal yuborganda ajraladigan mediator nima?",
+      "Silliq tetanus xususiyati nima?",
+      "Mushak qisqarishining boshlanishida Ca²⁺ ionlarining vazifasi nima?",
+      "Muskullarni maximal silliq tetanus holatiga olib keladigan stimulyatsiya tezligi nima bilan izohlanadi?",
+      "Tishli tetanus kuchi silliq tetanusga nisbatan:",
+      "Mushak qisqarishida Ca²⁺ ionlari qayta sarkoplazmatik retikulumga olinmasa, nima sodir bo‘ladi?",
+      "Organizmda asosiy biologik suyuqlik qaysi?",
+      "Qonning asosiy vazifasi nima?",
+      "Qonning qizil qon tanachalari (eritrotsitlar) vazifasi nima?",
+      "Qonning suyuqlik qismi nima deb ataladi?",
+      "Qon plazmasida eng ko‘p qaysi komponent mavjud?",
+      "Qonning pH qiymati odatda qanday?",
+      "Qonning qalinligi va yopishqoqligi nimaga bog‘liq?",
+      "Qonning asosiy oqsillari qaysilar?",
+      "Qonning zichligi odatda qanday bo‘ladi?",
+      "Qonning rangini nima belgilaydi?",
+      "Qon plazmasining asosiy tarkibiy qismini nima tashkil etadi?",
+      "Qonning onkotik bosimini hosil qiladigan moddalar qaysilar?",
+      "Albumin qonda asosiy vazifasi nima?",
+      "Qonning eng ko`p qismini qaysi shaklli elementlar tashkil etadi?",
+      "Qonning fizik ko`rsatkichlariga nimalar kiradi?",
+      "Eritrotsitlarning asosiy vazifasi nima?",
+      "Eritrotsitlar shakli qanday?",
+      "O‘rtacha inson qonida eritrotsitlar soni qancha?",
+      "Gemoglobinning asosiy tarkibiy qismi nima?",
+      "Eritrotsitlarning umr davomiyligi odatda qancha?",
+      "Eritrotsitlar deformatsiyalanish qobiliyati nimaga xizmat qiladi?",
+      "Gemoglobinning oksigen bilan bog‘lanish qobiliyati nimaga bog‘liq?",
+      "Eritrotsitlar qaysi organ tomonidan yo‘q qilinadi?",
+      "Eritrotsitlar parchalanishiga nima olib keladi?",
+      "Gemoglobinning parchalanishidan nima hosil bo'ladi?",
+      "Gem parchalanishi natijasida nimaga aylanadi?",
+      "Gemoglobinning O2 bilan bog`lanishidan hosil bo`lgan birikma nima deyiladi?",
+      "Gemoglobinning CO2 bilan bog`lanishidan hosil bo`lgan birikma nima deyiladi?",
+      "Qon guruhlari qaysi sistemaga asoslanadi?",
+      "Rezus (Rh) faktor nima?",
+      "Qon quyishda ABO mosligi nima uchun muhim?",
+      "Leykotsitlar soni odatda qancha?",
+      "Qon quyish qaysi holatda amalga oshiriladi?",
+      "ABO tizimida I guruhi odam qaysi antitelaga ega?",
+      "Rh tizimi bo‘yicha Rh- inson birinchi marta Rh+ qon olsa nima sodir bo‘ladi?",
+      "Leykositlar qanday mexanizm bilan bakteriyalarni yo‘q qiladi?",
+      "Qon quyishda IV guruhi qaysi guruhlardan qon olishi mumkin?",
+      "Gemoliz reaktsiyasi qon quyishda nimani bildiradi?",
+      "Gemostaz nima?",
+      "Qon ivishida asosiy oqsil qaysi?",
+      "Trombotsitlar gemostazda nima vazzifa bajaradi?",
+      "Fibrinoliz nima?",
+      "Gemostazning birinchi javobi nima?",
+      "Qaysi ferment fibrinogenni fibringa aylantiradi?",
+      "Fibrinolizning asosiy fermenti qaysi?",
+      "Fibrinoliz jarayonida plazminogen nima qiladi?",
+      "Gemostazda antikoagulyantlar vazifasi nima?",
+      "Gemostaz va fibrinolizning muvozanati nimaga olib keladi?",
+      "Yurakning asosiy vazifasi nima?",
+      "Yurak mushak to‘qimasi qanday xususiyatga ega?",
+      "Yurakda impuls qayerdan boshlanadi?",
+      "Qon aylanishining kichik aylanishi qaysi organlarda sodir bo‘ladi?",
+      "Qon aylanishining katta aylanishi qayerdan boshlanadi?",
+      "Yurak mushaklarining automatizm xususiyati nimaga xizmat qiladi?",
+      "AV tugunning vazifasi nima?",
+      "Purkinye tolalari vazifasi nima?",
+      "Qon aylanishida kapillyarlar vazifasi nima?",
+      "Yurakning sinxron qisqarishi nimaga bog‘liq?",
+      "Yurak mushaklari kontraksiya kuchi qaysi ionlarga bog‘liq?",
+      "Starling qonuni nima haqida?",
+      "Yurak mushaklarining refrakter davri nima uchun muhim?",
+      "Qon aylanishining yuqori bosimi odatda qaysi tomirlarda o‘lchanadi?",
+      "Yurak faoliyatini baholashda eng keng qo‘llaniladigan usul qaysi?",
+      "EKG da P toshi nima uchun javob beradi?",
+      "EKG da QRS kompleksi nimani ko‘rsatadi?",
+      "EKG da T tishi nimani bildiradi?",
+      "RR intervallari nimani ko‘rsatadi?",
+      "Sistolik qon hajmi nima?",
+      "Minutlik qon hajmi nima?",
+      "Yurakning tonik va ritmik faoliyatini tekshirishda qaysi usul ishlatiladi?",
+      "Sistolik va diastolik qon bosimi orasidagi farq nima deb ataladi?",
+      "EKG da PR intervalli nimani ko‘rsatadi?",
+      "Minutlik qon hajmini (CO) qanday hisoblashadi?",
+      "Agar RR intervalli qisqarsa, yurak tezligi qanday o‘zgaradi?",
+      "EKG da QT intervalli nimani bildiradi?",
+      "Yurak faoliyatini boshqarishda asosiy markaz qaysi nerv tizimida joylashgan?",
+      "Yurak tezligi va kuchi qaysi nerv tizimlari orqali boshqariladi?",
+      "Simpatik nervlar yurak faoliyatiga qanday ta’sir qiladi?",
+      "Parasimpatik (vagus) nerv yurakka qanday ta’sir qiladi?",
+      "Yurak faoliyatining kimyoviy regulyatsiyasida qaysi moddalar ishtirok etadi?",
+      "Yurak ritmi qanday mexanizmlar orqali regulyatsiya qilinadi?",
+      "Baroretseptorlar yurak faoliyatini qanday boshqaradi?",
+      "Yurak faoliyatining reflektor boshqaruvi qaysi mexanizm bilan amalga oshadi?",
+      "Simpatik stimulyatsiya natijasida yurakning sistolik hajmi qanday o‘zgaradi?",
+      "Yurak faoliyatini boshqarishda xemoretseptorlar qaysi parametrlarni sezadi?",
+      "Adrenalin yurak faoliyatiga qanday ta’sir qiladi?",
+      "Yurak faoliyatining boshqarilishi va qon hajmi o‘rtasidagi asosiy muvozanat nima orqali amalga oshadi?",
+      "Mikrosirkulyator tizimi qaysi tuzilmalardan iborat?",
+      "Yurak qisqarish sonining 90dan oshishi",
+      "Yurak qisqarish sonining 60dan kamayishi",
+      "Nafas olish sonining 20tadan oshishi",
+      "Nafas olish sonining 12tadan kamayishi",
+      "Arteriolalar vazokonstriksiya qilsa, nima sodir bo‘ladi?",
+      "Qon tomir tonusini kimyoviy moddalar qanday boshqaradi?",
+      "Endotelial hujayralar tonusni qanday boshqaradi?",
+      "Kapillyarlar vazifasi nima?",
+      "Simpatik nervlar tomir tonusiga qanday ta’sir qiladi?",
+      "Parasimpatik ta’sir tomir tonusini qanday o‘zgartiradi?",
+      "Qon tomirlar tonusi va mikrosirkulyatsiya muvozanati nima uchun muhim?",
+      "Kapillyarlar orqali hujayralarga qanday moddalar yetkaziladi?",
+      "Mikrosirkulyatsiyada prekapillyar sfinkterlar vazifasi nima?",
+      "Endoteliy tomonidan ishlab chiqariladigan NO tomirlarga qanday ta’sir qiladi?",
+      "Angiotensin II qon tomirlariga qanday ta’sir qiladi?",
+      "Simpatik ta’sir kamayganda arteriolalar qanday o‘zgaradi?",
+      "Endokrin bezlar nima vazifa bajaradi?",
+      "Gipotalamus qaysi vazifani bajaradi?",
+      "Gipofiz bezining old qismini nima hosil qiladi?",
+      "Gipofiz bezining orqa qismi nima hosil qiladi? bu",
+      "Adenogipofiz qaysi gormonlarni chiqaradi?",
+      "Gipotalamus qaysi gormonlarni ishlab chiqaradi?",
+      "Neyrogipofiz qaysi gormonlarni saqlaydi va chiqaradi?",
+      "Gipotalamo-gipofizar tizim qanday boshqaruvni amalga oshiradi?",
+      "Gipotalamus va gipofiz o‘rtasidagi axborot qanday uzatiladi?",
+      "TTG gormoni qaysi bez faoliyatini stimulyatsiya qiladi?",
+      "Somatotropin asosiy vazifasi nima?",
+      "AKTH gormoni qaysi bezni stimulyatsiya qiladi va qanday gormon chiqaradi?",
+      "Gipotalamus-gipofiz tizimi patologiyasida nima sodir bo‘lishi mumkin?",
+      "Gormon gipo-sekretsiyasi nima?",
+      "Gormon gipersekretsiyasi nima?",
+      "Giposekretsiya misoliga qaysi kasallik kiradi?",
+      "Epifiz (pineal bez) qaysi gormon ishlab chiqaradi?",
+      "Melatonin vazifasi nima?",
+      "Ayrisimon bez (thymus) qaysi gormonni ishlab chiqaradi?",
+      "Timulin vazifasi nima?",
+      "Gormon gipersekretsiyasi organizmga qanday ta’sir qiladi?",
+      "Gormon giposekretsiyasi qanday oqibatlarga olib keladi?",
+      "Gigantizm qaysi gormonning gipersekretsiyasi bilan bog‘liq?",
+      "Akromegaliya qaysi yoshda yuzaga keladi va nima sabab bo‘ladi?",
+      "Qalqonsimon bez giposekretsiyasi nima natijaga olib keladi?",
+      "Melatoninning organizmdagi asosiy regulyatsiyasi qaysi mexanizm orqali amalga oshadi?",
+      "Timulin yetishmovchiligi qaysi tizimga ta’sir qiladi?",
+      "Qalqonsimon bezasosiy gormonlari qaysilar?",
+      "T3 va T4 gormonlarining asosiy vazifasi nima?",
+      "Kalsitonin vazifasi nima?",
+      "Qalqonoldi bez asosiy gormoni qaysi?",
+      "Paratgormon asosiy vazifasi nima?",
+      "Buyrak usti bezining qobig‘i qaysi gormonlarni ishlab chiqaradi?",
+      "Buyrak usti bezining mag'iz qismi qaysi gormonlarni ishlab chiqaradi?",
+      "Jinsiy gormonlar qaysi bezlar tomonidan ishlab chiqariladi?",
+      "Testosteron vazifasi nima?",
+      "Estrogen va progesteron vazifasi nima?",
+      "Kortizolning asosiy fiziologik vazifasi nima?",
+      "Aldosteron vazifasi nima?",
+      "Androgenlar va estrogenlar ortiqcha chiqarilganda nima sodir bo‘ladi?",
+      "Nafas olish tizimining asosiy vazifasi nima?",
+      "Qon orqali kislorod qaysi shaklda tashiladi?",
+      "Karbonat angidrid qaysi shaklda qonda ko‘proq tashiladi?",
+      "Nafas olish tiplari to'liq ko'rsatilgan javob",
+      "Meteorizm bu",
+      "Diareya bu",
+      "Qabziyat bu",
+      "O‘pka kapillyarlarida gaz almashinuvi qaysi yo‘l bilan sodir bo‘ladi?",
+      "O‘pka alveolalaridagi kislorod bosimi qancha atrofida bo‘ladi?",
+      "Qonning O₂ tashilishi qanchalik bog‘liq?",
+      "Qonning CO₂ tashilishi qanchalik bog‘liq?",
+      "Qonning pH barqarorligi nafas tizimi bilan qanday bog‘liq?",
+      "Alveola va qonning gaz almashinuvi qancha vaqt davomida sodir bo‘ladi?",
+      "Nafas markazlari qaysi joyda joylashgan?",
+      "Nafas xemoreseptorlarining vazifasi?",
+      "Medulla va ponsdagi asosiy nafas markazlari qaysilar?",
+      "Hazm tizimi faoliyatini o‘rganishning asosiy usullariga nima kiradi?",
+      "Ovqat og‘iz bo‘shlig‘ida qaysi jarayon orqali hazm bo‘ladi?",
+      "Og‘iz bo‘shlig‘idagi asosiy ferment qaysi?",
+      "Me’da ovqatni qanday hazm qiladi?",
+      "Me’da shirasidagi asosiy ferment qaysi?",
+      "Me’da shirasining kislotali muhiti nima uchun muhim?",
+      "Ovqatning me’dada mexanik hazmi nima deb ataladi?",
+      "Og‘iz bo‘shlig‘ida shira sekretsiyasi nima bilan stimulyatsiya qilinadi?",
+      "Me’da shirasining sekretsiyasi nima bilan boshqariladi?",
+      "Amilaza faoliyati qanday sharoitda eng optimal bo‘ladi?",
+      "Pepsin faolligi qaysi pH darajasida maksimal?",
+      "Ovqat og‘iz bo‘shlig‘ida kimyoviy hazmi qanday regulyatsiya qilinadi?",
+      "Me`dadagi ovqat hazm qilishda ishtirok etuvchi hujayrani belgilang",
+      "So’lak qaysi bezlar tomonidan ishlab chiqariladi?",
+      "So’lakning asosiy tarkibiy qismi nima?",
+      "So’lakdagi mutsinning vazifasi nima?",
+      "So’lakdagi elektrolitlar qanday vazifa bajaradi?",
+      "So’lakning antibakterial xossasi nimaga bog‘liq?",
+      "So’lak sekretsiyasi qanday boshqariladi?",
+      "Parasympatik nerv tizimi so’lak sekretsiyasiga qanday ta’sir qiladi?",
+      "Parotid bez so’lagi qaysi turga kiradi?",
+      "Submandibular va sublingual bezlar so’lagi qaysi xossaga ega?",
+      "Jigar hazm jarayonida asosiy vazifasi nima?",
+      "Safro (o‘t) qaysi organ tomonidan ishlab chiqariladi?",
+      "O‘tning asosiy tarkibiy qismi nima?",
+      "O‘tning asosiy vazifasi nima?",
+      "O‘t qayerda saqlanadi?",
+      "Safro ajralishi qanday boshqariladi?",
+      "Xolesistokinin vazifasi nima?",
+      "O‘tning pH darajasi qanday?",
+      "O‘tning rangini nimaga bog‘liq?",
+      "Pankreatik shiraning bikarbonat qismi nima uchun muhim?",
+      "O‘t ajralishini stimulyatsiya qiluvchi asosiy omillar qaysilar?",
+      "Ingichka ichakda yog‘lar qanday hazm bo‘ladi?",
+      "Ingichka ichakda ovqatning so‘rilishi qaysi tuzilmalarda sodir bo‘ladi?",
+      "Yo‘g‘on ichakda hazm jarayoni qanday xususiyatga ega?",
+      "Ayirish organlariga qaysilar kiradi?",
+      "Buyraklarning funksional birligi bu qaysi hujayra?",
+      "Siydik hosil bo`lishi nechta bosqichdan iborat?",
+      "Intrakortikal nefronlarning asosiy vazifasi nima?",
+      "Yukstamedullyar nefronlarning asosiy vazifasi nima?",
+      "Filtratsiya jarayonidan so`ng qanaqa modda hosil bo`ladi?",
+      "Rearbsorbsiya jarayonidan so`ng qanaqa mahsulot hosil bo`ladi?",
+      "Qonning onkotik bosimining oshishi filtratsiyaga qanday ta`sir ko`rsatadi?",
+      "Gipotalamus qaysi mexanizmlar orqali tana haroratini boshqaradi?",
+      "Kardiomiositlar necha xil bo`ladi?",
+      "Atipik kardiomiositlarning vazifasi",
+      "Sekretor kardiomiotsitlardan qaysi gormon ishlab chiqariladi?",
+      "Faqat yurak mushaklariga xos bo`lgan xususiyat",
+      "Peysmeyker hujayralar qayerda joylashgan?",
+      "Nefronning asosiy qismlari qaysilar?",
+      "Boumanning kapsulasi vazifasi nima?",
+      "Proksimal naychada nima sodir bo‘ladi?",
+      "Glomerular filtratsiya tezligi nima?",
+      "ADG (antidiuretik gormon) buyraklarda qanday ta’sir qiladi?",
+      "Sensor sistemaning asosiy qismlari qaysilar?",
+      "Retseptor nima vazifani bajaradi?",
+      "Retseptorlar adaptatsiyasi qaysi omillarga bog‘liq?",
+      "Natriy ionlari hujayralararo suyuqlik hajmiga qanday ta’sir qiladi?",
+      "ADG yetishmovchiligi qanday kasallikka olib keladi?",
+      "Osmoreseptorlar nima vazifasini bajaradi?",
+      "ADG qaysi organ tomonidan ishlab chiqariladi?",
+      "Hujayralararo suyuqlik hajmi qaysi omillarga bog‘liq?"
+    ],
+    "answers": [
+      [
+        "Mushak va nerv",
+        "Biriktiruvchi to‘qima",
+        "Epiteliy va suyak",
+        "Qon"
+      ],
+      [
+        "Mg²⁺",
+        "Ca²⁺",
+        "Na⁺ va K⁺",
+        "Cl⁻"
+      ],
+      [
+        "–70 mV",
+        "–50 mV",
+        "+30 mV",
+        "–30 mV"
+      ],
+      [
+        "Plato faza",
+        "Repolyarizatsiya",
+        "Depolyarizatsiya",
+        "Giperpolyarizatsiya"
+      ],
+      [
+        "Chegaradan oshsa — to‘liq javob, oshmasa — javob yo‘q",
+        "Qo‘zg‘alish asta-sekin rivojlanadi",
+        "Qo‘zg‘alish kuchi ta’sir kuchiga bog‘liq",
+        "Har qanday ta’sir qo‘zg‘alish chaqiradi"
+      ],
+      [
+        "Optimal",
+        "Subchegaraviy",
+        "Maksimal",
+        "Bo'sag'a kuchi"
+      ],
+      [
+        "Ortadi",
+        "O‘zgarmaydi",
+        "Vaqtincha yo‘qoladi yoki kamayadi",
+        "Doimiy kuchayadi"
+      ],
+      [
+        "Hech qanday ta’sir qo‘zg‘alish chaqira olmaydi",
+        "Faqat optimal ta’sir ta’sir qiladi",
+        "Faqat mexanik ta’sir javob beradi",
+        "Kuchli ta’sir bilan qo‘zg‘alish chaqiriladi"
+      ],
+      [
+        "Faqat mexanik ta’sir javob beradi",
+        "Faqat optimal ta’sir ta’sir qiladi",
+        "Faqat kuchli ta`sir qo`zg`alish hosil qiladi",
+        "Hech qanday ta’sir qo‘zg‘alish chaqira olmaydi"
+      ],
+      [
+        "Eng uzoq ta’sir eng yaxshi javob beradi",
+        "Ma’lum kuch va davomiylikdagi ta’sir eng samarali",
+        "Ma’lum kuch va davomiylikdagi ta’sir eng samarali",
+        "Eng kuchli ta’sir eng yaxshi javob beradi"
+      ],
+      [
+        "Energiya ishlab chiqarish",
+        "Nerv impulsini o‘tkazish",
+        "Moddalar almashinuvini boshqarish",
+        "Gormon ajratish"
+      ],
+      [
+        "Impuls o‘tishini tezlashtiradi",
+        "Mediator ajratadi",
+        "Impuls hosil qiladi",
+        "Sinaps hosil qiladi"
+      ],
+      [
+        "Dentritda",
+        "Sinapsda",
+        "Miyelin qavati orasida",
+        "Akson uchida"
+      ],
+      [
+        "Reflektor",
+        "Sakrab",
+        "Kimyoviy",
+        "Sekin va uzluksiz"
+      ],
+      [
+        "Nerv bilan qon tomir orasidagi bog‘lanish",
+        "Nerv tolasi ichidagi bo‘shliq",
+        "Ikki neyron orasidagi aloqa joyi",
+        "Ikki mushak orasidagi aloqa"
+      ],
+      [
+        "Issiqlik orqali",
+        "Elektr toki orqali",
+        "Mexanik to‘lqin orqali",
+        "Mediator moddalar orqali"
+      ],
+      [
+        "Miyelinli tolalarda",
+        "Sezgir tolalarda",
+        "Mielinsiz tolalarda",
+        "Vegetativ nervlarda"
+      ],
+      [
+        "Miyelin qalinligiga",
+        "Mediator ajralib chiqishiga",
+        "Akson uzunligiga",
+        "Ranve tuguniga"
+      ],
+      [
+        "Ca²⁺",
+        "Na⁺",
+        "K⁺ yoki Cl⁻",
+        "Mg²⁺"
+      ],
+      [
+        "Impulsni bir yo‘nalishda o‘tkazishni ta’minlaydi",
+        "Nerv tolalarini himoyalaydi",
+        "Impulsni faqat tezlashtiradi",
+        "Impulsni faqat sekinlashtiradi"
+      ],
+      [
+        "Aktin va keratin",
+        "Aktin va miozin",
+        "Miozin va keratin",
+        "Tropomin va troponin"
+      ],
+      [
+        "Adrenalin",
+        "Acetilxolin",
+        "Serotonin",
+        "Dopamin"
+      ],
+      [
+        "Mushak uzluksiz va barqaror qisqaradi",
+        "Mushak qisqarishlari tishli bo‘ladi",
+        "Mushak qisqarishi faqat bir marta sodir bo‘ladi",
+        "Mushak bo‘shashadi"
+      ],
+      [
+        "Nerv impulsini yo‘q qiladi",
+        "Mushakni bo‘shashtiradi",
+        "Mushak uzunligini oshiradi",
+        "Troponin va tropomiozinni siljitadi, aktin bilan miozin bog‘lanadi"
+      ],
+      [
+        "Mushak impulsni qabul qilmaydi",
+        "Mushak qisqarishi kamayadi",
+        "Impulslar juda tez kelib, mushak bo‘shalmaydi",
+        "Impulslar orasida mushak to‘liq bo‘shashadi"
+      ],
+      [
+        "Ko‘proq va barqaror",
+        "Kamroq va barqaror",
+        "Kamroq va tebranishli",
+        "Bir xil"
+      ],
+      [
+        "Mushak uzunligi oshadi",
+        "Mushak doimiy qisqarishda qoladi",
+        "Nerv impulsi yo‘qoladi",
+        "Mushak bo‘shashadi"
+      ],
+      [
+        "Limfa",
+        "Qon",
+        "Sitoplazma",
+        "Ovqat hazm suyuqligi"
+      ],
+      [
+        "Nerv impulslarini uzatish",
+        "Mushak qisqarishini boshqarish",
+        "Hujayralarga moddalarni va kislorodni yetkazish",
+        "Energiya ishlab chiqarish"
+      ],
+      [
+        "Antitelalar ishlab chiqarish",
+        "Qon bosimini oshirish",
+        "Kislorod tashish",
+        "Qonning suyuqligini ta’minlash"
+      ],
+      [
+        "Plazma",
+        "Serum",
+        "Limfa",
+        "Sitoplazma"
+      ],
+      [
+        "Qon hujayralari",
+        "Suv",
+        "Proteinlar",
+        "Tuzlar"
+      ],
+      [
+        "7,0",
+        "6,8",
+        "7,4",
+        "8,0"
+      ],
+      [
+        "Limfa hajmiga",
+        "Suv miqdori va qizil qon tanachalari soniga",
+        "Faqat suv miqdoriga",
+        "Faqat oqsil miqdoriga"
+      ],
+      [
+        "Troponin va keratin",
+        "Albumin, globulin, fibrinogen",
+        "Aktin va troponin",
+        "Gemoglobin va miozin"
+      ],
+      [
+        "1,100–1,120 g/ml",
+        "1,050–1,060 g/ml",
+        "0,950–0,960 g/ml",
+        "1,000–1,010 g/ml"
+      ],
+      [
+        "Gemoglobin va kislorod bilan bog‘lanish darajasi",
+        "Tuzlar miqdori",
+        "Plazma oqsillari",
+        "Limfa hajmi"
+      ],
+      [
+        "Suv",
+        "Oqsillar",
+        "Na va K ionlari",
+        "Uglevodlar"
+      ],
+      [
+        "Uglevod",
+        "Oqsil",
+        "Yog`",
+        "Suv"
+      ],
+      [
+        "Antitelalar ishlab chiqarish",
+        "Osmotik bosimni saqlash va moddalarni tashish",
+        "Qonni oksidlanishdan himoya qilish",
+        "Qon bosimini oshirish"
+      ],
+      [
+        "Eritrotsitlar",
+        "Plazma",
+        "Leykotsitlar",
+        "Trombotsitlar"
+      ],
+      [
+        "Qonning pH qiymati",
+        "Qonning eritrotsit miqdori",
+        "Qonning oqsil tarkibi",
+        "Rangi, zichligi, osmotic va onkotik bosimi"
+      ],
+      [
+        "Antitelalar ishlab chiqarish",
+        "Kislorod tashish",
+        "Qonni ivlashtirish",
+        "Immun javobni ta’minlash"
+      ],
+      [
+        "ikki tomoni botiq disk",
+        "To‘g‘ri va uzun",
+        "Uzoq silindr",
+        "Kvadrat"
+      ],
+      [
+        "4–6 million/µl",
+        "1–2 million/µl",
+        "10–12 million/µl",
+        "100 ming/µl"
+      ],
+      [
+        "Gem va globin",
+        "Albumin va globulin",
+        "Actin va miozin",
+        "Troponin va tropomiozin"
+      ],
+      [
+        "1yil",
+        "6oy",
+        "120 kun",
+        "10–20 kun"
+      ],
+      [
+        "Plazma tarkibini saqlash",
+        "Gemoglobinning ishlashini kamaytirish",
+        "Qonni qalinlashtirish",
+        "Kichik qon tomirlardan o‘tib, kislorod tashishni osonlashtirish"
+      ],
+      [
+        "Limfa hajmi",
+        "Eritrotsitlar soni",
+        "Qon bosimi va plazma miqdori",
+        "pH, CO₂ darajasi va harorat"
+      ],
+      [
+        "Yurak",
+        "Jigar va taloq",
+        "Buyrak",
+        "Yurak"
+      ],
+      [
+        "Qon bosimi oshishi",
+        "Oldindan belgilangan hayotiy sikl va mexanik shikastlanish",
+        "Limfa oqimi kamayishi",
+        "D) Proteinlar ko‘payishi"
+      ],
+      [
+        "Gem va globin",
+        "Troponin va tropomiozin",
+        "Keratin va miozin",
+        "Albumin va globulin"
+      ],
+      [
+        "Bilirubin",
+        "Oksigen",
+        "Qon plazmasiga",
+        "Glukozaga"
+      ],
+      [
+        "Karbgemoglobin",
+        "Dezoksigemoglobin",
+        "Karboksigemoglobin",
+        "Oksigemoglobin"
+      ],
+      [
+        "Karboksigemoglobin",
+        "Glikozillangan gemoglobin",
+        "Metgemoglobin",
+        "Dezoksigemoglobin"
+      ],
+      [
+        "Rh sistemasi",
+        "ABO sistemasi",
+        "Kell sistemasi",
+        "HLA"
+      ],
+      [
+        "Leykositlar turi",
+        "Eritrotsit yuzasidagi antigen",
+        "Qon plazmasidagi oqsil",
+        "Trombotsit miqdori"
+      ],
+      [
+        "Qonni tezroq kiritish",
+        "Gemoglobinni ko‘paytirish",
+        "Qon bosimini oshirish",
+        "Qon guruhidagi antitelalar reaksiyasini oldini olish"
+      ],
+      [
+        "4–9 ming/µl",
+        "10–20 ming/µl",
+        "100–200 ming/µl",
+        "1–2 million/µl"
+      ],
+      [
+        "Anemiya, qon yo‘qotish, gemostaz buzilishi",
+        "Limfa oqimi kamayganda",
+        "Yurak tezligi oshganda",
+        "Plazma oqsili oshganda"
+      ],
+      [
+        "Anti-A va Anti-B",
+        "Faqat Anti-A",
+        "Hech qaysi",
+        "Faqat Anti-B"
+      ],
+      [
+        "Gemoglobin ko‘payadi",
+        "Qon quyilmaydi",
+        "Darhol og‘ir reaksiyalar yuz beradi",
+        "Hech qanday javob bo‘lmaydi, lekin immunizatsiya boshlanadi"
+      ],
+      [
+        "Oksidlovchi fosforillanish orqali",
+        "Limfa orqali",
+        "Eritrotsit bilan birlashib",
+        "Fagotsitoz orqali"
+      ],
+      [
+        "Faqat I va II",
+        "Faqat I",
+        "Faqat IV",
+        "I, II, III, IV"
+      ],
+      [
+        "Qon bosimi oshishi",
+        "Limfa oqimi kamayishi",
+        "Donor va retsepiyent qonining mos kelmasligi",
+        "Gemoglobin ko‘payishi"
+      ],
+      [
+        "Qon ivish jarayoni",
+        "Qon bosimini oshirish",
+        "Limfa oqimini nazorat qilish",
+        "Eritrotsit sonini oshirish"
+      ],
+      [
+        "Globulin",
+        "Gemoglobin",
+        "Albumin",
+        "Fibrinogen"
+      ],
+      [
+        "Kislorod tashiydi",
+        "Qon bosimini oshiradi",
+        "Limfa oqimini nazorat qiladi",
+        "Qon tomir devoriga yopishib, tromb hosil qiladi"
+      ],
+      [
+        "Qon tomir devorini mustahkamlash",
+        "Hosil bo‘lgan trombni eritish",
+        "Trombotsitlar ko‘payishi",
+        "Qon ivishini boshlash"
+      ],
+      [
+        "Trombotsit agregatsiyasi",
+        "Vazokonstriksiya",
+        "Fibrin hosil bo‘lishi",
+        "Fibrinoliz"
+      ],
+      [
+        "Gemoglobin",
+        "Plazmin",
+        "Trombin",
+        "Tromboksan"
+      ],
+      [
+        "Albumin",
+        "Fibrinogen",
+        "Trombin",
+        "Plazmin"
+      ],
+      [
+        "Fibrin tarmog‘ini eritadi",
+        "Eritrotsitlarni ishlab chiqaradi",
+        "Trombotsitlarni faollashtiradi",
+        "Trombin hosil qiladi"
+      ],
+      [
+        "Trombotsit ko‘payishini oshirish",
+        "Fibrin hosil bo‘lishini kuchaytirish",
+        "Qonni tezroq ivishini ta’minlash",
+        "Qon ivishini nazorat qilish va ortiqcha tromb hosil bo‘lishini oldini olish"
+      ],
+      [
+        "Limfa oqimini tezlashtiradi",
+        "Eritrotsitlar sonini oshiradi",
+        "Qon bosimini oshiradi",
+        "Normal qon aylanishini saqlaydi, ortiqcha qon ivishini oldini oladi"
+      ],
+      [
+        "Qonni tomirlarga haydash va aylanishini ta’minlash",
+        "Qon plazmasini ishlab chiqarish",
+        "Limfa oqimini oshirish",
+        "Kislorod ishlab chiqarish"
+      ],
+      [
+        "Qisqarish va uzluksiz ritmik faoliyatga ega",
+        "Hech qachon qisqarmaydi",
+        "Skelet mushagi kabi tez qisqaradi va uzoq cho‘ziladi",
+        "Silliq va sekin qisqaradi"
+      ],
+      [
+        "Qorincha mushaklarida",
+        "AV tugunda",
+        "SA (sinoatrial) tugunda",
+        "Purkinye tolalarida"
+      ],
+      [
+        "Yurakdan tanaga",
+        "Yurakdan o‘pka orqali",
+        "Limfa orqali",
+        "Buyrak orqali"
+      ],
+      [
+        "Limfa tugunlaridan tanaga",
+        "O‘pka venasidan tanaga",
+        "Chap qorincha orqali tanaga",
+        "O‘pka arteriyasidan tanaga"
+      ],
+      [
+        "Yurak ritmini mustaqil boshqarish",
+        "Qon bosimini oshirish",
+        "Qonni ivishini ta’minlash",
+        "Limfa oqimini tezlashtirish"
+      ],
+      [
+        "Qon bosimini oshirish",
+        "Impulsni biroz kechiktirib, bo'lmachadan qorinchalarga o‘tishini ta’minlash",
+        "Yurak ritmini boshlash",
+        "Trombotsitlar agregatsiyasini kuchaytirish"
+      ],
+      [
+        "Qorinchalarda impulsni tez va bir vaqtda tarqatish",
+        "Qonni ivishini ta’minlash",
+        "Qon bosimini nazorat qilish",
+        "Bo'lmacharda impuls hosil qilish"
+      ],
+      [
+        "Limfa hosil qilish",
+        "Qonni to‘plash",
+        "Qon bosimini oshirish",
+        "Moddalarni hujayralar bilan almashish"
+      ],
+      [
+        "Qon bosimiga",
+        "Limfa oqimi tezligiga",
+        "Qon pH qiymatiga",
+        "Impulsning bir vaqtning o‘zida tarqalishi"
+      ],
+      [
+        "Magniy va xlor",
+        "Kaltsiy",
+        "Fosfat va sulfat",
+        "Kaliy va natriy"
+      ],
+      [
+        "Qon bosimi oshsa, yurak ritmi oshadi",
+        "Kapillyarlar orqali moddalar almashinuvi",
+        "Qonning qalinligi oshadi",
+        "Yurak mushagi cho‘zilishi qanchalik ko‘p bo‘lsa, qisqarish kuchi shunchalik ortadi"
+      ],
+      [
+        "Mushakning qisqarishini kuchaytiradi",
+        "Qonni ko‘proq to‘plash",
+        "Qorinchalar to‘liq bo‘shashishiga imkon beradi va yurak ritmini saqlaydi",
+        "Kapillyar almashinuvini oshirish"
+      ],
+      [
+        "Arteriyalarda, ayniqsa aortada",
+        "Limfa tomirlarida",
+        "Kapillyarlarda",
+        "Vena cava"
+      ],
+      [
+        "Ultratovush faqat",
+        "Limfa oqimi o‘lchash",
+        "Elektrokardiogramma (EKG)",
+        "Rentgen"
+      ],
+      [
+        "Bo'lmachalar depolarizatsiyasi",
+        "Qorinchalarning repolarizatsiyasi",
+        "AV tugunning faoliyati",
+        "Qorinchalarning depolarizatsiyasi"
+      ],
+      [
+        "Bo'lmachalar depolarizatsiyasi",
+        "Qorinchalarning depolarizatsiyasi",
+        "AV tugunning faoliyati",
+        "Qorinchalarning repolarizatsiyasi"
+      ],
+      [
+        "Qorinchalarning repolarizatsiyasi",
+        "AV tugunning faolligi",
+        "Bo'lmachalar depolarizatsiyasi",
+        "Qorinchalarning depolarizatsiyasi"
+      ],
+      [
+        "Qorinchalarning kuchi",
+        "Yurak urishlar oralig‘i",
+        "Limfa oqimi",
+        "Qon bosimi"
+      ],
+      [
+        "Qorinchalardan chiqarilgan qon miqdor",
+        "Limfa oqimi hajmi",
+        "Qorinchalar maksimal to‘lgan qon miqdori",
+        "Yurakning har bir urishi soni"
+      ],
+      [
+        "Qorinchalarning to‘liq hajmi",
+        "Bir minut ichida yurakdan chiqarilgan qon miqdori",
+        "Limfa hajmi",
+        "Qon bosimi"
+      ],
+      [
+        "Ultratovush faqat",
+        "Limfa o‘lchash",
+        "Rentgen",
+        "EKG"
+      ],
+      [
+        "Minutlik hajm",
+        "Puls bosimi",
+        "Qorinchalar to‘lishi",
+        "Atriyal to‘lish"
+      ],
+      [
+        "Qorinchalarning depolarizatsiyasi",
+        "Bo'lmachalar depolarizatsiya va AV tugunning kechikishi",
+        "Qorinchalarning repolarizatsiyasi",
+        "Purkinye tolalarining faolligi"
+      ],
+      [
+        "Qon zichligi × yurak tezligi",
+        "Qon bosimi × yurak urishlar soni",
+        "Sistolik qon hajmi × yurak urishlar soni",
+        "Qorinchalar hajmi × limfa oqimi"
+      ],
+      [
+        "Tezlashadi",
+        "To‘xtaydi",
+        "Sekinlashadi",
+        "O‘zgarmaydi"
+      ],
+      [
+        "Qorinchalarning depolarizatsiya va repolarizatsiyasi davri",
+        "Purkinye tolalari kechikishi",
+        "Atriyal repolarizatsiya",
+        "AV tugunning faolligi"
+      ],
+      [
+        "Miyachada",
+        "O'rta miyada",
+        "Markaziy nerv tizimi (medulla oblongata)",
+        "Orqa miyada"
+      ],
+      [
+        "Avtonom nerv tizimi – simpatik va parasimpatik",
+        "Limfa nervlari",
+        "Faqat markaziy nerv tizimi",
+        "Skelet nervlari"
+      ],
+      [
+        "Qon bosimini pasaytiradi",
+        "Yurak tezligini oshiradi va kontraksiya kuchini kuchaytiradi",
+        "Yurak tezligini kamaytiradi",
+        "Qorinchalarni bo‘shatadi"
+      ],
+      [
+        "Qon ivishini kuchaytiradi",
+        "Yurak tezligini kamaytiradi",
+        "Qon hajmini oshiradi",
+        "Yurak tezligini oshiradi"
+      ],
+      [
+        "Glukozalar faqat",
+        "Adrenalin, noradrenalin, kalsiy",
+        "Natriy va xlor faqat",
+        "Faqat kislorod"
+      ],
+      [
+        "Faqat qonni bosish orqali",
+        "Qorinchalarning hajmi bilan",
+        "Faqat limfa oqimi bilan",
+        "Nerv impulslari va kimyoviy moddalar orqali"
+      ],
+      [
+        "Limfa hajmini oshiradi",
+        "Qon bosimini sezib, yurak tezligi va tomir tonusini moslashtiradi",
+        "Qon ivishini boshlaydi",
+        "Qorinchalarni bo‘shatadi"
+      ],
+      [
+        "Baroretseptor va xemoreseptor reflekslari orqali",
+        "Skelet mushaklari orqali",
+        "Oshqozon sekretsiyasi orqali",
+        "Limfa oqimi orqali"
+      ],
+      [
+        "O'zgarishsiz qoladi",
+        "Kamayadi",
+        "Oshadi",
+        "Yurak to‘xtaydi"
+      ],
+      [
+        "Gemoglobinning rangini",
+        "Qon bosimini faqat",
+        "Limfa hajmini",
+        "Qonning CO₂, O₂ va pH darajasini"
+      ],
+      [
+        "Yurak tezligini kamaytiradi",
+        "Limfa oqimini sekinlashtiradi",
+        "Yurak tezligini kamaytiradi",
+        "Yurak tezligini oshiradi, kontraksiya kuchini oshiradi"
+      ],
+      [
+        "Nerv impulslari, hormonlar va reflektor mexanizmlar orqali",
+        "Faqat limfa hajmi bilan",
+        "Faqat qonni ko‘paytirish orqali",
+        "Qorinchalarning hajmi bilan"
+      ],
+      [
+        "Skelet mushaklari",
+        "Arteriolalar, kapillyarlar va venulalar",
+        "Limfa tomirlari",
+        "Aorta va vena cava"
+      ],
+      [
+        "Bradikardiya",
+        "Taxikardiya",
+        "Taxipnoe",
+        "Bradipnoe"
+      ],
+      [
+        "Bradipnoe",
+        "Taxipnoe",
+        "Bradikardiya",
+        "Taxikardiya"
+      ],
+      [
+        "Bradikardiya",
+        "Taxikardiya",
+        "Taxipnoe",
+        "Bradipnoe"
+      ],
+      [
+        "Bradikardiya",
+        "Taxikardiya",
+        "Bradipnoe",
+        "Taxipnoe"
+      ],
+      [
+        "Limfa oqimi tezlashadi",
+        "Kapillyarlar hajmi oshadi",
+        "Qon bosimi oshadi",
+        "Qon bosimi pasayadi"
+      ],
+      [
+        "Glukozalar faqat",
+        "Faqat kislorod",
+        "Natriy va xlor faqat",
+        "Adrenalin, noradrenalin, angiotensin II, NO"
+      ],
+      [
+        "Vazodilatator va vazokonstriktor moddalar ishlab chiqaradi",
+        "Limfa oqimini oshiradi",
+        "Qon hajmini oshiradi",
+        "Qon bosimini kamaytiradi"
+      ],
+      [
+        "Qon ivishini kuchaytirish",
+        "Qonni tezlashtirish",
+        "Limfa hosil qilish",
+        "Moddalar almashinuvi va gazlar tashilishi"
+      ],
+      [
+        "Qonni kamaytiradi",
+        "Limfa oqimini tezlashtiradi",
+        "Kapillyarlar hajmini oshiradi",
+        "Vazokonstriksiya orqali qon bosimini oshiradi"
+      ],
+      [
+        "Qonni qalinlashtiradi",
+        "Qon bosimini oshiradi",
+        "Limfa oqimini kamaytiradi",
+        "Vazodilatatsiya qiladi"
+      ],
+      [
+        "Qonni qalinlashtirish",
+        "Limfa oqimini kamaytirish",
+        "To'qima perfuziyasini va arterial bosimni saqlash",
+        "Gemoglobinning ko‘payishi"
+      ],
+      [
+        "Kislorod, oziq modda va gormonlar",
+        "Qon oqsil faqat",
+        "Faqat suv",
+        "Limfa faqat"
+      ],
+      [
+        "Kapillyar oqimini tartibga soladi",
+        "Qon ivishini boshlaydi",
+        "Qonni aortaga yuboradi",
+        "Limfa oqimini oshiradi"
+      ],
+      [
+        "Qonni qalinlashtiradi",
+        "Vazodilatatsiya qiladi",
+        "Vazokonstriksiya qiladi",
+        "Limfa hajmini oshiradi"
+      ],
+      [
+        "Kuchli vazokonstriksiya qiluvchi modda",
+        "Qon bosimini kamaytiruvchi modda",
+        "Limfa hosil qiladi",
+        "Vazodilatator"
+      ],
+      [
+        "Qon bosimi oshadi",
+        "Limfa oqimi kamayadi",
+        "Vazodilatatsiya qiladi",
+        "Vazokonstriksiya qilinadi"
+      ],
+      [
+        "Qonni ivishini ta’minlash",
+        "Qon bosimini oshirish",
+        "Limfa oqimini tartibga solish",
+        "Gormon ishlab chiqarish va uni qon orqali organlarga yetkazish"
+      ],
+      [
+        "Qon ivishini kuchaytirish",
+        "Gipofiz faoliyatini regulyatsiya qilish va homeostazni saqlash",
+        "Limfa hosil qilish",
+        "Skelet mushaklarini boshqarish"
+      ],
+      [
+        "Limfa tugunlari",
+        "Adenogipofiz",
+        "Neyrogipofiz",
+        "Talamus"
+      ],
+      [
+        "Neyrogipofiz",
+        "Talamus",
+        "Limfa tugunlari",
+        "Adenogipofiz"
+      ],
+      [
+        "Adrenalin",
+        "STG, TTG, AKTG, FSG, LG, prolaktin",
+        "Insulin",
+        "NO"
+      ],
+      [
+        "Releasing va ingibitsiyalovchi gormonlar",
+        "Adrenalin va noradrenalin",
+        "Tromboksan va plazmin",
+        "Insulin va glukagon"
+      ],
+      [
+        "Adrenalin va noradrenalin",
+        "TTG va AKTG",
+        "ADH va oksitotsin",
+        "STG va prolaktin"
+      ],
+      [
+        "Qorinchalarni to‘ldiradi",
+        "Limfa hajmini oshiradi",
+        "Qon bosimini pasaytiradi",
+        "Qaytar aloqa mexanizmi orqali gormonlarni regulyatsiya qiladi"
+      ],
+      [
+        "Gormonlar va qon tomirlari orqali",
+        "Qon ivishi orqali",
+        "Faqat nerv tolalari orqali",
+        "Limfa oqimi orqali"
+      ],
+      [
+        "Thyroid bez",
+        "Pankreas",
+        "Adrenal",
+        "Paratiroid"
+      ],
+      [
+        "Qon bosimini oshirish",
+        "O‘sish va metabolizmni stimulyatsiya qilish",
+        "Limfa hosil qilish",
+        "Qon ivishini kuchaytirish"
+      ],
+      [
+        "Thyroid, T3/T4 chiqaradi",
+        "Paratiroid, PTH chiqaradi",
+        "Adrenal bez, kortizol chiqaradi",
+        "Pankreas, insulin chiqaradi"
+      ],
+      [
+        "O‘sish buzilishi, metabolik kasalliklar, reproduktiv disfunktsiyalar",
+        "Qorinchalar to‘liq to‘lmaydi",
+        "Limfa oqimi oshadi",
+        "Qon bosimi faqat pasayadi"
+      ],
+      [
+        "Qon bosimi oshishi",
+        "Limfa hosil bo‘lishi",
+        "Gormon ishlab chiqarilishi kamayishi",
+        "Gormon ishlab chiqarilishi oshishi"
+      ],
+      [
+        "Limfa oqimi pasayishi",
+        "Gormon ishlab chiqarilishi kamayishi",
+        "Qorinchalar bo‘shashishi",
+        "Gormon ishlab chiqarilishi ortishi"
+      ],
+      [
+        "Qalqonsimon bez yetishmovchiligi",
+        "Arterial gipertenziya",
+        "Stress",
+        "Gigantizm"
+      ],
+      [
+        "ADG",
+        "Melatonin",
+        "T3",
+        "TTG"
+      ],
+      [
+        "Qon bosimini oshirish",
+        "Uyqu-uyonish ritmini boshqarish",
+        "Limfa hosil qilish",
+        "Qorinchalarni to‘ldirish"
+      ],
+      [
+        "Insulin",
+        "Timulin",
+        "Adrenalin",
+        "STG"
+      ],
+      [
+        "Limfa hajmini kamaytirish",
+        "Qon bosimini oshirish",
+        "T-limfotsitlar rivojlanishini stimulyatsiya qilish",
+        "Qorinchalarni qisqartirish"
+      ],
+      [
+        "Limfa tezligi oshadi",
+        "Qon bosimi pasayadi",
+        "Ba’zi tizimlarda ortiqcha faollik va patologiya yuzaga kelad",
+        "Qorinchalar bo‘shashadi"
+      ],
+      [
+        "Tizimlarning yetishmovchiligi va metabolik buzilishlar",
+        "Qon bosimi oshadi",
+        "Qorinchalar to‘liq to‘lishi",
+        "Limfa tezligi oshadi"
+      ],
+      [
+        "Kortizol",
+        "Tiroksin",
+        "Somatotropin",
+        "Insulin"
+      ],
+      [
+        "Epifiz giposekretsiyasi",
+        "Paratiroid gipersekretsiyasi",
+        "Kattalarda o'sish gormoni gipersekretsiyasi",
+        "Bolalarda o'sish gormoni gipersekretsiyasi"
+      ],
+      [
+        "Nanizm",
+        "Gigantizm",
+        "Qandli diabet",
+        "Kretinizm va rivojlanish buzilishi"
+      ],
+      [
+        "Qon bosimi",
+        "Limfa hajmi",
+        "Qorinchalar faolligi",
+        "Yorug‘lik-qorong‘ulik sikli va suprachiasmatic nukleus"
+      ],
+      [
+        "Qon bosimi",
+        "Limfa hajmi",
+        "Immun tizim, ayniqsa T-limfotsitlar rivojlanishi",
+        "Qorinchalar kontraksiyasi"
+      ],
+      [
+        "ADG va oksitotsin",
+        "T3 , T4 va kalsitonin",
+        "STG va prolaktin",
+        "Adrenalin va noradrenalin"
+      ],
+      [
+        "Qon bosimini kamaytirish",
+        "Limfa hosil qilish",
+        "Qon ivishini kuchaytirish",
+        "Metabolizmni va o‘sishni stimulyatsiya qilish"
+      ],
+      [
+        "Qon kaltsiy darajasini pasaytirish",
+        "Limfa hajmini oshirish",
+        "Qon bosimini oshirish",
+        "Qorinchalarni to‘ldirish"
+      ],
+      [
+        "Parathormon",
+        "Melatonin",
+        "TTG",
+        "STG"
+      ],
+      [
+        "Qon kaltsiy darajasini oshirish",
+        "Qorinchalarni bo‘shatish",
+        "Limfa hosil qilish",
+        "Qon bosimini kamaytirish"
+      ],
+      [
+        "Insulin va glukagon",
+        "Adrenalin va noradrenalin",
+        "TTG va AKTG",
+        "Mineralokortikoidlar, glukokortikoidlar, androgenlar"
+      ],
+      [
+        "Adrenalin va noradrenalin",
+        "TTG va AKTG",
+        "Mineralokortikoidlar (aldosteron), glukokortikoidlar (kortizol), androgenlar",
+        "Insulin va glukagon"
+      ],
+      [
+        "Thyroid va parathyroid",
+        "Gonadlar va qisman adrenal cortex",
+        "Pankreas va epifiz",
+        "Limfa tugunlari"
+      ],
+      [
+        "Limfa oqimini tezlashtirish",
+        "Qon ivishini kuchaytirish",
+        "Erkak reproduktiv tizimi rivojlanishi va ikkilamchi jinsiy belgilar",
+        "Qon bosimini oshirish"
+      ],
+      [
+        "Ayol reproduktiv tizimi rivojlanishi, hayz sikli va homiladorlik",
+        "Limfa hosil qilish",
+        "Qorinchalarni bo‘shatish",
+        "Qon bosimi kamaytirish"
+      ],
+      [
+        "Stressga javob, glikozaning oshishi, yallig‘lanishga qarshi ta’sir",
+        "Qon ivishini kuchaytirish",
+        "Limfa hajmini oshirish",
+        "Qon bosimini oshirish"
+      ],
+      [
+        "Glikozani oshirish",
+        "Natriy va suvni ushlab qolish orqali qon bosimini tartibga solish",
+        "Limfa hosil qilish",
+        "Qorinchalarni bo‘shatish"
+      ],
+      [
+        "Qon ivishi oshadi",
+        "Limfa hajmi kamayadi",
+        "Ikki jinsiy belgilar rivojlanishi, pubertat buzilishlar",
+        "Qon bosimi pasayadi"
+      ],
+      [
+        "Qonni ivishini ta’minlash",
+        "Qon bosimini oshirish",
+        "Limfa hosil qilish",
+        "Kislorod olish va karbonat angidrid chiqarish"
+      ],
+      [
+        "Qon plazmasida faqat",
+        "Limfa orqali",
+        "Qorinchalar ichida",
+        "Gemoglobin bilan bog‘langan va plazmada erigan holda"
+      ],
+      [
+        "Limfa orqali",
+        "Gemoglobinda bog‘langan",
+        "Plazmada erigan CO₂",
+        "Bikarbonat"
+      ],
+      [
+        "Ko'krak",
+        "Aralash",
+        "Ko'krak, qorin, aralash",
+        "Qorin"
+      ],
+      [
+        "Ich qotishi",
+        "Ich ketishi",
+        "To'xtovsiz qusish",
+        "Hazm yo'lida gaz to'planishi"
+      ],
+      [
+        "To'xtovsiz qusish",
+        "Ich ketishi",
+        "Hazm yo'lida gaz to'planishi",
+        "Ich qotishi"
+      ],
+      [
+        "To'xtovsiz qusish",
+        "Ich qotishi",
+        "Hazm yo'lida gaz to'planishi",
+        "Ich ketishi"
+      ],
+      [
+        "Diffuzion orqali",
+        "Limfa orqali",
+        "Aktiv transport bilan",
+        "Osmotik bosim bilan"
+      ],
+      [
+        "80 mmHg",
+        "40 mmHg",
+        "100 mmHg",
+        "46 mmHg"
+      ],
+      [
+        "Limfa oqimiga",
+        "Qon ivishiga",
+        "Gemoglobin kontsentratsiyasiga va kislorod bosimiga qarab",
+        "Qorinchalarning hajmiga"
+      ],
+      [
+        "Limfa tezligi",
+        "Qorinchalarning hajmi",
+        "Qon bosimi",
+        "Karbonat tizimi va gemoglobin bilan bog‘liqlik"
+      ],
+      [
+        "CO₂ darajasini regulyatsiya qilish orqali",
+        "Qon bosimi orqali",
+        "Limfa oqimi orqali",
+        "Qorinchalar kontraksiyasi orqali"
+      ],
+      [
+        "0,25 sekund",
+        "0.125 sekund",
+        "0,75 sekund",
+        "0,5 sekund"
+      ],
+      [
+        "Qorinchalarda",
+        "Limfa tugunlarida",
+        "Aorta ichida",
+        "Medulla oblongata va ponsda"
+      ],
+      [
+        "Qon pH, PaO₂ va PaCO₂ darajasini sezadi va nafas tezligini boshqaradi",
+        "Qon bosimini oshiradi",
+        "Qon pH, PaO₂ va CO₂ darajasini sezadi va nafas tezligini boshqaradi",
+        "Qorinchalarni qisqartiradi"
+      ],
+      [
+        "Dorsal va ventral respirator markazlar",
+        "Faqat apneustik markaz",
+        "Dorsal va ventral respirator markazlar, apneustik va pnevmotaksik markazlar",
+        "Faqat pnevmatoksik markaz"
+      ],
+      [
+        "Klinik kuzatuv, laborator tadqiqotlar, rentgen va endoskopiya",
+        "Limfa tomirlarini kesish",
+        "Skelet mushaklarini o‘rganish",
+        "Qon bosimini oshirish"
+      ],
+      [
+        "Faqat so'lak ta'sirida",
+        "Limfa orqali",
+        "Mexanik va kimyoviy hazm",
+        "Faqat mexanik"
+      ],
+      [
+        "Amilaza",
+        "Pepsin",
+        "Lizotsim",
+        "Lipaza"
+      ],
+      [
+        "Qon bosimi oshishi bilan",
+        "Qorinchalarning bo‘shashishi bilan",
+        "Limfa orqali",
+        "Mexanik harakatlar va kimyoviy ta’sir"
+      ],
+      [
+        "Pepsin",
+        "Maltaza",
+        "Amilaza",
+        "Lipaza"
+      ],
+      [
+        "Pepsin fermentini aktivlashtirish uchun",
+        "HCl ni parchalash uchun",
+        "Limfa oqimi uchun",
+        "Qorinchalarni to‘ldirish"
+      ],
+      [
+        "Peristaltik harakatlar orqali ovqatni aralashtirish",
+        "Limfa hosil qilish",
+        "Shira tasirida parchalanishi",
+        "Fermentlar tasirida parchalanishi"
+      ],
+      [
+        "Qon bosimi",
+        "Qorinchalar hajmi",
+        "Limfa oqimi",
+        "Ovqatning rangi, hidi va ta’mi"
+      ],
+      [
+        "Natriy bikarbonat",
+        "Nervlar va gormonlar",
+        "Limfa oqimi",
+        "Qorinchalar kontraksiyasi"
+      ],
+      [
+        "Qon bosimi oshganda",
+        "Kislota muhitida",
+        "Neytral pH va issiqlik",
+        "Ishqoriy muhitda"
+      ],
+      [
+        "1,5–2,0",
+        "6,5-7,0",
+        "7,5-8,0",
+        "4,5-5,0"
+      ],
+      [
+        "Nerv impulslari va shira sekretsiyasini boshqaruvchi reflekslar orqali",
+        "Ishqoriy fermentlar oerqali",
+        "Mastikatsiya orqali",
+        "Simpatik nerv orqali"
+      ],
+      [
+        "Parietal",
+        "Visseral",
+        "Adrenal",
+        "Gomeometrik"
+      ],
+      [
+        "Major va minor bezlar",
+        "Adrenal bez",
+        "Qalqonsimon bez",
+        "Pankreas"
+      ],
+      [
+        "Limfa",
+        "Amilaza va lipaza",
+        "Suv, elektrolitlar, enzimlar va mutsin",
+        "Pepsin va tripsin"
+      ],
+      [
+        "Limfa hosil qilish",
+        "Peristaltikani yaxshilash",
+        "Ovqatni namlantirish, yutishni osonlashtirish",
+        "Qon bosimini oshirish"
+      ],
+      [
+        "So'rilishni kamaytirish",
+        "Qon bosimini oshirish",
+        "pH va osmolaritetni saqlash, ferment faolligini qo‘llab-quvvatlash",
+        "Limfa tezligini oshirish"
+      ],
+      [
+        "Yoshga",
+        "Lizotsim va laktoferrin mavjudligiga",
+        "So'lak miqdoriga",
+        "Ovqat turiga"
+      ],
+      [
+        "Nerv tizimi va reflekslar orqali",
+        "Ovqat turiga qarab",
+        "Retseptorlar soniga qarab",
+        "Dori vositalari orqali"
+      ],
+      [
+        "Ko‘p, quyuq so’lak ishlab chiqarishni oshiradi",
+        "Ko‘p, suyuq so’lak ishlab chiqarishni oshiradi",
+        "Kam, suyuq so’lak ishlab chiqarishni oshiradi",
+        "Kam, suyuq so’lak ishlab chiqarishni oshiradi"
+      ],
+      [
+        "Aralash",
+        "Seroz",
+        "Mukozal",
+        "Nordon"
+      ],
+      [
+        "Aralash",
+        "Mukoz",
+        "Seroz",
+        "Limfoid"
+      ],
+      [
+        "Ovqatni yutish",
+        "Limfa hosil qilish",
+        "Plazma oqsillari ishlab chiqarish",
+        "Safro ishlab chiqarish, metabolizm va detoksikatsiya"
+      ],
+      [
+        "Jigar",
+        "Medaosti bezi",
+        "O't pufagi",
+        "Jigar va taloq"
+      ],
+      [
+        "Safro kislotalari, xolesterin, bilirubin, elektrolitlar, suv",
+        "Glukagon va insulin",
+        "Limfa va gemoglobin",
+        "Protein va amilaza"
+      ],
+      [
+        "Oqsillarni parchalash",
+        "Qon ivishini ta’minlash",
+        "Karbongidratni glukozaga aylantirish",
+        "Yog‘larni emulsiya qilish va so‘rilishini osonlashtirish"
+      ],
+      [
+        "Pankreasda",
+        "Jigar loblarida",
+        "O‘t pufagida",
+        "Oshqozonda"
+      ],
+      [
+        "Qorinchalar kontraksiyasi bilan",
+        "Limfa oqimi bilan",
+        "Qon bosimi bilan",
+        "Nerv va gormonlar orqali"
+      ],
+      [
+        "O‘t pufagini bo'shashtirish",
+        "O‘t pufagini qisqartirib, o‘tni ichakka chiqarish",
+        "Medaosti bezini ta'sirlantirish",
+        "Jigarni qisqartirish"
+      ],
+      [
+        "6,3–8,4",
+        "7,1–8,2",
+        "7,6–8,6",
+        "7,6–9,7"
+      ],
+      [
+        "Limfa oqimiga",
+        "Me'daosti bezi faoliyatiga",
+        "O't toshlariga",
+        "Bilirubin tarkibiga"
+      ],
+      [
+        "Karbongidratni glukozaga aylantirish",
+        "Me’da shirasining kislotaliligini neytrallashtirish va ichak fermentlari faoliyatini ta’minlash",
+        "Limfa hosil bo‘lishi",
+        "Oqsillarni parchalash"
+      ],
+      [
+        "Simpatik nerv",
+        "Jigar faoliyati",
+        "Ovqatning yog‘li bo‘lishi va duodenumdagi xolesistokinin darajasi",
+        "Qon bosimi oshishi"
+      ],
+      [
+        "Pepsin orqali",
+        "O‘t kislotalari yordamida emulsiya qilinib, lipaza orqali triglitseridlarga parchalanadi",
+        "Amilaza orqali",
+        "Limfa orqali"
+      ],
+      [
+        "Kappilyarlarda",
+        "Venulalarda",
+        "Alveolalarda",
+        "Vorsinkalar va mikrovorsinkalar orqali"
+      ],
+      [
+        "Asosan suv va elektrolitlarni so‘rish, ba’zi vitaminlarni sintez qilish",
+        "Aminokislotalarni hosil qilish",
+        "Limfa hosil qilish",
+        "Karbongidrat va yog‘larni asosiy parchalanishi"
+      ],
+      [
+        "O`t pufagi",
+        "Bosh miya",
+        "Yurak",
+        "Buyraklar"
+      ],
+      [
+        "Gepatotsitlar",
+        "Neyronlar",
+        "Kardiomiotsitlar",
+        "Nefronlar"
+      ],
+      [
+        "4",
+        "3",
+        "5",
+        "12"
+      ],
+      [
+        "Gumoral boshqarish",
+        "Reabsorbsiya",
+        "Filtratsiya",
+        "Sekretsiya"
+      ],
+      [
+        "Qon bosimini pasaytirish",
+        "Siydikni konsentratsiyalash",
+        "Qon aylanishni taminlash",
+        "Gormon ishlab chiqarish"
+      ],
+      [
+        "Ikkilamchi siydik",
+        "Uchlamchi siydik",
+        "Birlamchi siydik",
+        "Qon"
+      ],
+      [
+        "Likvor",
+        "Ikkilamchi siydik",
+        "Limfa",
+        "Birlamchi siydik"
+      ],
+      [
+        "Ta`sir ko`rsatmaydi",
+        "Rearbsorbsiyani kuchaytiradi",
+        "Kamaytiradi",
+        "Ko`paytiradi"
+      ],
+      [
+        "Qon bosimi o‘zgarishi",
+        "Jismoniy faoliyatga qarab",
+        "Uyqu va uyg'oqlik ritmi orqali",
+        "Terlash, qon tomirlarini toraytirish yoki kengaytirish, metabolizmni o‘zgartirish"
+      ],
+      [
+        "5",
+        "3",
+        "2",
+        "8"
+      ],
+      [
+        "Impuls hosil qilish va uni o`ktazish",
+        "Refraksiya",
+        "Sekretsiya",
+        "Qisqarish"
+      ],
+      [
+        "ADG",
+        "Somatotrop",
+        "Kortizol",
+        "Na uretirk"
+      ],
+      [
+        "Avtomatizm",
+        "Elastiklik",
+        "Qisqaruvchanlik",
+        "Qo`zg`aluvchanlik"
+      ],
+      [
+        "Sinus tugunida",
+        "Chap qorinchada",
+        "Bosh miyada",
+        "Mitral klapanda"
+      ],
+      [
+        "Buyrak venasi, buyrak arteriyasi, kapsula",
+        "Bouman kapsulasi, proksimal va distal tomirlar, Genle naychasi",
+        "Afferent va efferent qon tomirlar",
+        "Ureter, uretra, buyrak Jomi"
+      ],
+      [
+        "Glyukozani ushlab qolish",
+        "Qon oqsillarini filtratsiya qilish",
+        "Qonning shaklli elementlarini ushlab qolish",
+        "Qon plazmasini filtratsiya qilish"
+      ],
+      [
+        "Aminokislotalar hosil bo'ladi",
+        "Glyukoza chiqariladi",
+        "Limfa hosil bo‘ladi",
+        "Suv, elektrolitlar va moddalar qayta so‘riladi"
+      ],
+      [
+        "Bouman kapsulasiga qayta so'rilish tezligi",
+        "Bouman kapsulasidan Genle qovuzlog'iga filtrlanish tezligi",
+        "Bouman kapsulasidan qon plazmasi filtrlanish tezligi",
+        "Bouman kapsulasidan distal kanalchaga peshobning filtrlanish tezligi"
+      ],
+      [
+        "Genle qovuzlog'ida suvni qayta so‘rilishini oshiradi",
+        "Distal naycha va to‘plovchi naychalarda suvni qayta so‘rilishini kamaytiradi",
+        "Genle qovuzlog'ida suvni qayta so‘rilishini kamaytiradi",
+        "Distal naycha va to‘plovchi naychalarda suvni qayta so‘rilishini oshiradi"
+      ],
+      [
+        "Mushak, tendon, ligament",
+        "Limfa tugunlari, tomirlar",
+        "Qorinchalar va yurak",
+        "Retseptor, afferent nerv tolasi, markaziy apparat"
+      ],
+      [
+        "Bosh miyadan periferiyaga axborot uzatadi",
+        "Bosh miyadan orqa miyaga axborot uzatadi",
+        "Axborotni bosh miyaga uzatadi",
+        "Tashqi yoki ichki muhitdan ma’lumot qabul qiladi"
+      ],
+      [
+        "Retseptor turi",
+        "Barcha javoblar to'g'ri",
+        "Stimulyatsiya intensivligi",
+        "Stimulyatsiya davomiyligi"
+      ],
+      [
+        "Kaliy orqali suvni ushlab qoladi",
+        "Suvni tortib, hajmni kamaytiradi",
+        "Suvni chiqaradi",
+        "Suvni tortib, hajmni oshiradi"
+      ],
+      [
+        "Gipoterioz",
+        "Qandsiz diabet",
+        "Giperterioz",
+        "Qandli diabet"
+      ],
+      [
+        "Qon plazmasi osmolaritetini sezadi va ADG sekretsiyasini boshqaradi",
+        "Osmotik bosimni pasaytiradi",
+        "Qon plazmasi osmolaritetini sezadi va AKTG sekretsiyasini boshqaradi",
+        "Onkotik bosimni saqlaydi"
+      ],
+      [
+        "Gipotalamus",
+        "Buyrak",
+        "Qalqonsimon bez",
+        "Gipofiz"
+      ],
+      [
+        "Osmolaritet, natriy va kaliy balansiga",
+        "Osmolaritet, natriy va suv balansiga",
+        "Osmolaritet, natriy, kaliy va suv balansiga",
+        "Hujayra shakliga"
+      ]
+    ],
+    "correctAnswers": [
+      1,
+      3,
+      1,
+      3,
+      1,
+      4,
+      3,
+      1,
+      3,
+      2,
+      2,
+      1,
+      3,
+      4,
+      3,
+      4,
+      1,
+      2,
+      3,
+      1,
+      2,
+      2,
+      1,
+      4,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      1,
+      2,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      4,
+      2,
+      1,
+      1,
+      1,
+      3,
+      4,
+      4,
+      2,
+      2,
+      1,
+      1,
+      4,
+      1,
+      2,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1,
+      4,
+      4,
+      2,
+      2,
+      3,
+      4,
+      1,
+      4,
+      4,
+      1,
+      1,
+      3,
+      2,
+      3,
+      1,
+      2,
+      1,
+      4,
+      4,
+      2,
+      4,
+      3,
+      1,
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2,
+      4,
+      2,
+      2,
+      3,
+      1,
+      1,
+      3,
+      1,
+      2,
+      2,
+      2,
+      4,
+      2,
+      1,
+      3,
+      4,
+      4,
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      4,
+      1,
+      4,
+      4,
+      4,
+      3,
+      1,
+      1,
+      2,
+      1,
+      3,
+      4,
+      2,
+      2,
+      1,
+      2,
+      1,
+      3,
+      4,
+      1,
+      1,
+      2,
+      3,
+      1,
+      3,
+      4,
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      1,
+      3,
+      3,
+      4,
+      4,
+      3,
+      2,
+      4,
+      1,
+      1,
+      1,
+      4,
+      1,
+      2,
+      3,
+      1,
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      2,
+      2,
+      1,
+      3,
+      3,
+      4,
+      1,
+      1,
+      4,
+      1,
+      3,
+      1,
+      3,
+      1,
+      4,
+      1,
+      1,
+      1,
+      4,
+      2,
+      3,
+      1,
+      1,
+      1,
+      1,
+      3,
+      3,
+      3,
+      2,
+      1,
+      2,
+      2,
+      1,
+      4,
+      1,
+      1,
+      4,
+      3,
+      4,
+      2,
+      3,
+      4,
+      2,
+      3,
+      2,
+      4,
+      1,
+      4,
+      4,
+      2,
+      3,
+      2,
+      3,
+      2,
+      3,
+      4,
+      2,
+      1,
+      4,
+      1,
+      1,
+      2,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      2,
+      4,
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  /*
   "English": {
     "questions": [
       "He has ___ car.",
@@ -1895,7 +3904,6 @@ const ALL_QUESTIONS = {
       1
     ]
   },
-  /*
   "Falsafa": {
     "questions": [
       "\"Etika\" atamasini birinchi bo‘lib muomalaga kiritgan faylasufni aniqlang",
